@@ -1,0 +1,25 @@
+.homePageBannerContainer {
+  background-color: black;
+}
+.homePageBannerImage {
+  position: relative;
+}
+.homePageBannerStripe {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.homePageBannerText {
+  position: absolute;
+  z-index: 1;
+  width: 440px;
+  height: 383px;
+  color: white;
+  /* padding: 20px; */
+
+  /* border: 1px solid red; */
+}
+.tableHeader {
+  background-color: #20c5f7;
+  color: white;
+}

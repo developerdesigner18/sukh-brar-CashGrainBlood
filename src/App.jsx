@@ -5,11 +5,11 @@ import Card from "./component/card";
 import Card_component from "./component/card";
 function App() {
   return (
-    <div>
+    <div
+      style={{ backgroundColor: "black", maxWidth: "100%", margin: "0px auto" }}
+    >
       <Navbar_title />
       <HomePage />
-      <Card_component />
-      {/* <Card /> */}
     </div>
   );
 }

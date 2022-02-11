@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
+
 const Card_component = ({ chepData }) => {
   const cards = chepData.map((data, index) => {
     return (
@@ -8,6 +9,8 @@ const Card_component = ({ chepData }) => {
           style={{
             width: "100%",
             backgroundColor: "black",
+            paddingBottom: 25,
+            // display: "block",
           }}
         >
           <Card.Body>
@@ -72,7 +75,7 @@ const Card_component = ({ chepData }) => {
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
                     src="./images/imgArrow.svg"
-                    style={{ width: "100%", paddingLeft: 0 }}
+                    style={{ width: "100%", paddingLeft: 10, paddingRight: 0 }}
                     alt="Arrow"
                   />
                 </Row>
@@ -80,6 +83,7 @@ const Card_component = ({ chepData }) => {
                   style={{
                     textAlign: "left",
                     color: "white",
+                    paddingLeft: 10,
                     fontFamily: "Helvetica Neue",
                     fontSize: 20,
                     letterSpacing: "1px",
@@ -91,6 +95,7 @@ const Card_component = ({ chepData }) => {
                   style={{
                     textAlign: "left",
                     color: "white",
+                    paddingLeft: 10,
                     fontSize: 20,
                     letterSpacing: "1px",
                     fontFamily: "Helvetica Neue",
@@ -100,10 +105,12 @@ const Card_component = ({ chepData }) => {
                 </Row>
                 <Row
                   style={{
-                    textAlign: "left",
+                    // textAlign: "left",
                     color: "#20C5F7",
+                    float: "left",
                     fontSize: 20,
                     letterSpacing: "1px",
+                    paddingLeft: 10,
                     width: "100%",
                     fontFamily: "Helvetica Neue",
                   }}
@@ -113,42 +120,49 @@ const Card_component = ({ chepData }) => {
               </Col>
             </Row>
             <Card.Text>
-              <Row
-                style={{
-                  color: "white",
-                  fontSize: 14,
-                  fontFamily: "Helvetica Neue",
-                  letterSpacing: "0.5px",
-                  paddingLeft: 10,
-                  width: 460,
-                  height: 81,
-                }}
-              >
-                <Row style={{ letterSpacing: 1 }}>{data.chepDescription}</Row>
-
-                <Row style={{ paddingLeft: 0, marginTop: 5 }}>
-                  <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                    <a href="#" role="button">
-                      <Image
-                        src="./images/btnImage.svg"
-                        style={{ paddingLeft: 0, width: "100%" }}
-                        fluid
-                      />
-                    </a>
-                  </Col>
-                  <Col
-                    lg={8}
+              <Row>
+                <Col lg={5} sm={12} md={8}>
+                  <Row
                     style={{
+                      color: "white",
+                      float: "left",
+                      fontSize: 14,
+                      paddingLeft: 10,
                       fontFamily: "Helvetica Neue",
-                      fontSize: 12,
-                      textAlign: "left",
-                      paddingLeft: 0,
-                      paddingTop: 5,
+                      letterSpacing: "0.5px",
+                      paddingLeft: 10,
                     }}
                   >
-                    LEARN MORE
-                  </Col>
-                </Row>
+                    <Row style={{ letterSpacing: 1 }}>
+                      {data.chepDescription}
+                    </Row>
+
+                    <Row style={{ paddingLeft: 0, marginTop: 5 }}>
+                      <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                        <a href="#" role="button">
+                          <Image
+                            src="./images/btnImage.svg"
+                            style={{ paddingLeft: 0, width: "100%" }}
+                            fluid
+                          />
+                        </a>
+                      </Col>
+                      <Col
+                        lg={8}
+                        style={{
+                          fontFamily: "Helvetica Neue",
+                          fontSize: 12,
+                          float: "left",
+                          paddingLeft: 10,
+                          paddingTop: 5,
+                        }}
+                      >
+                        LEARN MORE
+                      </Col>
+                    </Row>
+                  </Row>
+                </Col>
+                <Col lg={7} sm={12} md={4}></Col>
               </Row>
             </Card.Text>
           </Card.Body>
@@ -156,7 +170,45 @@ const Card_component = ({ chepData }) => {
       </Container>
     );
   });
-  return <>{cards}</>;
+  return (
+    <div style={{ position: "relative" }}>
+      {cards}
+
+      <Image
+        fluid
+        src="./images/vertical_stripe.png"
+        style={{
+          width: "68px",
+          height: "902px",
+          position: "absolute",
+          top: 46,
+          right: -25,
+        }}
+      />
+      <Image
+        fluid
+        src="./images/vertical_stripe.png"
+        style={{
+          width: "68px",
+          height: "902px",
+          position: "absolute",
+          top: 1213,
+          right: -25,
+        }}
+      />
+      <Image
+        fluid
+        src="./images/vertical_stripe.png"
+        style={{
+          width: "68px",
+          height: "600px",
+          position: "absolute",
+          top: 2331,
+          right: -25,
+        }}
+      />
+    </div>
+  );
 };
 
 export default Card_component;

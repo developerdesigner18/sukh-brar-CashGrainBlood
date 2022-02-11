@@ -1,0 +1,35 @@
+.chepOnePageBannerContainer {
+  background-color: black;
+}
+.chepOneBannerImage {
+  position: relative;
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/images/chep1/chepOneBannerImage.png");
+}
+.chepOneBannerStripe {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.chepOneBannerText {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 237px;
+}
+.chepOnetableHeader {
+  background-color: #20c5f7;
+  color: white;
+}
+.chepOneBodyBackImage {
+  background-image: url("../../public/images/chep1/chepOneBodyBack.png");
+  padding: 25px;
+}
+.chepOneAdHeader {
+  background-color: #707070;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}

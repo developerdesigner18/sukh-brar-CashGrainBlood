@@ -9,18 +9,7 @@ const HomePage = () => {
   return (
     <div className="homePageBannerContainer">
       <div className="bannerContainer">
-        <div className="homePageBannerImage">
-          <Image
-            src="homePageBanner.png"
-            style={{
-              width: "100%",
-              position: "relative",
-              objectFit: "cover",
-            }}
-            alt="homePageBanner"
-            fluid
-          />
-        </div>
+        <div className="homePageBannerImage"></div>
         <div
           className="homePageBannerStripe"
           style={{ top: "96px", bottom: "65px" }}

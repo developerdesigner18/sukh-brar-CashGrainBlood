@@ -1,6 +1,7 @@
 [
   {
     "chepName": "CH/01",
+    "ChepMob": "CHAPTER-1",
     "chepTitleFirstHalf": "FROM HOST",
     "chepTitleSecondHalf": "TO JUNTA",
     "chepImage": "./images/chep1img.png",

@@ -1,0 +1,18 @@
+.chepOneAdHeader {
+  background-color: #707070;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.bookContainer {
+  background-image: url("../../public/images/chep1/bookContainerBack.svg");
+  width: 100%;
+}
+.card6 {
+  background-image: url("../../public/images/chep1/card_6.png");
+  background-size: cover;
+}
+.chepFooter {
+  background-image: url("../../public/images/chep1/chepOneFooter.png");
+  background-size: cover;
+}

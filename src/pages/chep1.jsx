@@ -79,18 +79,6 @@ const Chep1 = () => {
         <div className="chepOneCardHolder">
           <ChepOneCard />
         </div>
-        <div className="chepOneAdHeader">
-          <Container>
-            <b style={{ paddingLeft: 10 }}>
-              <Image
-                src="./images/chep1/amazon.png"
-                fluid
-                style={{ marginRight: 5, paddingTop: 10 }}
-              />{" "}
-              BOOK RECOMMENDATIONS
-            </b>
-          </Container>
-        </div>
       </div>
     </React.Fragment>
   );

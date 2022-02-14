@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_477" data-name="Group 477" transform="translate(-1699 -8453)">
+    <circle id="Ellipse_211" data-name="Ellipse 211" cx="20" cy="20" r="20" transform="translate(1699 8453)" fill="#fafafa"/>
+    <g id="Group_274" data-name="Group 274" transform="translate(1733.263 8483.212) rotate(180)">
+      <g id="Group_96" data-name="Group 96" transform="translate(0 0)">
+        <ellipse id="Ellipse_193" data-name="Ellipse 193" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="matrix(-0.16, 0.987, -0.987, -0.16, 28.527, 10.322)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_194" data-name="Ellipse 194" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="matrix(-0.993, 0.122, -0.122, -0.993, 28.468, 8.544)" fill="#20c5f7"/>
+        <circle id="Ellipse_195" data-name="Ellipse 195" cx="1.795" cy="1.795" r="1.795" transform="translate(24.127 11.806) rotate(135)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_196" data-name="Ellipse 196" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(23.69 8.405) rotate(169.099)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_197" data-name="Ellipse 197" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="matrix(-0.993, 0.122, -0.122, -0.993, 18.738, 13.368)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_198" data-name="Ellipse 198" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(19.207 7.565) rotate(148.283)" fill="#20c5f7"/>
+        <path id="Path_348" data-name="Path 348" d="M0,1.8A1.795,1.795,0,1,0,1.795,0,1.8,1.8,0,0,0,0,1.8Z" transform="translate(10.063 14.834)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_199" data-name="Ellipse 199" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(13.821 13.415) rotate(174.345)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_200" data-name="Ellipse 200" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(14.017 8.317) rotate(166.718)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_201" data-name="Ellipse 201" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(14.017 3.493) rotate(166.718)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_202" data-name="Ellipse 202" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(8.915 13.446) rotate(175.269)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_203" data-name="Ellipse 203" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="translate(9.08 8.405) rotate(169.099)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_204" data-name="Ellipse 204" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="matrix(-0.526, 0.851, -0.851, -0.526, 9.449, 6.399)" fill="#20c5f7"/>
+        <ellipse id="Ellipse_205" data-name="Ellipse 205" cx="1.795" cy="1.795" rx="1.795" ry="1.795" transform="matrix(-0.526, 0.851, -0.851, -0.526, 4.94, 8.71)" fill="#20c5f7"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,9 @@
 import React from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const Card_component = ({ chepData }) => {
+  const navigate = useNavigate();
   const cards = chepData.map((data, index) => {
     return (
       <Container key={index}>
@@ -22,16 +24,16 @@ const Card_component = ({ chepData }) => {
                     fontFamily: "Stardos Stencil",
                     fontSize: 18,
                     width: 56,
+                    paddingRight: 0,
+                    marginBottom: 15,
                   }}
                 >
                   {data.chepName}
-                  <hr
-                    style={{
-                      height: 5,
-                      width: "56px",
-                      backgroundColor: "#20C5F7",
-                    }}
-                  />
+                  <Image
+                    src="./images/chep1/divider.png"
+                    fluid
+                    style={{ height: "5px", padding: 0 }}
+                  ></Image>
                 </Row>
 
                 <Row
@@ -139,10 +141,18 @@ const Card_component = ({ chepData }) => {
 
                     <Row style={{ paddingLeft: 0, marginTop: 5 }}>
                       <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                        <a href="#" role="button">
+                        <a
+                          role="button"
+                          onClick={() => {
+                            navigate("/chepOne");
+                          }}
+                        >
                           <Image
                             src="./images/btnImage.svg"
-                            style={{ paddingLeft: 0, width: "100%" }}
+                            style={{
+                              paddingLeft: 0,
+                              width: "100%",
+                            }}
                             fluid
                           />
                         </a>
@@ -155,6 +165,10 @@ const Card_component = ({ chepData }) => {
                           float: "left",
                           paddingLeft: 10,
                           paddingTop: 5,
+                          cursor: "pointer",
+                        }}
+                        onClick={() => {
+                          navigate("/chepOne");
                         }}
                       >
                         LEARN MORE
@@ -176,35 +190,32 @@ const Card_component = ({ chepData }) => {
 
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
-          height: "902px",
+          height: "700px",
           position: "absolute",
           top: 46,
-          right: -25,
+          right: 0,
         }}
       />
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
-          height: "902px",
+          height: "700px",
           position: "absolute",
           top: 1213,
-          right: -25,
+          right: 0,
         }}
       />
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
-          height: "600px",
+          height: "675px",
           position: "absolute",
           top: 2331,
-          right: -25,
+          right: 0,
         }}
       />
     </div>

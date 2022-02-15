@@ -11,6 +11,7 @@
   },
   {
     "chepName": "CH/02",
+    "ChepMob": "CHAPTER-2",
     "chepTitleFirstHalf": "MATTERS ON ",
     "chepTitleSecondHalf": "THE PITCH",
     "chepImage": "./images/chep2img.png",
@@ -20,6 +21,7 @@
   },
   {
     "chepName": "CH/03",
+    "ChepMob": "CHAPTER-3",
     "chepTitleFirstHalf": "LET IN FOUR",
     "chepTitleSecondHalf": "OR ELSE",
     "chepImage": "./images/chep3img.png",
@@ -29,6 +31,7 @@
   },
   {
     "chepName": "CH/04",
+    "ChepMob": "CHAPTER-4",
     "chepTitleFirstHalf": "IT TAKES TWO",
     "chepTitleSecondHalf": "TO CONSPIRE",
     "chepImage": "./images/chep4img.png",
@@ -38,6 +41,7 @@
   },
   {
     "chepName": "CH/05",
+    "ChepMob": "CHAPTER-5",
     "chepTitleFirstHalf": "THE",
     "chepTitleSecondHalf": "AFTERMATH",
     "chepImage": "./images/chep5img.png",

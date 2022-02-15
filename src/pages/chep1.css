@@ -16,8 +16,9 @@
 .chepOneBannerText {
   position: absolute;
   z-index: 1;
+  width: 440px;
+  height: 383px;
   color: white;
-  top: 237px;
 }
 .chepOnetableHeader {
   background-color: #20c5f7;

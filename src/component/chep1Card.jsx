@@ -23,16 +23,16 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      paddingRight: 0,
+                      marginBottom: 15,
                     }}
                   >
                     01/06
-                    <hr
-                      style={{
-                        height: 5,
-                        width: "56px",
-                        backgroundColor: "#20C5F7",
-                      }}
-                    />
+                    <Image
+                      src="./images/chep1/divider.png"
+                      fluid
+                      style={{ height: "5px", padding: 0 }}
+                    ></Image>
                   </Row>
 
                   <Row
@@ -187,16 +187,16 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      paddingRight: 0,
+                      marginBottom: 15,
                     }}
                   >
                     02/06
-                    <hr
-                      style={{
-                        height: 5,
-                        width: "56px",
-                        backgroundColor: "#20C5F7",
-                      }}
-                    />
+                    <Image
+                      src="./images/chep1/divider.png"
+                      fluid
+                      style={{ height: "5px", padding: 0 }}
+                    ></Image>
                   </Row>
 
                   <Row
@@ -359,7 +359,7 @@ const ChepOneCard = () => {
                       </Row>
                       <Row style={{ paddingLeft: 0, marginTop: 5 }}>
                         <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a role="button">
                             <Image
                               src="./images/btnImage.svg"
                               style={{
@@ -411,16 +411,16 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      paddingRight: 0,
+                      marginBottom: 15,
                     }}
                   >
                     03/06
-                    <hr
-                      style={{
-                        height: 5,
-                        width: "56px",
-                        backgroundColor: "#20C5F7",
-                      }}
-                    />
+                    <Image
+                      src="./images/chep1/divider.png"
+                      fluid
+                      style={{ height: "5px", padding: 0 }}
+                    ></Image>
                   </Row>
 
                   <Row
@@ -503,7 +503,7 @@ const ChepOneCard = () => {
                   </Row>
                   <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
                     <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                      <a href="#" role="button">
+                      <a role="button">
                         <Image
                           src="./images/btnImage.svg"
                           style={{
@@ -583,7 +583,7 @@ const ChepOneCard = () => {
                   <Row>
                     {" "}
                     <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                      <a href="#" role="button">
+                      <a role="button">
                         <Image
                           src="./images/btnImage.svg"
                           style={{
@@ -632,16 +632,16 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      paddingRight: 0,
+                      marginBottom: 15,
                     }}
                   >
                     04/06
-                    <hr
-                      style={{
-                        height: 5,
-                        width: "56px",
-                        backgroundColor: "#20C5F7",
-                      }}
-                    />
+                    <Image
+                      src="./images/chep1/divider.png"
+                      fluid
+                      style={{ height: "5px", padding: 0 }}
+                    ></Image>
                   </Row>
 
                   <Row
@@ -763,7 +763,7 @@ const ChepOneCard = () => {
                         style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
                       >
                         <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a role="button">
                             <Image
                               src="./images/btnImage.svg"
                               style={{
@@ -838,7 +838,7 @@ const ChepOneCard = () => {
                           lg={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a href="#" role="button">
+                          <a role="button">
                             <Image
                               src="./images/btnImage.svg"
                               style={{}}
@@ -893,7 +893,7 @@ const ChepOneCard = () => {
                           lg={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a href="#" role="button">
+                          <a role="button">
                             <Image
                               src="./images/btnImage.svg"
                               style={{}}
@@ -949,7 +949,7 @@ const ChepOneCard = () => {
                           lg={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a href="#" role="button">
+                          <a role="button">
                             <Image
                               src="./images/btnImage.svg"
                               style={{}}
@@ -992,23 +992,23 @@ const ChepOneCard = () => {
         >
           <Card.Body>
             <Card.Title>
-              <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
+              <Row style={{ paddingLeft: 10 }}>
                 <Row
                   style={{
                     color: "white",
                     fontFamily: "Stardos Stencil",
                     fontSize: 18,
                     width: 56,
+                    paddingRight: 0,
+                    marginBottom: 15,
                   }}
                 >
                   05/06
-                  <hr
-                    style={{
-                      height: 5,
-                      width: "56px",
-                      backgroundColor: "#20C5F7",
-                    }}
-                  />
+                  <Image
+                    src="./images/chep1/divider.png"
+                    fluid
+                    style={{ height: "5px", padding: 0 }}
+                  ></Image>
                 </Row>
 
                 <Row
@@ -1131,7 +1131,7 @@ const ChepOneCard = () => {
                       style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
                     >
                       <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                        <a href="#" role="button">
+                        <a role="button">
                           <Image
                             src="./images/btnImage.svg"
                             style={{
@@ -1169,25 +1169,23 @@ const ChepOneCard = () => {
         <Container style={{ padding: "35px" }}>
           <div className="cardHeader">
             <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
-              <Col
+              <Row
                 style={{
                   color: "white",
                   fontFamily: "Stardos Stencil",
                   fontSize: 18,
                   width: 56,
+                  paddingRight: 0,
+                  marginBottom: 15,
                 }}
               >
-                <p style={{ marginBottom: 0 }}> 06/06</p>
-                <hr
-                  style={{
-                    height: 5,
-                    width: 40,
-                    marginTop: 0,
-                    marginRight: 0,
-                    backgroundColor: "#20C5F7 !important",
-                  }}
-                />
-              </Col>
+                06/06
+                <Image
+                  src="./images/chep1/divider.png"
+                  fluid
+                  style={{ height: "5px", padding: 0 }}
+                ></Image>
+              </Row>
               <Col
                 style={{
                   textAlign: "right",
@@ -1392,35 +1390,32 @@ const ChepOneCard = () => {
       {/*----------------------------------- stripe---------------------------------------------- */}
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
           height: "600px",
           position: "absolute",
           top: 347,
-          right: -35,
+          right: 0,
         }}
       />
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
           height: "600px",
           position: "absolute",
           top: 2251,
-          right: -35,
+          right: 0,
         }}
       />
       <Image
         fluid
-        src="./images/vertical_stripe.png"
+        src="./images/chep1/vertical_stripe.svg"
         style={{
-          width: "68px",
           height: "600px",
           position: "absolute",
-          top: 3300,
-          right: -35,
+          top: 3314,
+          right: 0,
         }}
       />
     </div>

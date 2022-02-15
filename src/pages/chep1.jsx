@@ -14,37 +14,38 @@ const Chep1 = () => {
           >
             <Image src="vertical_stripe.png" fluid />
           </div>
+          <Container>
+            <div
+              className="chepOneBannerText"
+              style={{ top: "237px", left: "140px", right: 179 }}
+            >
+              <h1
+                style={{
+                  wordBreak: "break-all",
+                  fontSize: "74px",
+                  fontFamily: "Stardos Stencil",
+                  lineHeight: 1,
+                  fontWeight: "bold",
+                }}
+              >
+                FROM HOST
+                <br /> TO JUNTA
+              </h1>
+              <p
+                style={{
+                  textAlign: "left",
 
-          <div
-            className="chepOneBannerText"
-            style={{ top: "237px", left: "140px", right: 179 }}
-          >
-            <h1
-              style={{
-                wordBreak: "break-all",
-                fontSize: "74px",
-                fontFamily: "Stardos Stencil",
-                lineHeight: 1,
-                fontWeight: "bold",
-              }}
-            >
-              FROM HOST
-              <br /> TO JUNTA
-            </h1>
-            <p
-              style={{
-                textAlign: "left",
-                float: "left",
-                fontSize: 20,
-                fontWeight: "bold",
-                fontFamily: "Helvetica Neue",
-              }}
-            >
-              Before a ball was kicked, domestic politics, <br /> the repression
-              of civilians and the military <br /> junta’s ambitions cast a long
-              shadow over the <br /> 1978 World Cup
-            </p>
-          </div>
+                  fontSize: 20,
+                  fontWeight: "bold",
+                  fontFamily: "Helvetica Neue",
+                }}
+              >
+                Before a ball was kicked, domestic politics, <br /> the
+                repression of civilians and the military <br /> junta’s
+                ambitions cast a long shadow over the <br /> 1978 World Cup
+              </p>
+            </div>
+          </Container>
         </div>
         <div className="chepOnetableHeader">
           <Container>

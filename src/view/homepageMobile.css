@@ -1,0 +1,82 @@
+.homePageBannerContainer1 {
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+.homePageBannerImage1 {
+  height: 670px;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-image: url("../../public/images/homePageBanner.png");
+}
+.homePageBannerStripe1 {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.homePageBannerText1 {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.tableHeader1 {
+  background-color: #20c5f7;
+  color: white;
+}
+.cardBannerContainer1 {
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+.cardBannerImage1 {
+  /* height: 670px; */
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.cardBannerStripe1 {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.cardBannerText1 {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.tableHeader1 {
+  background-color: #20c5f7;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .homePageBannerImage1 {
+    background-image: url("../../public/mobileviewHomepage.png");
+  }
+}
+@media screen and (max-width: 500) {
+  .homePageBannerText1 {
+    font-size: 40px !important ;
+  }
+  .homePageBannerStripe1 {
+    float: left;
+    left: 0;
+    top: 10;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homePageBannerImage1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .homePageBannerImage1 {
+    width: 100%;
+  }
+}

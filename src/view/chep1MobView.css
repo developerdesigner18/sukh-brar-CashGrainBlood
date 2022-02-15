@@ -1,0 +1,159 @@
+.chepOneCardOne {
+  background-image: url("../../public/images/chep1/chepOneBodyBack.png");
+  /* background-size: cover; */
+}
+.chepOneCardTwo {
+  background-image: url("../../public/images/chep1/chepOneCard1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+}
+.chep1BannerContainer {
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+
+.chep1BannerImage {
+  height: 777px;
+  background-size: cover;
+
+  background-image: url("../../public/images/chep1/soldier.png");
+}
+.chep1BannerStripe {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.chep1BannerText {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.tableHeader {
+  background-color: #20c5f7;
+  color: white;
+}
+.chep1partContainer {
+  background-color: black;
+  position: relative;
+
+  height: 650px;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url("../../public/images/chep1/Group 330.svg");
+}
+
+.chep1partStripe {
+  position: absolute;
+  top: "96px";
+  z-index: 1;
+}
+.chep1partText {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+  left: 20px;
+  overflow: none;
+}
+.tableHeader {
+  background-color: #20c5f7;
+  color: white;
+}
+.chep1part3Container {
+  background-color: black;
+  text-align: center;
+}
+.forPosition {
+  height: 272px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url("../../public/images/chep1/soldier_protestors.png");
+}
+.chep1part3Stripe {
+  position: absolute;
+  top: "16px";
+  z-index: 1;
+}
+.chep1part3Text {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.chepOneAdHeader1 {
+  background-color: #312c2c;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.chepOneAdHeader2 {
+  background-color: #312c2c;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-right: 0;
+  padding-left: 0;
+  height: 25;
+}
+.chep1part5Container {
+  background-color: black;
+  text-align: center;
+}
+.forPosition2 {
+  height: 779px;
+  position: relative;
+  /* background-size: ; */
+  background-image: url("../../public/images/chep1/chepOnePartFive.png");
+}
+.chep1part5Stripe {
+  position: absolute;
+  top: "16px";
+  z-index: 1;
+}
+.chep1part5Text {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.productContainer {
+  background-image: url("../../public/images/productBack.svg");
+  background-size: cover;
+}
+.chep1part6Container {
+  background-color: black;
+  text-align: center;
+}
+.forPosition3 {
+  height: 276px;
+  position: relative;
+  /* background-size: ; */
+  background-repeat: no-repeat;
+  background-image: url("../../public/images/chep1/Ch1_414_01_05.png");
+}
+.chep1part6Stripe {
+  position: absolute;
+  top: "16px";
+  z-index: 1;
+}
+.chep1part6Text {
+  position: absolute;
+  z-index: 1;
+  /* width: 440px;
+  height: 383px; */
+  color: white;
+}
+.chepFooter1 {
+  background-image: url("../../public/images/chep1/onthepitch.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

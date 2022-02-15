@@ -12,30 +12,7 @@
   background-image: url("../../public/images/chep1/card_6.png");
   background-size: cover;
 }
-.chepFooter1 {
+.chepFooter {
   background-image: url("../../public/images/chep1/chepOneFooter.png");
   background-size: cover;
-}
-.chep1part7Container {
-  background-color: black;
-  text-align: center;
-}
-.forPosition4 {
-  height: 950px;
-  position: relative;
-  /* background-size: ; */
-  background-repeat: no-repeat;
-  background-image: url("../../public/images/chep1/lastCard.png");
-}
-.chep1part7Stripe {
-  position: absolute;
-  top: "16px";
-  z-index: 1;
-}
-.chep1part7Text {
-  position: absolute;
-  z-index: 1;
-  /* width: 440px;
-  height: 383px; */
-  color: white;
 }

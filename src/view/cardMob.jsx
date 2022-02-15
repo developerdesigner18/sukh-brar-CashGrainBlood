@@ -1,13 +1,19 @@
 import React from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
 import chepData from "../chepter.json";
+import { useNavigate } from "react-router-dom";
 
 const CardComponent = () => {
+  const navigate = useNavigate();
   console.log(chepData);
 
   const cardMobView = chepData.map((data, index) => {
     return (
-      <div className="cardBannerContainer1" key={index}>
+      <div
+        className="cardBannerContainer1"
+        key={index}
+        style={{ marginTop: 15 }}
+      >
         <div className="bannerContainer1">
           <div className="cardBannerImage1">
             <Image src={data.chepImage} style={{ width: "100%" }} />
@@ -23,11 +29,14 @@ const CardComponent = () => {
                   color: "white",
                   fontWeight: "bold",
                   fontSize: "12px",
-                  textAlign: "justify",
-                  border: "1px solid ",
+                  textAlign: "center",
+                  border: "1px solid #20B5F7",
                   background: "#20B5F7",
                   width: 76,
-                  height: 17,
+                  paddingTop: 6,
+                }}
+                onClick={() => {
+                  navigate("/chepOne");
                 }}
               >
                 {data.ChepMob}
@@ -47,7 +56,7 @@ const CardComponent = () => {
 
               <Image
                 src="./images/verticalDivider.png"
-                style={{ paddingBottom: 18 }}
+                style={{ paddingBottom: 18, width: 171 }}
               />
             </div>
           </Container>

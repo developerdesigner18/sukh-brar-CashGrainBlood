@@ -18,7 +18,8 @@ const HomePageMob = () => {
             style={{
               background: "#20C5F7",
               paddingLeft: 35,
-              paddingTop: 6,
+              paddingTop: 15,
+              height: 50,
               paddingBottom: 5,
               fontFamily: "Stardos Stencil",
               fontWeight: "bold",
@@ -28,14 +29,21 @@ const HomePageMob = () => {
           >
             MAIN PAGE
           </Col>
-          <Col lg={4} sm={4} md={4} xs={4} style={{ paddingRight: 0 }}>
+          <Col
+            lg={4}
+            sm={4}
+            md={4}
+            xs={4}
+            style={{ paddingRight: 0, paddingLeft: 0 }}
+          >
             <Button
               style={{
                 width: "100%",
                 background: "#F78320",
                 border: "1px solid #F78320",
-                borderBottomLeftRadius: 10,
-                borderTopLeftRadius: 10,
+                borderBottomLeftRadius: 9,
+                borderTopLeftRadius: 9,
+                height: 50,
               }}
             >
               CHAPTERS
@@ -68,7 +76,7 @@ const HomePageMob = () => {
                   textAlign: "justify",
                 }}
               >
-                CASH GRAIN,
+                CASH, GRAIN,
                 <br /> AND BLOOD <br /> FOR GOALS
               </h1>
               <p
@@ -84,11 +92,16 @@ const HomePageMob = () => {
                 repression of civilians and the military <br /> junta’s
                 ambitions cast a long shadow over
               </p>
+              <a href="#" style={{ textAlign: "left", marginRight: 195 }}>
+                <Image src="./images/Group 514.svg"></Image>
+              </a>
             </div>
           </Container>
         </div>
       </div>
-      <MobCard />
+      <div className="cardContainer" style={{ paddingBottom: 15 }}>
+        <MobCard />
+      </div>
     </div>
   );
 };

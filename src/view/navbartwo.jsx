@@ -35,6 +35,8 @@ const Navbar_title = () => {
                     paddingTop: 12,
                     paddingLeft: 0,
                     width: 74,
+                    fontWeight: 13,
+                    color: "#989395",
                     whiteSpace: "pre-line",
                   }}
                 >

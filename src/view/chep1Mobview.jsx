@@ -1290,7 +1290,11 @@ const ChepOneCardMobView = () => {
               }}
             >
               <Row
-                style={{ paddingLeft: 10, paddingBottom: 15, marginLeft: 30 }}
+                style={{
+                  paddingBottom: 15,
+                  marginLeft: 30,
+                  marginRight: 0,
+                }}
               >
                 <Row
                   style={{
@@ -1302,7 +1306,7 @@ const ChepOneCardMobView = () => {
                     marginBottom: 15,
                   }}
                 >
-                  01/06
+                  06/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
@@ -1324,7 +1328,7 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "white",
                     fontFamily: "Stardos Stencil",
-                    fontSize: 30,
+                    fontSize: 40,
                     lineHeight: 0.9,
                     paddingBottom: 5,
                   }}
@@ -1342,7 +1346,7 @@ const ChepOneCardMobView = () => {
                 </Row>
               </Row>
               <div className="cardBody">
-                <Row style={{ padding: 118, textAlign: "center" }}>
+                <Row style={{ padding: "118px 0px", textAlign: "center" }}>
                   <a role="button">
                     <img src="./images/chep1/YoutubeCard.svg" alt="" />
                   </a>
@@ -1432,6 +1436,7 @@ const ChepOneCardMobView = () => {
                   fontFamily: "Helvetica Neue",
                   fontWeight: "bold",
                   textAlign: "left",
+                  marginBottom: 0,
                 }}
               >
                 The mothers created a simple visual sign of their solidarity{" "}
@@ -1439,7 +1444,7 @@ const ChepOneCardMobView = () => {
                 by each wearing a headscarf with the name of their <br />
                 “disappeared” loved one.
               </p>
-              <Row>
+              <Row style={{ margin: "auto" }}>
                 <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
                   <a role="button">
                     <Image
@@ -1453,6 +1458,8 @@ const ChepOneCardMobView = () => {
                   </a>
                 </Col>
                 <Col
+                  xs={7}
+                  sm={7}
                   style={{
                     paddingLeft: 0,
                     marginLeft: 20,
@@ -1462,6 +1469,7 @@ const ChepOneCardMobView = () => {
                     fontFamily: "Helvetica Neue",
                     fontSize: 11,
                     paddingBottom: 15,
+                    paddingRight: 0,
                   }}
                 >
                   Learn More About <br />
@@ -1491,6 +1499,7 @@ const ChepOneCardMobView = () => {
             height: 70,
             width: 385,
             paddingRight: 0,
+
             paddingTop: 10,
           }}
         >

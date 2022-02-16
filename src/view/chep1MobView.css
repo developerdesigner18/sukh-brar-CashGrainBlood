@@ -4,9 +4,10 @@
 }
 .chepOneCardTwo {
   background-image: url("../../public/images/chep1/chepOneCard1.png");
-  background-size: contain;
+  /* background-size: contain; */
   background-repeat: no-repeat;
   width: 350px;
+  margin-left: 3px;
 }
 .chep1BannerContainer {
   background-color: black;

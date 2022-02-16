@@ -23,7 +23,8 @@ const Card_component = ({ chepData }) => {
                     color: "white",
                     fontFamily: "Stardos Stencil",
                     fontSize: 18,
-                    width: 56,
+                    width: 60,
+                    fontWeight: "bold",
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
@@ -86,8 +87,8 @@ const Card_component = ({ chepData }) => {
                     textAlign: "left",
                     color: "white",
                     paddingLeft: 10,
-                    fontFamily: "Helvetica Neue",
-                    fontSize: 20,
+                    fontFamily: "HelveticaNeue-CondensedBold",
+                    fontSize: 12,
                     letterSpacing: "1px",
                   }}
                 >
@@ -98,9 +99,9 @@ const Card_component = ({ chepData }) => {
                     textAlign: "left",
                     color: "white",
                     paddingLeft: 10,
-                    fontSize: 20,
+                    fontSize: 12,
                     letterSpacing: "1px",
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-CondensedBold",
                   }}
                 >
                   {data.chepImageTitle}
@@ -110,11 +111,11 @@ const Card_component = ({ chepData }) => {
                     // textAlign: "left",
                     color: "#20C5F7",
                     float: "left",
-                    fontSize: 20,
+                    fontSize: 12,
                     letterSpacing: "1px",
                     paddingLeft: 10,
-                    width: "100%",
-                    fontFamily: "Helvetica Neue",
+                    width: "274px",
+                    fontFamily: "HelveticaNeue-CondensedBold",
                   }}
                 >
                   {data.chepImageDescription}
@@ -130,6 +131,7 @@ const Card_component = ({ chepData }) => {
                       float: "left",
                       fontSize: 14,
                       paddingLeft: 10,
+                      fontWeight: "bold",
                       fontFamily: "Helvetica Neue",
                       letterSpacing: "0.5px",
                       paddingLeft: 10,
@@ -139,8 +141,8 @@ const Card_component = ({ chepData }) => {
                       {data.chepDescription}
                     </Row>
 
-                    <Row style={{ paddingLeft: 0, marginTop: 5 }}>
-                      <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                    <Row style={{ paddingLeft: 0, marginTop: 16 }}>
+                      <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a
                           role="button"
                           onClick={() => {
@@ -161,9 +163,10 @@ const Card_component = ({ chepData }) => {
                         lg={8}
                         style={{
                           fontFamily: "Helvetica Neue",
-                          fontSize: 12,
+                          fontSize: 15,
                           float: "left",
-                          paddingLeft: 10,
+                          paddingLeft: 5,
+                          fontWeight: "bold",
                           paddingTop: 5,
                           cursor: "pointer",
                         }}

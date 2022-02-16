@@ -9,12 +9,14 @@ const HomePage = () => {
   return (
     <div className="homePageBannerContainer">
       <div className="bannerContainer">
-        <div className="homePageBannerImage"></div>
+        <div className="homePageBannerImage">
+          <Image src="./images/gettyimages.png" className="gettyImage" />
+        </div>
         <div
           className="homePageBannerStripe"
           style={{ top: "96px", bottom: "65px" }}
         >
-          <Image src="vertical_stripe.png" fluid />
+          <Image src="vertical_stripe.svg" fluid />
         </div>
         <Container>
           <div

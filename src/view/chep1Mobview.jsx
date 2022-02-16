@@ -1,5 +1,13 @@
 import React from "react";
-import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
+import {
+  Button,
+  Card,
+  Col,
+  Container,
+  Row,
+  Image,
+  Carousel,
+} from "react-bootstrap";
 import "./chep1MobView.css";
 const ChepOneCardMobView = () => {
   return (
@@ -9,7 +17,7 @@ const ChepOneCardMobView = () => {
           <div className="chep1BannerImage"></div>
           <div
             className="chep1BannerStripe"
-            style={{ top: "235px", left: "-23px" }}
+            style={{ top: "280px", left: "0px" }}
           >
             <Image src="vertical_stripe.png" style={{ height: "400px" }} />
           </div>
@@ -30,8 +38,9 @@ const ChepOneCardMobView = () => {
                   fontWeight: "bold",
                   fontSize: "12px",
                   textAlign: "center",
-                  border: "1px solid ",
+                  border: "1px solid #20B5F7",
                   background: "#20B5F7",
+                  paddingTop: 4,
                   width: 76,
                   height: 20,
                 }}
@@ -82,9 +91,8 @@ const ChepOneCardMobView = () => {
             <Row>
               <p
                 style={{
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-CondensedBold",
                   fontSize: 12,
-                  fontWeight: "bold",
                   textAlign: "left",
                   padding: 0,
                   color: "white",
@@ -97,7 +105,7 @@ const ChepOneCardMobView = () => {
             <Row>
               <p
                 style={{
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-CondensedBold",
                   fontSize: 12,
                   color: "#20C5F7",
                   textAlign: "left",
@@ -134,13 +142,21 @@ const ChepOneCardMobView = () => {
             help push back against the <br />
             criticism that is raining on
             <br /> us from around the world” <br />
-            <span style={{ color: "#20C5F7" }}>- Admiral Emilio Massera</span>
+            <span
+              style={{
+                color: "#20C5F7",
+                fontFamily: "HelveticaNeue-CondensedBold",
+                tabSize: "16px",
+              }}
+            >
+              - Admiral Emilio Massera
+            </span>
           </h4>
         </Row>
       </Row>
       <Row
         className="chepOneCardTwo"
-        style={{ marginRight: 0, padding: 5, marginTop: 17 }}
+        style={{ marginRight: 0, padding: 5, marginLeft: 3, marginTop: 17 }}
       >
         <Row
           style={{
@@ -176,7 +192,7 @@ const ChepOneCardMobView = () => {
                 marginTop: 4,
                 marginBottom: 0,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
               }}
             >
               IMAGE:
@@ -188,9 +204,9 @@ const ChepOneCardMobView = () => {
                 marginLeft: 30,
                 padding: 0,
                 color: "#20C5F7",
-                marginTop: 4,
+                marginTop: 3,
                 marginBottom: 0,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
               }}
             >
@@ -208,7 +224,7 @@ const ChepOneCardMobView = () => {
                 color: "White",
                 marginTop: 4,
                 marginBottom: 0,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
               }}
             >
@@ -230,6 +246,7 @@ const ChepOneCardMobView = () => {
               width: "85%",
               fontFamily: "Stardos Stencil",
               fontSize: 20,
+              fontWeight: "bold",
               paddingLeft: 0,
               lineHeight: 1,
               marginRight: 0,
@@ -250,6 +267,7 @@ const ChepOneCardMobView = () => {
               style={{
                 fontFamily: "Helvetica Neue",
                 fontSize: 12,
+                fontWeight: "bold",
                 textAlign: "left",
                 color: "white",
                 marginBottom: 0,
@@ -265,7 +283,7 @@ const ChepOneCardMobView = () => {
           <Row style={{ padding: 0, marginTop: 5 }}>
             <p
               style={{
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
                 textAlign: "left",
                 color: "white",
@@ -277,7 +295,7 @@ const ChepOneCardMobView = () => {
             </p>
             <p
               style={{
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
                 textAlign: "left",
                 color: "#20C5F7",
@@ -342,7 +360,7 @@ const ChepOneCardMobView = () => {
                   01/02
                 </p>
                 <Image
-                  src="./images/chep1/Line 317.png"
+                  src="./images/chep1/divider.png"
                   fluid
                   style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
                 ></Image>
@@ -409,10 +427,11 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
 
                 paddingTop: 22.8,
-                paddingBottom: 30,
+                paddingBottom: 15,
+                marginBottom: 0,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
-                fontWeight: "bold",
+                fontFamily: "HelveticaNeue-CondensedBolde",
+
                 textAlign: "left",
               }}
             >
@@ -439,8 +458,8 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
 
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
-                fontWeight: "bold",
+                fontFamily: "HelveticaNeue-CondensedBold",
+
                 textAlign: "left",
                 color: "#20C5F7",
               }}
@@ -458,8 +477,8 @@ const ChepOneCardMobView = () => {
 
                 paddingBottom: 30,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
-                fontWeight: "bold",
+                fontFamily: "HelveticaNeue-CondensedBold",
+
                 textAlign: "left",
                 color: "#20C5F7",
               }}
@@ -572,168 +591,193 @@ const ChepOneCardMobView = () => {
                   fontSize: 16,
                 }}
               >
-                THE “MILITARY JUNTA”
+                THE “FIRST MILITARY JUNTA”
               </Row>
             </Row>
           </Card.Title>
-          <Row style={{ textAlign: "center" }}>
-            <Col>
-              <Row>
-                <Image fluid src="./images/chep1/cardThreeOne.png" />
-              </Row>
-              <Row>
-                <Image
-                  fluid
-                  src="./images/chep1/upArrow.svg"
-                  style={{
-                    width: 26.96,
-                    height: 17.41,
-                    padding: 0,
-                    marginTop: 15,
-                    marginLeft: 3,
-                  }}
-                />
-              </Row>
-              <Row>
-                <p
-                  style={{
-                    textAlign: "left",
-                    marginTop: 10,
-                    fontFamily: "Helvetica Neue",
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "14px",
-                    marginBottom: "5px",
-                  }}
-                >
-                  Jorge Rafael Videla
-                </p>
-                <p
-                  style={{
-                    textAlign: "left",
-                    fontFamily: "Helvetica Neue",
-                    color: "#20C5F7",
-                    fontSize: "14px",
-                  }}
-                >
-                  (August 2, 1925–May 17, 2013) was a General Commander of the{" "}
-                  <br />
-                  Army, member of the military junta, and dictator of Argentina
-                  from <br /> 1976 to 1981. <br /> On December 22, 2010, Videla
-                  was sentenced to life in a civilian prison for <br />
-                  the deaths of 31 prisoners following his coup.
-                </p>
-              </Row>
-              <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
-                <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                  <a role="button">
+          <Carousel indicators={false} nextIcon={false} prevIcon={false}>
+            <Carousel.Item>
+              {/* first */}
+
+              <Row style={{ textAlign: "center", marginLeft: 10 }}>
+                <Col>
+                  <Row>
+                    <Image fluid src="./images/chep1/cardThreeOne.png" />
+                  </Row>
+                  <Row>
                     <Image
-                      src="./images/btnImage.svg"
-                      style={{
-                        paddingLeft: 0,
-                        width: "100%",
-                      }}
                       fluid
+                      src="./images/chep1/upArrow.svg"
+                      style={{
+                        width: 26.96,
+                        height: 17.41,
+                        padding: 0,
+                        marginTop: 15,
+                        marginLeft: 3,
+                      }}
                     />
-                  </a>
+                  </Row>
+                  <Row>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        marginTop: 10,
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "white",
+                        fontWeight: "bold",
+                        fontSize: "14px",
+                        marginBottom: "5px",
+                      }}
+                    >
+                      Jorge Rafael Videla
+                    </p>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "#20C5F7",
+                        fontSize: "14px",
+                      }}
+                    >
+                      (August 2, 1925–May 17, 2013) was a General Commander of
+                      the <br />
+                      Army, member of the military junta, and dictator of
+                      Argentina from <br /> 1976 to 1981. <br /> On December 22,
+                      2010, Videla was sentenced to life in a civilian <br />{" "}
+                      prison for the deaths of 31 prisoners following his coup.
+                    </p>
+                  </Row>
+                  <Row
+                    style={{
+                      paddingLeft: 0,
+
+                      paddingTop: 10,
+                      marginTop: 5,
+                    }}
+                  >
+                    <Col
+                      sm={2}
+                      xs={10}
+                      style={{
+                        width: 50,
+                        paddingLeft: 0,
+                        textAlign: "right",
+                      }}
+                    >
+                      <a role="button">
+                        <Image
+                          src="./images/btnImage.svg"
+                          style={{
+                            paddingLeft: 0,
+                            width: "100%",
+                          }}
+                          fluid
+                        />
+                      </a>
+                    </Col>
+                    <Col
+                      sm={10}
+                      xs={10}
+                      style={{
+                        fontFamily: "Helvetica Neue",
+                        fontSize: 15,
+                        float: "left",
+                        color: "white",
+                        textAlign: "left",
+                        paddingTop: 8,
+                        paddingLeft: 0,
+                      }}
+                    >
+                      Profile Of <br /> Jorge Rafael Videla
+                    </Col>
+                  </Row>
                 </Col>
-                <Col
-                  lg={8}
-                  style={{
-                    fontFamily: "Helvetica Neue",
-                    fontSize: 12,
-                    float: "left",
-                    color: "white",
-                    textAlign: "left",
-                    paddingTop: 5,
-                    paddingLeft: 0,
-                  }}
-                >
-                  Learn More About Jorge Rafael Videla
-                </Col>
-              </Row>
-            </Col>
-            <Col>
-              <Row>
-                <Image fluid src="./images/chep1/cardThreeTwo.png" />
-              </Row>
-              <Row>
-                {" "}
-                <Image
-                  fluid
-                  src="./images/chep1/upArrow.svg"
-                  style={{
-                    width: 26.96,
-                    height: 17.41,
-                    padding: 0,
-                    marginTop: 15,
-                    marginLeft: 3,
-                  }}
-                />
-              </Row>
-              <Row>
-                {" "}
-                <p
-                  style={{
-                    textAlign: "left",
-                    marginTop: 10,
-                    fontFamily: "Helvetica Neue",
-                    color: "white",
-                    fontWeight: "bold",
-                    fontSize: "14px",
-                    marginBottom: "5px",
-                  }}
-                >
-                  Emilio Eduardo Massera.
-                </p>
-                <p
-                  style={{
-                    textAlign: "left",
-                    fontFamily: "Helvetica Neue",
-                    color: "#20C5F7",
-                    fontSize: "14px",
-                  }}
-                >
-                  (October 19, 1925–November 8, 2010) was a General Commander of
-                  the Army, member of the military junta, and dictator of
-                  Argentina from 1976 to 1981. <br />
-                  On December 22, 2010, Videla was sentenced to life in a
-                  civilian <br />
-                  prison for <br />
-                  the deaths of 31 prisoners following his coup.
-                </p>
-              </Row>
-              <Row>
-                {" "}
-                <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                  <a role="button">
+                <Col>
+                  <Row>
+                    <Image fluid src="./images/chep1/cardThreeTwo.png" />
+                  </Row>
+                  <Row>
+                    {" "}
                     <Image
-                      src="./images/btnImage.svg"
-                      style={{
-                        paddingLeft: 0,
-                        width: "100%",
-                      }}
                       fluid
+                      src="./images/chep1/upArrow.svg"
+                      style={{
+                        width: 26.96,
+                        height: 17.41,
+                        padding: 0,
+                        marginTop: 15,
+                        marginLeft: 3,
+                      }}
                     />
-                  </a>
-                </Col>
-                <Col
-                  lg={8}
-                  style={{
-                    fontFamily: "Helvetica Neue",
-                    fontSize: 12,
-                    float: "left",
-                    color: "white",
-                    textAlign: "left",
-                    paddingTop: 5,
-                    paddingLeft: 0,
-                  }}
-                >
-                  Learn More About Emilio Eduardo Massera
+                  </Row>
+                  <Row>
+                    {" "}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        marginTop: 10,
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "white",
+                        fontWeight: "bold",
+                        fontSize: "14px",
+                        marginBottom: "5px",
+                      }}
+                    >
+                      Emilio Eduardo Massera.
+                    </p>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "#20C5F7",
+                        fontSize: "14px",
+                      }}
+                    >
+                      (October 19, 1925–November 8, 2010) was a General
+                      Commander of
+                      <br /> the Army, member of the military junta, and
+                      dictator of Argentina from <br /> 1976 to 1981. <br /> On
+                      December 22, 2010, Videla was sentenced to life in a
+                      civilian <br />
+                      prison for <br />
+                      the deaths of 31 prisoners following his coup.
+                    </p>
+                  </Row>
+                  <Row style={{ marginTop: 5 }}>
+                    {" "}
+                    <Col lg={2} style={{ width: 50, textAlign: "right" }}>
+                      <a role="button">
+                        <Image
+                          src="./images/btnImage.svg"
+                          style={{
+                            paddingLeft: 0,
+                            width: "100%",
+                          }}
+                          fluid
+                        />
+                      </a>
+                    </Col>
+                    <Col
+                      lg={10}
+                      style={{
+                        fontFamily: "Helvetica Neue",
+                        fontSize: 15,
+                        float: "left",
+                        color: "white",
+                        textAlign: "left",
+                        paddingTop: 5,
+                        paddingLeft: 0,
+                      }}
+                    >
+                      Profile Of <br /> Emilio Eduardo Massera
+                    </Col>
+                  </Row>
                 </Col>
               </Row>
-            </Col>
-          </Row>
+            </Carousel.Item>
+            <Carousel.Item>{/* scecond */}</Carousel.Item>
+            <Carousel.Item>{/* third */}</Carousel.Item>
+          </Carousel>
         </Card.Body>
       </Card>
 

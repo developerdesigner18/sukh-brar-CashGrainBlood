@@ -7,7 +7,9 @@ const Chep1 = () => {
     <React.Fragment>
       <div className="chepOnePageBannerContainer">
         <div className="bannerContainer">
-          <div className="chepOneBannerImage"></div>
+          <div className="chepOneBannerImage">
+            <Image src="./images/gettyimages.png" className="gettyImage" />
+          </div>
           <div
             className="chepOneBannerStripe"
             style={{ top: "96px", bottom: "65px" }}
@@ -49,17 +51,36 @@ const Chep1 = () => {
         </div>
         <div className="chepOnetableHeader">
           <Container>
-            <b style={{ paddingLeft: 10 }}>CHAPTER 2: FROM HOST TO JUNTA 1-6</b>
+            <p
+              style={{
+                paddingLeft: 10,
+                marginBottom: 0,
+                fontWeight: "bold",
+                fontSize: 18,
+                fontFamily: "Stardos Stencil",
+              }}
+            >
+              CHAPTER 2: FROM HOST TO JUNTA 1-6
+            </p>
           </Container>
         </div>
         <div className="chepOneBodyBackImage">
-          <Row style={{ color: "white" }}>
-            <Col lg={8} md={10} style={{ paddingLeft: 110 }}>
+          <Row
+            style={{
+              color: "white",
+              width: 800,
+              margin: "0px auto",
+              padding: "30px 0px",
+            }}
+          >
+            <Col>
               <p
                 style={{
+                  fontWeight: "bold",
+                  fontSize: 24,
                   fontFamily: "Stardos Stencil",
                   textAlign: "justify",
-                  lineHeight: 2,
+                  lineHeight: 1.5,
                   marginBottom: 0,
                 }}
               >
@@ -68,13 +89,17 @@ const Chep1 = () => {
                 will help push back against the criticism that is raining on us
                 from around the world”
                 <span
-                  style={{ fontFamily: "Helvetica Neue", color: "#20C5F7" }}
+                  style={{
+                    fontFamily: "Helvetica Neue",
+                    fontSize: 18,
+                    textTransform: "uppercase",
+                    color: "#20C5F7",
+                  }}
                 >
-                  - Admiral Emilio Massera, MEMBER OF THE MILITARY JUNTA
+                  -Admiral Emilio Massera, MEMBER OF THE MILITARY JUNTA
                 </span>
               </p>
             </Col>
-            <Col lg={2} md={1}></Col>
           </Row>
         </div>
         <div className="chepOneCardHolder">

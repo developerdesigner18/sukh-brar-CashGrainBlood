@@ -1,9 +1,14 @@
 .homePageBannerContainer {
   background-color: black;
 }
+.gettyImage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 .homePageBannerImage {
-  position: relative;
   height: 670px;
+  position: relative;
 
   background-repeat: no-repeat;
 

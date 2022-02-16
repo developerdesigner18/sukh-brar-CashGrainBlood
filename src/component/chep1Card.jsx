@@ -1,5 +1,13 @@
 import React from "react";
-import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
+import {
+  Button,
+  Card,
+  Col,
+  Container,
+  Row,
+  Image,
+  Carousel,
+} from "react-bootstrap";
 import "./chep1Card.css";
 const ChepOneCard = () => {
   return (
@@ -22,7 +30,8 @@ const ChepOneCard = () => {
                       color: "white",
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
-                      width: 56,
+                      fontWeight: "bold",
+                      width: 60,
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -49,13 +58,14 @@ const ChepOneCard = () => {
                       color: "white",
                       fontFamily: "Stardos Stencil",
                       fontSize: 40,
+                      fontWeight: "bold",
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
                   >
                     TO HOST A WORLD CUP!
                   </Row>
-                  <Row style={{ width: 256, height: 15 }}>
+                  <Row style={{ width: 332, height: 15, marginLeft: 48 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -78,8 +88,8 @@ const ChepOneCard = () => {
                       textAlign: "left",
                       color: "white",
                       paddingLeft: 10,
-                      fontFamily: "Helvetica Neue",
-                      fontSize: 20,
+                      fontFamily: "HelveticaNeue-CondensedBold",
+                      fontSize: 12,
                       letterSpacing: "1px",
                     }}
                   >
@@ -87,24 +97,15 @@ const ChepOneCard = () => {
                   </Row>
                   <Row
                     style={{
-                      textAlign: "left",
-                      color: "white",
-                      paddingLeft: 10,
-                      fontSize: 20,
-                      letterSpacing: "1px",
-                      fontFamily: "Helvetica Neue",
-                    }}
-                  ></Row>
-                  <Row
-                    style={{
                       // textAlign: "left",
+
                       color: "#20C5F7",
                       float: "left",
-                      fontSize: 15,
+                      fontSize: 12,
                       letterSpacing: "1px",
                       paddingLeft: 10,
-                      width: "100%",
-                      fontFamily: "Helvetica Neue",
+                      width: 288,
+                      fontFamily: "HelveticaNeue-CondensedBold",
                     }}
                   >
                     Argentina was officially chosen as the host nation by FIFA
@@ -122,13 +123,14 @@ const ChepOneCard = () => {
                         color: "white",
                         float: "left",
                         fontSize: 14,
+                        fontWeight: "bold",
                         paddingLeft: 10,
                         fontFamily: "Helvetica Neue",
-                        letterSpacing: "0.5px",
+
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{ letterSpacing: 1 }}>
+                      <Row style={{}}>
                         In 1964, at FIFA’s Tokyo congress, Argentina was awarded
                         the hosting rights to the 1978 World Cup. To host the
                         football tournament was the highest honor in all of
@@ -138,7 +140,7 @@ const ChepOneCard = () => {
                       <Row
                         style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
                       >
-                        <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                        <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
                             <Image
                               src="./images/btnImage.svg"
@@ -151,9 +153,9 @@ const ChepOneCard = () => {
                           lg={8}
                           style={{
                             fontFamily: "Helvetica Neue",
-                            fontSize: 12,
+                            fontSize: 15,
                             float: "left",
-                            paddingLeft: 10,
+                            paddingLeft: 5,
                             paddingTop: 5,
                           }}
                         >
@@ -187,6 +189,7 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      fontWeight: "bold",
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -214,12 +217,13 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 40,
                       lineHeight: 0.8,
+                      fontWeight: "bold",
                       paddingBottom: 15,
                     }}
                   >
                     Reorganization Process
                   </Row>
-                  <Row style={{ width: 256, height: 15 }}>
+                  <Row style={{ width: 332, height: 15, marginLeft: 48 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -253,34 +257,25 @@ const ChepOneCard = () => {
                       textAlign: "left",
                       color: "white",
                       paddingLeft: 10,
-                      fontFamily: "Helvetica Neue",
-                      fontSize: 20,
+                      fontFamily: "HelveticaNeue-CondensedBold",
+                      fontSize: 12,
                       letterSpacing: "1px",
                     }}
                   >
                     IMAGE:
                   </Row>
-                  <Row
-                    style={{
-                      textAlign: "left",
-                      color: "white",
-                      paddingLeft: 10,
-                      fontSize: 15,
-                      letterSpacing: "1px",
-                      fontFamily: "Helvetica Neue",
-                    }}
-                  ></Row>
+
                   <Row
                     style={{
                       // textAlign: "left",
                       color: "#20C5F7",
                       float: "left",
-                      fontSize: 15,
+                      fontSize: 12,
                       letterSpacing: "1px",
                       paddingLeft: 10,
-                      width: "100%",
+                      width: "288px",
                       marginBottom: "20px",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-CondensedBold",
                     }}
                   >
                     Men and women seen as hostile to the regime were
@@ -293,12 +288,12 @@ const ChepOneCard = () => {
                       // textAlign: "left",
                       color: "#20C5F7",
                       float: "left",
-                      fontSize: 15,
+                      fontSize: 12,
                       letterSpacing: "1px",
                       paddingLeft: 10,
-                      width: "100%",
-                      marginBottom: "10px",
-                      fontFamily: "Helvetica Neue",
+                      width: "288px",
+                      marginBottom: "20px",
+                      fontFamily: "HelveticaNeue-CondensedBold",
                     }}
                   >
                     Some were placed in large venues such as sports stadiums,
@@ -315,12 +310,13 @@ const ChepOneCard = () => {
                         float: "left",
                         fontSize: 14,
                         paddingLeft: 10,
+                        fontWeight: "bold",
                         fontFamily: "Helvetica Neue",
-                        letterSpacing: "0.5px",
+                        // letterSpacing: "0.5px",
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{ letterSpacing: 1 }}>
+                      <Row style={{}}>
                         Controversy followed the 1978 World Cup when, in March
                         1976, a military junta overthrew the government of
                         Isabel Peron. The Junta established a “National
@@ -329,8 +325,8 @@ const ChepOneCard = () => {
                         Argentine people.
                       </Row>
 
-                      <Row style={{ paddingLeft: 0, marginTop: 5 }}>
-                        <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                      <Row style={{ paddingLeft: 0, marginTop: 15 }}>
+                        <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
                             <Image
                               src="./images/btnImage.svg"
@@ -347,9 +343,9 @@ const ChepOneCard = () => {
                           lg={8}
                           style={{
                             fontFamily: "Helvetica Neue",
-                            fontSize: 12,
+                            fontSize: 15,
                             float: "left",
-                            paddingLeft: 10,
+                            paddingLeft: 5,
                             paddingTop: 5,
                           }}
                         >
@@ -357,8 +353,10 @@ const ChepOneCard = () => {
                           1976 Argentine coup d’état
                         </Col>
                       </Row>
-                      <Row style={{ paddingLeft: 0, marginTop: 5 }}>
-                        <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                      <Row
+                        style={{ paddingLeft: 0, marginTop: 15, width: 550 }}
+                      >
+                        <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
                             <Image
                               src="./images/btnImage.svg"
@@ -375,9 +373,9 @@ const ChepOneCard = () => {
                           lg={8}
                           style={{
                             fontFamily: "Helvetica Neue",
-                            fontSize: 12,
+                            fontSize: 15,
                             float: "left",
-                            paddingLeft: 10,
+                            paddingLeft: 5,
                             paddingTop: 5,
                           }}
                         >
@@ -411,6 +409,7 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      fontWeight: "bold",
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -443,7 +442,7 @@ const ChepOneCard = () => {
                   >
                     JUNTA LEADERS
                   </Row>
-                  <Row style={{ width: 256, height: 15 }}>
+                  <Row style={{ width: 332, height: 15 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -451,166 +450,192 @@ const ChepOneCard = () => {
                     />
                   </Row>
                 </Row>
+
+                {/* carsoul */}
+                <Carousel indicators={false} nextIcon={false} prevIcon={false}>
+                  <Carousel.Item>
+                    {/* first */}
+
+                    <Row style={{ textAlign: "center", marginLeft: 10 }}>
+                      <Col>
+                        <Row>
+                          <Image fluid src="./images/chep1/cardThreeOne.png" />
+                        </Row>
+                        <Row>
+                          <Image
+                            fluid
+                            src="./images/chep1/upArrow.svg"
+                            style={{
+                              width: 26.96,
+                              height: 17.41,
+                              padding: 0,
+                              marginTop: 15,
+                              marginLeft: 3,
+                            }}
+                          />
+                        </Row>
+                        <Row>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              marginTop: 10,
+                              fontFamily: "HelveticaNeue-CondensedBold",
+                              color: "white",
+                              fontWeight: "bold",
+                              fontSize: "14px",
+                              marginBottom: "5px",
+                            }}
+                          >
+                            Jorge Rafael Videla
+                          </p>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "HelveticaNeue-CondensedBold",
+                              color: "#20C5F7",
+                              fontSize: "14px",
+                            }}
+                          >
+                            (August 2, 1925–May 17, 2013) was a General
+                            Commander of the <br />
+                            Army, member of the military junta, and dictator of
+                            Argentina from <br /> 1976 to 1981. <br /> On
+                            December 22, 2010, Videla was sentenced to life in a
+                            civilian <br /> prison for the deaths of 31
+                            prisoners following his coup.
+                          </p>
+                        </Row>
+                        <Row
+                          style={{
+                            paddingLeft: 0,
+
+                            paddingTop: 10,
+                            marginTop: 5,
+                          }}
+                        >
+                          <Col
+                            lg={4}
+                            style={{
+                              width: 50,
+                              paddingLeft: 0,
+                              textAlign: "right",
+                            }}
+                          >
+                            <a role="button">
+                              <Image
+                                src="./images/btnImage.svg"
+                                style={{
+                                  paddingLeft: 0,
+                                  width: "100%",
+                                }}
+                                fluid
+                              />
+                            </a>
+                          </Col>
+                          <Col
+                            lg={8}
+                            style={{
+                              fontFamily: "Helvetica Neue",
+                              fontSize: 15,
+                              float: "left",
+                              color: "white",
+                              textAlign: "left",
+                              paddingTop: 8,
+                              paddingLeft: 0,
+                            }}
+                          >
+                            Learn More About Jorge Rafael Videla
+                          </Col>
+                        </Row>
+                      </Col>
+                      <Col>
+                        <Row>
+                          <Image fluid src="./images/chep1/cardThreeTwo.png" />
+                        </Row>
+                        <Row>
+                          {" "}
+                          <Image
+                            fluid
+                            src="./images/chep1/upArrow.svg"
+                            style={{
+                              width: 26.96,
+                              height: 17.41,
+                              padding: 0,
+                              marginTop: 15,
+                              marginLeft: 3,
+                            }}
+                          />
+                        </Row>
+                        <Row>
+                          {" "}
+                          <p
+                            style={{
+                              textAlign: "left",
+                              marginTop: 10,
+                              fontFamily: "HelveticaNeue-CondensedBold",
+                              color: "white",
+                              fontWeight: "bold",
+                              fontSize: "14px",
+                              marginBottom: "5px",
+                            }}
+                          >
+                            Emilio Eduardo Massera.
+                          </p>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "HelveticaNeue-CondensedBold",
+                              color: "#20C5F7",
+                              fontSize: "14px",
+                            }}
+                          >
+                            (October 19, 1925–November 8, 2010) was a General
+                            Commander of
+                            <br /> the Army, member of the military junta, and
+                            dictator of Argentina from <br /> 1976 to 1981.{" "}
+                            <br /> On December 22, 2010, Videla was sentenced to
+                            life in a civilian <br />
+                            prison for <br />
+                            the deaths of 31 prisoners following his coup.
+                          </p>
+                        </Row>
+                        <Row style={{ marginTop: 5 }}>
+                          {" "}
+                          <Col lg={4} style={{ width: 60, textAlign: "right" }}>
+                            <a role="button">
+                              <Image
+                                src="./images/btnImage.svg"
+                                style={{
+                                  paddingLeft: 0,
+                                  width: "100%",
+                                }}
+                                fluid
+                              />
+                            </a>
+                          </Col>
+                          <Col
+                            lg={8}
+                            style={{
+                              fontFamily: "Helvetica Neue",
+                              fontSize: 15,
+                              float: "left",
+                              color: "white",
+                              textAlign: "left",
+                              paddingTop: 5,
+                              paddingLeft: 0,
+                            }}
+                          >
+                            Learn More About Emilio Eduardo Massera
+                          </Col>
+                        </Row>
+                      </Col>
+                    </Row>
+                  </Carousel.Item>
+                  <Carousel.Item>{/* scecond */}</Carousel.Item>
+                  <Carousel.Item>{/* third */}</Carousel.Item>
+                </Carousel>
+                {/* end */}
               </Card.Title>
-              <Row style={{ textAlign: "center" }}>
-                <Col>
-                  <Row>
-                    <Image fluid src="./images/chep1/cardThreeOne.png" />
-                  </Row>
-                  <Row>
-                    <Image
-                      fluid
-                      src="./images/chep1/upArrow.svg"
-                      style={{
-                        width: 26.96,
-                        height: 17.41,
-                        padding: 0,
-                        marginTop: 15,
-                        marginLeft: 3,
-                      }}
-                    />
-                  </Row>
-                  <Row>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        marginTop: 10,
-                        fontFamily: "Helvetica Neue",
-                        color: "white",
-                        fontWeight: "bold",
-                        fontSize: "14px",
-                        marginBottom: "5px",
-                      }}
-                    >
-                      Jorge Rafael Videla
-                    </p>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        fontFamily: "Helvetica Neue",
-                        color: "#20C5F7",
-                        fontSize: "14px",
-                      }}
-                    >
-                      (August 2, 1925–May 17, 2013) was a General Commander of
-                      the <br />
-                      Army, member of the military junta, and dictator of
-                      Argentina from <br /> 1976 to 1981. <br /> On December 22,
-                      2010, Videla was sentenced to life in a civilian prison
-                      for <br />
-                      the deaths of 31 prisoners following his coup.
-                    </p>
-                  </Row>
-                  <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
-                    <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                      <a role="button">
-                        <Image
-                          src="./images/btnImage.svg"
-                          style={{
-                            paddingLeft: 0,
-                            width: "100%",
-                          }}
-                          fluid
-                        />
-                      </a>
-                    </Col>
-                    <Col
-                      lg={8}
-                      style={{
-                        fontFamily: "Helvetica Neue",
-                        fontSize: 12,
-                        float: "left",
-                        color: "white",
-                        textAlign: "left",
-                        paddingTop: 5,
-                        paddingLeft: 0,
-                      }}
-                    >
-                      Learn More About Jorge Rafael Videla
-                    </Col>
-                  </Row>
-                </Col>
-                <Col>
-                  <Row>
-                    <Image fluid src="./images/chep1/cardThreeTwo.png" />
-                  </Row>
-                  <Row>
-                    {" "}
-                    <Image
-                      fluid
-                      src="./images/chep1/upArrow.svg"
-                      style={{
-                        width: 26.96,
-                        height: 17.41,
-                        padding: 0,
-                        marginTop: 15,
-                        marginLeft: 3,
-                      }}
-                    />
-                  </Row>
-                  <Row>
-                    {" "}
-                    <p
-                      style={{
-                        textAlign: "left",
-                        marginTop: 10,
-                        fontFamily: "Helvetica Neue",
-                        color: "white",
-                        fontWeight: "bold",
-                        fontSize: "14px",
-                        marginBottom: "5px",
-                      }}
-                    >
-                      Emilio Eduardo Massera.
-                    </p>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        fontFamily: "Helvetica Neue",
-                        color: "#20C5F7",
-                        fontSize: "14px",
-                      }}
-                    >
-                      (October 19, 1925–November 8, 2010) was a General
-                      Commander of the Army, member of the military junta, and
-                      dictator of Argentina from 1976 to 1981. <br />
-                      On December 22, 2010, Videla was sentenced to life in a
-                      civilian <br />
-                      prison for <br />
-                      the deaths of 31 prisoners following his coup.
-                    </p>
-                  </Row>
-                  <Row>
-                    {" "}
-                    <Col lg={4} style={{ width: 50, textAlign: "right" }}>
-                      <a role="button">
-                        <Image
-                          src="./images/btnImage.svg"
-                          style={{
-                            paddingLeft: 0,
-                            width: "100%",
-                          }}
-                          fluid
-                        />
-                      </a>
-                    </Col>
-                    <Col
-                      lg={8}
-                      style={{
-                        fontFamily: "Helvetica Neue",
-                        fontSize: 12,
-                        float: "left",
-                        color: "white",
-                        textAlign: "left",
-                        paddingTop: 5,
-                        paddingLeft: 0,
-                      }}
-                    >
-                      Learn More About Emilio Eduardo Massera
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
             </Card.Body>
           </Card>
 
@@ -632,6 +657,7 @@ const ChepOneCard = () => {
                       fontFamily: "Stardos Stencil",
                       fontSize: 18,
                       width: 56,
+                      fontWeight: "bold",
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -648,14 +674,16 @@ const ChepOneCard = () => {
                     style={{
                       color: "white",
                       fontFamily: "Stardos Stencil",
+                      textTransform: "upperCase",
                       fontSize: 40,
                     }}
                   >
-                    Operation Condor
+                    Operation Condor,
                   </Row>
                   <Row
                     style={{
                       color: "white",
+                      textTransform: "upperCase",
                       fontFamily: "Stardos Stencil",
                       fontSize: 40,
                       lineHeight: 0.8,
@@ -664,7 +692,7 @@ const ChepOneCard = () => {
                   >
                     The Dirty War
                   </Row>
-                  <Row style={{ width: 256, height: 15 }}>
+                  <Row style={{ width: 332, height: 15, marginLeft: 10 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -698,34 +726,26 @@ const ChepOneCard = () => {
                       textAlign: "left",
                       color: "white",
                       paddingLeft: 10,
-                      fontFamily: "Helvetica Neue",
-                      fontSize: 20,
+                      fontFamily: "HelveticaNeue-CondensedBold",
+                      fontSize: 12,
                       letterSpacing: "1px",
                     }}
                   >
                     IMAGE:
                   </Row>
-                  <Row
-                    style={{
-                      textAlign: "left",
-                      color: "white",
-                      paddingLeft: 10,
-                      fontSize: 15,
-                      letterSpacing: "1px",
-                      fontFamily: "Helvetica Neue",
-                    }}
-                  ></Row>
+
                   <Row
                     style={{
                       // textAlign: "left",
                       color: "#20C5F7",
                       float: "left",
-                      fontSize: 15,
+                      fontSize: 12,
                       letterSpacing: "1px",
                       paddingLeft: 10,
                       width: "100%",
                       marginBottom: "20px",
-                      fontFamily: "Helvetica Neue",
+                      width: "203px",
+                      fontFamily: "HelveticaNeue-CondensedBold",
                     }}
                   >
                     Collections of photos from families whose children and
@@ -744,11 +764,11 @@ const ChepOneCard = () => {
                         fontSize: 14,
                         paddingLeft: 10,
                         fontFamily: "Helvetica Neue",
-                        letterSpacing: "0.5px",
+                        // letterSpacing: "0.5px",
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{ letterSpacing: 1 }}>
+                      <Row style={{}}>
                         The Junta declared a so-called “Dirty War” against this
                         enemy from within. The full extent of the atrocities
                         committed between 1976 and 1983 is not certain.
@@ -762,7 +782,7 @@ const ChepOneCard = () => {
                       <Row
                         style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
                       >
-                        <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                        <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
                             <Image
                               src="./images/btnImage.svg"
@@ -778,9 +798,9 @@ const ChepOneCard = () => {
                           lg={8}
                           style={{
                             fontFamily: "Helvetica Neue",
-                            fontSize: 12,
+                            fontSize: 15,
                             float: "left",
-                            paddingLeft: 10,
+                            paddingLeft: 5,
                             paddingTop: 5,
                           }}
                         >
@@ -1000,6 +1020,7 @@ const ChepOneCard = () => {
                     fontSize: 18,
                     width: 56,
                     paddingRight: 0,
+                    fontWeight: "bold",
                     marginBottom: 15,
                   }}
                 >
@@ -1031,7 +1052,7 @@ const ChepOneCard = () => {
                 >
                   A BOYCOTT
                 </Row>
-                <Row style={{ width: 256, height: 15 }}>
+                <Row style={{ width: 332, height: 15, marginBottom: 36 }}>
                   <Image
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "5px", width: "100%" }}
@@ -1065,34 +1086,25 @@ const ChepOneCard = () => {
                     textAlign: "left",
                     color: "white",
                     paddingLeft: 10,
-                    fontFamily: "Helvetica Neue",
-                    fontSize: 20,
+                    fontFamily: "HelveticaNeue-CondensedBold",
+                    fontSize: 12,
                     letterSpacing: "1px",
                   }}
                 >
                   IMAGE:
                 </Row>
-                <Row
-                  style={{
-                    textAlign: "left",
-                    color: "white",
-                    paddingLeft: 10,
-                    fontSize: 15,
-                    letterSpacing: "1px",
-                    fontFamily: "Helvetica Neue",
-                  }}
-                ></Row>
+
                 <Row
                   style={{
                     // textAlign: "left",
                     color: "#20C5F7",
                     float: "left",
-                    fontSize: 15,
+                    fontSize: 12,
                     letterSpacing: "1px",
                     paddingLeft: 10,
-                    width: "100%",
+                    width: "258px",
                     marginBottom: "20px",
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-CondensedBold",
                   }}
                 >
                   Flyers papered on walls around Paris took the official logo of
@@ -1109,13 +1121,14 @@ const ChepOneCard = () => {
                       color: "white",
                       float: "left",
                       fontSize: 14,
+                      fontWeight: "bold",
                       paddingLeft: 10,
                       fontFamily: "Helvetica Neue",
-                      letterSpacing: "0.5px",
+
                       paddingLeft: 10,
                     }}
                   >
-                    <Row style={{ letterSpacing: 1 }}>
+                    <Row>
                       In late 1977, a group of French journalists and
                       intellectuals formed the Organizing Committee for the
                       Boycott of the Argentina World Cup, known for its French
@@ -1130,7 +1143,7 @@ const ChepOneCard = () => {
                     <Row
                       style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
                     >
-                      <Col lg={4} style={{ width: 50, textAlign: "right" }}>
+                      <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
                           <Image
                             src="./images/btnImage.svg"
@@ -1146,9 +1159,9 @@ const ChepOneCard = () => {
                         lg={8}
                         style={{
                           fontFamily: "Helvetica Neue",
-                          fontSize: 12,
+                          fontSize: 15,
                           float: "left",
-                          paddingLeft: 10,
+                          paddingLeft: 5,
                           paddingTop: 5,
                         }}
                       >
@@ -1175,6 +1188,7 @@ const ChepOneCard = () => {
                   fontFamily: "Stardos Stencil",
                   fontSize: 18,
                   width: 56,
+                  fontWeight: "bold",
                   paddingRight: 0,
                   marginBottom: 15,
                 }}
@@ -1248,10 +1262,10 @@ const ChepOneCard = () => {
                     style={{
                       textAlign: "left",
                       marginTop: 10,
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-CondensedBold",
                       color: "white",
                       fontWeight: "bold",
-                      fontSize: "14px",
+                      fontSize: "12px",
                       marginBottom: "5px",
                     }}
                   >
@@ -1260,9 +1274,9 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-CondensedBolde",
                       color: "#20C5F7",
-                      fontSize: "14px",
+                      fontSize: "12px",
                     }}
                   >
                     Buenos Aires, Argentina: <br /> “Madres de Plaza de Mayo”{" "}
@@ -1281,10 +1295,10 @@ const ChepOneCard = () => {
                     style={{
                       textAlign: "left",
                       marginTop: 10,
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-medium",
                       color: "white",
-                      fontWeight: "bold",
-                      fontSize: "14px",
+
+                      fontSize: "12px",
                       marginBottom: "5px",
                     }}
                   >
@@ -1297,9 +1311,10 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-medium",
                       color: "white",
-                      fontSize: "14px",
+                      fontWeight: "normal",
+                      fontSize: "12px",
                     }}
                   >
                     At great risk to themselves, the mothers made the simple
@@ -1309,9 +1324,10 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-medium",
                       color: "white",
-                      fontSize: "14px",
+                      fontWeight: "normal",
+                      fontSize: "12px",
                     }}
                   >
                     The mothers created a simple visual sign of their solidarity

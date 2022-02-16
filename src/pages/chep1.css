@@ -8,6 +8,11 @@
   background-size: cover;
   background-image: url("../../public/images/chep1/chepOneBannerImage.png");
 }
+.gettyImage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 .chepOneBannerStripe {
   position: absolute;
   top: "96px";
@@ -26,5 +31,6 @@
 }
 .chepOneBodyBackImage {
   background-image: url("../../public/images/chep1/chepOneBodyBack.png");
-  padding: 25px;
+
+  text-align: center;
 }

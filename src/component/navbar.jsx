@@ -11,40 +11,39 @@ const Navbar_title = () => {
           height: "48px",
         }}
       >
-        <Container>
-          <Navbar.Brand href="#home">
-            {" "}
-            <Row>
-              <Col style={{ paddingRight: 0 }}>
-                <img
-                  alt=""
-                  src="navbarLogo.png"
-                  width="44.83"
-                  height="35"
-                  className="d-inline-block align-top"
-                  //   style={{ paddingTop: 9.9 }}
-                />
-              </Col>
-              <Col>
-                <Row>
-                  <small
-                    style={{
-                      fontFamily: "Helvetica Neue",
-                      fontSize: 14,
-                      lineHeight: 0.8,
-                      paddingTop: 12,
-                      paddingLeft: 0,
-                      width: 74,
-                      whiteSpace: "pre-line",
-                    }}
-                  >
-                    VISITOR’S End
-                  </small>
-                </Row>
-              </Col>
-            </Row>
-          </Navbar.Brand>
-        </Container>
+        <Navbar.Brand href="#home">
+          {" "}
+          <Row style={{ paddingLeft: 140 }}>
+            <Col style={{ paddingRight: 0 }}>
+              <img
+                alt=""
+                src="navbarLogo.png"
+                width="44.83"
+                height="35"
+                className="d-inline-block align-top"
+                //   style={{ paddingTop: 9.9 }}
+              />
+            </Col>
+            <Col>
+              <Row>
+                <small
+                  style={{
+                    fontFamily: "HelveticaNeue-CondensedBold",
+                    color: "#6F6B6D",
+                    fontSize: 14,
+                    lineHeight: 0.8,
+                    paddingTop: 12,
+                    paddingLeft: 0,
+                    width: 74,
+                    whiteSpace: "pre-line",
+                  }}
+                >
+                  VISITOR’S End
+                </small>
+              </Row>
+            </Col>
+          </Row>
+        </Navbar.Brand>
       </Navbar>
     </>
   );

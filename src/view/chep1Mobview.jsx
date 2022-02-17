@@ -156,12 +156,18 @@ const ChepOneCardMobView = () => {
       </Row>
       <Row
         className="chepOneCardTwo"
-        style={{ marginRight: 0, padding: 5, marginLeft: 3, marginTop: 17 }}
+        style={{
+          marginRight: 2,
+          padding: 5,
+          marginLeft: 3,
+          marginTop: 17,
+        }}
       >
         <Row
           style={{
             color: "white",
-            fontFamily: "Stardos Stencil",
+            fontFamily: "HelveticaNeue",
+            fontWeight: "bold",
             fontSize: 18,
             width: 56,
             paddingRight: 0,
@@ -169,24 +175,24 @@ const ChepOneCardMobView = () => {
             marginTop: 19.5,
           }}
         >
-          <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/01</p>
+          <p style={{ marginBottom: 0, paddingLeft: 20 }}>01/01</p>
           <Image
             src="./images/chep1/divider.png"
             fluid
-            style={{ height: "5px", padding: 0, marginLeft: 30 }}
+            style={{ height: "5px", padding: 0, marginLeft: 20 }}
           ></Image>
         </Row>
         <Row>
           <Image
             src="./images/forwardArrowBlack.svg"
-            style={{ width: 28, marginLeft: 30, padding: 0, marginTop: 200 }}
+            style={{ width: 28, marginLeft: 20, padding: 0, marginTop: 200 }}
           />{" "}
         </Row>
         <Row>
           <Row>
             <p
               style={{
-                marginLeft: 30,
+                marginLeft: 20,
                 padding: 0,
                 color: "white",
                 marginTop: 4,
@@ -201,7 +207,7 @@ const ChepOneCardMobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 30,
+                marginLeft: 20,
                 padding: 0,
                 color: "#20C5F7",
                 marginTop: 3,
@@ -219,7 +225,7 @@ const ChepOneCardMobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 30,
+                marginLeft: 20,
                 padding: 0,
                 color: "White",
                 marginTop: 4,
@@ -235,7 +241,7 @@ const ChepOneCardMobView = () => {
         <Row
           style={{
             marginTop: 15.4,
-            marginLeft: 30,
+            marginLeft: 20,
             marginRight: 0,
             width: "85%",
           }}
@@ -272,12 +278,12 @@ const ChepOneCardMobView = () => {
                 color: "white",
                 marginBottom: 0,
                 paddingLeft: 0,
+                width: 295.33,
               }}
             >
-              In 1964, at FIFA’s Tokyo congress, Argentina was <br /> awarded
-              the hosting rights to the 1978 World Cup. <br />
-              To host the football tournament was the highest
-              <br /> honor in all of sports.
+              In 1964, at FIFA’s Tokyo congress, Argentina was awarded the
+              hosting rights to the 1978 World Cup. To host the football
+              tournament was the highest honor in all of sports.
             </p>
           </Row>
           <Row style={{ padding: 0, marginTop: 5 }}>
@@ -340,7 +346,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "HelveticaNeue",
+                  fontWeight: "bold",
                   fontSize: 18,
                   width: 43,
                   paddingRight: 0,
@@ -417,7 +424,7 @@ const ChepOneCardMobView = () => {
             className="chep1part3Stripe"
             style={{ top: "55px", left: "-23px" }}
           >
-            <Image src="vertical_stripe.png" style={{ height: "400px" }} />
+          <Image src="vertical_stripe.png" style={{ height: "400px" }} />
           </div> */}
         <Container style={{ paddingLeft: 0, paddingRight: 0 }}>
           <div>
@@ -569,7 +576,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "HelveticaNeue",
+                  fontWeight: "bold",
                   fontSize: 18,
                   width: 56,
                   paddingRight: 0,
@@ -602,7 +610,7 @@ const ChepOneCardMobView = () => {
               <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
-                    <Image fluid src="./images/chep1/cardThreeOne.png" />
+                    <Image fluid src="./images/chep1/cardThreeOne.jpg" />
                   </Row>
                   <Row>
                     <Image
@@ -637,14 +645,14 @@ const ChepOneCardMobView = () => {
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "#20C5F7",
                         fontSize: "14px",
+                        width: "221px",
                       }}
                     >
                       (August 2, 1925–May 17, 2013) was a General Commander of
-                      the <br />
-                      Army, member of the military junta, and dictator of
-                      Argentina from <br /> 1976 to 1981. <br /> On December 22,
-                      2010, Videla was sentenced to life in a civilian <br />{" "}
-                      prison for the deaths of 31 prisoners following his coup.
+                      the Army, member of the military junta, and dictator of
+                      Argentina from 1976 to 1981. On December 22, 2010, Videla
+                      was sentenced to life in a civilian prison for the deaths
+                      of 31 prisoners following his coup.
                     </p>
                   </Row>
                   <Row
@@ -657,18 +665,19 @@ const ChepOneCardMobView = () => {
                   >
                     <Col
                       sm={2}
-                      xs={10}
+                      xs={2}
                       style={{
                         width: 50,
-                        paddingLeft: 0,
-                        textAlign: "right",
+                        // paddingLeft: 0,
+                        textAlign: "left",
                       }}
                     >
                       <a role="button">
                         <Image
                           src="./images/btnImage.svg"
                           style={{
-                            paddingLeft: 0,
+                            // paddingLeft: 0,
+                            marginTop: 12,
                             width: "100%",
                           }}
                           fluid
@@ -680,21 +689,28 @@ const ChepOneCardMobView = () => {
                       xs={10}
                       style={{
                         fontFamily: "Helvetica Neue",
-                        fontSize: 15,
+                        fontSize: 12,
                         float: "left",
+                        fontWeight: "bold",
                         color: "white",
                         textAlign: "left",
                         paddingTop: 8,
                         paddingLeft: 0,
+                        paddingRight: 0,
+                        width: 113,
                       }}
                     >
                       Profile Of <br /> Jorge Rafael Videla
                     </Col>
                   </Row>
                 </Col>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
-                    <Image fluid src="./images/chep1/cardThreeTwo.png" />
+                    <Image fluid src="./images/chep1/cardThreeTwo.jpg" />
                   </Row>
                   <Row>
                     {" "}
@@ -731,26 +747,41 @@ const ChepOneCardMobView = () => {
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "#20C5F7",
                         fontSize: "14px",
+                        marginBottom: 0,
+                        width: 279,
                       }}
                     >
                       (October 19, 1925–November 8, 2010) was a General
-                      Commander of
-                      <br /> the Army, member of the military junta, and
-                      dictator of Argentina from <br /> 1976 to 1981. <br /> On
-                      December 22, 2010, Videla was sentenced to life in a
-                      civilian <br />
-                      prison for <br />
-                      the deaths of 31 prisoners following his coup.
+                      Commander of the Army, member of the military junta, and
+                      dictator of Argentina from 1976 to 1981. On December 22,
+                      2010, Videla was sentenced to life in a civilian prison
+                      for the deaths of 31 prisoners following his coup.
                     </p>
                   </Row>
-                  <Row style={{ marginTop: 5 }}>
-                    {" "}
-                    <Col lg={2} style={{ width: 50, textAlign: "right" }}>
+
+                  <Row
+                    style={{
+                      paddingLeft: 0,
+
+                      paddingTop: 0,
+                      marginTop: 5,
+                    }}
+                  >
+                    <Col
+                      sm={2}
+                      xs={2}
+                      style={{
+                        width: 50,
+                        // paddingLeft: 0,
+                        textAlign: "left",
+                      }}
+                    >
                       <a role="button">
                         <Image
                           src="./images/btnImage.svg"
                           style={{
-                            paddingLeft: 0,
+                            // paddingLeft: 0,
+                            marginTop: 20,
                             width: "100%",
                           }}
                           fluid
@@ -758,33 +789,34 @@ const ChepOneCardMobView = () => {
                       </a>
                     </Col>
                     <Col
-                      lg={10}
+                      sm={10}
+                      xs={10}
                       style={{
                         fontFamily: "Helvetica Neue",
-                        fontSize: 15,
+                        fontSize: 12,
                         float: "left",
+                        fontWeight: "bold",
                         color: "white",
                         textAlign: "left",
-                        paddingTop: 5,
+                        paddingTop: 8,
                         paddingLeft: 0,
+                        paddingRight: 0,
                       }}
                     >
-                      Profile Of <br /> Emilio Eduardo Massera
+                      Profile Of
+                      <br /> Emilio Eduardo Massera
                     </Col>
                   </Row>
                 </Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item>{/* scecond */}</Carousel.Item>
-            <Carousel.Item>{/* third */}</Carousel.Item>
+            <Carousel.Item>third</Carousel.Item>
           </Carousel>
         </Card.Body>
       </Card>
 
       {/* -------------------------------------card-Five---------------------------- */}
-      <div className="imgeHolder">
-        <Image src="./images/vertical_stripe.svg" style={{ width: "100%" }} />
-      </div>
+      <div className="imgeHolder"></div>
       <div className="chep1part5Container">
         <div className="forPosition2" style={{ position: "relative" }}>
           <div className="chep1part5Image"></div>
@@ -808,7 +840,16 @@ const ChepOneCardMobView = () => {
                   marginTop: 19.5,
                 }}
               >
-                <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/04</p>
+                <p
+                  style={{
+                    marginBottom: 0,
+                    paddingLeft: 30,
+                    fontFamily: "HelveticaNeue",
+                    fontWeight: "bold",
+                  }}
+                >
+                  01/04
+                </p>
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
@@ -833,7 +874,7 @@ const ChepOneCardMobView = () => {
                 src="./horizontal_stripe.png"
                 style={{
                   width: 166,
-                  height: 10.14,
+                  height: 9.47,
                   marginLeft: 18,
                   marginTop: -10,
                 }}
@@ -885,8 +926,8 @@ const ChepOneCardMobView = () => {
                     paddingRight: 31.7,
                     fontSize: 12,
                     marginBottom: 0,
-                    fontFamily: "Helvetica Neue",
-                    fontWeight: "bold",
+                    fontFamily: "HelveticaNeue-CondensedBold",
+
                     textAlign: "left",
                     color: "white",
                   }}
@@ -898,8 +939,8 @@ const ChepOneCardMobView = () => {
                     color: "white",
                     paddingLeft: 20,
                     fontSize: 12,
-                    fontFamily: "Helvetica Neue",
-                    fontWeight: "bold",
+                    fontFamily: "HelveticaNeue-CondensedBold",
+
                     textAlign: "left",
                     color: "#20C5F7",
                   }}
@@ -1000,7 +1041,7 @@ const ChepOneCardMobView = () => {
             {" "}
             <Row style={{ marginLeft: 30, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
-                <Image src="./images/chep1/Book2.png" fluid />
+                <Image src="./images/chep1/Book2.jpg" fluid />
               </Col>
               <Col style={{ padding: "0px", marginTop: 25 }}>
                 <Row
@@ -1008,9 +1049,9 @@ const ChepOneCardMobView = () => {
                     color: "White",
                     textAlign: "left",
                     fontFamily: "Helvetica Neue",
-                    fontSize: 16,
+                    fontSize: 11,
+                    paddingTop: 0,
                     fontWeight: "bold",
-                    paddingTop: "20px",
                   }}
                 >
                   The Ideological Origins
@@ -1034,7 +1075,7 @@ const ChepOneCardMobView = () => {
                         xs={9}
                         style={{
                           fontFamily: "Helvetica Neue",
-                          fontSize: 16,
+                          fontSize: 11,
                           fontWeight: "bold",
                           float: "left",
                           color: "white",
@@ -1055,7 +1096,7 @@ const ChepOneCardMobView = () => {
             {" "}
             <Row style={{ marginLeft: 30, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
-                <Image src="./images/chep1/Book1.png" fluid />
+                <Image src="./images/chep1/Book1.jpg" fluid />
               </Col>
               <Col style={{ padding: "0px", marginTop: 25 }}>
                 <Row
@@ -1063,7 +1104,8 @@ const ChepOneCardMobView = () => {
                     color: "White",
                     textAlign: "left",
                     fontFamily: "Helvetica Neue",
-                    fontSize: 16,
+                    fontSize: 11,
+                    paddingTop: 0,
                     fontWeight: "bold",
                   }}
                 >
@@ -1087,7 +1129,7 @@ const ChepOneCardMobView = () => {
                         xs={9}
                         style={{
                           fontFamily: "Helvetica Neue",
-                          fontSize: 16,
+                          fontSize: 11,
                           fontWeight: "bold",
                           float: "left",
                           color: "white",
@@ -1107,7 +1149,7 @@ const ChepOneCardMobView = () => {
           <Row>
             <Row style={{ marginLeft: 30, marginBottom: 77 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
-                <Image src="./images/chep1/Book3.png" fluid />
+                <Image src="./images/chep1/Book3.jpg" fluid />
               </Col>
               <Col style={{ padding: "0px", marginTop: 25 }}>
                 <Row
@@ -1115,7 +1157,7 @@ const ChepOneCardMobView = () => {
                     color: "White",
                     textAlign: "left",
                     fontFamily: "Helvetica Neue",
-                    fontSize: 16,
+                    fontSize: 11,
                     fontWeight: "bold",
                     paddingTop: "20px",
                   }}
@@ -1142,7 +1184,7 @@ const ChepOneCardMobView = () => {
                         xs={9}
                         style={{
                           fontFamily: "Helvetica Neue",
-                          fontSize: 16,
+                          fontSize: 11,
                           fontWeight: "bold",
                           float: "left",
                           color: "white",
@@ -1178,14 +1220,23 @@ const ChepOneCardMobView = () => {
                 style={{
                   color: "white",
                   fontFamily: "Stardos Stencil",
-                  fontSize: 18,
+                  fontSize: 14,
                   width: 40,
                   paddingRight: 0,
                   marginBottom: 15,
                   marginTop: 19.5,
                 }}
               >
-                <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/05</p>
+                <p
+                  style={{
+                    marginBottom: 0,
+                    paddingLeft: 30,
+                    fontFamily: "HelveticaNeue",
+                    fontWeight: "bold",
+                  }}
+                >
+                  01/05
+                </p>
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
@@ -1234,7 +1285,7 @@ const ChepOneCardMobView = () => {
                 textAlign: "left",
                 paddingLeft: 30,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontWeight: "bold",
                 marginBottom: 0,
               }}
@@ -1246,7 +1297,7 @@ const ChepOneCardMobView = () => {
                 color: "white",
                 paddingLeft: 30,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontWeight: "bold",
                 textAlign: "left",
                 color: "#20C5F7",
@@ -1262,7 +1313,7 @@ const ChepOneCardMobView = () => {
                 color: "white",
                 paddingLeft: 30,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontWeight: "bold",
                 textAlign: "left",
                 color: "#20C5F7",
@@ -1281,7 +1332,7 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 marginBottom: 10,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontWeight: "bold",
                 textAlign: "left",
               }}
@@ -1296,7 +1347,7 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 paddingBottom: 30,
                 fontSize: 12,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontWeight: "bold",
                 textAlign: "left",
               }}
@@ -1314,7 +1365,7 @@ const ChepOneCardMobView = () => {
         src="./images/chep1/vertical_stripe.svg"
         style={{
           height: "413px",
-          // paddingLeft: "10px",
+
           position: "absolute",
           top: 5574,
           left: 0,
@@ -1344,17 +1395,18 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "white",
                     fontFamily: "Stardos Stencil",
-                    fontSize: 18,
+                    fontWeight: "bold",
+                    fontSize: 14,
                     width: 56,
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
                 >
-                  06/06
+                  0/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
-                    style={{ height: "5px", padding: 0 }}
+                    style={{ height: "5px", padding: 0, width: 35 }}
                   ></Image>
                 </Row>
                 <Col
@@ -1372,7 +1424,8 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "white",
                     fontFamily: "Stardos Stencil",
-                    fontSize: 40,
+                    fontSize: 30,
+                    fontWeight: "bold",
                     lineHeight: 0.9,
                     paddingBottom: 5,
                   }}
@@ -1381,7 +1434,7 @@ const ChepOneCardMobView = () => {
                   OF THE <br />
                   PLAZA DE MAYO
                 </Row>
-                <Row style={{ width: 332, height: 15 }}>
+                <Row style={{ width: 231, height: 14 }}>
                   <Image
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "3px", width: "100%" }}
@@ -1390,7 +1443,13 @@ const ChepOneCardMobView = () => {
                 </Row>
               </Row>
               <div className="cardBody">
-                <Row style={{ padding: "118px 0px", textAlign: "center" }}>
+                <Row
+                  style={{
+                    padding: "112.8px 0px",
+                    textAlign: "center",
+                    margin: "auto 0px",
+                  }}
+                >
                   <a role="button">
                     <img src="./images/chep1/YoutubeCard.svg" alt="" />
                   </a>
@@ -1412,8 +1471,8 @@ const ChepOneCardMobView = () => {
                     paddingRight: 31.7,
                     fontSize: 12,
                     marginBottom: 0,
-                    fontFamily: "Helvetica Neue",
-                    fontWeight: "bold",
+                    fontFamily: "HelveticaNeue-CondensedBold",
+
                     textAlign: "left",
                     color: "white",
                   }}
@@ -1426,8 +1485,8 @@ const ChepOneCardMobView = () => {
                     paddingLeft: 20,
                     marginBottom: 0,
                     fontSize: 12,
-                    fontFamily: "Helvetica Neue",
-                    fontWeight: "bold",
+                    fontFamily: "HelveticaNeue-CondensedBold",
+                    width: 290,
                     textAlign: "left",
                     color: "#20C5F7",
                   }}
@@ -1444,6 +1503,7 @@ const ChepOneCardMobView = () => {
                   color: "white",
                   paddingLeft: 20,
                   fontSize: 12,
+                  width: 342,
                   fontFamily: "Helvetica Neue",
                   fontWeight: "bold",
                   textAlign: "left",
@@ -1453,7 +1513,6 @@ const ChepOneCardMobView = () => {
                 dozen other mothers walked to the Plaza de Mayo in <br />
                 Argentina’s capital city. These women shared the
                 <br /> experience of each having had at least one child who had{" "}
-                <br />
                 been taken by the military government.
               </p>
               <p
@@ -1463,13 +1522,13 @@ const ChepOneCardMobView = () => {
                   fontSize: 12,
                   fontFamily: "Helvetica Neue",
                   fontWeight: "bold",
+                  width: 342,
                   textAlign: "left",
                 }}
               >
-                At great risk to themselves, the mothers made the simple
-                <br /> protest of walking to the Plaza De Mayo with pictures of{" "}
-                <br />
-                their missing adult children.
+                At great risk to themselves, the mothers made the simple protest
+                of walking to the Plaza De Mayo with pictures of their missing
+                adult children.
               </p>
               <p
                 style={{
@@ -1480,22 +1539,22 @@ const ChepOneCardMobView = () => {
                   fontFamily: "Helvetica Neue",
                   fontWeight: "bold",
                   textAlign: "left",
+                  width: 342,
                   marginBottom: 0,
                 }}
               >
-                The mothers created a simple visual sign of their solidarity{" "}
-                <br />
-                by each wearing a headscarf with the name of their <br />
-                “disappeared” loved one.
+                The mothers created a simple visual sign of their solidarity by
+                each wearing a headscarf with the name of their “disappeared”
+                loved one.
               </p>
               <Row style={{ margin: "auto" }}>
-                <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
+                <Col sm={4} xs={4} style={{ width: 60, textAlign: "right" }}>
                   <a role="button">
                     <Image
                       src="./images/btnImage.svg"
                       style={{
                         paddingLeft: 0,
-                        marginLeft: 20,
+                        marginLeft: 8,
                       }}
                       fluid
                     />
@@ -1506,7 +1565,7 @@ const ChepOneCardMobView = () => {
                   sm={7}
                   style={{
                     paddingLeft: 0,
-                    marginLeft: 20,
+                    marginLeft: 8,
                     color: "white",
                     textAlign: "left",
                     marginTop: 0,
@@ -1523,57 +1582,50 @@ const ChepOneCardMobView = () => {
             </div>
           </Container>
         </div>
-      </div>
-      <Image
-        fluid
-        src="./images/chep1/vertical_stripe.svg"
-        style={{
-          height: "400px",
-          // paddingLeft: "10px",
-          position: "absolute",
-          top: 6151,
-          right: 0,
-        }}
-      />
-      <div className="chepFooter1" style={{ marginBottom: 0 }}>
-        <Row
+        <Image
+          fluid
+          src="./images/chep1/vertical_stripe.svg"
           style={{
-            marginRight: 0,
-            textAlign: "left",
-            height: 70,
-            width: 385,
-            paddingRight: 0,
-
-            paddingTop: 10,
+            height: "400px",
+            // paddingLeft: "10px",
+            position: "absolute",
+            top: 6000,
+            right: 0,
           }}
-        >
+        />
+      </div>
+      {/* ----------------Footer------------------------------ */}
+      <div className="chepFooter1">
+        <Row style={{ marginRight: 0, marginLeft: 0, padding: "5px" }}>
           <Col
+            sm={10}
+            xs={10}
             style={{
-              textAlign: "center",
-              padding: 0,
-              marginLeft: 150,
-              paddingTop: 8,
+              textAlign: "right",
+              padding: " 0px",
               color: "white",
               fontFamily: "Stardos Stencil",
+              fontSize: "24px",
             }}
           >
             {" "}
             <h3
               style={{
-                fontSize: "14px",
+                textAlign: "left",
                 marginBottom: 0,
+                marginLeft: "155px",
+                fontSize: 12,
               }}
             >
-              CHAPTER TWO:
-              <br /> MATTERS ON THE PITCH
+              CHAPTER TWO: <br /> MATTERS ON THE PITCH
             </h3>{" "}
           </Col>
-          <Col sm={2} xs={2} style={{ padding: "6px 6px 6px 0px" }}>
+          <Col sm={2} xs={2} style={{ textAlign: "left", padding: "0px" }}>
             <a role="button">
               <Image
                 src="./images/chep1/forwardArrow.svg"
+                style={{ width: 31.21, height: 31.21 }}
                 alt=""
-                style={{ marginTop: 5 }}
               />
             </a>
           </Col>

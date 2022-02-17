@@ -4,10 +4,8 @@
 }
 .chepOneCardTwo {
   background-image: url("../../public/images/chep1/chepOneCard1.png");
-  /* background-size: contain; */
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 350px;
-  margin-left: 3px;
 }
 .chep1BannerContainer {
   background-color: black;
@@ -73,7 +71,7 @@
   height: 272px;
   position: relative;
   background-repeat: no-repeat;
-  background-image: url("../../public/images/chep1/soldier_protestors.png");
+  background-image: url("../../public/images/chep1/soldier_protestors.jpg");
 }
 .chep1part3Stripe {
   position: absolute;
@@ -104,6 +102,11 @@
   padding-left: 0;
   height: 25;
 }
+.imgeHolder {
+  background-image: url("../../public/images/vertical_stripe.svg");
+  background-size: cover;
+  height: 14.7;
+}
 .chep1part5Container {
   background-color: black;
   text-align: center;
@@ -112,7 +115,7 @@
   height: 779px;
   position: relative;
   /* background-size: ; */
-  background-image: url("../../public/images/chep1/chepOnePartFive.png");
+  background-image: url("../../public/images/chep1/chepOnePartFive.jpg");
 }
 .chep1part5Stripe {
   position: absolute;
@@ -139,7 +142,7 @@
   position: relative;
   /* background-size: ; */
   background-repeat: no-repeat;
-  background-image: url("../../public/images/chep1/Ch1_414_01_05.png");
+  background-image: url("../../public/images/chep1/Ch1_414_01_05.jpg");
 }
 .chep1part6Stripe {
   position: absolute;
@@ -163,11 +166,11 @@
   text-align: center;
 }
 .forPosition4 {
-  height: 950px;
-  position: relative;
+  height: 934px;
+
   /* background-size: ; */
   background-repeat: no-repeat;
-  background-image: url("../../public/images/chep1/lastCard.png");
+  background-image: url("../../public/images/chep1/lastCard.jpg");
 }
 .chep1part7Stripe {
   position: absolute;
@@ -180,4 +183,9 @@
   /* width: 440px;
   height: 383px; */
   color: white;
+}
+.chepFooter1 {
+  background-image: url("../../public/images/onthepitch.png");
+  background-size: cover;
+  /* height: 77; */
 }

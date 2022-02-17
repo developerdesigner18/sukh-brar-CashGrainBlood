@@ -836,7 +836,7 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book1.png" fluid />
+                  <Image src="./images/chep1/Book2.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
@@ -855,18 +855,23 @@ const ChepOneCard = () => {
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
-                          lg={3}
-                          style={{ textAlign: "left", paddingLeft: 0 }}
+                          lg={2}
+                          style={{
+                            textAlign: "left",
+                            paddingLeft: 0,
+                            paddingRight: 0,
+                          }}
                         >
                           <a role="button">
                             <Image
                               src="./images/btnImage.svg"
-                              style={{}}
+                              style={{ width: 30 }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
+                          lg={10}
                           style={{
                             fontFamily: "Helvetica Neue",
                             fontSize: 16,
@@ -875,6 +880,7 @@ const ChepOneCard = () => {
                             color: "white",
                             textAlign: "left",
                             paddingTop: 5,
+
                             paddingLeft: 0,
                           }}
                         >
@@ -889,7 +895,7 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book2.png" fluid />
+                  <Image src="./images/chep1/Book1.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
@@ -910,18 +916,19 @@ const ChepOneCard = () => {
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
-                          lg={3}
+                          lg={2}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
                           <a role="button">
                             <Image
                               src="./images/btnImage.svg"
-                              style={{}}
+                              style={{ width: 30 }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
+                          lg={10}
                           style={{
                             fontFamily: "Helvetica Neue",
                             fontSize: 16,
@@ -944,7 +951,7 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book3.png" fluid />
+                  <Image src="./images/chep1/Book3.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
@@ -966,18 +973,19 @@ const ChepOneCard = () => {
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
-                          lg={3}
+                          lg={2}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
                           <a role="button">
                             <Image
                               src="./images/btnImage.svg"
-                              style={{}}
+                              style={{ width: 30 }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
+                          lg={10}
                           style={{
                             fontFamily: "Helvetica Neue",
                             fontSize: 16,

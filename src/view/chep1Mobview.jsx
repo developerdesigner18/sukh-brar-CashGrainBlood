@@ -40,12 +40,13 @@ const ChepOneCardMobView = () => {
                   textAlign: "center",
                   border: "1px solid #20B5F7",
                   background: "#20B5F7",
-                  paddingTop: 4,
+
                   width: 76,
-                  height: 20,
+                  paddingTop: 2,
+                  height: 17,
                 }}
               >
-                Chapter 1
+                CHAPTER 1
               </h1>
               <small
                 style={{
@@ -75,13 +76,21 @@ const ChepOneCardMobView = () => {
           </Container>
         </div>
       </div>
-      <Row className="chepOneCardOne" style={{ margin: "auto 0px" }}>
-        <Row style={{ margin: "0px auto", marginTop: 50 }}>
+      <Row
+        className="chepOneCardOne"
+        style={{ paddingLeft: 5, marginRight: 0 }}
+      >
+        <Row style={{ margin: "0px auto", marginTop: 40 }}>
           <Col xs={5} sm={5} style={{ textAlign: "right" }}>
-            <Image src="./images/chep1/admiral.png" fluid width={"100%"} />
+            <Image
+              src="./images/chep1/admiral.png"
+              fluid
+              width={"100%"}
+              style={{ marginTop: -15 }}
+            />
           </Col>
           <Col>
-            <Row xs={7} sm={7}>
+            <Row xs={6} sm={6}>
               <Image
                 src="./images/imgArrow.svg"
                 style={{ width: 20.75, height: 13.14, padding: 0 }}
@@ -95,6 +104,7 @@ const ChepOneCardMobView = () => {
                   fontSize: 12,
                   textAlign: "left",
                   padding: 0,
+
                   color: "white",
                   marginBottom: 0,
                 }}
@@ -645,7 +655,7 @@ const ChepOneCardMobView = () => {
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "#20C5F7",
                         fontSize: "14px",
-                        width: "221px",
+                        width: "279px",
                       }}
                     >
                       (August 2, 1925–May 17, 2013) was a General Commander of
@@ -658,9 +668,6 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
-
-                      paddingTop: 10,
-                      marginTop: 5,
                     }}
                   >
                     <Col
@@ -677,7 +684,7 @@ const ChepOneCardMobView = () => {
                           src="./images/btnImage.svg"
                           style={{
                             // paddingLeft: 0,
-                            marginTop: 12,
+                            marginTop: 11,
                             width: "100%",
                           }}
                           fluid
@@ -781,7 +788,7 @@ const ChepOneCardMobView = () => {
                           src="./images/btnImage.svg"
                           style={{
                             // paddingLeft: 0,
-                            marginTop: 20,
+                            marginTop: 11,
                             width: "100%",
                           }}
                           fluid
@@ -810,7 +817,115 @@ const ChepOneCardMobView = () => {
                 </Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item>third</Carousel.Item>
+            {/* <Carousel.Item>third</Carousel.Item> */}
+            <Carousel.Item>
+              <Row style={{ textAlign: "center", marginLeft: 10 }}>
+                <Col>
+                  <Row>
+                    <Image
+                      fluid
+                      src="./images/chep1/chapterThreeThree.png"
+                      style={{ height: 239 }}
+                    />
+                  </Row>
+                  <Row>
+                    {" "}
+                    <Image
+                      fluid
+                      src="./images/chep1/upArrow.svg"
+                      style={{
+                        width: 26.96,
+                        height: 17.41,
+                        padding: 0,
+                        marginTop: 15,
+                        marginLeft: 3,
+                      }}
+                    />
+                  </Row>
+                  <Row>
+                    {" "}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        marginTop: 10,
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "white",
+                        fontWeight: "bold",
+                        fontSize: "14px",
+                        marginBottom: "5px",
+                      }}
+                    >
+                      Orlando Ramón Agosti
+                    </p>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontFamily: "HelveticaNeue-CondensedBold",
+                        color: "#20C5F7",
+                        fontSize: "14px",
+                        marginBottom: 0,
+                        width: 279,
+                      }}
+                    >
+                      (August 22, 1924–October 6, 1997) was an Argentine
+                      general, and Commander-in-Chief of the Argentine Air Force
+                      from 1976 to 1979. With General Jorge Rafael Videla, he
+                      ruled Argentina as part of the military junta between 1976
+                      and 1981.
+                    </p>
+                  </Row>
+
+                  <Row
+                    style={{
+                      paddingLeft: 0,
+
+                      paddingTop: 0,
+                      marginTop: 5,
+                    }}
+                  >
+                    <Col
+                      sm={2}
+                      xs={2}
+                      style={{
+                        width: 50,
+                        // paddingLeft: 0,
+                        textAlign: "left",
+                      }}
+                    >
+                      <a role="button">
+                        <Image
+                          src="./images/btnImage.svg"
+                          style={{
+                            // paddingLeft: 0,
+                            marginTop: 11,
+                            width: "100%",
+                          }}
+                          fluid
+                        />
+                      </a>
+                    </Col>
+                    <Col
+                      sm={10}
+                      xs={10}
+                      style={{
+                        fontFamily: "Helvetica Neue",
+                        fontSize: 12,
+                        float: "left",
+                        fontWeight: "bold",
+                        color: "white",
+                        textAlign: "left",
+                        paddingTop: 8,
+                        paddingLeft: 0,
+                        paddingRight: 0,
+                      }}
+                    >
+                      Profile Of
+                      <br /> Orlando Ramón Agosti
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Carousel.Item>
           </Carousel>
         </Card.Body>
       </Card>
@@ -1596,7 +1711,9 @@ const ChepOneCardMobView = () => {
       </div>
       {/* ----------------Footer------------------------------ */}
       <div className="chepFooter1">
-        <Row style={{ marginRight: 0, marginLeft: 0, padding: "5px" }}>
+        <Row
+          style={{ marginRight: 0, marginLeft: 5, padding: "5px", height: 77 }}
+        >
           <Col
             sm={10}
             xs={10}
@@ -1605,7 +1722,8 @@ const ChepOneCardMobView = () => {
               padding: " 0px",
               color: "white",
               fontFamily: "Stardos Stencil",
-              fontSize: "24px",
+
+              marginTop: 21,
             }}
           >
             {" "}
@@ -1614,17 +1732,25 @@ const ChepOneCardMobView = () => {
                 textAlign: "left",
                 marginBottom: 0,
                 marginLeft: "155px",
-                fontSize: 12,
+                fontSize: 14,
               }}
             >
               CHAPTER TWO: <br /> MATTERS ON THE PITCH
             </h3>{" "}
           </Col>
-          <Col sm={2} xs={2} style={{ textAlign: "left", padding: "0px" }}>
+          <Col
+            sm={2}
+            xs={2}
+            style={{
+              textAlign: "left",
+              padding: "0px",
+              marginTop: 20,
+            }}
+          >
             <a role="button">
               <Image
                 src="./images/chep1/forwardArrow.svg"
-                style={{ width: 31.21, height: 31.21 }}
+                style={{ width: 31.21, height: 31.21, marginLeft: 8 }}
                 alt=""
               />
             </a>

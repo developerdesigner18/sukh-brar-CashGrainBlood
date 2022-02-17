@@ -30,10 +30,11 @@ const CardComponent = () => {
                   fontWeight: "bold",
                   fontSize: "12px",
                   textAlign: "center",
-                  border: "1px solid #20B5F7",
+
                   background: "#20B5F7",
                   width: 76,
-                  paddingTop: 6,
+                  paddingTop: 2,
+                  height: 17,
                 }}
                 onClick={() => {
                   navigate("/chepOne");

@@ -18,8 +18,8 @@ const HomePageMob = () => {
             style={{
               background: "#20C5F7",
               paddingLeft: 35,
-              paddingTop: 15,
-              height: 50,
+              paddingTop: 7,
+              height: 34,
               paddingBottom: 5,
               fontFamily: "Stardos Stencil",
               fontWeight: "bold",
@@ -34,16 +34,19 @@ const HomePageMob = () => {
             sm={4}
             md={4}
             xs={4}
-            style={{ paddingRight: 0, paddingLeft: 0 }}
+            style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
           >
             <Button
               style={{
-                width: "100%",
                 background: "#F78320",
-                border: "1px solid #F78320",
+                border: "2px solid #F78320",
                 borderBottomLeftRadius: 9,
-                borderTopLeftRadius: 9,
-                height: 50,
+                fontFamily: "Helvetica Neue",
+                paddingLeft: 12,
+                width: 126,
+                fontSize: 14,
+                paddingTop: 6,
+                height: 34,
               }}
             >
               CHAPTERS
@@ -90,7 +93,7 @@ const HomePageMob = () => {
               >
                 Before a ball was kicked, domestic politics, <br /> the
                 repression of civilians and the military <br /> junta’s
-                ambitions cast a long shadow over
+                ambitions cast a long shadow over <br></br> the 1978 World Cup.
               </p>
               <a href="#" style={{ textAlign: "left", marginRight: 195 }}>
                 <Image src="./images/Group 514.svg"></Image>

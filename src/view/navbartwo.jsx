@@ -12,7 +12,7 @@ const Navbar_title = () => {
           height: "48px",
         }}
       >
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           {" "}
           <Row>
             <Col style={{ paddingRight: 0 }}>

@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* @font-face {
+  font-family: StardosBold;
+  src: url("../public/Stardos_Stencil_Font/StardosStencil-Bold.ttf")
+    format("truetype");
+} */

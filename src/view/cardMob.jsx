@@ -15,7 +15,12 @@ const CardComponent = () => {
         style={{ marginTop: 15 }}
       >
         <div className="bannerContainer1">
-          <div className="cardBannerImage1">
+          <div
+            className="cardBannerImage1"
+            onClick={() => {
+              navigate("/chepOne");
+            }}
+          >
             <Image src={data.chepImage} style={{ width: "100%" }} />
           </div>
           <Container>
@@ -35,9 +40,6 @@ const CardComponent = () => {
                   width: 76,
                   paddingTop: 2,
                   height: 17,
-                }}
-                onClick={() => {
-                  navigate("/chepOne");
                 }}
               >
                 {data.ChepMob}

@@ -12,20 +12,70 @@ import "./chep1MobView.css";
 const ChepOneCardMobView = () => {
   return (
     <div style={{ position: "relative" }}>
+      <div>
+        <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
+          <Col
+            lg={8}
+            sm={8}
+            md={8}
+            xs={8}
+            style={{
+              background: "#20C5F7",
+              paddingLeft: 35,
+              paddingTop: 7,
+              height: 34,
+              paddingBottom: 5,
+              fontFamily: "Stardos Stencil",
+              fontWeight: "bold",
+              fontSize: 17,
+              color: "white",
+            }}
+          >
+            1: FROM HOST TO JUNTA{" "}
+          </Col>
+          <Col
+            lg={4}
+            sm={4}
+            md={4}
+            xs={4}
+            style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
+          >
+            <Button
+              style={{
+                background: "#F78320",
+                border: "2px solid #F78320",
+                borderBottomLeftRadius: 9,
+                fontFamily: "Helvetica Neue",
+                paddingLeft: 10,
+                width: 124,
+                fontSize: 14,
+                paddingTop: 5,
+                height: 34,
+              }}
+            >
+              CHAPTERS
+              <img src="./images/chep1/arrow.svg" />
+            </Button>
+          </Col>
+        </Row>
+      </div>
       <div className="chep1BannerContainer">
         <div className="bannerContainer">
           <div className="chep1BannerImage"></div>
           <div
             className="chep1BannerStripe"
-            style={{ top: "280px", left: "0px" }}
+            style={{ top: "278px", left: "0px" }}
           >
-            <Image src="vertical_stripe.png" style={{ height: "400px" }} />
+            <Image
+              src="vertical_stripe.png"
+              style={{ height: "413px", marginLeft: -9 }}
+            />
           </div>
           <Container>
             <div
               className="chep1BannerText"
               style={{
-                top: "500px",
+                top: "490px",
                 left: "36px",
                 textAlign: "left",
                 height: 200,
@@ -86,7 +136,7 @@ const ChepOneCardMobView = () => {
               src="./images/chep1/admiral.png"
               fluid
               width={"100%"}
-              style={{ marginTop: -15 }}
+              style={{ marginTop: -22 }}
             />
           </Col>
           <Col>
@@ -121,19 +171,20 @@ const ChepOneCardMobView = () => {
                   textAlign: "left",
                   padding: 0,
                   letterSpacing: 0,
+                  width: 197,
                 }}
               >
-                (19 October 1925 – 8 November <br /> 2010) <br /> Argentine
-                Naval military officer, and <br /> a leading participant in the
-                Argentine <br /> coup d’état of 1976.
+                (19 October 1925 – 8 November 2010) Argentine Naval military
+                officer, and <br />a leading participant in the Argentine coup
+                d’état of 1976.
               </p>
             </Row>
           </Col>
         </Row>
-        <Row>
+        <div style={{ paddingLeft: 0, marginRight: 0 }}>
           <h4
             style={{
-              fontSize: 26,
+              fontSize: 25,
               fontFamily: "Stardos Stencil",
               fontWeight: "bold",
               textAlign: "left",
@@ -146,9 +197,10 @@ const ChepOneCardMobView = () => {
             that{" "}
             <span style={{ color: "#20C5F7" }}>
               {" "}
-              Argentina is a <br /> trustworthy country,
-            </span>{" "}
-            <br /> capable of carrying out <br /> huge projects; and will <br />
+              Argentina is a <br /> trustworthy country
+            </span>
+            , <br /> capable of carrying out <br /> huge projects; and will{" "}
+            <br />
             help push back against the <br />
             criticism that is raining on
             <br /> us from around the world” <br />
@@ -156,13 +208,13 @@ const ChepOneCardMobView = () => {
               style={{
                 color: "#20C5F7",
                 fontFamily: "HelveticaNeue-CondensedBold",
-                tabSize: "16px",
+                fontSize: "16px",
               }}
             >
               - Admiral Emilio Massera
             </span>
           </h4>
-        </Row>
+        </div>
       </Row>
       <Row
         className="chepOneCardTwo"
@@ -178,7 +230,7 @@ const ChepOneCardMobView = () => {
             color: "white",
             fontFamily: "HelveticaNeue",
             fontWeight: "bold",
-            fontSize: 18,
+            fontSize: 15,
             width: 56,
             paddingRight: 0,
             marginBottom: 15,
@@ -319,12 +371,10 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 0,
               }}
             >
-              Argentina was officially chosen as the <br /> host nation by FIFA
-              on 6 July 1966 in
-              <br /> London, England. Mexico withdrew from
-              <br /> the bidding process after having been
-              <br /> awarded the 1970 competition two
-              <br /> years earlier.
+              Argentina was officially chosen as the host nation by FIFA on 6
+              July 1966 in London, England. Mexico withdrew from the bidding
+              process after having been awarded the 1970 competition two years
+              earlier.
             </p>
           </Row>
         </Row>
@@ -582,35 +632,57 @@ const ChepOneCardMobView = () => {
       >
         <Card.Body>
           <Card.Title>
-            <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
+            <Row>
               <Row
                 style={{
                   color: "white",
                   fontFamily: "HelveticaNeue",
                   fontWeight: "bold",
                   fontSize: 18,
-                  width: 56,
+                  width: 152,
                   paddingRight: 0,
-                  marginBottom: 15,
+                  marginBottom: 10,
+                  marginTop: 19.5,
+                  textAlign: "left",
                 }}
               >
-                01/03
+                <p
+                  style={{
+                    marginBottom: 0,
+                    paddingLeft: 34.8,
+                    fontSize: 15,
+                    fontFamily: "Helvetica Neue",
+                    width: 100,
+                  }}
+                >
+                  01/03
+                </p>
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0 }}
+                  style={{
+                    height: "5px",
+                    padding: 0,
+                    marginLeft: 34.8,
+                    width: 45.2,
+                  }}
                 ></Image>
               </Row>
 
-              <Row
+              <h6
                 style={{
-                  color: "white",
                   fontFamily: "Stardos Stencil",
-                  fontSize: 16,
+                  lineHeight: 1.1,
+                  fontWeight: "bold",
+                  fontSize: "16px",
+                  color: "white",
+
+                  marginBottom: 0,
+                  paddingLeft: 36,
                 }}
               >
-                THE “FIRST MILITARY JUNTA”
-              </Row>
+                THE “FIRST MILITARY JUNTA”{" "}
+              </h6>
             </Row>
           </Card.Title>
           <Carousel indicators={false} nextIcon={false} prevIcon={false}>
@@ -639,7 +711,7 @@ const ChepOneCardMobView = () => {
                     <p
                       style={{
                         textAlign: "left",
-                        marginTop: 10,
+                        marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
                         fontWeight: "bold",
@@ -647,7 +719,7 @@ const ChepOneCardMobView = () => {
                         marginBottom: "5px",
                       }}
                     >
-                      Jorge Rafael Videla
+                      JORGE RAFAEL VIDELA
                     </p>
                     <p
                       style={{
@@ -738,7 +810,7 @@ const ChepOneCardMobView = () => {
                     <p
                       style={{
                         textAlign: "left",
-                        marginTop: 10,
+                        marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
                         fontWeight: "bold",
@@ -746,7 +818,7 @@ const ChepOneCardMobView = () => {
                         marginBottom: "5px",
                       }}
                     >
-                      Emilio Eduardo Massera.
+                      EMILIO EDUARDO MASSERA
                     </p>
                     <p
                       style={{
@@ -847,7 +919,7 @@ const ChepOneCardMobView = () => {
                     <p
                       style={{
                         textAlign: "left",
-                        marginTop: 10,
+                        marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
                         fontWeight: "bold",
@@ -855,7 +927,7 @@ const ChepOneCardMobView = () => {
                         marginBottom: "5px",
                       }}
                     >
-                      Orlando Ramón Agosti
+                      ORLANDO RAMON AGOSTI
                     </p>
                     <p
                       style={{
@@ -947,20 +1019,22 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "HelveticaNeue",
+                  fontWeight: "bold",
                   fontSize: 18,
-                  width: 40,
+                  width: 43,
                   paddingRight: 0,
-                  marginBottom: 15,
+                  marginBottom: 10,
                   marginTop: 19.5,
+                  textAlign: "left",
                 }}
               >
                 <p
                   style={{
                     marginBottom: 0,
-                    paddingLeft: 30,
-                    fontFamily: "HelveticaNeue",
-                    fontWeight: "bold",
+                    paddingLeft: 34.8,
+                    fontSize: 15,
+                    fontFamily: "Helvetica Neue",
                   }}
                 >
                   01/04
@@ -968,7 +1042,7 @@ const ChepOneCardMobView = () => {
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0, marginLeft: 30 }}
+                  style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
                 ></Image>
               </Row>
               <h6
@@ -998,7 +1072,7 @@ const ChepOneCardMobView = () => {
                 style={{
                   color: "white",
                   paddingLeft: 20,
-                  paddingTop: 22.8,
+                  paddingTop: 10,
                   fontSize: 12,
                   fontFamily: "Helvetica Neue",
                   fontWeight: "bold",
@@ -1101,9 +1175,7 @@ const ChepOneCardMobView = () => {
       </div>
 
       <Row style={{ marginRight: 0 }}>
-        <div className="chepOneAdHeader1">
-          <Row style={{ marginRight: 0, paddingRight: 0 }}>
-            <Col>
+        {/* <Col>
               {" "}
               <p
                 style={{
@@ -1117,17 +1189,14 @@ const ChepOneCardMobView = () => {
               >
                 BOOK <br /> RECOMMENDATIONS
               </p>
-            </Col>
-            <Col style={{ padding: 0 }}>
-              {" "}
-              <Image
-                src="./images/chep1/amazon.png"
-                fluid
-                style={{ paddingTop: 27, float: "right" }}
-              />{" "}
-            </Col>
-          </Row>
-        </div>
+            </Col> */}
+
+        <Image
+          src="./images/chep1/amazon.jpg"
+          fluid
+          style={{ paddingRight: 0 }}
+        />
+
         <Row
           style={{ marginRight: 0, marginLeft: 0 }}
           className="productContainer"
@@ -1139,9 +1208,9 @@ const ChepOneCardMobView = () => {
                 marginBottom: 3,
                 fontSize: 12,
                 textAlign: "left",
-                lineHeight: 2,
+                lineHeight: 1.5,
                 marginBottom: 26,
-                paddingLeft: 30,
+                paddingLeft: 19,
                 color: "white",
                 fontFamily: "Helvetica Neue",
                 marginTop: 26,
@@ -1154,11 +1223,11 @@ const ChepOneCardMobView = () => {
           </Row>
           <Row>
             {" "}
-            <Row style={{ marginLeft: 30, marginBottom: 30 }}>
+            <Row style={{ marginLeft: 19, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book2.jpg" fluid />
               </Col>
-              <Col style={{ padding: "0px", marginTop: 25 }}>
+              <Col style={{ padding: "0px", marginTop: 60, marginLeft: -45 }}>
                 <Row
                   style={{
                     color: "White",
@@ -1182,7 +1251,7 @@ const ChepOneCardMobView = () => {
                         style={{ textAlign: "left", paddingLeft: 0 }}
                       >
                         <a role="button">
-                          <Image src="./images/btnImage.svg" style={{}} fluid />
+                          <Image src="./images/btnImage.svg" fluid />
                         </a>
                       </Col>
                       <Col
@@ -1195,7 +1264,7 @@ const ChepOneCardMobView = () => {
                           float: "left",
                           color: "white",
                           textAlign: "left",
-                          paddingTop: 5,
+                          paddingTop: 12,
                           paddingLeft: 0,
                         }}
                       >
@@ -1209,11 +1278,11 @@ const ChepOneCardMobView = () => {
           </Row>
           <Row>
             {" "}
-            <Row style={{ marginLeft: 30, marginBottom: 30 }}>
+            <Row style={{ marginLeft: 19, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book1.jpg" fluid />
               </Col>
-              <Col style={{ padding: "0px", marginTop: 25 }}>
+              <Col style={{ padding: "0px", marginTop: 45, marginLeft: -45 }}>
                 <Row
                   style={{
                     color: "White",
@@ -1249,7 +1318,7 @@ const ChepOneCardMobView = () => {
                           float: "left",
                           color: "white",
                           textAlign: "left",
-                          paddingTop: 5,
+                          paddingTop: 12,
                           paddingLeft: 0,
                         }}
                       >
@@ -1262,11 +1331,11 @@ const ChepOneCardMobView = () => {
             </Row>
           </Row>
           <Row>
-            <Row style={{ marginLeft: 30, marginBottom: 77 }}>
+            <Row style={{ marginLeft: 19, marginBottom: 77 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book3.jpg" fluid />
               </Col>
-              <Col style={{ padding: "0px", marginTop: 25 }}>
+              <Col style={{ padding: "0px", marginTop: 45, marginLeft: -45 }}>
                 <Row
                   style={{
                     color: "White",
@@ -1304,7 +1373,7 @@ const ChepOneCardMobView = () => {
                           float: "left",
                           color: "white",
                           textAlign: "left",
-                          paddingTop: 5,
+                          paddingTop: 12,
                           paddingLeft: 0,
                         }}
                       >
@@ -1317,7 +1386,7 @@ const ChepOneCardMobView = () => {
             </Row>
           </Row>
         </Row>
-        <div className="chepOneAdHeader2" style={{ padding: "30px" }}></div>
+        <div className="chepOneAdHeader2" style={{ padding: "15px" }}></div>
       </Row>
       <div className="chep1part6Container">
         <div className="forPosition3" style={{ position: "relative" }}>
@@ -1334,20 +1403,22 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
-                  fontSize: 14,
-                  width: 40,
+                  fontFamily: "HelveticaNeue",
+                  fontWeight: "bold",
+                  fontSize: 18,
+                  width: 43,
                   paddingRight: 0,
-                  marginBottom: 15,
+                  marginBottom: 10,
                   marginTop: 19.5,
+                  textAlign: "left",
                 }}
               >
                 <p
                   style={{
                     marginBottom: 0,
-                    paddingLeft: 30,
-                    fontFamily: "HelveticaNeue",
-                    fontWeight: "bold",
+                    paddingLeft: 34.8,
+                    fontSize: 15,
+                    fontFamily: "Helvetica Neue",
                   }}
                 >
                   01/05
@@ -1355,7 +1426,7 @@ const ChepOneCardMobView = () => {
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0, marginLeft: 30 }}
+                  style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
                 ></Image>
               </Row>
               <h6
@@ -1420,8 +1491,7 @@ const ChepOneCardMobView = () => {
               }}
             >
               Flyers papered on walls around Paris <br />
-              took the official logo of the World Cup,
-              <br /> a pair
+              took the official logo of the World Cup, a pair
             </p>
             <p
               style={{
@@ -1436,8 +1506,7 @@ const ChepOneCardMobView = () => {
               }}
             >
               of stylized upraised arms framing a <br />
-              soccer ball, and added grim-looking
-              <br /> barbed wire.
+              soccer ball, and added grim-looking barbed wire.
             </p>{" "}
           </div>
           <div>
@@ -1482,8 +1551,8 @@ const ChepOneCardMobView = () => {
           height: "413px",
 
           position: "absolute",
-          top: 5574,
-          left: 0,
+          top: 5215,
+          left: -6,
         }}
       />
       {/* ----------------------dfjfkjgncl;vnl;vbn;lkvbmgn */}
@@ -1531,7 +1600,11 @@ const ChepOneCardMobView = () => {
                   }}
                 >
                   <a role="button">
-                    <img src="./images/chep1/youtube.svg" alt="" />
+                    <img
+                      src="./images/chep1/youtube.svg"
+                      alt=""
+                      style={{ width: "35%" }}
+                    />
                   </a>
                 </Col>
 
@@ -1566,7 +1639,11 @@ const ChepOneCardMobView = () => {
                   }}
                 >
                   <a role="button">
-                    <img src="./images/chep1/YoutubeCard.svg" alt="" />
+                    <img
+                      src="./images/chep1/YoutubeCard.svg"
+                      alt=""
+                      style={{ width: "22%" }}
+                    />
                   </a>
                 </Row>
               </div>
@@ -1602,15 +1679,16 @@ const ChepOneCardMobView = () => {
                     fontSize: 12,
                     fontFamily: "HelveticaNeue-CondensedBold",
                     width: 290,
+                    paddingBottom: 12,
+
                     textAlign: "left",
                     color: "#20C5F7",
                   }}
                 >
-                  Buenos Aires, Argentina: “Madres de Plaza de <br /> Mayo”
-                  remain upright on the flooding square in <br />
-                  front of the Presidential Palace, claiming their <br />{" "}
-                  missing sons and daughters, circa 1982 in <br />
-                  Buenos Aires.
+                  Buenos Aires, Argentina: “Madres de Plaza de Mayo” remain
+                  upright on the flooding square in front of the Presidential
+                  Palace, claiming their missing sons and daughters, circa 1982
+                  in Buenos Aires.
                 </p>
               </div>
               <p
@@ -1710,7 +1788,7 @@ const ChepOneCardMobView = () => {
         />
       </div>
       {/* ----------------Footer------------------------------ */}
-      <div className="chepFooter1">
+      {/* <div className="chepFooter1">
         <Row
           style={{ marginRight: 0, marginLeft: 5, padding: "5px", height: 77 }}
         >
@@ -1756,7 +1834,11 @@ const ChepOneCardMobView = () => {
             </a>
           </Col>
         </Row>
-      </div>
+      </div> */}
+      <Image
+        src="./images/chep1/01_mattersonpitch.jpg"
+        style={{ width: "100%" }}
+      />
     </div>
   );
 };

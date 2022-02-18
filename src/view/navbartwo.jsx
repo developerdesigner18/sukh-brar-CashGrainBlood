@@ -30,7 +30,7 @@ const Navbar_title = () => {
                 <small
                   style={{
                     fontFamily: "Helvetica Neue",
-                    fontSize: 14,
+                    fontSize: 13,
                     lineHeight: 0.8,
                     paddingTop: 12,
                     paddingLeft: 0,

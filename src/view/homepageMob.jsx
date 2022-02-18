@@ -42,10 +42,10 @@ const HomePageMob = () => {
                 border: "2px solid #F78320",
                 borderBottomLeftRadius: 9,
                 fontFamily: "Helvetica Neue",
-                paddingLeft: 12,
-                width: 126,
+                paddingLeft: 10,
+                width: 124,
                 fontSize: 14,
-                paddingTop: 6,
+                paddingTop: 5,
                 height: 34,
               }}
             >

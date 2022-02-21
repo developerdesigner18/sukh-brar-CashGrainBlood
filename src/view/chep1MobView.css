@@ -166,11 +166,12 @@
   text-align: center;
 }
 .forPosition4 {
-  height: 934px;
+  height: 878px;
 
   /* background-size: ; */
   background-repeat: no-repeat;
-  background-image: url("../../public/images/chep1/lastCard.jpg");
+  background-image: url("../../public/images/chep1/card_6.jpg");
+  background-size: cover;
 }
 .chep1part7Stripe {
   position: absolute;

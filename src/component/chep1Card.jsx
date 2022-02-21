@@ -1,4 +1,14 @@
 import React from "react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 import {
   Button,
   Card,
@@ -19,7 +29,6 @@ const ChepOneCard = () => {
               width: "100%",
               backgroundColor: "black",
               paddingBottom: 25,
-              // display: "block",
             }}
           >
             <Card.Body>
@@ -28,7 +37,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 18,
                       fontWeight: "bold",
                       width: 60,
@@ -56,9 +65,9 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 40,
-                      fontWeight: "bold",
+
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
@@ -143,7 +152,7 @@ const ChepOneCard = () => {
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}
                               fluid
                             />
@@ -186,7 +195,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 18,
                       width: 56,
                       fontWeight: "bold",
@@ -214,8 +223,8 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
-                      fontSize: 40,
+                      fontFamily: "StardosBold",
+
                       lineHeight: 0.8,
                       fontWeight: "bold",
                       paddingBottom: 15,
@@ -329,7 +338,7 @@ const ChepOneCard = () => {
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{
                                 paddingLeft: 0,
                                 width: "100%",
@@ -359,7 +368,7 @@ const ChepOneCard = () => {
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{
                                 paddingLeft: 0,
                                 width: "100%",
@@ -406,10 +415,10 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 18,
                       width: 56,
-                      fontWeight: "bold",
+
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -450,191 +459,298 @@ const ChepOneCard = () => {
                     />
                   </Row>
                 </Row>
+                <Swiper
+                  modules={[Navigation, Pagination, Scrollbar, A11y]}
+                  slidesPerView={2}
+                  onSlideChange={() => console.log("slide change")}
+                  onSwiper={(swiper) => console.log(swiper)}
+                  pagination={{ clickable: true }}
+                >
+                  <SwiperSlide style={{ padding: 10 }}>
+                    <Row>
+                      <Image
+                        fluid
+                        src="./images/chep1/cardThreeOne.png"
+                        style={{ width: 460, height: 300 }}
+                      />
+                    </Row>
+                    <Row>
+                      <Image
+                        fluid
+                        src="./images/chep1/upArrow.svg"
+                        style={{
+                          width: 26.96,
+                          height: 17.41,
+                          padding: 0,
+                          marginTop: 15,
+                          marginLeft: 3,
+                        }}
+                      />
+                    </Row>
+                    <Row style={{ width: 435 }}>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          marginTop: 10,
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "white",
+                          fontWeight: "bold",
+                          fontSize: "14px",
+                          marginBottom: "5px",
+                        }}
+                      >
+                        Jorge Rafael Videla
+                      </p>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "#20C5F7",
+                          fontSize: "14px",
+                          lineHeight: 1.3,
+                        }}
+                      >
+                        (August 2, 1925–May 17, 2013) was a General Commander of
+                        the Army, member of the military junta, and dictator of
+                        Argentina from 1976 to 1981. <br /> On December 22,
+                        2010, Videla was sentenced to life in a civilian prison
+                        for the deaths of 31 prisoners following his coup.
+                      </p>
+                    </Row>
+                    <Row
+                      style={{
+                        paddingLeft: 0,
 
-                {/* carsoul */}
-                <Carousel indicators={false} nextIcon={false} prevIcon={false}>
-                  <Carousel.Item>
-                    {/* first */}
-
-                    <Row style={{ textAlign: "center", marginLeft: 10 }}>
-                      <Col>
-                        <Row>
-                          <Image fluid src="./images/chep1/cardThreeOne.png" />
-                        </Row>
-                        <Row>
+                        paddingTop: 10,
+                        marginTop: 5,
+                      }}
+                    >
+                      <Col
+                        lg={4}
+                        style={{
+                          width: 50,
+                          paddingLeft: 0,
+                          textAlign: "right",
+                        }}
+                      >
+                        <a role="button">
                           <Image
+                            src="./images/btnImage.png"
+                            style={{
+                              paddingLeft: 5,
+                              width: "100%",
+                            }}
                             fluid
-                            src="./images/chep1/upArrow.svg"
-                            style={{
-                              width: 26.96,
-                              height: 17.41,
-                              padding: 0,
-                              marginTop: 15,
-                              marginLeft: 3,
-                            }}
                           />
-                        </Row>
-                        <Row>
-                          <p
-                            style={{
-                              textAlign: "left",
-                              marginTop: 10,
-                              fontFamily: "HelveticaNeue-CondensedBold",
-                              color: "white",
-                              fontWeight: "bold",
-                              fontSize: "14px",
-                              marginBottom: "5px",
-                            }}
-                          >
-                            Jorge Rafael Videla
-                          </p>
-                          <p
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "HelveticaNeue-CondensedBold",
-                              color: "#20C5F7",
-                              fontSize: "14px",
-                            }}
-                          >
-                            (August 2, 1925–May 17, 2013) was a General
-                            Commander of the <br />
-                            Army, member of the military junta, and dictator of
-                            Argentina from <br /> 1976 to 1981. <br /> On
-                            December 22, 2010, Videla was sentenced to life in a
-                            civilian <br /> prison for the deaths of 31
-                            prisoners following his coup.
-                          </p>
-                        </Row>
-                        <Row
-                          style={{
-                            paddingLeft: 0,
-
-                            paddingTop: 10,
-                            marginTop: 5,
-                          }}
-                        >
-                          <Col
-                            lg={4}
-                            style={{
-                              width: 50,
-                              paddingLeft: 0,
-                              textAlign: "right",
-                            }}
-                          >
-                            <a role="button">
-                              <Image
-                                src="./images/btnImage.svg"
-                                style={{
-                                  paddingLeft: 0,
-                                  width: "100%",
-                                }}
-                                fluid
-                              />
-                            </a>
-                          </Col>
-                          <Col
-                            lg={8}
-                            style={{
-                              fontFamily: "Helvetica Neue",
-                              fontSize: 15,
-                              float: "left",
-                              color: "white",
-                              textAlign: "left",
-                              paddingTop: 8,
-                              paddingLeft: 0,
-                            }}
-                          >
-                            Learn More About Jorge Rafael Videla
-                          </Col>
-                        </Row>
+                        </a>
                       </Col>
-                      <Col>
-                        <Row>
-                          <Image fluid src="./images/chep1/cardThreeTwo.png" />
-                        </Row>
-                        <Row>
-                          {" "}
-                          <Image
-                            fluid
-                            src="./images/chep1/upArrow.svg"
-                            style={{
-                              width: 26.96,
-                              height: 17.41,
-                              padding: 0,
-                              marginTop: 15,
-                              marginLeft: 3,
-                            }}
-                          />
-                        </Row>
-                        <Row>
-                          {" "}
-                          <p
-                            style={{
-                              textAlign: "left",
-                              marginTop: 10,
-                              fontFamily: "HelveticaNeue-CondensedBold",
-                              color: "white",
-                              fontWeight: "bold",
-                              fontSize: "14px",
-                              marginBottom: "5px",
-                            }}
-                          >
-                            Emilio Eduardo Massera.
-                          </p>
-                          <p
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "HelveticaNeue-CondensedBold",
-                              color: "#20C5F7",
-                              fontSize: "14px",
-                            }}
-                          >
-                            (October 19, 1925–November 8, 2010) was a General
-                            Commander of
-                            <br /> the Army, member of the military junta, and
-                            dictator of Argentina from <br /> 1976 to 1981.{" "}
-                            <br /> On December 22, 2010, Videla was sentenced to
-                            life in a civilian <br />
-                            prison for <br />
-                            the deaths of 31 prisoners following his coup.
-                          </p>
-                        </Row>
-                        <Row style={{ marginTop: 5 }}>
-                          {" "}
-                          <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                            <a role="button">
-                              <Image
-                                src="./images/btnImage.svg"
-                                style={{
-                                  paddingLeft: 0,
-                                  width: "100%",
-                                }}
-                                fluid
-                              />
-                            </a>
-                          </Col>
-                          <Col
-                            lg={8}
-                            style={{
-                              fontFamily: "Helvetica Neue",
-                              fontSize: 15,
-                              float: "left",
-                              color: "white",
-                              textAlign: "left",
-                              paddingTop: 5,
-                              paddingLeft: 0,
-                            }}
-                          >
-                            Learn More About Emilio Eduardo Massera
-                          </Col>
-                        </Row>
+                      <Col
+                        lg={8}
+                        style={{
+                          fontFamily: "Helvetica Neue",
+                          fontSize: 15,
+                          float: "left",
+                          color: "white",
+                          textAlign: "left",
+                          paddingTop: 8,
+                          paddingLeft: 0,
+                        }}
+                      >
+                        Learn More About Jorge Rafael Videla
                       </Col>
                     </Row>
-                  </Carousel.Item>
-                  <Carousel.Item>{/* scecond */}</Carousel.Item>
-                  <Carousel.Item>{/* third */}</Carousel.Item>
-                </Carousel>
-                {/* end */}
+                  </SwiperSlide>
+                  <SwiperSlide style={{ padding: 5 }}>
+                    <Row>
+                      <Image
+                        fluid
+                        src="./images/chep1/cardThreeTwo.png"
+                        style={{ width: 460, height: 300 }}
+                      />
+                    </Row>
+                    <Row>
+                      {" "}
+                      <Image
+                        fluid
+                        src="./images/chep1/upArrow.svg"
+                        style={{
+                          width: 26.96,
+                          height: 17.41,
+                          padding: 0,
+                          marginTop: 15,
+                          marginLeft: 3,
+                        }}
+                      />
+                    </Row>
+                    <Row style={{ width: 435 }}>
+                      {" "}
+                      <p
+                        style={{
+                          textAlign: "left",
+                          marginTop: 10,
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "white",
+                          fontWeight: "bold",
+                          fontSize: "14px",
+                          marginBottom: "5px",
+                        }}
+                      >
+                        Emilio Eduardo Massera.
+                      </p>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "#20C5F7",
+                          fontSize: "14px",
+                          lineHeight: 1.3,
+                        }}
+                      >
+                        (October 19, 1925–November 8, 2010) was a General
+                        Commander of the Army, member of the military junta, and
+                        dictator of Argentina from 1976 to 1981. <br /> On
+                        December 22, 2010, Videla was sentenced to life in a
+                        civilian prison for the deaths of 31 prisoners following
+                        his coup.
+                      </p>
+                    </Row>
+                    <Row style={{ marginTop: 5 }}>
+                      {" "}
+                      <Col lg={4} style={{ width: 60, textAlign: "right" }}>
+                        <a role="button">
+                          <Image
+                            src="./images/btnImage.png"
+                            style={{
+                              paddingLeft: 5,
+                              width: "100%",
+                            }}
+                            fluid
+                          />
+                        </a>
+                      </Col>
+                      <Col
+                        lg={8}
+                        style={{
+                          fontFamily: "Helvetica Neue",
+                          fontSize: 15,
+                          float: "left",
+                          color: "white",
+                          textAlign: "left",
+                          paddingTop: 5,
+                          paddingLeft: 0,
+                        }}
+                      >
+                        Learn More About Emilio Eduardo Massera
+                      </Col>
+                    </Row>
+                  </SwiperSlide>
+                  <SwiperSlide style={{ padding: 5 }}>
+                    <Row>
+                      <Image
+                        fluid
+                        src="./images/chep1/cardThreeTwo.jpg"
+                        style={{ width: 460, height: 300 }}
+                      />
+                    </Row>
+                    <Row>
+                      {" "}
+                      <Image
+                        fluid
+                        src="./images/chep1/upArrow.svg"
+                        style={{
+                          width: 26.96,
+                          height: 17.41,
+                          padding: 0,
+                          marginTop: 15,
+                          marginLeft: 3,
+                        }}
+                      />
+                    </Row>
+                    <Row>
+                      {" "}
+                      <p
+                        style={{
+                          textAlign: "left",
+                          marginTop: 2,
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "white",
+                          fontWeight: "bold",
+                          fontSize: "14px",
+                          marginBottom: "5px",
+                        }}
+                      >
+                        EMILIO EDUARDO MASSERA
+                      </p>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          fontFamily: "HelveticaNeue-CondensedBold",
+                          color: "#20C5F7",
+                          fontSize: "14px",
+                          marginBottom: 0,
+                          width: 279,
+                        }}
+                      >
+                        (October 19, 1925–November 8, 2010) was a General
+                        Commander of the Army, member of the military junta, and
+                        dictator of Argentina from 1976 to 1981. On December 22,
+                        2010, Videla was sentenced to life in a civilian prison
+                        for the deaths of 31 prisoners following his coup.
+                      </p>
+                    </Row>
+
+                    <Row
+                      style={{
+                        paddingLeft: 0,
+
+                        paddingTop: 0,
+                        marginTop: 5,
+                      }}
+                    >
+                      <Col
+                        sm={2}
+                        xs={2}
+                        style={{
+                          width: 50,
+                          // paddingLeft: 0,
+                          textAlign: "left",
+                        }}
+                      >
+                        <a role="button">
+                          <Image
+                            src="./images/btnImage.svg"
+                            style={{
+                              // paddingLeft: 0,
+                              marginTop: 11,
+                              width: "100%",
+                            }}
+                            fluid
+                          />
+                        </a>
+                      </Col>
+                      <Col
+                        sm={10}
+                        xs={10}
+                        style={{
+                          fontFamily: "Helvetica Neue",
+                          fontSize: 12,
+                          float: "left",
+                          fontWeight: "bold",
+                          color: "white",
+                          textAlign: "left",
+                          paddingTop: 8,
+                          paddingLeft: 0,
+                          paddingRight: 0,
+                        }}
+                      >
+                        Profile Of
+                        <br /> Emilio Eduardo Massera
+                      </Col>
+                    </Row>
+                  </SwiperSlide>
+                  {/* <SwiperSlide>Slide 4</SwiperSlide> */}
+                </Swiper>{" "}
+                {/* swiper end */}
               </Card.Title>
             </Card.Body>
           </Card>
@@ -654,7 +770,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 18,
                       width: 56,
                       fontWeight: "bold",
@@ -785,7 +901,7 @@ const ChepOneCard = () => {
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{
                                 paddingLeft: 0,
                                 width: "100%",
@@ -804,7 +920,7 @@ const ChepOneCard = () => {
                             paddingTop: 5,
                           }}
                         >
-                          LEARN About The Dirty War
+                          Learn About The Dirty War
                         </Col>
                       </Row>
                     </Row>
@@ -849,7 +965,7 @@ const ChepOneCard = () => {
                     }}
                   >
                     Argentina Betrayed <br /> Memory, Mourning, <br /> and
-                    Accountability <br /> Antonius C. G. M. Robben
+                    Accountability <br /> ANTONIUS C. G. M. ROBBEN
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
@@ -864,8 +980,8 @@ const ChepOneCard = () => {
                         >
                           <a role="button">
                             <Image
-                              src="./images/btnImage.svg"
-                              style={{ width: 30 }}
+                              src="./images/btnImage.png"
+                              style={{ width: 30, height: 30 }}
                               fluid
                             />
                           </a>
@@ -879,7 +995,7 @@ const ChepOneCard = () => {
                             float: "left",
                             color: "white",
                             textAlign: "left",
-                            paddingTop: 5,
+                            paddingTop: 0,
 
                             paddingLeft: 0,
                           }}
@@ -906,22 +1022,28 @@ const ChepOneCard = () => {
                       fontSize: 16,
                       fontWeight: "bold",
                       paddingTop: "20px",
+                      width: 231,
                     }}
                   >
                     The Ideological Origins
                     <br /> Of The Dirty War
-                    <br /> By Federico Finchelstein
+                    <br />
+                    By FEDERICO FINCHELSTEIN
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
                           lg={2}
-                          style={{ textAlign: "left", paddingLeft: 0 }}
+                          style={{
+                            textAlign: "left",
+                            paddingLeft: 0,
+                            paddingRight: 0,
+                          }}
                         >
                           <a role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{ width: 30 }}
                               fluid
                             />
@@ -936,7 +1058,7 @@ const ChepOneCard = () => {
                             float: "left",
                             color: "white",
                             textAlign: "left",
-                            paddingTop: 5,
+                            paddingTop: 0,
                             paddingLeft: 0,
                           }}
                         >
@@ -967,18 +1089,22 @@ const ChepOneCard = () => {
                     The Ideological Origins
                     <br />
                     Of The Dirty War
-                    <br /> By David Cox
+                    <br /> BY DAVID COX
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
                           lg={2}
-                          style={{ textAlign: "left", paddingLeft: 0 }}
+                          style={{
+                            textAlign: "left",
+                            paddingLeft: 0,
+                            paddingRight: 0,
+                          }}
                         >
                           <a role="button">
                             <Image
-                              src="./images/btnImage.svg"
+                              src="./images/btnImage.png"
                               style={{ width: 30 }}
                               fluid
                             />
@@ -993,7 +1119,7 @@ const ChepOneCard = () => {
                             float: "left",
                             color: "white",
                             textAlign: "left",
-                            paddingTop: 5,
+                            paddingTop: 0,
                             paddingLeft: 0,
                           }}
                         >
@@ -1154,7 +1280,7 @@ const ChepOneCard = () => {
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
                           <Image
-                            src="./images/btnImage.svg"
+                            src="./images/btnImage.png"
                             style={{
                               paddingLeft: 0,
                               width: "100%",
@@ -1173,7 +1299,7 @@ const ChepOneCard = () => {
                           paddingTop: 5,
                         }}
                       >
-                        LEARN About The Dirty War
+                        Learn About The Dirty War
                       </Col>
                     </Row>
                   </Row>
@@ -1285,20 +1411,21 @@ const ChepOneCard = () => {
                       fontFamily: "HelveticaNeue-CondensedBolde",
                       color: "#20C5F7",
                       fontSize: "12px",
+                      width: 188,
+                      height: 289,
                     }}
                   >
-                    Buenos Aires, Argentina: <br /> “Madres de Plaza de Mayo”{" "}
-                    <br /> remain upright on the flooding <br /> square in front
-                    of the <br /> Presidential Palace, claiming <br /> their
-                    missing sons and <br /> daughters, circa 1982 in <br />{" "}
-                    Buenos Aires.
+                    Buenos Aires, Argentina: “Madres de Plaza de Mayo” remain
+                    upright on the flooding square in front of the Presidential
+                    Palace, claiming their missing sons and daughters, circa
+                    1982 in Buenos Aires.
                   </p>
                 </Row>
               </Col>
 
               <Col lg={8}>
                 {" "}
-                <Row>
+                <Row style={{ width: 492, padding: 20 }}>
                   <p
                     style={{
                       textAlign: "left",
@@ -1306,15 +1433,15 @@ const ChepOneCard = () => {
                       fontFamily: "HelveticaNeue-medium",
                       color: "white",
 
-                      fontSize: "12px",
-                      marginBottom: "5px",
+                      fontSize: 12,
+                      marginBottom: "10px",
                     }}
                   >
                     On April 30, 1977, Azucena Villaflor de De Vincenti and a
-                    dozen other mothers <br /> walked to the Plaza de Mayo in
-                    Argentina’s capital city. These women shared <br /> the
-                    experience of each having had at least one child who had
-                    been taken by <br /> the military government.
+                    dozen other mothers walked to the Plaza de Mayo in
+                    Argentina’s capital city. These women shared the experience
+                    of each having had at least one child who had been taken by
+                    the military government.
                   </p>
                   <p
                     style={{
@@ -1323,11 +1450,12 @@ const ChepOneCard = () => {
                       color: "white",
                       fontWeight: "normal",
                       fontSize: "12px",
+                      marginBottom: "10px",
                     }}
                   >
                     At great risk to themselves, the mothers made the simple
-                    protest of walking to <br /> the Plaza De Mayo with pictures
-                    of their missing adult children.
+                    protest of walking to the Plaza De Mayo with pictures of
+                    their missing adult children.
                   </p>
                   <p
                     style={{
@@ -1336,43 +1464,46 @@ const ChepOneCard = () => {
                       color: "white",
                       fontWeight: "normal",
                       fontSize: "12px",
+                      marginBottom: "10px",
                     }}
                   >
                     The mothers created a simple visual sign of their solidarity
-                    by each wearing a <br /> headscarf with the name of their
+                    by each wearing a headscarf with the name of their
                     “disappeared” loved one.
                   </p>
-                </Row>
-                <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
-                  <Col lg={2} style={{ width: 60, textAlign: "right" }}>
-                    <a href="#" role="button">
-                      <Image
-                        src="./images/btnImage.svg"
-                        style={{
-                          padding: 0,
-                          width: "100%",
-                          hieght: 10,
-                        }}
-                        fluid
-                      />
-                    </a>
-                  </Col>
-                  <Col
-                    lg={10}
-                    style={{
-                      fontFamily: "Helvetica Neue",
-                      fontSize: 14,
-                      fontWeight: "bold",
-                      textAlign: "left",
-                      paddingLeft: 0,
-                      // paddingTop: 5,
-                      color: "white",
-                    }}
-                  >
-                    Learn More About The
-                    <br />
-                    Mothers Of The Plaza De Mayo
-                  </Col>
+                  <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
+                    <Col
+                      lg={3}
+                      style={{ width: 60, textAlign: "right", marginLeft: 10 }}
+                    >
+                      <a href="#" role="button">
+                        <Image
+                          src="./images/btnImage.png"
+                          style={{
+                            padding: 0,
+                            width: "100%",
+                          }}
+                          fluid
+                        />
+                      </a>
+                    </Col>
+                    <Col
+                      lg={9}
+                      style={{
+                        fontFamily: "Helvetica Neue",
+                        fontSize: 14,
+                        fontWeight: "bold",
+                        textAlign: "left",
+                        paddingLeft: 0,
+                        // paddingTop: 5,
+                        color: "white",
+                      }}
+                    >
+                      Learn More About The
+                      <br />
+                      Mothers Of The Plaza De Mayo
+                    </Col>
+                  </Row>
                 </Row>
               </Col>
             </Row>
@@ -1383,7 +1514,7 @@ const ChepOneCard = () => {
       <div className="chepFooter">
         <Row style={{ marginRight: 0 }}>
           <Col
-            lg={11}
+            lg={10}
             style={{
               textAlign: "right",
               padding: 12,
@@ -1396,15 +1527,13 @@ const ChepOneCard = () => {
             <h3
               style={{
                 marginBottom: 0,
+                textAlign: "right",
               }}
             >
               CHAPTER TWO: MATTERS ON THE PITCH
             </h3>{" "}
           </Col>
-          <Col
-            lg={1}
-            style={{ textAlign: "center", padding: "6px 6px 6px 0px" }}
-          >
+          <Col lg={2} style={{ textAlign: "left", padding: "6px 6px 6px 0px" }}>
             <a role="button">
               <img src="./images/chep1/forwardArrow.svg" alt="" />
             </a>
@@ -1428,7 +1557,7 @@ const ChepOneCard = () => {
         style={{
           height: "600px",
           position: "absolute",
-          top: 2251,
+          top: 2145,
           right: 0,
         }}
       />
@@ -1438,7 +1567,7 @@ const ChepOneCard = () => {
         style={{
           height: "600px",
           position: "absolute",
-          top: 3314,
+          top: 3342,
           right: 0,
         }}
       />

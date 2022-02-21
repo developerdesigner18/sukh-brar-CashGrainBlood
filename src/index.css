@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Stardos+Stencil:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Stardos+Stencil:wght@400;700&display=swap"); */
 
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 
@@ -15,8 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* @font-face {
+@font-face {
   font-family: StardosBold;
   src: url("../public/Stardos_Stencil_Font/StardosStencil-Bold.ttf")
     format("truetype");
-} */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet {
+  background-color: gray !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -6px !important;
+}
+.swiper-pagination
+  swiper-pagination-clickable
+  swiper-pagination-bullets
+  swiper-pagination-horizontal {
+  margin-bottom: 8px;
+}

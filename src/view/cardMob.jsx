@@ -13,14 +13,12 @@ const CardComponent = () => {
         className="cardBannerContainer1"
         key={index}
         style={{ marginTop: 15 }}
+        onClick={() => {
+          navigate("/chepOne");
+        }}
       >
         <div className="bannerContainer1">
-          <div
-            className="cardBannerImage1"
-            onClick={() => {
-              navigate("/chepOne");
-            }}
-          >
+          <div className="cardBannerImage1">
             <Image src={data.chepImage} style={{ width: "100%" }} />
           </div>
           <Container>

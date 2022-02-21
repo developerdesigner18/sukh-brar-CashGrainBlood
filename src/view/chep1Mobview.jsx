@@ -1,4 +1,13 @@
 import React from "react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 import {
   Button,
   Card,
@@ -209,6 +218,7 @@ const ChepOneCardMobView = () => {
                 color: "#20C5F7",
                 fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: "16px",
+                textTransform: "uppercase",
               }}
             >
               - Admiral Emilio Massera
@@ -655,7 +665,7 @@ const ChepOneCardMobView = () => {
                     width: 100,
                   }}
                 >
-                  01/03
+                  03/06
                 </p>
                 <Image
                   src="./images/chep1/divider.png"
@@ -685,14 +695,23 @@ const ChepOneCardMobView = () => {
               </h6>
             </Row>
           </Card.Title>
-          <Carousel indicators={false} nextIcon={false} prevIcon={false}>
-            <Carousel.Item>
-              {/* first */}
-
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={0}
+            slidesPerView={1.5}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+            pagination={{ clickable: true }}
+          >
+            <SwiperSlide style={{ padding: 10 }}>
               <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
-                    <Image fluid src="./images/chep1/cardThreeOne.jpg" />
+                    <Image
+                      fluid
+                      src="./images/chep1/cardThreeOne.jpg"
+                      style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
+                    />
                   </Row>
                   <Row>
                     <Image
@@ -784,12 +803,16 @@ const ChepOneCardMobView = () => {
                   </Row>
                 </Col>
               </Row>
-            </Carousel.Item>
-            <Carousel.Item>
+            </SwiperSlide>
+            <SwiperSlide style={{ padding: 5 }}>
               <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
-                    <Image fluid src="./images/chep1/cardThreeTwo.jpg" />
+                    <Image
+                      fluid
+                      src="./images/chep1/cardThreeTwo.jpg"
+                      style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
+                    />
                   </Row>
                   <Row>
                     {" "}
@@ -841,9 +864,6 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
-
-                      paddingTop: 0,
-                      marginTop: 5,
                     }}
                   >
                     <Col
@@ -880,24 +900,23 @@ const ChepOneCardMobView = () => {
                         paddingTop: 8,
                         paddingLeft: 0,
                         paddingRight: 0,
+                        width: 160,
                       }}
                     >
-                      Profile Of
-                      <br /> Emilio Eduardo Massera
+                      Profile Of <br /> Emilio Eduardo Massera
                     </Col>
                   </Row>
                 </Col>
               </Row>
-            </Carousel.Item>
-            {/* <Carousel.Item>third</Carousel.Item> */}
-            <Carousel.Item>
+            </SwiperSlide>
+            <SwiperSlide style={{ padding: 5 }}>
               <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
                     <Image
                       fluid
                       src="./images/chep1/chapterThreeThree.png"
-                      style={{ height: 239 }}
+                      style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
                     />
                   </Row>
                   <Row>
@@ -950,9 +969,6 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
-
-                      paddingTop: 0,
-                      marginTop: 5,
                     }}
                   >
                     <Col
@@ -989,16 +1005,16 @@ const ChepOneCardMobView = () => {
                         paddingTop: 8,
                         paddingLeft: 0,
                         paddingRight: 0,
+                        width: 160,
                       }}
                     >
-                      Profile Of
-                      <br /> Orlando Ramón Agosti
+                      Profile Of <br /> Emilio Eduardo Massera
                     </Col>
                   </Row>
                 </Col>
               </Row>
-            </Carousel.Item>
-          </Carousel>
+            </SwiperSlide>
+          </Swiper>
         </Card.Body>
       </Card>
 
@@ -1586,14 +1602,14 @@ const ChepOneCardMobView = () => {
                     marginBottom: 15,
                   }}
                 >
-                  0/06
+                  01/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
                     style={{ height: "5px", padding: 0, width: 35 }}
                   ></Image>
                 </Row>
-                <Col
+                {/* <Col
                   style={{
                     textAlign: "right",
                     paddingRight: 0,
@@ -1606,7 +1622,7 @@ const ChepOneCardMobView = () => {
                       style={{ width: "35%" }}
                     />
                   </a>
-                </Col>
+                </Col> */}
 
                 <Row
                   style={{

@@ -36,15 +36,16 @@ const Chep1 = () => {
               <p
                 style={{
                   textAlign: "left",
-
+                  width: 443,
+                  height: 192,
                   fontSize: 20,
                   fontWeight: "bold",
                   fontFamily: "Helvetica Neue",
                 }}
               >
-                Before a ball was kicked, domestic politics, <br /> the
-                repression of civilians and the military <br /> junta’s
-                ambitions cast a long shadow over the <br /> 1978 World Cup
+                Before a ball was kicked, domestic politics, the repression of
+                civilians and the military junta’s ambitions cast a long shadow
+                over the 1978 World Cup
               </p>
             </div>
           </Container>
@@ -69,6 +70,7 @@ const Chep1 = () => {
             style={{
               color: "white",
               width: 800,
+
               margin: "0px auto",
               padding: "30px 0px",
             }}

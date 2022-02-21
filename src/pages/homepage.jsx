@@ -41,6 +41,8 @@ const HomePage = () => {
                 fontSize: 20,
                 fontWeight: "bold",
                 fontFamily: "Helvetica Neue",
+                width: 443,
+                height: 192,
               }}
             >
               Before a ball was kicked, domestic politics, the repression of

@@ -21,8 +21,7 @@ const HomePageMob = () => {
               paddingTop: 7,
               height: 34,
               paddingBottom: 5,
-              fontFamily: "Stardos Stencil",
-              fontWeight: "bold",
+              fontFamily: "StardosBold",
               fontSize: 17,
               color: "white",
             }}
@@ -72,9 +71,8 @@ const HomePageMob = () => {
               <h1
                 style={{
                   wordBreak: "break-all",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1,
-                  fontWeight: "bold",
                   fontSize: "40px",
                   textAlign: "justify",
                 }}
@@ -86,8 +84,7 @@ const HomePageMob = () => {
                 style={{
                   textAlign: "left",
                   fontSize: 12,
-                  fontWeight: "bold",
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-Bold",
                   textAlign: "justify",
                 }}
               >

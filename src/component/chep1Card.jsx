@@ -39,7 +39,6 @@ const ChepOneCard = () => {
                       color: "white",
                       fontFamily: "StardosBold",
                       fontSize: 18,
-                      fontWeight: "bold",
                       width: 60,
                       paddingRight: 0,
                       marginBottom: 15,
@@ -56,7 +55,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 40,
                     }}
                   >
@@ -132,9 +131,8 @@ const ChepOneCard = () => {
                         color: "white",
                         float: "left",
                         fontSize: 14,
-                        fontWeight: "bold",
                         paddingLeft: 10,
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
 
                         paddingLeft: 10,
                       }}
@@ -161,7 +159,7 @@ const ChepOneCard = () => {
                         <Col
                           lg={8}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 15,
                             float: "left",
                             paddingLeft: 5,
@@ -198,7 +196,6 @@ const ChepOneCard = () => {
                       fontFamily: "StardosBold",
                       fontSize: 18,
                       width: 56,
-                      fontWeight: "bold",
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -214,7 +211,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 40,
                     }}
                   >
@@ -224,9 +221,8 @@ const ChepOneCard = () => {
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
-
+                      fontSize: 40,
                       lineHeight: 0.8,
-                      fontWeight: "bold",
                       paddingBottom: 15,
                     }}
                   >
@@ -319,8 +315,7 @@ const ChepOneCard = () => {
                         float: "left",
                         fontSize: 14,
                         paddingLeft: 10,
-                        fontWeight: "bold",
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         // letterSpacing: "0.5px",
                         paddingLeft: 10,
                       }}
@@ -351,7 +346,7 @@ const ChepOneCard = () => {
                         <Col
                           lg={8}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 15,
                             float: "left",
                             paddingLeft: 5,
@@ -381,7 +376,7 @@ const ChepOneCard = () => {
                         <Col
                           lg={8}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 15,
                             float: "left",
                             paddingLeft: 5,
@@ -443,7 +438,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 40,
                       lineHeight: 0.8,
                       paddingBottom: 15,
@@ -460,6 +455,7 @@ const ChepOneCard = () => {
                   </Row>
                 </Row>
                 <Swiper
+                  className="desktop"
                   modules={[Navigation, Pagination, Scrollbar, A11y]}
                   slidesPerView={2}
                   onSlideChange={() => console.log("slide change")}
@@ -494,7 +490,6 @@ const ChepOneCard = () => {
                           marginTop: 10,
                           fontFamily: "HelveticaNeue-CondensedBold",
                           color: "white",
-                          fontWeight: "bold",
                           fontSize: "14px",
                           marginBottom: "5px",
                         }}
@@ -520,8 +515,6 @@ const ChepOneCard = () => {
                     <Row
                       style={{
                         paddingLeft: 0,
-
-                        paddingTop: 10,
                         marginTop: 5,
                       }}
                     >
@@ -547,7 +540,7 @@ const ChepOneCard = () => {
                       <Col
                         lg={8}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 15,
                           float: "left",
                           color: "white",
@@ -590,7 +583,6 @@ const ChepOneCard = () => {
                           marginTop: 10,
                           fontFamily: "HelveticaNeue-CondensedBold",
                           color: "white",
-                          fontWeight: "bold",
                           fontSize: "14px",
                           marginBottom: "5px",
                         }}
@@ -614,7 +606,7 @@ const ChepOneCard = () => {
                         his coup.
                       </p>
                     </Row>
-                    <Row style={{ marginTop: 5 }}>
+                    <Row style={{ marginTop: 10 }}>
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -631,7 +623,7 @@ const ChepOneCard = () => {
                       <Col
                         lg={8}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 15,
                           float: "left",
                           color: "white",
@@ -648,11 +640,11 @@ const ChepOneCard = () => {
                     <Row>
                       <Image
                         fluid
-                        src="./images/chep1/cardThreeTwo.jpg"
+                        src="./images/chep1/chapterThreeThree.png"
                         style={{ width: 460, height: 300 }}
                       />
                     </Row>
-                    <Row>
+                    <Row style={{ marginBottom: 10 }}>
                       {" "}
                       <Image
                         fluid
@@ -674,12 +666,12 @@ const ChepOneCard = () => {
                           marginTop: 2,
                           fontFamily: "HelveticaNeue-CondensedBold",
                           color: "white",
-                          fontWeight: "bold",
                           fontSize: "14px",
                           marginBottom: "5px",
+                          textTransform: "uppercase",
                         }}
                       >
-                        EMILIO EDUARDO MASSERA
+                        Orlando Ramón Agosti
                       </p>
                       <p
                         style={{
@@ -688,40 +680,27 @@ const ChepOneCard = () => {
                           color: "#20C5F7",
                           fontSize: "14px",
                           marginBottom: 0,
-                          width: 279,
+                          lineHeight: 1.3,
+                          width: 435,
+                          height: 108,
                         }}
                       >
-                        (October 19, 1925–November 8, 2010) was a General
-                        Commander of the Army, member of the military junta, and
-                        dictator of Argentina from 1976 to 1981. On December 22,
-                        2010, Videla was sentenced to life in a civilian prison
-                        for the deaths of 31 prisoners following his coup.
+                        (August 22, 1924–October 6, 1997) was an Argentine
+                        general, and Commander-in-Chief of the Argentine Air
+                        Force from 1976 to 1979. With General Jorge Rafael
+                        Videla, he ruled Argentina as part of the military junta
+                        between 1976 and 1981.
                       </p>
                     </Row>
 
-                    <Row
-                      style={{
-                        paddingLeft: 0,
-
-                        paddingTop: 0,
-                        marginTop: 5,
-                      }}
-                    >
-                      <Col
-                        sm={2}
-                        xs={2}
-                        style={{
-                          width: 50,
-                          // paddingLeft: 0,
-                          textAlign: "left",
-                        }}
-                      >
+                    <Row style={{ marginTop: 4 }}>
+                      {" "}
+                      <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
                           <Image
-                            src="./images/btnImage.svg"
+                            src="./images/btnImage.png"
                             style={{
-                              // paddingLeft: 0,
-                              marginTop: 11,
+                              paddingLeft: 5,
                               width: "100%",
                             }}
                             fluid
@@ -729,22 +708,18 @@ const ChepOneCard = () => {
                         </a>
                       </Col>
                       <Col
-                        sm={10}
-                        xs={10}
+                        lg={8}
                         style={{
-                          fontFamily: "Helvetica Neue",
-                          fontSize: 12,
+                          fontFamily: "HelveticaNeue-Bold",
+                          fontSize: 15,
                           float: "left",
-                          fontWeight: "bold",
                           color: "white",
                           textAlign: "left",
-                          paddingTop: 8,
+                          paddingTop: 5,
                           paddingLeft: 0,
-                          paddingRight: 0,
                         }}
                       >
-                        Profile Of
-                        <br /> Emilio Eduardo Massera
+                        Learn More About Orlando Ramón Agosti
                       </Col>
                     </Row>
                   </SwiperSlide>
@@ -773,7 +748,6 @@ const ChepOneCard = () => {
                       fontFamily: "StardosBold",
                       fontSize: 18,
                       width: 56,
-                      fontWeight: "bold",
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
@@ -789,7 +763,7 @@ const ChepOneCard = () => {
                   <Row
                     style={{
                       color: "white",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       textTransform: "upperCase",
                       fontSize: 40,
                     }}
@@ -800,7 +774,7 @@ const ChepOneCard = () => {
                     style={{
                       color: "white",
                       textTransform: "upperCase",
-                      fontFamily: "Stardos Stencil",
+                      fontFamily: "StardosBold",
                       fontSize: 40,
                       lineHeight: 0.8,
                       paddingBottom: 15,
@@ -879,7 +853,7 @@ const ChepOneCard = () => {
                         float: "left",
                         fontSize: 14,
                         paddingLeft: 10,
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         // letterSpacing: "0.5px",
                         paddingLeft: 10,
                       }}
@@ -913,7 +887,7 @@ const ChepOneCard = () => {
                         <Col
                           lg={8}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 15,
                             float: "left",
                             paddingLeft: 5,
@@ -959,9 +933,8 @@ const ChepOneCard = () => {
                     style={{
                       color: "White",
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-Bold",
                       fontSize: 16,
-                      fontWeight: "bold",
                     }}
                   >
                     Argentina Betrayed <br /> Memory, Mourning, <br /> and
@@ -989,9 +962,8 @@ const ChepOneCard = () => {
                         <Col
                           lg={10}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-BoldHelvetica Neue",
                             fontSize: 16,
-                            fontWeight: "bold",
                             float: "left",
                             color: "white",
                             textAlign: "left",
@@ -1018,9 +990,8 @@ const ChepOneCard = () => {
                     style={{
                       color: "White",
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-Bold",
                       fontSize: 16,
-                      fontWeight: "bold",
                       paddingTop: "20px",
                       width: 231,
                     }}
@@ -1052,9 +1023,8 @@ const ChepOneCard = () => {
                         <Col
                           lg={10}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 16,
-                            fontWeight: "bold",
                             float: "left",
                             color: "white",
                             textAlign: "left",
@@ -1080,9 +1050,8 @@ const ChepOneCard = () => {
                     style={{
                       color: "White",
                       textAlign: "left",
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-Bold",
                       fontSize: 16,
-                      fontWeight: "bold",
                       paddingTop: "20px",
                     }}
                   >
@@ -1113,9 +1082,8 @@ const ChepOneCard = () => {
                         <Col
                           lg={10}
                           style={{
-                            fontFamily: "Helvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 16,
-                            fontWeight: "bold",
                             float: "left",
                             color: "white",
                             textAlign: "left",
@@ -1150,11 +1118,10 @@ const ChepOneCard = () => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 18,
                     width: 56,
                     paddingRight: 0,
-                    fontWeight: "bold",
                     marginBottom: 15,
                   }}
                 >
@@ -1169,7 +1136,7 @@ const ChepOneCard = () => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 40,
                   }}
                 >
@@ -1178,7 +1145,7 @@ const ChepOneCard = () => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 40,
                     lineHeight: 0.8,
                     paddingBottom: 15,
@@ -1255,9 +1222,8 @@ const ChepOneCard = () => {
                       color: "white",
                       float: "left",
                       fontSize: 14,
-                      fontWeight: "bold",
                       paddingLeft: 10,
-                      fontFamily: "Helvetica Neue",
+                      fontFamily: "HelveticaNeue-Bold",
 
                       paddingLeft: 10,
                     }}
@@ -1292,7 +1258,7 @@ const ChepOneCard = () => {
                       <Col
                         lg={8}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 15,
                           float: "left",
                           paddingLeft: 5,
@@ -1319,10 +1285,9 @@ const ChepOneCard = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   fontSize: 18,
                   width: 56,
-                  fontWeight: "bold",
                   paddingRight: 0,
                   marginBottom: 15,
                 }}
@@ -1348,7 +1313,7 @@ const ChepOneCard = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   fontSize: 40,
                   lineHeight: 0.9,
                   paddingBottom: 5,
@@ -1398,7 +1363,6 @@ const ChepOneCard = () => {
                       marginTop: 10,
                       fontFamily: "HelveticaNeue-CondensedBold",
                       color: "white",
-                      fontWeight: "bold",
                       fontSize: "12px",
                       marginBottom: "5px",
                     }}
@@ -1490,9 +1454,8 @@ const ChepOneCard = () => {
                     <Col
                       lg={9}
                       style={{
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         fontSize: 14,
-                        fontWeight: "bold",
                         textAlign: "left",
                         paddingLeft: 0,
                         // paddingTop: 5,
@@ -1519,7 +1482,7 @@ const ChepOneCard = () => {
               textAlign: "right",
               padding: 12,
               color: "white",
-              fontFamily: "Stardos Stencil",
+              fontFamily: "StardosBold",
               fontSize: "24px",
             }}
           >

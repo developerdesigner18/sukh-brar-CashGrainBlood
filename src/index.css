@@ -2,25 +2,33 @@
 
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 @font-face {
   font-family: StardosBold;
-  src: url("../public/Stardos_Stencil_Font/StardosStencil-Bold.ttf")
+  src: url("../public/FONTS/Stardos_Stencil_Font/StardosStencil-Bold.ttf")
     format("truetype");
 }
-
+@font-face {
+  font-family: Stardos;
+  src: url("../public/FONTS/Stardos_Stencil_Font/StardosStencil-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: HelveticaNeue-CondensedBold;
+  src: url("../public/FONTS/Helvetica-Neue-Condensed-Bold_22500.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../public/FONTS/helveticaneue.ttf") format("truetype");
+}
+@font-face {
+  font-family: HelveticaNeue-Bold;
+  src: url("../public/FONTS/HelveticaNeue\ Bold.ttf") format("truetype");
+}
 .swiper-pagination-bullet-active {
   background-color: white !important;
   opacity: 1 !important;
@@ -29,7 +37,7 @@ code {
   background-color: gray !important;
 }
 .swiper-horizontal > .swiper-pagination-bullets {
-  bottom: -6px !important;
+  bottom: -5px !important;
 }
 .swiper-pagination
   swiper-pagination-clickable

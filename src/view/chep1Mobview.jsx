@@ -34,8 +34,8 @@ const ChepOneCardMobView = () => {
               paddingTop: 7,
               height: 34,
               paddingBottom: 5,
-              fontFamily: "Stardos Stencil",
-              fontWeight: "bold",
+              fontFamily: "StardosBold",
+
               fontSize: 17,
               color: "white",
             }}
@@ -54,7 +54,7 @@ const ChepOneCardMobView = () => {
                 background: "#F78320",
                 border: "2px solid #F78320",
                 borderBottomLeftRadius: 9,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 paddingLeft: 10,
                 width: 124,
                 fontSize: 14,
@@ -92,9 +92,8 @@ const ChepOneCardMobView = () => {
             >
               <h1
                 style={{
-                  fontFamily: "Stardos Stencil",
-                  color: "white",
-                  fontWeight: "bold",
+                  fontFamily: "StardosBold",
+
                   fontSize: "12px",
                   textAlign: "center",
                   border: "1px solid #20B5F7",
@@ -109,9 +108,8 @@ const ChepOneCardMobView = () => {
               </h1>
               <small
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontWeight: "bold",
                   fontSize: "40px",
                   textAlign: "justify",
                 }}
@@ -121,9 +119,8 @@ const ChepOneCardMobView = () => {
 
               <p
                 style={{
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-Bold",
                   fontSize: 12,
-                  fontWeight: "bold",
                 }}
               >
                 Before a ball was kicked, domestic<br></br> politics, the
@@ -163,7 +160,7 @@ const ChepOneCardMobView = () => {
                   fontSize: 12,
                   textAlign: "left",
                   padding: 0,
-
+                  textTransform: "uppercase",
                   color: "white",
                   marginBottom: 0,
                 }}
@@ -194,8 +191,8 @@ const ChepOneCardMobView = () => {
           <h4
             style={{
               fontSize: 25,
-              fontFamily: "Stardos Stencil",
-              fontWeight: "bold",
+              fontFamily: "StardosBold",
+
               textAlign: "left",
               paddingLeft: 36,
               lineHeight: 1.5,
@@ -238,8 +235,7 @@ const ChepOneCardMobView = () => {
         <Row
           style={{
             color: "white",
-            fontFamily: "HelveticaNeue",
-            fontWeight: "bold",
+            fontFamily: "HelveticaNeue-Bold",
             fontSize: 15,
             width: 56,
             paddingRight: 0,
@@ -247,7 +243,7 @@ const ChepOneCardMobView = () => {
             marginTop: 19.5,
           }}
         >
-          <p style={{ marginBottom: 0, paddingLeft: 20 }}>01/01</p>
+          <p style={{ marginBottom: 0, paddingLeft: 20 }}>01/06</p>
           <Image
             src="./images/chep1/divider.png"
             fluid
@@ -322,9 +318,9 @@ const ChepOneCardMobView = () => {
             style={{
               color: "white",
               width: "85%",
-              fontFamily: "Stardos Stencil",
+              fontFamily: "StardosBold",
               fontSize: 20,
-              fontWeight: "bold",
+
               paddingLeft: 0,
               lineHeight: 1,
               marginRight: 0,
@@ -343,9 +339,9 @@ const ChepOneCardMobView = () => {
           <Row style={{ padding: 0, marginTop: 16 }}>
             <p
               style={{
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-Bold",
                 fontSize: 12,
-                fontWeight: "bold",
+
                 textAlign: "left",
                 color: "white",
                 marginBottom: 0,
@@ -377,7 +373,7 @@ const ChepOneCardMobView = () => {
                 fontSize: 12,
                 textAlign: "left",
                 color: "#20C5F7",
-                marginBottom: 0,
+                marginBottom: 15,
                 paddingLeft: 0,
               }}
             >
@@ -416,8 +412,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "HelveticaNeue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   fontSize: 18,
                   width: 43,
                   paddingRight: 0,
@@ -431,10 +427,10 @@ const ChepOneCardMobView = () => {
                     marginBottom: 0,
                     paddingLeft: 34.8,
                     fontSize: 15,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                   }}
                 >
-                  01/02
+                  02/06
                 </p>
                 <Image
                   src="./images/chep1/divider.png"
@@ -444,9 +440,8 @@ const ChepOneCardMobView = () => {
               </Row>
               <h6
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontWeight: "bold",
                   fontSize: "18px",
                   textAlign: "justify",
                   marginBottom: 0,
@@ -466,29 +461,6 @@ const ChepOneCardMobView = () => {
               />
             </div>
           </Container>
-          <div
-            style={{
-              background: "#2E2A2A",
-              width: 103,
-              height: 20.88,
-              textAlign: "center",
-              paddingTop: 5,
-              position: "absolute",
-              bottom: 0,
-              right: 0,
-            }}
-          >
-            <h6
-              style={{
-                fontSize: 8,
-                fontWeight: "bold",
-                fontFamily: "Helvetica Neue",
-                color: "white",
-              }}
-            >
-              IMAGO/ACTIONPLUS
-            </h6>
-          </div>
         </div>
         {/* <div
             className="chep1part3Stripe"
@@ -507,7 +479,7 @@ const ChepOneCardMobView = () => {
                 paddingBottom: 15,
                 marginBottom: 0,
                 fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBolde",
+                fontFamily: "HelveticaNeue-Bold",
 
                 textAlign: "left",
               }}
@@ -588,7 +560,7 @@ const ChepOneCardMobView = () => {
                   color: "white",
                   textAlign: "left",
                   marginTop: -5,
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-Bold",
                   fontSize: 12,
                   paddingBottom: 15,
                 }}
@@ -619,9 +591,9 @@ const ChepOneCardMobView = () => {
                   marginTop: -5,
                   color: "white",
                   textAlign: "left",
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-Bold",
                   fontSize: 12,
-                  paddingBottom: 80,
+                  paddingBottom: 76,
                 }}
               >
                 Learn More About <br />
@@ -636,7 +608,7 @@ const ChepOneCardMobView = () => {
         style={{
           width: "100%",
           backgroundColor: "black",
-          paddingBottom: 25,
+
           // display: "block",
         }}
       >
@@ -646,8 +618,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "HelveticaNeue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   fontSize: 18,
                   width: 152,
                   paddingRight: 0,
@@ -661,7 +633,7 @@ const ChepOneCardMobView = () => {
                     marginBottom: 0,
                     paddingLeft: 34.8,
                     fontSize: 15,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     width: 100,
                   }}
                 >
@@ -681,9 +653,9 @@ const ChepOneCardMobView = () => {
 
               <h6
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontWeight: "bold",
+
                   fontSize: "16px",
                   color: "white",
 
@@ -696,6 +668,7 @@ const ChepOneCardMobView = () => {
             </Row>
           </Card.Title>
           <Swiper
+            className="mobile"
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={0}
             slidesPerView={1.5}
@@ -703,7 +676,7 @@ const ChepOneCardMobView = () => {
             onSwiper={(swiper) => console.log(swiper)}
             pagination={{ clickable: true }}
           >
-            <SwiperSlide style={{ padding: 10 }}>
+            <SwiperSlide style={{ padding: 5 }}>
               <Row style={{ textAlign: "center", marginLeft: 10 }}>
                 <Col>
                   <Row>
@@ -713,7 +686,7 @@ const ChepOneCardMobView = () => {
                       style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
                     />
                   </Row>
-                  <Row>
+                  <Row style={{ marginTop: 8 }}>
                     <Image
                       fluid
                       src="./images/chep1/upArrow.svg"
@@ -733,7 +706,6 @@ const ChepOneCardMobView = () => {
                         marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
-                        fontWeight: "bold",
                         fontSize: "14px",
                         marginBottom: "5px",
                       }}
@@ -747,6 +719,7 @@ const ChepOneCardMobView = () => {
                         color: "#20C5F7",
                         fontSize: "14px",
                         width: "279px",
+                        marginBottom: 0,
                       }}
                     >
                       (August 2, 1925–May 17, 2013) was a General Commander of
@@ -786,10 +759,10 @@ const ChepOneCardMobView = () => {
                       sm={10}
                       xs={10}
                       style={{
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         fontSize: 12,
                         float: "left",
-                        fontWeight: "bold",
+
                         color: "white",
                         textAlign: "left",
                         paddingTop: 8,
@@ -814,7 +787,7 @@ const ChepOneCardMobView = () => {
                       style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
                     />
                   </Row>
-                  <Row>
+                  <Row style={{ marginTop: 8 }}>
                     {" "}
                     <Image
                       fluid
@@ -836,7 +809,6 @@ const ChepOneCardMobView = () => {
                         marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
-                        fontWeight: "bold",
                         fontSize: "14px",
                         marginBottom: "5px",
                       }}
@@ -863,6 +835,7 @@ const ChepOneCardMobView = () => {
 
                   <Row
                     style={{
+                      marginTop: 7,
                       paddingLeft: 0,
                     }}
                   >
@@ -891,10 +864,9 @@ const ChepOneCardMobView = () => {
                       sm={10}
                       xs={10}
                       style={{
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         fontSize: 12,
                         float: "left",
-                        fontWeight: "bold",
                         color: "white",
                         textAlign: "left",
                         paddingTop: 8,
@@ -919,7 +891,7 @@ const ChepOneCardMobView = () => {
                       style={{ width: 267.35, height: 150.48, paddingRight: 0 }}
                     />
                   </Row>
-                  <Row>
+                  <Row style={{ marginTop: 8 }}>
                     {" "}
                     <Image
                       fluid
@@ -941,7 +913,6 @@ const ChepOneCardMobView = () => {
                         marginTop: 2,
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "white",
-                        fontWeight: "bold",
                         fontSize: "14px",
                         marginBottom: "5px",
                       }}
@@ -969,6 +940,7 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
+                      marginTop: 26,
                     }}
                   >
                     <Col
@@ -996,10 +968,9 @@ const ChepOneCardMobView = () => {
                       sm={10}
                       xs={10}
                       style={{
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "HelveticaNeue-Bold",
                         fontSize: 12,
                         float: "left",
-                        fontWeight: "bold",
                         color: "white",
                         textAlign: "left",
                         paddingTop: 8,
@@ -1008,7 +979,7 @@ const ChepOneCardMobView = () => {
                         width: 160,
                       }}
                     >
-                      Profile Of <br /> Emilio Eduardo Massera
+                      Profile Of <br /> Orlando Ramón Agosti
                     </Col>
                   </Row>
                 </Col>
@@ -1035,8 +1006,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "HelveticaNeue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   fontSize: 18,
                   width: 43,
                   paddingRight: 0,
@@ -1050,10 +1021,10 @@ const ChepOneCardMobView = () => {
                     marginBottom: 0,
                     paddingLeft: 34.8,
                     fontSize: 15,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                   }}
                 >
-                  01/04
+                  04/06
                 </p>
                 <Image
                   src="./images/chep1/divider.png"
@@ -1063,9 +1034,8 @@ const ChepOneCardMobView = () => {
               </Row>
               <h6
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontWeight: "bold",
                   fontSize: "20px",
                   textAlign: "justify",
                   marginBottom: 0,
@@ -1090,8 +1060,7 @@ const ChepOneCardMobView = () => {
                   paddingLeft: 20,
                   paddingTop: 10,
                   fontSize: 12,
-                  fontFamily: "Helvetica Neue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
                   textAlign: "left",
                 }}
               >
@@ -1106,8 +1075,8 @@ const ChepOneCardMobView = () => {
                   paddingLeft: 20,
                   paddingBottom: 30,
                   fontSize: 12,
-                  fontFamily: "Helvetica Neue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   textAlign: "left",
                 }}
               >
@@ -1178,7 +1147,7 @@ const ChepOneCardMobView = () => {
                     color: "white",
                     textAlign: "left",
                     marginTop: 5,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     fontSize: 12,
                   }}
                 >
@@ -1228,13 +1197,13 @@ const ChepOneCardMobView = () => {
                 marginBottom: 26,
                 paddingLeft: 19,
                 color: "white",
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-Bold",
                 marginTop: 26,
+                width: "280px",
               }}
             >
-              A collection of books that are informative and <br /> personal
-              that shed light on the cause and effects <br /> of the Junta’s
-              policies.
+              A collection of books that are informative and personal that shed
+              light on the cause and effects of the Junta’s policies.
             </p>
           </Row>
           <Row>
@@ -1248,10 +1217,9 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "White",
                     textAlign: "left",
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     fontSize: 11,
                     paddingTop: 0,
-                    fontWeight: "bold",
                   }}
                 >
                   The Ideological Origins
@@ -1274,9 +1242,8 @@ const ChepOneCardMobView = () => {
                         sm={9}
                         xs={9}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 11,
-                          fontWeight: "bold",
                           float: "left",
                           color: "white",
                           textAlign: "left",
@@ -1303,10 +1270,9 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "White",
                     textAlign: "left",
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     fontSize: 11,
                     paddingTop: 0,
-                    fontWeight: "bold",
                   }}
                 >
                   Argentina Betrayed <br /> Memory, Mourning, <br /> and
@@ -1328,9 +1294,9 @@ const ChepOneCardMobView = () => {
                         sm={9}
                         xs={9}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 11,
-                          fontWeight: "bold",
+
                           float: "left",
                           color: "white",
                           textAlign: "left",
@@ -1356,9 +1322,8 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "White",
                     textAlign: "left",
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     fontSize: 11,
-                    fontWeight: "bold",
                     paddingTop: "20px",
                   }}
                 >
@@ -1383,9 +1348,9 @@ const ChepOneCardMobView = () => {
                         sm={9}
                         xs={9}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 11,
-                          fontWeight: "bold",
+
                           float: "left",
                           color: "white",
                           textAlign: "left",
@@ -1419,8 +1384,8 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   color: "white",
-                  fontFamily: "HelveticaNeue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   fontSize: 18,
                   width: 43,
                   paddingRight: 0,
@@ -1434,10 +1399,10 @@ const ChepOneCardMobView = () => {
                     marginBottom: 0,
                     paddingLeft: 34.8,
                     fontSize: 15,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                   }}
                 >
-                  01/05
+                  05/06
                 </p>
                 <Image
                   src="./images/chep1/divider.png"
@@ -1447,9 +1412,8 @@ const ChepOneCardMobView = () => {
               </Row>
               <h6
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontWeight: "bold",
                   fontSize: "18px",
                   textAlign: "justify",
                   marginBottom: 0,
@@ -1488,7 +1452,6 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
-                fontWeight: "bold",
                 marginBottom: 0,
               }}
             >
@@ -1500,7 +1463,6 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
-                fontWeight: "bold",
                 textAlign: "left",
                 color: "#20C5F7",
                 marginBottom: 0,
@@ -1515,7 +1477,6 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
-                fontWeight: "bold",
                 textAlign: "left",
                 color: "#20C5F7",
                 marginBottom: 11.2,
@@ -1533,7 +1494,6 @@ const ChepOneCardMobView = () => {
                 marginBottom: 10,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
-                fontWeight: "bold",
                 textAlign: "left",
               }}
             >
@@ -1545,10 +1505,10 @@ const ChepOneCardMobView = () => {
               style={{
                 color: "white",
                 paddingLeft: 30,
-                paddingBottom: 30,
+                paddingBottom: 20,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
-                fontWeight: "bold",
+                marginBottom: 0,
                 textAlign: "left",
               }}
             >
@@ -1558,6 +1518,36 @@ const ChepOneCardMobView = () => {
               <br /> many others illegally imprisoned or going into exile.
             </p>
           </div>
+          <Row style={{ margin: 0 }}>
+            <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
+              <a role="button">
+                <Image
+                  src="./images/btnImage.svg"
+                  style={{
+                    paddingLeft: 0,
+                    marginLeft: 25,
+                  }}
+                  fluid
+                />
+              </a>
+            </Col>
+            <Col
+              sm={8}
+              xs={8}
+              style={{
+                paddingLeft: 0,
+                marginLeft: 25,
+                color: "white",
+                textAlign: "left",
+                marginTop: 5,
+                fontFamily: "HelveticaNeue-Bold",
+                fontSize: 12,
+                paddingBottom: 15,
+              }}
+            >
+              Learn More About
+            </Col>
+          </Row>
         </Container>
       </div>
       <Image
@@ -1594,15 +1584,15 @@ const ChepOneCardMobView = () => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
-                    fontWeight: "bold",
+                    fontFamily: "HelveticaNeue-Bold",
+
                     fontSize: 14,
                     width: 56,
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
                 >
-                  01/06
+                  06/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
@@ -1627,9 +1617,8 @@ const ChepOneCardMobView = () => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 30,
-                    fontWeight: "bold",
                     lineHeight: 0.9,
                     paddingBottom: 5,
                   }}
@@ -1649,7 +1638,7 @@ const ChepOneCardMobView = () => {
               <div className="cardBody">
                 <Row
                   style={{
-                    padding: "112.8px 0px",
+                    padding: "56.4px 0px 112.8px 0px",
                     textAlign: "center",
                     margin: "auto 0px",
                   }}
@@ -1713,8 +1702,8 @@ const ChepOneCardMobView = () => {
                   paddingLeft: 20,
                   fontSize: 12,
                   width: 342,
-                  fontFamily: "Helvetica Neue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   textAlign: "left",
                 }}
               >
@@ -1729,8 +1718,8 @@ const ChepOneCardMobView = () => {
                   color: "white",
                   paddingLeft: 20,
                   fontSize: 12,
-                  fontFamily: "Helvetica Neue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   width: 342,
                   textAlign: "left",
                 }}
@@ -1745,8 +1734,8 @@ const ChepOneCardMobView = () => {
                   paddingLeft: 20,
                   paddingBottom: 10,
                   fontSize: 12,
-                  fontFamily: "Helvetica Neue",
-                  fontWeight: "bold",
+                  fontFamily: "HelveticaNeue-Bold",
+
                   textAlign: "left",
                   width: 342,
                   marginBottom: 0,
@@ -1778,7 +1767,7 @@ const ChepOneCardMobView = () => {
                     color: "white",
                     textAlign: "left",
                     marginTop: 0,
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-Bold",
                     fontSize: 11,
                     paddingBottom: 15,
                     paddingRight: 0,

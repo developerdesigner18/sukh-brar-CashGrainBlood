@@ -21,10 +21,9 @@ const Card_component = ({ chepData }) => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 18,
                     width: 60,
-                    fontWeight: "bold",
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
@@ -40,7 +39,7 @@ const Card_component = ({ chepData }) => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 40,
                   }}
                 >
@@ -49,7 +48,7 @@ const Card_component = ({ chepData }) => {
                 <Row
                   style={{
                     color: "white",
-                    fontFamily: "Stardos Stencil",
+                    fontFamily: "StardosBold",
                     fontSize: 40,
                     lineHeight: 0.5,
                     paddingBottom: 15,

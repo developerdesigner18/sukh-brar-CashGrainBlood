@@ -28,9 +28,8 @@ const CardComponent = () => {
             >
               <h1
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   color: "white",
-                  fontWeight: "bold",
                   fontSize: "12px",
                   textAlign: "center",
 
@@ -44,9 +43,9 @@ const CardComponent = () => {
               </h1>
               <small
                 style={{
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1,
-                  fontWeight: "bold",
+
                   fontSize: "26px",
                   textAlign: "justify",
                 }}

@@ -16,3 +16,19 @@
   background-image: url("../../public/images/chep1/chepOneFooter.png");
   background-size: cover;
 }
+/* .swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet {
+  background-color: gray !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets {
+  padding-bottom: 6px !important;
+}
+.swiper-pagination
+  swiper-pagination-clickable
+  swiper-pagination-bullets
+  swiper-pagination-horizontal {
+  margin-bottom: 8px;
+} */

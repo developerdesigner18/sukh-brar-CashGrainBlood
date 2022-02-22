@@ -27,9 +27,8 @@ const HomePage = () => {
               style={{
                 wordBreak: "break-all",
                 fontSize: "74px",
-                fontFamily: "Stardos Stencil",
+                fontFamily: "StardosBold",
                 lineHeight: 1,
-                fontWeight: "bold",
               }}
             >
               CASH <br /> GRAIN,
@@ -39,8 +38,7 @@ const HomePage = () => {
               style={{
                 textAlign: "left",
                 fontSize: 20,
-                fontWeight: "bold",
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-Bold",
                 width: 443,
                 height: 192,
               }}

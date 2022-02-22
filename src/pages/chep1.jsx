@@ -25,9 +25,8 @@ const Chep1 = () => {
                 style={{
                   wordBreak: "break-all",
                   fontSize: "74px",
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   lineHeight: 1,
-                  fontWeight: "bold",
                 }}
               >
                 FROM HOST
@@ -39,8 +38,7 @@ const Chep1 = () => {
                   width: 443,
                   height: 192,
                   fontSize: 20,
-                  fontWeight: "bold",
-                  fontFamily: "Helvetica Neue",
+                  fontFamily: "HelveticaNeue-Bold",
                 }}
               >
                 Before a ball was kicked, domestic politics, the repression of
@@ -56,9 +54,8 @@ const Chep1 = () => {
               style={{
                 paddingLeft: 10,
                 marginBottom: 0,
-                fontWeight: "bold",
                 fontSize: 18,
-                fontFamily: "Stardos Stencil",
+                fontFamily: "StardosBold",
               }}
             >
               CHAPTER 2: FROM HOST TO JUNTA 1-6
@@ -78,9 +75,8 @@ const Chep1 = () => {
             <Col>
               <p
                 style={{
-                  fontWeight: "bold",
                   fontSize: 24,
-                  fontFamily: "Stardos Stencil",
+                  fontFamily: "StardosBold",
                   textAlign: "justify",
                   lineHeight: 1.5,
                   marginBottom: 0,

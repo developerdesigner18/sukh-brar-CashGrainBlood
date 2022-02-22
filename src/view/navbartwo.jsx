@@ -29,7 +29,7 @@ const Navbar_title = () => {
               <Row>
                 <small
                   style={{
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-CondensedBold",
                     fontSize: 13,
                     lineHeight: 0.8,
                     paddingTop: 12,

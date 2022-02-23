@@ -962,7 +962,7 @@ const ChepOneCard = () => {
                         <Col
                           lg={10}
                           style={{
-                            fontFamily: "HelveticaNeue-BoldHelvetica Neue",
+                            fontFamily: "HelveticaNeue-Bold",
                             fontSize: 16,
                             float: "left",
                             color: "white",
@@ -1372,7 +1372,7 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "HelveticaNeue-CondensedBolde",
+                      fontFamily: "HelveticaNeue-CondensedBold",
                       color: "#20C5F7",
                       fontSize: "12px",
                       width: 188,
@@ -1394,7 +1394,7 @@ const ChepOneCard = () => {
                     style={{
                       textAlign: "left",
                       marginTop: 10,
-                      fontFamily: "HelveticaNeue-medium",
+                      fontFamily: "HelveticaNeue-Bold",
                       color: "white",
 
                       fontSize: 12,
@@ -1410,7 +1410,7 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "HelveticaNeue-medium",
+                      fontFamily: "HelveticaNeue-Bold",
                       color: "white",
                       fontWeight: "normal",
                       fontSize: "12px",
@@ -1424,7 +1424,7 @@ const ChepOneCard = () => {
                   <p
                     style={{
                       textAlign: "left",
-                      fontFamily: "HelveticaNeue-medium",
+                      fontFamily: "HelveticaNeue-Bold",
                       color: "white",
                       fontWeight: "normal",
                       fontSize: "12px",

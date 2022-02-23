@@ -190,26 +190,22 @@ const ChepOneCardMobView = () => {
         <div style={{ paddingLeft: 0, marginRight: 0 }}>
           <h4
             style={{
-              fontSize: 25,
+              fontSize: 26,
               fontFamily: "StardosBold",
-
+              width: 332,
               textAlign: "left",
               paddingLeft: 36,
               lineHeight: 1.5,
               color: "white",
             }}
           >
-            “Holding the tournament <br /> will show the world <br />
-            that{" "}
+            “Holding the tournament will show the world that{" "}
             <span style={{ color: "#20C5F7" }}>
-              {" "}
-              Argentina is a <br /> trustworthy country
+              Argentina is a trustworthy country
             </span>
-            , <br /> capable of carrying out <br /> huge projects; and will{" "}
+            , capable of carrying out huge projects; and will help push back
+            against the criticism that is raining on us from around the world”{" "}
             <br />
-            help push back against the <br />
-            criticism that is raining on
-            <br /> us from around the world” <br />
             <span
               style={{
                 color: "#20C5F7",
@@ -732,6 +728,7 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
+                      marginTop: 5,
                     }}
                   >
                     <Col
@@ -940,7 +937,7 @@ const ChepOneCardMobView = () => {
                   <Row
                     style={{
                       paddingLeft: 0,
-                      marginTop: 26,
+                      marginTop: 7,
                     }}
                   >
                     <Col
@@ -1294,9 +1291,8 @@ const ChepOneCardMobView = () => {
                         sm={9}
                         xs={9}
                         style={{
-                          fontFamily: "HelveticaNeue-Bold",
+                          fontFamily: "HelveticaNeue-Bold ",
                           fontSize: 11,
-
                           float: "left",
                           color: "white",
                           textAlign: "left",
@@ -1493,7 +1489,7 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 marginBottom: 10,
                 fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBold",
+                fontFamily: "HelveticaNeue-Bold",
                 textAlign: "left",
               }}
             >
@@ -1507,7 +1503,7 @@ const ChepOneCardMobView = () => {
                 paddingLeft: 30,
                 paddingBottom: 20,
                 fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBold",
+                fontFamily: "HelveticaNeue-Bold",
                 marginBottom: 0,
                 textAlign: "left",
               }}
@@ -1707,11 +1703,10 @@ const ChepOneCardMobView = () => {
                   textAlign: "left",
                 }}
               >
-                On April 30, 1977, Azucena Villaflor de De Vincenti and <br />a
-                dozen other mothers walked to the Plaza de Mayo in <br />
-                Argentina’s capital city. These women shared the
-                <br /> experience of each having had at least one child who had{" "}
-                been taken by the military government.
+                On April 30, 1977, Azucena Villaflor de De Vincenti and a dozen
+                other mothers walked to the Plaza de Mayo in Argentina’s capital
+                city. These women shared the experience of each having had at
+                least one child who had been taken by the military government.
               </p>
               <p
                 style={{

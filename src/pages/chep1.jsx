@@ -88,7 +88,7 @@ const Chep1 = () => {
                 from around the world”
                 <span
                   style={{
-                    fontFamily: "Helvetica Neue",
+                    fontFamily: "HelveticaNeue-CondensedBold",
                     fontSize: 18,
                     textTransform: "uppercase",
                     color: "#20C5F7",

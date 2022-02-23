@@ -130,8 +130,8 @@ const Card_component = ({ chepData }) => {
                       float: "left",
                       fontSize: 14,
                       paddingLeft: 10,
-                      fontWeight: "bold",
-                      fontFamily: "Helvetica Neue",
+
+                      fontFamily: "HelveticaNeue-Bold",
                       letterSpacing: "0.5px",
                       paddingLeft: 10,
                     }}
@@ -161,11 +161,11 @@ const Card_component = ({ chepData }) => {
                       <Col
                         lg={8}
                         style={{
-                          fontFamily: "Helvetica Neue",
+                          fontFamily: "HelveticaNeue-Bold",
                           fontSize: 15,
                           float: "left",
                           paddingLeft: 5,
-                          fontWeight: "bold",
+
                           paddingTop: 5,
                           cursor: "pointer",
                         }}

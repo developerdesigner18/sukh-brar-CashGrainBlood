@@ -46,7 +46,7 @@ const CardComponent = () => {
                   fontFamily: "StardosBold",
                   lineHeight: 1,
 
-                  fontSize: "26px",
+                  fontSize: "28px",
                   textAlign: "justify",
                 }}
               >

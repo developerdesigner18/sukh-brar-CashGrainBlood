@@ -7,7 +7,9 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import HomePageMob from "./view/homepageMob";
 import Chep1MobView from "./view/chep1Mobview";
+import ScrollToTop from "./ScrollTop";
 import { useEffect } from "react";
+import ChapterTwo from "./pages/chep2";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
@@ -29,10 +31,13 @@ function App() {
           >
             <Navbar_title />
 
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="chepOne" element={<Chep1 />} />
-            </Routes>
+            <ScrollToTop>
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="chepOne" element={<Chep1 />} />
+                <Route path="chepTwo" element={<ChapterTwo />} />
+              </Routes>
+            </ScrollToTop>
           </div>
         ) : (
           <div

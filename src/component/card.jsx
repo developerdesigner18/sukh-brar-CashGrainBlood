@@ -145,7 +145,7 @@ const Card_component = ({ chepData }) => {
                         <a
                           role="button"
                           onClick={() => {
-                            navigate("/chepOne");
+                            navigate(`/${data.routing}`);
                           }}
                         >
                           <Image
@@ -170,7 +170,7 @@ const Card_component = ({ chepData }) => {
                           cursor: "pointer",
                         }}
                         onClick={() => {
-                          navigate("/chepOne");
+                          navigate(`/${data.routing}`);
                         }}
                       >
                         LEARN MORE

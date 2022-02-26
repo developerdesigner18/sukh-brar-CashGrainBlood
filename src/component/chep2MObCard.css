@@ -1,0 +1,42 @@
+.chepTwoCardOneIndex {
+  margin-bottom: 0px;
+  padding: 0px !important;
+  color: white;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 15px;
+}
+.chepTwoCardOne {
+  background-image: url("../../public/images/chep2/mobCardOne.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.chepTwoCardOneImgDesc {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-left: 0px;
+  padding: 0px;
+  color: #20c5f7;
+  margin-top: 3px !important;
+  margin-bottom: 0px;
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 12px;
+}
+.chepTwoCardOneTitle {
+  padding: 0px !important;
+  line-height: 1;
+  margin: 0px !important;
+  color: white;
+  font-family: "StardosBold";
+  font-size: 20px;
+}
+.chepTwoCardOneDescText {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

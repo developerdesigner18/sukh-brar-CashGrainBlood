@@ -14,7 +14,7 @@ const CardComponent = () => {
         key={index}
         style={{ marginTop: 15 }}
         onClick={() => {
-          navigate("/chepOne");
+          navigate(`/${data.routing}`);
         }}
       >
         <div className="bannerContainer1">

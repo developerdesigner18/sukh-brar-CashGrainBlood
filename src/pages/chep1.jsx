@@ -2,9 +2,20 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import ChepOneCard from "../component/chep1Card";
 import "./chep1.css";
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
+
 const Chep1 = () => {
   return (
     <React.Fragment>
+      <ScrollToTopOnMount />
       <div className="chepOnePageBannerContainer">
         <div className="bannerContainer">
           <div className="chepOneBannerImage">

@@ -7,7 +7,8 @@
     "chepImage": "./images/chep1img.png",
     "chepImageTitle": "Jorge Rafael Videla",
     "chepImageDescription": "(2 August 1925 – 17 May 2013) was  General Commander of the Army, member of military junta and dictator of Argentina from 1976 to 1981. ",
-    "chepDescription": "How the Argentine military took over the government and saw hosting the World Cup as PR opportunity; while conducting  a “Dirty War” on its’ own people."
+    "chepDescription": "How the Argentine military took over the government and saw hosting the World Cup as PR opportunity; while conducting  a “Dirty War” on its’ own people.",
+    "routing": "chepOne"
   },
   {
     "chepName": "CH/02",
@@ -17,7 +18,8 @@
     "chepImage": "./images/chep2img.png",
     "chepImageTitle": "Jorge Rafael Videla",
     "chepImageDescription": "Argentina players pose during the World Cup 1978 match between Argentina and Peru at Gigante de Arroyito Stadium, Rosario, Argentina, on June 21th 1978.  (Photo : Michel Piquemal / Onze / Icon Sport via Getty Images) ",
-    "chepDescription": "The Argentine national team was disparate group over-seas players and local legends. A chain-smoking, left-wing intellectual is picked to manage the team."
+    "chepDescription": "The Argentine national team was disparate group over-seas players and local legends. A chain-smoking, left-wing intellectual is picked to manage the team.",
+    "routing": "chepTwo"
   },
   {
     "chepName": "CH/03",
@@ -27,7 +29,8 @@
     "chepImage": "./images/chep3img.png",
     "chepImageTitle": "Leopoldo Luque",
     "chepImageDescription": "of Argentina during the World Cup 1978 match between Argentina and Peru at Gigante de Arroyito Stadium. ",
-    "chepDescription": "The players from the Argentine and Peruvian teams feel the pressure from outside the locker room and from within.   "
+    "chepDescription": "The players from the Argentine and Peruvian teams feel the pressure from outside the locker room and from within.   ",
+    "routing": "chepThree"
   },
   {
     "chepName": "CH/04",
@@ -37,7 +40,8 @@
     "chepImage": "./images/chep4img.jpg",
     "chepImageTitle": "Jorge Rafael Videla (Center)",
     "chepImageDescription": "Argentine dictator Jorge Rafael Videla attending the World Cup match between Argentina and Peru, 1978. ",
-    "chepDescription": "Behind the scenes, the Argentine junta and Peruvian dictatorship negotiate the price and terms for the Argentina team to qualify for the final."
+    "chepDescription": "Behind the scenes, the Argentine junta and Peruvian dictatorship negotiate the price and terms for the Argentina team to qualify for the final.",
+    "routing": "chepFour"
   },
   {
     "chepName": "CH/05",
@@ -47,6 +51,7 @@
     "chepImage": "./images/chep5img.jpg",
     "chepImageTitle": "Daniel Passarella (Captain of Argentina)",
     "chepImageDescription": "Daniel Passerella of Argentina with the World Cup 1978 final between Argentina and Holland at Gigante de Arroyito Stadium. ",
-    "chepDescription": "The Junta is basking in the glory of the national football team’s victory. However, ordinary Argentine citizens are refusing to remain silent at the regime’s atrocities."
+    "chepDescription": "The Junta is basking in the glory of the national football team’s victory. However, ordinary Argentine citizens are refusing to remain silent at the regime’s atrocities.",
+    "routing": "chepFive"
   }
 ]

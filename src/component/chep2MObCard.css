@@ -1,3 +1,7 @@
+.chepTwoMobcardHolder {
+  background-color: black !important;
+}
+
 .chepTwoCardOneIndex {
   margin-bottom: 0px;
   padding: 0px !important;
@@ -39,4 +43,46 @@
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
+}
+.cardThreeHeaderImage {
+  background-image: url("../../public/images/chep2/chepTwoCardThree.png");
+  background-size: cover;
+  height: 274px;
+
+  position: relative !important;
+}
+.textHolderChepTwo {
+  position: absolute;
+  top: 178px;
+  left: 36px;
+  text-transform: uppercase;
+}
+.chepTwoCardThreeDesc {
+  margin: 0px 10px 0px 30px;
+  width: 349px;
+}
+.chepTwoCardThreeDesc p {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  font-family: "HelveticaNeue-Bold";
+}
+.chepTwoAdHeader1,
+.chepTwoAdHeader2 {
+  background-color: #312c2c;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  font-family: "HelveticaNeue-CondensedBold";
+  padding-bottom: 5px;
+  padding-right: 0;
+  padding-left: 0;
+  height: 25;
+}
+.forStripe {
+  background-color: black;
+}
+.chepTwoAdContainer {
+  background-image: url("../../public/images/chep2/blackBackground.png");
+  background-size: cover;
 }

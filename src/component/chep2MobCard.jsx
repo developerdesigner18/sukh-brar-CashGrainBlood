@@ -278,12 +278,12 @@ const ChepTwoMobCard = () => {
                     <Col>
                       <Row>
                         <Image
-                          fluid
-                          src="./images/chep1/cardThreeOne.jpg"
+                          src="./images/chep2/swiper01.png"
                           style={{
-                            width: 267.35,
+                            width: 250.35,
                             height: 150.48,
                             paddingRight: 0,
+                            paddingLeft: 0,
                           }}
                         />
                       </Row>
@@ -311,7 +311,7 @@ const ChepTwoMobCard = () => {
                             marginBottom: "5px",
                           }}
                         >
-                          JORGE RAFAEL VIDELA
+                          OSVALDO ARDILES
                         </p>
                         <p
                           style={{
@@ -323,12 +323,13 @@ const ChepTwoMobCard = () => {
                             marginBottom: 0,
                           }}
                         >
-                          (August 2, 1925–May 17, 2013) was a General Commander
-                          of the Army, member of the military junta, and
-                          dictator of Argentina from 1976 to 1981. On December
-                          22, 2010, Videla was sentenced to life in a civilian
-                          prison for the deaths of 31 prisoners following his
-                          coup.
+                          Osvaldo, “Ossie” Ardiles – Midfield: Going into the
+                          tournament, Ardiles was hardly a popular choice. The
+                          press wasn’t too keen on Ardiles’ selection; there
+                          were other midfielders that seemed a more natural
+                          choice. Ardiles had a vital characteristic that tipped
+                          things in his balance. He was the more dynamic player
+                          – and that is what Menotti was seeking.
                         </p>
                       </Row>
                       <Row
@@ -374,7 +375,7 @@ const ChepTwoMobCard = () => {
                             width: 113,
                           }}
                         >
-                          Profile Of <br /> Jorge Rafael Videla
+                          Profile Of <br /> Osvaldo Ardiles
                         </Col>
                       </Row>
                     </Col>
@@ -385,8 +386,7 @@ const ChepTwoMobCard = () => {
                     <Col>
                       <Row>
                         <Image
-                          fluid
-                          src="./images/chep1/cardThreeTwo.jpg"
+                          src="./images/chep2/swiper02.png"
                           style={{
                             width: 267.35,
                             height: 150.48,
@@ -420,7 +420,7 @@ const ChepTwoMobCard = () => {
                             marginBottom: "5px",
                           }}
                         >
-                          EMILIO EDUARDO MASSERA
+                          MARIO KEMPES
                         </p>
                         <p
                           style={{
@@ -432,19 +432,19 @@ const ChepTwoMobCard = () => {
                             width: 279,
                           }}
                         >
-                          (October 19, 1925–November 8, 2010) was a General
-                          Commander of the Army, member of the military junta,
-                          and dictator of Argentina from 1976 to 1981. On
-                          December 22, 2010, Videla was sentenced to life in a
-                          civilian prison for the deaths of 31 prisoners
-                          following his coup.
+                          Mario Kempes – Forward: Kempes was a rare Argentine in
+                          the fact that he played for the Spanish team Valencia.
+                          He was prolific goal scorer in La Liga, with 28 goals
+                          in 34 matches. The quality and profile of Kempes led
+                          coach Menotti to abandon his policy of selecting only
+                          domestic-based players for the home-soil tournament.
                         </p>
                       </Row>
 
                       <Row
                         style={{
-                          marginTop: 7,
                           paddingLeft: 0,
+                          marginTop: 25,
                         }}
                       >
                         <Col
@@ -475,15 +475,16 @@ const ChepTwoMobCard = () => {
                             fontFamily: "HelveticaNeue-Bold",
                             fontSize: 12,
                             float: "left",
+
                             color: "white",
                             textAlign: "left",
                             paddingTop: 8,
                             paddingLeft: 0,
                             paddingRight: 0,
-                            width: 160,
+                            width: 113,
                           }}
                         >
-                          Profile Of <br /> Emilio Eduardo Massera
+                          Profile Of <br /> Mario Kempes
                         </Col>
                       </Row>
                     </Col>
@@ -494,8 +495,7 @@ const ChepTwoMobCard = () => {
                     <Col>
                       <Row>
                         <Image
-                          fluid
-                          src="./images/chep1/chapterThreeThree.png"
+                          src="./images/chep2/swiper03.png"
                           style={{
                             width: 267.35,
                             height: 150.48,
@@ -529,7 +529,7 @@ const ChepTwoMobCard = () => {
                             marginBottom: "5px",
                           }}
                         >
-                          ORLANDO RAMON AGOSTI
+                          Daniel PAssarella
                         </p>
                         <p
                           style={{
@@ -541,18 +541,20 @@ const ChepTwoMobCard = () => {
                             width: 279,
                           }}
                         >
-                          (August 22, 1924–October 6, 1997) was an Argentine
-                          general, and Commander-in-Chief of the Argentine Air
-                          Force from 1976 to 1979. With General Jorge Rafael
-                          Videla, he ruled Argentina as part of the military
-                          junta between 1976 and 1981.
+                          Is an Argentine former professional footballer who
+                          played as a centre back, and former manager of the
+                          Argentina and Uruguay national football teams. He was
+                          captain of the Argentina team that won the 1978 World
+                          Cup. He was president of the River Plate sports club
+                          for four years after winning the elections by a very
+                          close margin in December 2009.
                         </p>
                       </Row>
 
                       <Row
                         style={{
                           paddingLeft: 0,
-                          marginTop: 7,
+                          marginTop: 5,
                         }}
                       >
                         <Col
@@ -583,15 +585,17 @@ const ChepTwoMobCard = () => {
                             fontFamily: "HelveticaNeue-Bold",
                             fontSize: 12,
                             float: "left",
+
                             color: "white",
                             textAlign: "left",
                             paddingTop: 8,
                             paddingLeft: 0,
                             paddingRight: 0,
-                            width: 160,
+                            width: 113,
                           }}
                         >
-                          Profile Of <br /> Orlando Ramón Agosti
+                          Profile Of <br />
+                          Daniel Passarella
                         </Col>
                       </Row>
                     </Col>
@@ -601,6 +605,223 @@ const ChepTwoMobCard = () => {
             </Card.Body>
           </Card>
         </div>
+        {/* -----------------------------card-3=----------------------------------------- */}
+        <div className="chepTwoCardTHree">
+          <div className="cardThreeHeaderImage">
+            <Container style={{ padding: 0 }}>
+              <Row
+                style={{
+                  width: 56,
+                  padding: 0,
+                  margin: 0,
+                  marginTop: 10,
+                }}
+              >
+                <p
+                  className="chepTwoCardOneIndex"
+                  style={{ marginTop: 11, marginLeft: 34 }}
+                >
+                  01/03
+                </p>
+                <Image
+                  src="./images/chep1/divider.png"
+                  fluid
+                  style={{
+                    height: "5px",
+                    width: 38,
+                    padding: 0,
+                    marginLeft: 34,
+                  }}
+                ></Image>
+              </Row>
+            </Container>
+            <div className="textHolderChepTwo">
+              <Row
+                style={{
+                  paddingLeft: 0,
+                  marginRight: 0,
+                }}
+              >
+                <p className="chepTwoCardOneTitle">
+                  La Albiceleste <br /> AND THE REST <br /> OF GROUP A
+                </p>
+              </Row>
+
+              <Row
+                style={{
+                  width: 159.21,
+                  height: 9.21,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                }}
+              >
+                <Image
+                  src="./images/verticalDivider.png"
+                  style={{ paddingLeft: 0, paddingRight: 0 }}
+                  fluid
+                />
+              </Row>
+            </div>
+          </div>
+          <div className="chepTwoCardThreeDesc">
+            <p>
+              In the first group stage (Group A), Argentina was placed with
+              Italy, France and Hungary.
+            </p>
+            <p>
+              La Albiceleste, the host nation, got off to a sluggish start with
+              a close 2–1 victory over Hungary in their opening game. Argentines
+              had a more attacking (2–1) victory over the French, but with a
+              dubious awarded penalty for hand ball. They were up against the
+              solid Italian team and lost that game convincingly 1–0 to the
+              Azurri.
+            </p>
+            <p>
+              Italy won the group comprehensively. Argentina, with the tension
+              in the country, came in a lackluster second. Both teams
+              automatically qualified for the second group stage.
+            </p>
+          </div>
+          <div className="container" style={{ margin: "0px 10px 0px 20px" }}>
+            <Row style={{ marginTop: 8 }}>
+              <Image
+                fluid
+                src="./images/chep1/upArrow.svg"
+                style={{
+                  width: 26.96,
+                  height: 17.41,
+                  padding: 0,
+                  marginTop: 15,
+                  marginLeft: 3,
+                }}
+              />
+            </Row>
+            <Row>
+              <p
+                style={{
+                  textAlign: "left",
+                  marginTop: 2,
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  color: "white",
+                  fontSize: "14px",
+                  marginBottom: "5px",
+                }}
+              >
+                NOTE:
+              </p>
+              <p
+                style={{
+                  textAlign: "left",
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  color: "#20C5F7",
+                  fontSize: "14px",
+                  width: "279px",
+                  marginBottom: 0,
+                }}
+              >
+                La Albiceleste is the nickname of the Argentina national team.
+                It refers to the colors of the team’s home jersey, the White and
+                Sky Blues.
+              </p>
+            </Row>
+            <Row>
+              <p
+                style={{
+                  textAlign: "left",
+                  marginTop: 2,
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  color: "white",
+                  fontSize: "14px",
+                  marginBottom: "5px",
+                }}
+              >
+                IMAGE:
+              </p>
+              <p
+                style={{
+                  textAlign: "left",
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  color: "#20C5F7",
+                  fontSize: "14px",
+                  width: "279px",
+                  marginBottom: 0,
+                }}
+              >
+                Oscar Ortiz of Argentina during the World Cup 1978 match between
+                Argentina and Italy at Monumental Stadium, Buenos Aires,
+                Argentina, on June 10, 1978.
+              </p>
+            </Row>
+            <Row
+              style={{
+                paddingLeft: 0,
+                marginTop: 5,
+              }}
+            >
+              <Col
+                sm={2}
+                xs={2}
+                style={{
+                  width: 50,
+                  // paddingLeft: 0,
+                  textAlign: "left",
+                }}
+              >
+                <a role="button">
+                  <Image
+                    src="./images/btnImage.svg"
+                    style={{
+                      // paddingLeft: 0,
+                      marginTop: 11,
+                      width: "100%",
+                    }}
+                    fluid
+                  />
+                </a>
+              </Col>
+              <Col
+                sm={10}
+                xs={10}
+                style={{
+                  fontFamily: "HelveticaNeue-Bold",
+                  fontSize: 12,
+                  float: "left",
+
+                  color: "white",
+                  textAlign: "left",
+                  paddingTop: 8,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                }}
+              >
+                Learn More <br /> Group 1 Results And Statistics
+              </Col>
+            </Row>
+          </div>
+        </div>
+        {/*-----------------stripe------------------------------  */}
+
+        {/* ------------------------------------ad------------------------------- */}
+        <div className="chepTwoAdHeader1" style={{ paddingTop: "5px" }}>
+          <p style={{ width: 230, margin: 0 }}>78 WC: GROUP B NATIONAL KITS</p>
+        </div>
+        <div className="chepTwoAdContainer">
+          <div className="row" style={{ margin: 0, padding: 29 }}>
+            <div sm={4} xs={4} className="col" style={{ textAlign: "center" }}>
+              <Image src="./images/chep2/tShirtOne.png" />
+            </div>
+            <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
+              <div className="row"></div>
+              <div className="row">
+                <p>
+                  MEN’S ARGENTINA <br /> HOME JERSEY <br /> White / Clear Blue
+                </p>
+              </div>
+              <div className="row"></div>
+            </div>
+          </div>
+        </div>
+        <div className="chepTwoAdHeader2" style={{ padding: "15px" }}></div>
       </div>
     </React.Fragment>
   );

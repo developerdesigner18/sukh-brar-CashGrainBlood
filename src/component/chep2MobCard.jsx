@@ -269,11 +269,10 @@ const ChepTwoMobCard = () => {
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={0}
                 slidesPerView={1.5}
-                onSlideChange={() => console.log("slide change")}
                 onSwiper={(swiper) => console.log(swiper)}
                 pagination={{ clickable: true }}
               >
-                <SwiperSlide style={{ padding: 5 }}>
+                <SwiperSlide style={{ padding: 5, width: 279 }}>
                   <Row style={{ textAlign: "center", marginLeft: 10 }}>
                     <Col>
                       <Row>
@@ -288,6 +287,7 @@ const ChepTwoMobCard = () => {
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
+                        {" "}
                         <Image
                           fluid
                           src="./images/chep1/upArrow.svg"
@@ -301,6 +301,7 @@ const ChepTwoMobCard = () => {
                         />
                       </Row>
                       <Row>
+                        {" "}
                         <p
                           style={{
                             textAlign: "left",
@@ -319,17 +320,18 @@ const ChepTwoMobCard = () => {
                             fontFamily: "HelveticaNeue-CondensedBold",
                             color: "#20C5F7",
                             fontSize: "14px",
-                            width: "279px",
                             marginBottom: 0,
+
+                            paddingRight: 0,
                           }}
                         >
-                          Osvaldo, “Ossie” Ardiles – Midfield: Going into the
-                          tournament, Ardiles was hardly a popular choice. The
-                          press wasn’t too keen on Ardiles’ selection; there
-                          were other midfielders that seemed a more natural
-                          choice. Ardiles had a vital characteristic that tipped
-                          things in his balance. He was the more dynamic player
-                          – and that is what Menotti was seeking.
+                          Osvaldo, “Ossie” Ardiles - Midfield: Going into the
+                          tournament, Ardiles was hardly the popular choice. The
+                          press wasn’t too keen on Ardiles selection; there were
+                          other midfielders that seemed the natural choice.
+                          Ardiles had a vital characteristic that tipped things
+                          in his balance. He was the more dynamic player – and
+                          that is what Menotti was seeking.
                         </p>
                       </Row>
                       <Row
@@ -339,12 +341,11 @@ const ChepTwoMobCard = () => {
                         }}
                       >
                         <Col
-                          sm={2}
-                          xs={2}
+                          sm={3}
+                          xs={3}
                           style={{
-                            width: 50,
-                            // paddingLeft: 0,
-                            textAlign: "left",
+                            padding: 0,
+                            textAlign: "center",
                           }}
                         >
                           <a role="button">
@@ -353,15 +354,16 @@ const ChepTwoMobCard = () => {
                               style={{
                                 // paddingLeft: 0,
                                 marginTop: 11,
-                                width: "100%",
+                                width: 31.21,
+                                height: 31.21,
                               }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
-                          sm={10}
-                          xs={10}
+                          sm={9}
+                          xs={9}
                           style={{
                             fontFamily: "HelveticaNeue-Bold",
                             fontSize: 12,
@@ -381,7 +383,7 @@ const ChepTwoMobCard = () => {
                     </Col>
                   </Row>
                 </SwiperSlide>
-                <SwiperSlide style={{ padding: 5 }}>
+                <SwiperSlide style={{ padding: 5, width: 279 }}>
                   <Row style={{ textAlign: "center", marginLeft: 10 }}>
                     <Col>
                       <Row>
@@ -429,7 +431,8 @@ const ChepTwoMobCard = () => {
                             color: "#20C5F7",
                             fontSize: "14px",
                             marginBottom: 0,
-                            width: 279,
+
+                            paddingRight: 0,
                           }}
                         >
                           Mario Kempes – Forward: Kempes was a rare Argentine in
@@ -448,12 +451,11 @@ const ChepTwoMobCard = () => {
                         }}
                       >
                         <Col
-                          sm={2}
-                          xs={2}
+                          sm={3}
+                          xs={3}
                           style={{
-                            width: 50,
-                            // paddingLeft: 0,
-                            textAlign: "left",
+                            padding: 0,
+                            textAlign: "center",
                           }}
                         >
                           <a role="button">
@@ -462,15 +464,16 @@ const ChepTwoMobCard = () => {
                               style={{
                                 // paddingLeft: 0,
                                 marginTop: 11,
-                                width: "100%",
+                                width: 31.21,
+                                height: 31.21,
                               }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
-                          sm={10}
-                          xs={10}
+                          sm={9}
+                          xs={9}
                           style={{
                             fontFamily: "HelveticaNeue-Bold",
                             fontSize: 12,
@@ -490,7 +493,7 @@ const ChepTwoMobCard = () => {
                     </Col>
                   </Row>
                 </SwiperSlide>
-                <SwiperSlide style={{ padding: 5 }}>
+                <SwiperSlide style={{ padding: 5, width: 279 }}>
                   <Row style={{ textAlign: "center", marginLeft: 10 }}>
                     <Col>
                       <Row>
@@ -538,7 +541,8 @@ const ChepTwoMobCard = () => {
                             color: "#20C5F7",
                             fontSize: "14px",
                             marginBottom: 0,
-                            width: 279,
+
+                            paddingRight: 0,
                           }}
                         >
                           Is an Argentine former professional footballer who
@@ -558,12 +562,11 @@ const ChepTwoMobCard = () => {
                         }}
                       >
                         <Col
-                          sm={2}
-                          xs={2}
+                          sm={3}
+                          xs={3}
                           style={{
-                            width: 50,
-                            // paddingLeft: 0,
-                            textAlign: "left",
+                            padding: 0,
+                            textAlign: "center",
                           }}
                         >
                           <a role="button">
@@ -572,15 +575,16 @@ const ChepTwoMobCard = () => {
                               style={{
                                 // paddingLeft: 0,
                                 marginTop: 11,
-                                width: "100%",
+                                width: 31.21,
+                                height: 31.21,
                               }}
                               fluid
                             />
                           </a>
                         </Col>
                         <Col
-                          sm={10}
-                          xs={10}
+                          sm={9}
+                          xs={9}
                           style={{
                             fontFamily: "HelveticaNeue-Bold",
                             fontSize: 12,
@@ -592,6 +596,7 @@ const ChepTwoMobCard = () => {
                             paddingLeft: 0,
                             paddingRight: 0,
                             width: 113,
+                            marginRight: 10,
                           }}
                         >
                           Profile Of <br />
@@ -682,7 +687,10 @@ const ChepTwoMobCard = () => {
               automatically qualified for the second group stage.
             </p>
           </div>
-          <div className="container" style={{ margin: "0px 10px 0px 20px" }}>
+          <div
+            className="container"
+            style={{ margin: "0px 10px 70px 20px", width: "auto" }}
+          >
             <Row style={{ marginTop: 8 }}>
               <Image
                 fluid
@@ -696,7 +704,7 @@ const ChepTwoMobCard = () => {
                 }}
               />
             </Row>
-            <Row>
+            <Row style={{ marginTop: 10, width: 254 }}>
               <p
                 style={{
                   textAlign: "left",
@@ -704,7 +712,8 @@ const ChepTwoMobCard = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   color: "white",
                   fontSize: "14px",
-                  marginBottom: "5px",
+                  marginBottom: 0,
+                  paddingBottom: 0,
                 }}
               >
                 NOTE:
@@ -715,7 +724,7 @@ const ChepTwoMobCard = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   color: "#20C5F7",
                   fontSize: "14px",
-                  width: "279px",
+                  width: "auto",
                   marginBottom: 0,
                 }}
               >
@@ -724,7 +733,7 @@ const ChepTwoMobCard = () => {
                 Sky Blues.
               </p>
             </Row>
-            <Row>
+            <Row style={{ marginTop: 10, width: 254 }}>
               <p
                 style={{
                   textAlign: "left",
@@ -732,7 +741,8 @@ const ChepTwoMobCard = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   color: "white",
                   fontSize: "14px",
-                  marginBottom: "5px",
+                  marginBottom: 0,
+                  paddingBottom: 0,
                 }}
               >
                 IMAGE:
@@ -743,7 +753,7 @@ const ChepTwoMobCard = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   color: "#20C5F7",
                   fontSize: "14px",
-                  width: "279px",
+                  width: "auto",
                   marginBottom: 0,
                 }}
               >
@@ -802,26 +812,295 @@ const ChepTwoMobCard = () => {
         {/*-----------------stripe------------------------------  */}
 
         {/* ------------------------------------ad------------------------------- */}
-        <div className="chepTwoAdHeader1" style={{ paddingTop: "5px" }}>
-          <p style={{ width: 230, margin: 0 }}>78 WC: GROUP B NATIONAL KITS</p>
+        <div className="chepTwoAdHeader1">
+          <Container
+            style={{
+              marginLeft: 25,
+              paddingLeft: 0,
+              paddingRight: 0,
+              width: "auto",
+            }}
+          >
+            <p>
+              <Image
+                src="./images/chep2/adidasLogo.png"
+                style={{ paddingRight: 15 }}
+              />
+              {"  "} ADIDAS ARGENTINA KIT
+            </p>
+          </Container>
         </div>
         <div className="chepTwoAdContainer">
+          <div className="addTitleChepTwo">
+            <p>Official collection of the current Argentine national kit.</p>
+          </div>
+          {/* ------------------tshirt-One----------------------- */}
           <div className="row" style={{ margin: 0, padding: 29 }}>
             <div sm={4} xs={4} className="col" style={{ textAlign: "center" }}>
               <Image src="./images/chep2/tShirtOne.png" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row"></div>
-              <div className="row">
-                <p>
+              <div className="row" style={{ marginLeft: 0 }}>
+                <p className="chepTwoadDesc">
                   MEN’S ARGENTINA <br /> HOME JERSEY <br /> White / Clear Blue
                 </p>
               </div>
-              <div className="row"></div>
+              <div className="row" style={{ marginTop: 16.6 }}>
+                <a>
+                  {" "}
+                  <Image
+                    src="./images/btnImage.svg"
+                    width={31.21}
+                    height={31.21}
+                  />
+                  <span
+                    style={{
+                      paddingLeft: 10,
+                      fontFamily: "HelveticaNeue-Bold",
+                      fontSize: 12,
+                      color: "white",
+                    }}
+                  >
+                    Buy Now
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* ------------------tshirt-Two----------------------- */}
+          <div className="row" style={{ margin: 0, padding: 29 }}>
+            <div sm={4} xs={4} className="col" style={{ textAlign: "center" }}>
+              <Image src="./images/chep2/tShirtTwo.png" />
+            </div>
+            <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
+              <div className="row" style={{ marginLeft: 0 }}>
+                <p className="chepTwoadDesc">
+                  MEN’S ARGENTINA <br /> AWAY JERSEY
+                  <br /> Midnight
+                </p>
+              </div>
+              <div className="row" style={{ marginTop: 16.6 }}>
+                <a>
+                  {" "}
+                  <Image
+                    src="./images/btnImage.svg"
+                    width={31.21}
+                    height={31.21}
+                  />
+                  <span
+                    style={{
+                      paddingLeft: 10,
+                      fontFamily: "HelveticaNeue-Bold",
+                      fontSize: 12,
+                      color: "white",
+                    }}
+                  >
+                    Buy Now
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* ------------------------tshirtThreeee-------------------------------- */}
+          <div className="row" style={{ margin: 0, padding: 29 }}>
+            <div sm={4} xs={4} className="col" style={{ textAlign: "center" }}>
+              <Image src="./images/chep2/tShirtThree.png" />
+            </div>
+            <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
+              <div className="row" style={{ marginLeft: 0 }}>
+                <p className="chepTwoadDesc">
+                  MEN’S ARGENTINA <br /> WARM-UP JERSEY <br /> Marble Blue
+                </p>
+              </div>
+              <div className="row" style={{ marginTop: 16.6 }}>
+                <a>
+                  {" "}
+                  <Image
+                    src="./images/btnImage.svg"
+                    width={31.21}
+                    height={31.21}
+                  />
+                  <span
+                    style={{
+                      paddingLeft: 10,
+                      fontFamily: "HelveticaNeue-Bold",
+                      fontSize: 12,
+                      color: "white",
+                    }}
+                  >
+                    Buy Now
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="chepTwoAdHeader2" style={{ padding: "15px" }}></div>
+        <div className="chepTwoAdHeader2" style={{ padding: "19px" }}></div>
+        {/* ----------------------------lastCard---------------------------- */}
+        <div className="chep2LastCard">
+          <Container style={{ padding: 0 }}>
+            <Row
+              style={{
+                width: 56,
+                padding: 0,
+                margin: 0,
+              }}
+            >
+              <p
+                className="chepTwoCardLastIndex"
+                style={{ marginTop: 34, marginLeft: 34 }}
+              >
+                01/03
+              </p>
+              <Image
+                src="./images/chep1/divider.png"
+                fluid
+                style={{
+                  height: "5px",
+                  width: 38,
+                  padding: 0,
+                  marginLeft: 34,
+                }}
+              ></Image>
+            </Row>
+          </Container>
+          <div className="row" style={{ width: "fit-content" }}>
+            <p
+              style={{
+                color: "white",
+                fontFamily: "HelveticaNeue-CondensedBold",
+                fontSize: 11,
+                marginLeft: 34,
+                marginTop: 11.2,
+                marginBottom: 3,
+                width: "auto",
+              }}
+            >
+              SIDE STORY
+            </p>
+          </div>
+          <div
+            className="lastCardTitleHolder"
+            style={{ marginLeft: 34, padding: 1 }}
+          >
+            <Row
+              style={{
+                paddingLeft: 0,
+                marginRight: 0,
+              }}
+            >
+              <p className="chepTwoLastTitle">
+                WHEN LES <br /> BLEUS HAD TO <br /> WEAR GREEN <br /> AND WHITE
+              </p>
+            </Row>
+
+            <Row
+              style={{
+                width: 165.21,
+                height: 9.21,
+                paddingLeft: 0,
+                marginLeft: 0,
+                marginTop: 5,
+              }}
+            >
+              <Image
+                src="./images/verticalDivider.png"
+                style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
+                fluid
+              />
+            </Row>
+          </div>
+          <div className="chepTwoLastCardDesc">
+            <Image
+              fluid
+              src="./images/chep1/upArrow.svg"
+              style={{
+                width: 26.96,
+                height: 17.41,
+                padding: 0,
+                marginTop: 15,
+                marginLeft: 3,
+              }}
+            />
+
+            <div className="chepTwoLastCardText">
+              <p
+                style={{
+                  marginLeft: 0,
+                  padding: 0,
+                  color: "white",
+                  marginTop: 4,
+                  marginBottom: 0,
+                  fontSize: 12,
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                }}
+              >
+                IMAGE:
+              </p>
+              <p className="lastCardFirst">
+                French midfielder Michel Platini wearing an Atletico Kimberley
+                club jersey at the 1978 World Cup football match between France
+                and Hungary, on June 10, 1978, in Mar del Plata.
+              </p>
+              <div className="lastCardSecond">
+                <p style={{ marginBottom: 15 }}>
+                  TV broadcasts were still mainly black and white, so FIFA tried
+                  to ensure viewing audiences weren’t baffled by getting France
+                  to wear white and Hungary to wear red. <br />
+                </p>
+                <p style={{ marginBottom: 15 }}>
+                  Then FIFA changed their mind, with France instructed to wear
+                  blue and Hungary white, but the reasoning was still the same.
+                  However, someone forgot to pass on the memo, and France wore
+                  white. A request was made to the nearest club, Atletico
+                  Kimberley, whose colors of white and green were perfect for TV
+                  audiences.
+                  <br />
+                </p>
+                <p>
+                  France ended up winning the game 3–1. Atletico Kimberley went
+                  “global” for 90 minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <Image
+            src="./images/chep2/vertical_stripe.png"
+            fluid
+            style={{
+              position: "absolute",
+              top: 72.5,
+              right: 0,
+              height: 602,
+              width: 12,
+            }}
+          />
+        </div>
+        {/* --------------------------Fotter------------------------- */}
+        <div className="chepTwoFooter">
+          <div className="row" style={{ padding: 0, margin: 0 }}>
+            <div
+              className="col-10"
+              style={{ padding: 0, margin: 0, textAlign: "right" }}
+            >
+              <h1 className="footerText">
+                CHAPTER THREE: <br /> SCORE FOUR OR ELSE
+              </h1>
+            </div>
+            <div
+              className="col-2"
+              style={{ padding: 0, margin: 0, textAlign: "center" }}
+            >
+              <a role="button">
+                <Image
+                  src="./images/chep1/forwardArrow.svg"
+                  alt=""
+                  style={{ width: 31.21, height: 31.21 }}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

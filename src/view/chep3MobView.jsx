@@ -1,14 +1,14 @@
 import React from "react";
-import { Container, Image, Row, Col, Button } from "react-bootstrap";
-import ChepTwoMobCard from "../component/chep2MobCard";
-import "./chep2MobView.css";
-const ChepTwo = () => {
+import { Row, Image, Col, Container } from "react-bootstrap";
+import "./chep3MobView.css";
+import Chep3MobCard from "../component/chep3Mobcard";
+const Chep3MobView = () => {
   return (
     <React.Fragment>
-      <div className="chepTwoHolder">
+      <div className="chepThreeHolder">
         <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
           <Col lg={8} sm={8} md={8} xs={8}>
-            <p className="headingBannerText">2: MATTERS ON THE PITCH</p>
+            <p className="headingBannerText">3: SCORE FOUR OR ELSE</p>
           </Col>
           <Col
             lg={4}
@@ -26,36 +26,35 @@ const ChepTwo = () => {
             </button>
           </Col>
         </Row>
-        <div className="mobBanner">
+        <div className="mobBannerThree">
           <Container>
-            <div className="textHolder">
-              <button className="bannerButton">CHAPTER 2</button>
-              <h1 className="bannerTitle">
-                MATTERS <br /> ON THE <br /> PITCH
+            <div className="textHolderThree">
+              <button className="bannerButtonThree">CHAPTER 3</button>
+              <h1 className="bannerTitleThree">
+                SCORE <br /> FOUR <br /> OR ELSE
               </h1>
-              <p className="bannerText">
-                When the tournament kicked off in June 1978, Argentina was in
-                the thick of its bloody military dictatorship. However, there
-                were players and coaches who just wanted to play the game and
-                represent the country they loved.
+              <p className="bannerTextThree">
+                There were countless rumors of match fixing by the Argentine
+                Junta. However, it takes more than one player to make a
+                conspiracy.
               </p>
             </div>
           </Container>
-          <div className="gettyImage">
+          <div className="gettyImageThree">
             <Image
               src="./images/gettyimages.png"
               width={"100%"}
               style={{ width: 104, height: 25 }}
             />
           </div>
-          <div className="stripBannermain">
+          <div className="stripBannermainThree">
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
             />
           </div>
         </div>
-        <div className="journalistBanner">
+        <div className="journalistBannerThree">
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col
@@ -64,7 +63,7 @@ const ChepTwo = () => {
               style={{ marginLeft: 30, paddingLeft: 0, paddingRight: 0 }}
             >
               <Image
-                src="./images/chep2/emsa.png"
+                src="./images/chep3/luque.png"
                 fluid
                 style={{ width: 120, height: 120 }}
                 // style={{ marginTop: 40 }}
@@ -79,7 +78,7 @@ const ChepTwo = () => {
                   fluid
                 />
               </Row>
-              <Row>
+              <Row style={{ width: 164 }}>
                 <p
                   style={{
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -91,10 +90,8 @@ const ChepTwo = () => {
                     marginBottom: 0,
                   }}
                 >
-                  ESMA OF THE NAVY
+                  Leopoldo Jacinto Luque
                 </p>
-              </Row>
-              <Row style={{ width: 174 }}>
                 <p
                   style={{
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -103,26 +100,24 @@ const ChepTwo = () => {
                     textAlign: "left",
                     padding: 0,
                     letterSpacing: 0,
-                    width: 197,
                   }}
                 >
-                  The Higher School of Mechanics of the Navy. It was used as an
-                  illegal, secret detention center during the Dirty War of
-                  military dictatorship.
+                  (3 May 1949 – 15 February 2021 With Argentina he was 1978
+                  World Champion, scoring four goals in the tournament.
                 </p>
               </Row>
             </Col>
           </Row>
           {/* description Text */}
           <div style={{ paddingLeft: 0, width: 332, margin: "30px auto 0px" }}>
-            <h4 className="descTextJournalist">
-              “It was a cold but sunny day, and as the doves flapped up and out
-              of the stadium, they could be seen from the infamous Navy Superior
-              Mechanics School, or ESMA, a cluster of buildings less than{" "}
+            <h4 className="descTextJournalistThree">
+              “With what I know now, I can’t say I am proud of my victory. We
+              just played football.{" "}
               <span style={{ color: "#20C5F7" }}>
-                a mile away where thousands of people
+                We were just proud to represent our country
               </span>{" "}
-              were being tortured.”
+              and we wanted to win for each other. But I didn’t realize, most of
+              us didn’t that there was so much scandal and controversy.
               <br />
               <span
                 style={{
@@ -133,17 +128,17 @@ const ChepTwo = () => {
                   letterSpacing: 1,
                 }}
               >
-                - KEN BESINGER, JOURNALIST
+                - Leopoldo Luque, Argentine striker
               </span>
             </h4>
           </div>
         </div>
 
         {/* -----------------------cards Chapter Two------------------------ */}
-        <ChepTwoMobCard />
+        <Chep3MobCard />
       </div>
     </React.Fragment>
   );
 };
 
-export default ChepTwo;
+export default Chep3MobView;

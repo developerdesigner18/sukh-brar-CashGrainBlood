@@ -8,7 +8,7 @@ const Navbar_title = () => {
         bg="light"
         variant="light"
         style={{
-          padding: "5px 0px 0px 15px",
+          padding: "5px 0px 0px 17px",
           height: "48px",
         }}
       >

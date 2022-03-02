@@ -36,7 +36,7 @@ const ChepOneCardMobView = () => {
               paddingBottom: 5,
               fontFamily: "StardosBold",
 
-              fontSize: 17,
+              fontSize: 16,
               color: "white",
             }}
           >
@@ -63,7 +63,7 @@ const ChepOneCardMobView = () => {
               }}
             >
               CHAPTERS
-              <img src="./images/chep1/arrow.svg" />
+              <Image src="./images/chep1/arrow.svg" style={{ marginLeft: 5 }} />
             </Button>
           </Col>
         </Row>
@@ -149,7 +149,11 @@ const ChepOneCardMobView = () => {
             <Row xs={6} sm={6}>
               <Image
                 src="./images/imgArrow.svg"
-                style={{ width: 20.75, height: 13.14, padding: 0 }}
+                style={{
+                  width: 20.75,
+                  height: 13.14,
+                  padding: 0,
+                }}
                 fluid
               />
             </Row>

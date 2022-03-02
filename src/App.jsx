@@ -12,6 +12,7 @@ import ScrollToTop from "./ScrollTop";
 import { useEffect } from "react";
 import ChapterTwo from "./pages/chep2";
 import ChepTwo from "./view/chep2MobView";
+import Chep3MobView from "./view/chep3MobView";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
@@ -55,6 +56,7 @@ function App() {
               <Route path="/" element={<HomePageMob />} />
               <Route path="chepOne" element={<Chep1MobView />} />
               <Route path="chepTwo" element={<ChepTwo />} />
+              <Route path="chepThree" element={<Chep3MobView />} />
             </Routes>
           </div>
         )

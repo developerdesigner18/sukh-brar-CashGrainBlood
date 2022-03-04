@@ -1,0 +1,243 @@
+.chepFiveMobcardHolder {
+  background-color: black !important;
+}
+
+.chepFiveCardOneIndex {
+  margin-bottom: 0px;
+  padding: 0px !important;
+  color: white;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 15px;
+}
+.chepFiveCardOne {
+  background-image: url("../../public/images/chep5/mobCardOne.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 329px;
+}
+.chepFiveCardOne .row {
+  margin: 0px;
+  padding: 0px;
+}
+.chepFiveCardOneImgDesc {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-left: 0px;
+  padding: 0px;
+  color: #20c5f7;
+  margin-bottom: 0px;
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 12px;
+  width: 121px !important;
+}
+.chepFiveCardOneTitle {
+  padding: 0px !important;
+  line-height: 1;
+  margin: 0px !important;
+  color: white;
+  font-family: "StardosBold";
+  font-size: 20px;
+}
+.chepFiveCardOneDescText {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.cardTwoChepFive {
+  background-image: url("../../public/images/chep5/mobCardTwo.png");
+  background-size: cover;
+  padding: 0px;
+  position: relative !important;
+  height: 590px;
+}
+.cardTwoImageo1 {
+  position: absolute;
+  width: 34.38px;
+  height: 48.39px;
+  top: 46px;
+  left: 35.5px;
+}
+.cardTwoImageo2 {
+  position: absolute;
+  width: 34.38px;
+  height: 48.39px;
+  top: 52px;
+  left: 79.1px;
+}
+.logoName {
+  position: absolute;
+  top: 100px;
+  left: 39px;
+  color: white;
+  font-family: "StardosBold";
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.cardTwoyoutbe {
+  position: absolute;
+  width: 77.9px;
+  height: 54.88px;
+  top: 238px;
+  left: 165.1px;
+}
+.cardTwoyoutbeName {
+  position: absolute;
+  bottom: 23.8px;
+  right: 10px;
+  width: 84px;
+  height: 25px;
+}
+.chep5cardThreeHeaderImage {
+  background-image: url("../../public/images/chep5/mobCardThree.png");
+  background-size: cover;
+  height: 274px;
+
+  position: relative !important;
+}
+.textHolderChepFive {
+  position: absolute;
+  top: 146px;
+  left: 46.6px;
+  text-transform: uppercase;
+}
+.chepFiveCardThreeDesc {
+  margin: 0px 38px;
+  width: max-content;
+}
+.chepFiveCardThreeDescimgDesc {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  font-family: "HelveticaNeue-CondensedBold";
+  color: #20c5f7;
+}
+.chepFiveDesc {
+  width: 342.37px;
+  height: 330px;
+}
+.chepFiveDesc p {
+  color: white;
+  font-size: 12px;
+  font-family: "HelveticaNeue-Bold";
+  text-align: left;
+}
+@media only screen and (max-width: 375px) {
+  .chepFiveDesc {
+    width: 320px;
+  }
+}
+/* ---------------------card-4----------------------------- */
+.chep5cardFourHeaderImage {
+  background-image: url("../../public/images/chep5/mobCardFour.png");
+  background-size: cover;
+  height: 274px;
+
+  position: relative !important;
+}
+.textHolderChepFive {
+  position: absolute;
+  top: 146px;
+  left: 46.6px;
+  text-transform: uppercase;
+}
+.chepFiveCardFourDesc {
+  margin: 0px 38px;
+  width: max-content;
+}
+.chepFiveCardFourDescimgDesc {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  font-family: "HelveticaNeue-CondensedBold";
+  color: #20c5f7;
+}
+.chepFiveDescCardFour {
+  width: 337.37px;
+  height: 341px;
+}
+.chepFiveDescCardFour p {
+  color: white;
+  font-size: 12px;
+  font-family: "HelveticaNeue-Bold";
+  text-align: left;
+}
+@media only screen and (max-width: 375px) {
+  .chepFiveDescCardFour {
+    width: 320px;
+  }
+}
+/* ----------------------card-5------------------ */
+.chep5cardFiveHeaderImage {
+  background-image: url("../../public/images/chep5/mobCardFive.png");
+  background-size: cover;
+  height: 274px;
+
+  position: relative !important;
+}
+.textHolderChepFive {
+  position: absolute;
+  top: 146px;
+  left: 46.6px;
+  text-transform: uppercase;
+}
+.chepFiveCardFiveDesc {
+  margin: 0px 38px;
+  width: max-content;
+}
+.chepFiveCardFiveDescimgDesc {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  font-family: "HelveticaNeue-CondensedBold";
+  color: #20c5f7;
+}
+.chepFiveDescCardFive {
+  width: 301.37px;
+  height: 162.93px;
+}
+.chepFiveDescCardFive p {
+  color: white;
+  font-size: 12px;
+  font-family: "HelveticaNeue-Bold";
+  text-align: left;
+}
+/* -----------------------lastcard----------------------- */
+.chepFiveLastCard {
+  background-image: url("../../public/images/chep5/lastcard.png");
+  background-size: cover;
+  height: 932px;
+  position: relative !important;
+}
+
+.chepFiveCardLastIndex {
+  margin-bottom: 0px;
+  padding: 0px !important;
+  color: white;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 15px;
+}
+.chepFiveLastTitle {
+  line-height: 1;
+  margin: 0px !important;
+  color: white;
+  font-family: "StardosBold";
+  font-size: 20px;
+}
+.chepFiveLastCardDesc {
+  margin-left: 38px;
+  margin-top: 330.4px;
+}
+.chepFivelastCardFirst {
+  color: #20c5f7;
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 11px;
+  text-align: left;
+  width: 207px;
+  letter-spacing: 0.7px;
+}

@@ -119,7 +119,7 @@
   margin: 70px 0px 0px 0px !important;
 }
 .chep2LastCard {
-  background-image: url("../../public/images/chep2/chepTwolasrCard.png");
+  background-image: url("../../public/images/chep2/chepTwolastCard.png");
   background-size: cover;
   height: 912px;
   position: relative !important;
@@ -164,7 +164,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: right;
+  align-items: flex-end;
 }
 .footerText {
   color: white;

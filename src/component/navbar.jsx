@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Container, Row, Col, Image } from "react-bootstrap";
 const Navbar_title = () => {
   return (
     <>
@@ -13,36 +13,13 @@ const Navbar_title = () => {
       >
         <Navbar.Brand href="/">
           {" "}
-          <Row style={{ paddingLeft: 140 }}>
-            <Col style={{ paddingRight: 0 }}>
-              <img
-                alt=""
-                src="navbarLogo.png"
-                width="44.83"
-                height="35"
-                className="d-inline-block align-top"
-                //   style={{ paddingTop: 9.9 }}
-              />
-            </Col>
-            <Col>
-              <Row>
-                <small
-                  style={{
-                    fontFamily: "HelveticaNeue-CondensedBold",
-                    color: "#6F6B6D",
-                    fontSize: 14,
-                    lineHeight: 0.8,
-                    paddingTop: 12,
-                    paddingLeft: 0,
-                    width: 74,
-                    whiteSpace: "pre-line",
-                  }}
-                >
-                  VISITOR’S End
-                </small>
-              </Row>
-            </Col>
-          </Row>
+          <Image
+            alt=""
+            src="./images/navbarLogo.png"
+            style={{ width: 110, height: 35, marginLeft: 140 }}
+            className="d-inline-block align-top"
+            //   style={{ paddingTop: 9.9 }}
+          />
         </Navbar.Brand>
       </Navbar>
     </>

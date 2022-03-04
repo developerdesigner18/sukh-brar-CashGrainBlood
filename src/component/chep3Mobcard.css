@@ -138,55 +138,55 @@
   padding: 0px !important;
   margin: 70px 0px 0px 0px !important;
 }
-.chep2LastCard {
-  background-image: url("../../public/images/chep2/chepTwolasrCard.png");
+.chep3LastCard {
+  background-image: url("../../public/images/chep3/chepThreeLastCard.png");
   background-size: cover;
-  height: 912px;
+  height: 932px;
   position: relative !important;
 }
 
-.chepTwoCardLastIndex {
+.chepThreeCardLastIndex {
   margin-bottom: 0px;
   padding: 0px !important;
   color: white;
   font-family: "HelveticaNeue-Bold";
   font-size: 15px;
 }
-.chepTwoLastTitle {
+.chepThreeLastTitle {
   line-height: 1;
   margin: 0px !important;
   color: white;
   font-family: "StardosBold";
   font-size: 30px;
 }
-.chepTwoLastCardDesc {
+.chepThreeLastCardDesc {
   margin-left: 34px;
   margin-top: 260px;
 }
-.lastCardFirst {
+.chep3lastCardFirst {
   color: #20c5f7;
   font-family: "HelveticaNeue-CondensedBold";
   font-size: 16px;
   text-align: left;
   width: 240px;
 }
-.lastCardSecond p {
+.chep3lastCardSecond p {
   color: white;
   font-family: "HelveticaNeue-Bold";
   font-size: 12px;
   text-align: left;
-  width: 321.59px;
+  width: 299.39px;
 }
-.chepTwoFooter {
-  background-image: url("../../public/images/chep2/MobFooter.png");
+.chepThreeFooter {
+  background-image: url("../../public/images/chep3/MobFooter.png");
   background-size: cover;
   height: 77px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: right;
+  align-items: flex-end;
 }
-.footerText {
+.chep3footerText {
   color: white;
   padding: 0px !important;
   margin: 0px 0px 0px 0px !important;

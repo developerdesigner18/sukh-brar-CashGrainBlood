@@ -1,0 +1,65 @@
+.cardFive {
+  background-image: url("../../public/images/chep5/chepFiveOne.png");
+  background-size: cover;
+  position: relative !important;
+  height: 808.74px;
+}
+.cardIndexTextFive {
+  color: white;
+  font-size: 18px;
+  font-family: "StardosBold";
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.cardTitleTextFive {
+  color: white;
+  font-size: 40px;
+  font-family: "StardosBold";
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.image-noteFive {
+  color: white;
+  font-size: 12px;
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: left;
+  font-family: "HelveticaNeue-CondensedBold";
+  letter-spacing: 1px;
+}
+.imgDescFive {
+  color: #20c5f7;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  font-family: "HelveticaNeue-CondensedBold";
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.cardDescFive {
+  padding: 0px !important;
+  margin: 0px !important;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  font-family: "HelveticaNeue-Bold";
+  width: 536px;
+  line-height: 1.6;
+}
+
+.footerFive {
+  background-image: url("../../public/images/chep2/Footer.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 231px;
+}
+
+.cardFiveBottom {
+  background-image: url("../../public/images/chep5/chepFiveFive.png");
+  background-size: cover;
+  position: relative !important;
+  height: 839px;
+}

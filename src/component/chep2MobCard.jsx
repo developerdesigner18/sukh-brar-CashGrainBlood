@@ -996,6 +996,7 @@ const ChepTwoMobCard = () => {
                 paddingLeft: 0,
                 marginLeft: 0,
                 marginTop: 5,
+                marginRight: 0,
               }}
             >
               <Image
@@ -1078,10 +1079,10 @@ const ChepTwoMobCard = () => {
         </div>
         {/* --------------------------Fotter------------------------- */}
         <div className="chepTwoFooter">
-          <div className="row" style={{ padding: 0, margin: 0 }}>
+          <div className="row" style={{ padding: 0, margin: 0, width: 214 }}>
             <div
               className="col-10"
-              style={{ padding: 0, margin: 0, textAlign: "right" }}
+              style={{ padding: 0, margin: 0, textAlign: "left" }}
             >
               <h1 className="footerText">
                 CHAPTER THREE: <br /> SCORE FOUR OR ELSE

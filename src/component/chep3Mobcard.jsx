@@ -769,7 +769,7 @@ const ChepThreeMobCard = () => {
           {/* ------------------------tshirtThreeee-------------------------------- */}
           <div className="row" style={{ margin: 0, padding: 29 }}>
             <div sm={4} xs={4} className="col" style={{ textAlign: "center" }}>
-              <Image src="./images/chep3/peru.png" />
+              <Image src="./images/chep3/tshirtThree.png" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }}>
@@ -836,7 +836,7 @@ const ChepThreeMobCard = () => {
           <div className="chepTwoAdHeader2" style={{ padding: "19px" }}></div>
         </div>
         {/* ----------------------------lastCard---------------------------- */}
-        <div className="chep2LastCard">
+        <div className="chep3LastCard">
           <Container style={{ padding: 0 }}>
             <Row
               style={{
@@ -846,8 +846,10 @@ const ChepThreeMobCard = () => {
               }}
             >
               <p
-                className="chepTwoCardLastIndex"
-                style={{ marginTop: 34, marginLeft: 34 }}
+                className="chepThreeCardLastIndex"
+                style={{
+                  margin: "40px 34px 0px 34px",
+                }}
               >
                 01/03
               </p>
@@ -859,6 +861,7 @@ const ChepThreeMobCard = () => {
                   width: 38,
                   padding: 0,
                   marginLeft: 34,
+                  marginBottom: 10,
                 }}
               ></Image>
             </Row>
@@ -874,7 +877,7 @@ const ChepThreeMobCard = () => {
                 marginRight: 0,
               }}
             >
-              <p className="chepTwoLastTitle">
+              <p className="chepThreeLastTitle">
                 THE HOSTS <br /> REACH THE <br /> FINAL AND THE <br /> RUMORS
                 BEGIN
               </p>
@@ -885,6 +888,7 @@ const ChepThreeMobCard = () => {
                 paddingLeft: 0,
                 marginLeft: 0,
                 marginTop: 5,
+                marginRight: 0,
               }}
             >
               <Image
@@ -899,7 +903,7 @@ const ChepThreeMobCard = () => {
               />
             </Row>
           </div>
-          <div className="chepTwoLastCardDesc">
+          <div className="chepThreeLastCardDesc">
             <Image
               fluid
               src="./images/chep1/upArrow.svg"
@@ -912,7 +916,7 @@ const ChepThreeMobCard = () => {
               }}
             />
 
-            <div className="chepTwoLastCardText">
+            <div className="chepThreeLastCardText" style={{ width: "auto" }}>
               <p
                 style={{
                   marginLeft: 0,
@@ -926,12 +930,12 @@ const ChepThreeMobCard = () => {
               >
                 IMAGE:
               </p>
-              <p className="lastCardFirst">
+              <p className="chep3lastCardFirst">
                 The Argentina national team at the Estadio Monumental stadium on
                 June 25, 1978. The Argentines kept the Dutch waiting for over 20
                 minutes before coming onto the pitch.
               </p>
-              <div className="lastCardSecond">
+              <div className="chep3lastCardSecond">
                 <p style={{ marginBottom: 15 }}>
                   The Argentines meet the Dutch, runners up of the 1974 World
                   Cup. Rumors had already swirled about the legitimacy of the
@@ -948,26 +952,37 @@ const ChepThreeMobCard = () => {
             </div>
           </div>
           <Image
-            src="./images/chep2/vertical_stripe.png"
+            src="./images/chep3/vertical_stripe.png"
             fluid
             style={{
               position: "absolute",
-              top: 72.5,
+              top: 96.5,
               right: 0,
               height: 602,
               width: 12,
             }}
           />
+          <Image
+            src="./images/chep3/vertical_stripe.png"
+            fluid
+            style={{
+              position: "absolute",
+              top: 362.4,
+              left: 0,
+              height: 403,
+              width: 11.5,
+            }}
+          />
         </div>
         {/* --------------------------Fotter------------------------- */}
-        <div className="chepTwoFooter">
-          <div className="row" style={{ padding: 0, margin: 0 }}>
+        <div className="chepThreeFooter">
+          <div className="row" style={{ padding: 0, margin: 0, width: 214 }}>
             <div
               className="col-10"
-              style={{ padding: 0, margin: 0, textAlign: "right" }}
+              style={{ padding: 0, margin: 0, textAlign: "left" }}
             >
-              <h1 className="footerText">
-                CHAPTER THREE: <br /> SCORE FOUR OR ELSE
+              <h1 className="chep3footerText">
+                CHAPTER FOUR: <br /> TAKES TWO TO CONSPIRE
               </h1>
             </div>
             <div

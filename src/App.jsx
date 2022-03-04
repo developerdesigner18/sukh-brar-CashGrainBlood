@@ -11,8 +11,13 @@ import Chep1MobView from "./view/chep1Mobview";
 import ScrollToTop from "./ScrollTop";
 import { useEffect } from "react";
 import ChapterTwo from "./pages/chep2";
+import ChapterThree from "./pages/chep3";
+import ChapterFour from "./pages/chep4";
+import ChapterFive from "./pages/chep5";
 import ChepTwo from "./view/chep2MobView";
 import Chep3MobView from "./view/chep3MobView";
+import Chep4MobView from "./view/chep4MobView";
+import Chep5MobView from "./view/chep5MobView";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
@@ -39,6 +44,9 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="chepOne" element={<Chep1 />} />
                 <Route path="chepTwo" element={<ChapterTwo />} />
+                <Route path="chepThree" element={<ChapterThree />} />
+                <Route path="chepFour" element={<ChapterFour />} />
+                <Route path="chepFive" element={<ChapterFive />} />
               </Routes>
             </ScrollToTop>
           </div>
@@ -57,6 +65,8 @@ function App() {
               <Route path="chepOne" element={<Chep1MobView />} />
               <Route path="chepTwo" element={<ChepTwo />} />
               <Route path="chepThree" element={<Chep3MobView />} />
+              <Route path="chepFour" element={<Chep4MobView />} />
+              <Route path="chepFive" element={<Chep5MobView />} />
             </Routes>
           </div>
         )

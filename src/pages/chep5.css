@@ -1,0 +1,60 @@
+.holderFive {
+  background-color: black;
+}
+.chepFiveBanner {
+  background: url("../../public/images/chep5/Banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 766px;
+  position: relative;
+}
+.bannerHeaderFive {
+  font-family: "StardosBold";
+  font-size: 84px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 94px;
+  left: 140px;
+  line-height: 0.9;
+}
+.bannerDescFive {
+  font-family: "HelveticaNeue-Bold";
+  font-size: 20px;
+  text-align: left;
+  width: 520px;
+  color: white;
+  position: absolute;
+  top: 404px;
+  left: 148px;
+}
+.bannerStripeFive {
+  position: absolute;
+  left: 0px;
+  top: 49px;
+  width: 25px;
+  height: 607px;
+}
+.tableHeaderFive {
+  background-color: #20c5f7;
+  color: white;
+}
+.tableHeaderTextFive {
+  padding-left: 10;
+  margin-bottom: 0;
+  font-size: 18;
+  font-family: "StardosBold";
+  margin-left: 10px !important;
+}
+.chepDescFive {
+  background-image: url("../../public/images/chep1/chepOneBodyBack.png");
+}
+.descTextFive {
+  font-size: 22px;
+  font-family: "StardosBold";
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-left: 0px;
+  color: white;
+}

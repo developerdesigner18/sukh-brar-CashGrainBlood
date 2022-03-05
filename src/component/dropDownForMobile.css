@@ -1,0 +1,28 @@
+.dropDownMobContainer {
+  background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.dropDownMobImage {
+  position: relative;
+  height: 375px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/images/dropDown.png");
+}
+
+.dropDownMobText {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 383px;
+  color: white;
+}
+
+.dropDownMobHeader {
+  background-color: #20c5f7;
+  color: white;
+  height: 32px;
+}

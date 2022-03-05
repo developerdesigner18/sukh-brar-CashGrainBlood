@@ -1,0 +1,29 @@
+.dropDownDeskContainer {
+  background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.dropDownDeskImage {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/images/dropDown.png");
+}
+
+.dropDownDeskText {
+  position: absolute;
+  z-index: 1;
+  width: 440px;
+  height: 383px;
+  color: white;
+}
+
+.dropDownDeskHeader {
+  background-color: #20c5f7;
+  color: white;
+  height: 32px;
+  margin-bottom: 32px;
+}

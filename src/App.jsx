@@ -18,6 +18,8 @@ import ChepTwo from "./view/chep2MobView";
 import Chep3MobView from "./view/chep3MobView";
 import Chep4MobView from "./view/chep4MobView";
 import Chep5MobView from "./view/chep5MobView";
+import DropDownForDesktop from "./component/dropDownForDesktop";
+import DropDownForMobile from "./component/dropDownForMobile";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
@@ -32,7 +34,7 @@ function App() {
         width > 768 ? (
           <div
             style={{
-              backgroundColor: "black",
+              backgroundColor: "transparent",
               maxWidth: "100%",
               margin: "0px auto",
             }}
@@ -47,6 +49,7 @@ function App() {
                 <Route path="chepThree" element={<ChapterThree />} />
                 <Route path="chepFour" element={<ChapterFour />} />
                 <Route path="chepFive" element={<ChapterFive />} />
+                <Route path="dropDown" element={<DropDownForDesktop />} />
               </Routes>
             </ScrollToTop>
           </div>
@@ -67,6 +70,7 @@ function App() {
               <Route path="chepThree" element={<Chep3MobView />} />
               <Route path="chepFour" element={<Chep4MobView />} />
               <Route path="chepFive" element={<Chep5MobView />} />
+              <Route path="dropDown" element={<DropDownForMobile />} />
             </Routes>
           </div>
         )

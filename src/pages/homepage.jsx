@@ -21,7 +21,7 @@ const HomePage = () => {
       <ScrollToTopOnMount />
       <div className="homePageBannerContainer">
         <div className="bannerContainer">
-          <div className="homePageBannerImage">
+          <div className="homePageBannerImage animationImage">
             <Image src="./images/gettyimages.png" className="gettyImage" />
             <Button
               style={{
@@ -62,6 +62,7 @@ const HomePage = () => {
               style={{ top: "196px", left: "140px", right: 179 }}
             >
               <h1
+                className="animationText"
                 style={{
                   wordBreak: "break-all",
                   fontSize: "74px",

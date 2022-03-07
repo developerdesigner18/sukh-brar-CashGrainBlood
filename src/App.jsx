@@ -30,38 +30,9 @@ function App() {
 
     return prevLocRef.current;
   };
-
-  // const usePrevToPrecLocation = (prevLocation) => {
-  //   const prevToPrevLocationRef = useRef(prevLocation);
-
-  //   useEffect(() => {
-  //     prevToPrevLocationRef.current = prevLocation;
-  //   }, [prevLocation]);
-  //   return prevToPrevLocationRef.current;
-  // };
-  //THIS IS HOW YOU USE IT
-
   const location = useLocation();
   const prevLocation = usePrevLocation(location);
-  // const prevToPrevLocation = usePrevToPrecLocation(prevLocation);
-
-  console.log(prevLocation, location);
-
-  console.log(location, "🎉🎉🎉");
-  const [selectMainPage, setSelectMainPage] = useState(false);
-  const [selectChepOne, setSelectChepOne] = useState(false);
-  const [selectChepTwo, setSelectChepTwo] = useState(false);
-  const [selectChepThree, setSelectChepThree] = useState(false);
-
-  const [selectChepFour, setSelectChepFour] = useState(false);
-
-  const [selectChepFive, setSelectChepFive] = useState(false);
-
   const [width, setWidth] = useState(window.innerWidth);
-  // if (prevLocation.pathname == "/") setSelectMainPage(true);
-  // else if (location.pathname == "/chepOne") {
-  //   setSelectChepOne(true);
-  // }
   useEffect(() => {
     window.addEventListener("resize", handleResize);
   });
@@ -91,23 +62,7 @@ function App() {
                 <Route path="chepFive" element={<ChapterFive />} />
                 <Route
                   path="dropDown"
-                  element={
-                    <DropDownForDesktop
-                      selectMainPage={selectMainPage}
-                      selectChepOne={selectChepOne}
-                      setSelectChepOne={setSelectChepOne}
-                      setSelectMainPage={setSelectMainPage}
-                      prevLocation={prevLocation}
-                      selectChepTwo={selectChepTwo}
-                      setSelectChepTwo={setSelectChepTwo}
-                      selectChepThree={selectChepThree}
-                      setSelectChepThree={setSelectChepThree}
-                      selectChepFour={selectChepFour}
-                      setSelectChepFour={setSelectChepFour}
-                      selectChepFive={selectChepFive}
-                      setSelectChepFive={setSelectChepFive}
-                    />
-                  }
+                  element={<DropDownForDesktop prevLocation={prevLocation} />}
                 />
               </Routes>
             </ScrollToTop>
@@ -121,35 +76,20 @@ function App() {
             }}
           >
             <Navbartwo />
-
-            <Routes>
-              <Route path="/" element={<HomePageMob />} />
-              <Route path="chepOne" element={<Chep1MobView />} />
-              <Route path="chepTwo" element={<ChepTwo />} />
-              <Route path="chepThree" element={<Chep3MobView />} />
-              <Route path="chepFour" element={<Chep4MobView />} />
-              <Route path="chepFive" element={<Chep5MobView />} />
-              <Route
-                path="dropDown"
-                element={
-                  <DropDownForMobile
-                    selectMainPage={selectMainPage}
-                    selectChepOne={selectChepOne}
-                    setSelectChepOne={setSelectChepOne}
-                    setSelectMainPage={setSelectMainPage}
-                    prevLocation={prevLocation}
-                    selectChepTwo={selectChepTwo}
-                    setSelectChepTwo={setSelectChepTwo}
-                    selectChepThree={selectChepThree}
-                    setSelectChepThree={setSelectChepThree}
-                    selectChepFour={selectChepFour}
-                    setSelectChepFour={setSelectChepFour}
-                    selectChepFive={selectChepFive}
-                    setSelectChepFive={setSelectChepFive}
-                  />
-                }
-              />
-            </Routes>
+            <ScrollToTop>
+              <Routes>
+                <Route path="/" element={<HomePageMob />} />
+                <Route path="chepOne" element={<Chep1MobView />} />
+                <Route path="chepTwo" element={<ChepTwo />} />
+                <Route path="chepThree" element={<Chep3MobView />} />
+                <Route path="chepFour" element={<Chep4MobView />} />
+                <Route path="chepFive" element={<Chep5MobView />} />
+                <Route
+                  path="dropDown"
+                  element={<DropDownForMobile prevLocation={prevLocation} />}
+                />
+              </Routes>
+            </ScrollToTop>
           </div>
         )
         // null

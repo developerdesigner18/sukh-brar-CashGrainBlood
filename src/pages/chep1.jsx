@@ -60,26 +60,11 @@ const Chep1 = () => {
               className="chepOneBannerText"
               style={{ top: "237px", left: "140px", right: 179 }}
             >
-              <h1
-                style={{
-                  wordBreak: "break-all",
-                  fontSize: "74px",
-                  fontFamily: "StardosBold",
-                  lineHeight: 1,
-                }}
-              >
+              <h1 className="chepOneTitleText" style={{}}>
                 FROM HOST
                 <br /> TO JUNTA
               </h1>
-              <p
-                style={{
-                  textAlign: "left",
-                  width: 443,
-                  height: 192,
-                  fontSize: 20,
-                  fontFamily: "HelveticaNeue-Bold",
-                }}
-              >
+              <p className="chepOneSubTitleText">
                 Before a ball was kicked, domestic politics, the repression of
                 civilians and the military junta’s ambitions cast a long shadow
                 over the 1978 World Cup
@@ -90,6 +75,7 @@ const Chep1 = () => {
         <div className="chepOnetableHeader">
           <Container>
             <p
+              className="animationText"
               style={{
                 paddingLeft: 10,
                 marginBottom: 0,
@@ -101,18 +87,18 @@ const Chep1 = () => {
             </p>
           </Container>
         </div>
-        <div className="chepOneBodyBackImage">
+        <div className="chepOneBodyBackImage animationImage">
           <Row
             style={{
               color: "white",
               width: 800,
-
               margin: "0px auto",
               padding: "30px 0px",
             }}
           >
             <Col>
               <p
+                className="animationText"
                 style={{
                   fontSize: 24,
                   fontFamily: "StardosBold",

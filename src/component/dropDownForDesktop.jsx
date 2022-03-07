@@ -3,23 +3,10 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 import ChepOneCard from "../component/chep1Card";
 import "./dropDownForDesktop.css";
-const DropDownForDesktop = ({
-  selectChepOne,
-  selectMainPage,
-  setSelectChepOne,
-  setSelectMainPage,
-  prevLocation,
-  setSelectChepTwo,
-  selectChepTwo,
-  setSelectChepThree,
-  selectChepThree,
-  setSelectChepFour,
-  selectChepFour,
-  setSelectChepFive,
-  selectChepFive,
-}) => {
+const DropDownForDesktop = ({ prevLocation }) => {
   const navigate = useNavigate();
   const location = useLocation();
+
   return (
     <React.Fragment>
       <div
@@ -70,9 +57,7 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectMainPage ||
-                    (prevLocation.pathname == "/" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
@@ -85,12 +70,6 @@ const DropDownForDesktop = ({
                   }}
                   onClick={() => {
                     navigate("/");
-                    setSelectMainPage(true);
-                    setSelectChepOne(false);
-                    setSelectChepTwo(false);
-                    setSelectChepThree(false);
-                    setSelectChepFive(false);
-                    setSelectChepFour(false);
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>
@@ -114,9 +93,7 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectChepOne ||
-                    (prevLocation.pathname == "/chepOne" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/chepOne"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
@@ -129,12 +106,6 @@ const DropDownForDesktop = ({
                   }}
                   onClick={() => {
                     navigate("/chepOne");
-                    setSelectChepOne(true);
-                    setSelectMainPage(false);
-                    setSelectChepTwo(false);
-                    setSelectChepThree(false);
-                    setSelectChepFive(false);
-                    setSelectChepFour(false);
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>
@@ -158,9 +129,7 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectChepTwo ||
-                    (prevLocation.pathname == "/chepTwo" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/chepTwo"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
@@ -173,12 +142,6 @@ const DropDownForDesktop = ({
                   }}
                   onClick={() => {
                     navigate("/chepTwo");
-                    setSelectChepTwo(true);
-                    setSelectChepOne(false);
-                    setSelectMainPage(false);
-                    setSelectChepThree(false);
-                    setSelectChepFive(false);
-                    setSelectChepFour(false);
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>
@@ -202,20 +165,12 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectChepThree ||
-                    (prevLocation.pathname == "/chepThree" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/chepThree"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
                   onClick={() => {
                     navigate("/chepThree");
-                    setSelectChepTwo(false);
-                    setSelectChepOne(false);
-                    setSelectMainPage(false);
-                    setSelectChepThree(true);
-                    setSelectChepFive(false);
-                    setSelectChepFour(false);
                   }}
                   style={{
                     marginBottom: 7,
@@ -246,20 +201,12 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectChepFour ||
-                    (prevLocation.pathname == "/chepFour" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/chepFour"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
                   onClick={() => {
                     navigate("/chepFour");
-                    setSelectChepTwo(false);
-                    setSelectChepOne(false);
-                    setSelectMainPage(false);
-                    setSelectChepThree(false);
-                    setSelectChepFive(false);
-                    setSelectChepFour(true);
                   }}
                   style={{
                     marginBottom: 7,
@@ -290,9 +237,7 @@ const DropDownForDesktop = ({
                 </div>
                 <div
                   className={
-                    selectChepFive ||
-                    (prevLocation.pathname == "/chepFive" &&
-                      location.pathname == "/dropDown")
+                    prevLocation.pathname == "/chepFive"
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
@@ -305,12 +250,6 @@ const DropDownForDesktop = ({
                   }}
                   onClick={() => {
                     navigate("/chepFive");
-                    setSelectChepTwo(false);
-                    setSelectChepOne(false);
-                    setSelectMainPage(false);
-                    setSelectChepThree(false);
-                    setSelectChepFive(true);
-                    setSelectChepFour(false);
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>

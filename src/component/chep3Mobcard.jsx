@@ -9,7 +9,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { useNavigate } from "react-router-dom";
 const ChepThreeMobCard = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="chepThreeMobcardHolder">
@@ -981,7 +983,12 @@ const ChepThreeMobCard = () => {
               className="col-10"
               style={{ padding: 0, margin: 0, textAlign: "left" }}
             >
-              <h1 className="chep3footerText">
+              <h1
+                className="chep3footerText"
+                onClick={() => {
+                  navigate("/chepFour");
+                }}
+              >
                 CHAPTER FOUR: <br /> TAKES TWO TO CONSPIRE
               </h1>
             </div>
@@ -994,6 +1001,9 @@ const ChepThreeMobCard = () => {
                   src="./images/chep1/forwardArrow.svg"
                   alt=""
                   style={{ width: 31.21, height: 31.21 }}
+                  onClick={() => {
+                    navigate("/chepFour");
+                  }}
                 />
               </a>
             </div>

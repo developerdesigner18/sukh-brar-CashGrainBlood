@@ -17,7 +17,10 @@ const Card_component = ({ chepData }) => {
         >
           <Card.Body>
             <Card.Title>
-              <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
+              <Row
+                style={{ paddingLeft: 10, paddingBottom: 15 }}
+                className="animationText"
+              >
                 <Row
                   style={{
                     color: "white",
@@ -37,6 +40,7 @@ const Card_component = ({ chepData }) => {
                 </Row>
 
                 <Row
+                  className="animationText"
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -46,6 +50,7 @@ const Card_component = ({ chepData }) => {
                   {data.chepTitleFirstHalf}
                 </Row>
                 <Row
+                  className="animationText"
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -56,7 +61,10 @@ const Card_component = ({ chepData }) => {
                 >
                   {data.chepTitleSecondHalf}
                 </Row>
-                <Row style={{ width: 256, height: 15 }}>
+                <Row
+                  style={{ width: 256, height: 15 }}
+                  className="animationText"
+                >
                   <Image
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "5px", width: "100%" }}
@@ -68,11 +76,12 @@ const Card_component = ({ chepData }) => {
             <Row>
               <Col lg={6} style={{ width: "460px", height: "300px" }}>
                 <Card.Img
+                  className="animationImage"
                   src={data.chepImage}
                   style={{ width: "100%", paddingLeft: 0 }}
                 />
               </Col>
-              <Col lg={6}>
+              <Col lg={6} className="animationText">
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
@@ -122,7 +131,7 @@ const Card_component = ({ chepData }) => {
               </Col>
             </Row>
             <Card.Text>
-              <Row>
+              <Row className="animationText">
                 <Col lg={5} sm={12} md={8}>
                   <Row
                     style={{

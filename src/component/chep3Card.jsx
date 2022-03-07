@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Col, Image, Row, Card } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./chep3Card.css";
 const ChepThreeCard = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="cardHolder">
@@ -824,8 +826,11 @@ const ChepThreeCard = () => {
               <h3
                 style={{
                   marginBottom: 0,
-
+                  cursor: "pointer",
                   textAlign: "right",
+                }}
+                onClick={() => {
+                  navigate("/chepFour");
                 }}
               >
                 CHAPTER FOUR: IT TAKES TWO TO CONSPIRE
@@ -836,7 +841,13 @@ const ChepThreeCard = () => {
               style={{ textAlign: "left", padding: "8px 6px 6px 6px" }}
             >
               <a role="button">
-                <img src="./images/chep1/forwardArrow.svg" alt="" />
+                <Image
+                  src="./images/chep1/forwardArrow.svg"
+                  alt=""
+                  onClick={() => {
+                    navigate("/chepFour");
+                  }}
+                />
               </a>
             </Col>
           </Row>

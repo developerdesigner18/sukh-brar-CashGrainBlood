@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Col, Image, Row, Card } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./chep2card.css";
 const ChepTwoCard = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="cardHolder">
@@ -928,11 +930,14 @@ const ChepTwoCard = () => {
               <h3
                 style={{
                   marginBottom: 0,
-
                   textAlign: "right",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/chepThree");
                 }}
               >
-                CHAPTER TWO: MATTERS ON THE PITCH
+                CHAPTER THREE: SCORE FOUR OR ELSE
               </h3>{" "}
             </Col>
             <Col
@@ -940,7 +945,13 @@ const ChepTwoCard = () => {
               style={{ textAlign: "left", padding: "8px 6px 6px 6px" }}
             >
               <a role="button">
-                <img src="./images/chep1/forwardArrow.svg" alt="" />
+                <Image
+                  src="./images/chep1/forwardArrow.svg"
+                  alt=""
+                  onClick={() => {
+                    navigate("/chepThree");
+                  }}
+                />
               </a>
             </Col>
           </Row>

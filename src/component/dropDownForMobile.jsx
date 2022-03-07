@@ -1,24 +1,10 @@
-import React, { useState } from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import React from "react";
+import { Image } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
-import ChepOneCard from "./chep1Card";
+
 import "./dropDownForMobile.css";
 
-const DropDownForMobile = ({
-  selectChepOne,
-  selectMainPage,
-  setSelectChepOne,
-  setSelectMainPage,
-  prevLocation,
-  setSelectChepTwo,
-  selectChepTwo,
-  setSelectChepThree,
-  selectChepThree,
-  setSelectChepFour,
-  selectChepFour,
-  setSelectChepFive,
-  selectChepFive,
-}) => {
+const DropDownForMobile = ({ prevLocation }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -70,9 +56,7 @@ const DropDownForMobile = ({
             {console.log(prevLocation.pathname)}
             <div
               className={
-                selectMainPage ||
-                (prevLocation.pathname == "/" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader "
               }
@@ -85,12 +69,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/");
-                setSelectMainPage(true);
-                setSelectChepOne(false);
-                setSelectChepTwo(false);
-                setSelectChepThree(false);
-                setSelectChepFive(false);
-                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -115,9 +93,7 @@ const DropDownForMobile = ({
 
             <div
               className={
-                selectChepOne ||
-                (prevLocation.pathname == "/chepOne" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/chepOne"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader"
               }
@@ -130,12 +106,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/chepOne");
-                setSelectChepOne(true);
-                setSelectMainPage(false);
-                setSelectChepTwo(false);
-                setSelectChepThree(false);
-                setSelectChepFive(false);
-                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -159,9 +129,7 @@ const DropDownForMobile = ({
             </div>
             <div
               className={
-                selectChepTwo ||
-                (prevLocation.pathname == "/chepTwo" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/chepTwo"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader"
               }
@@ -174,12 +142,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/chepTwo");
-                setSelectChepTwo(true);
-                setSelectChepOne(false);
-                setSelectMainPage(false);
-                setSelectChepThree(false);
-                setSelectChepFive(false);
-                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -203,9 +165,7 @@ const DropDownForMobile = ({
             </div>
             <div
               className={
-                selectChepThree ||
-                (prevLocation.pathname == "/chepThree" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/chepThree"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader"
               }
@@ -218,12 +178,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/chepThree");
-                setSelectChepTwo(false);
-                setSelectChepOne(false);
-                setSelectMainPage(false);
-                setSelectChepThree(true);
-                setSelectChepFive(false);
-                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -247,9 +201,7 @@ const DropDownForMobile = ({
             </div>
             <div
               className={
-                selectChepFour ||
-                (prevLocation.pathname == "/chepFour" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/chepFour"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader"
               }
@@ -262,12 +214,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/chepFour");
-                setSelectChepTwo(false);
-                setSelectChepOne(false);
-                setSelectMainPage(false);
-                setSelectChepThree(false);
-                setSelectChepFive(false);
-                setSelectChepFour(true);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -291,9 +237,7 @@ const DropDownForMobile = ({
             </div>
             <div
               className={
-                selectChepFive ||
-                (prevLocation.pathname == "/chepFive" &&
-                  location.pathname == "/dropDown")
+                prevLocation.pathname == "/chepFive"
                   ? "dropDownMobHeader1"
                   : "dropDownMobHeader"
               }
@@ -306,12 +250,6 @@ const DropDownForMobile = ({
               }}
               onClick={() => {
                 navigate("/chepFive");
-                setSelectChepTwo(false);
-                setSelectChepOne(false);
-                setSelectMainPage(false);
-                setSelectChepThree(false);
-                setSelectChepFive(true);
-                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>

@@ -1,13 +1,59 @@
 .chepOnePageBannerContainer {
   background-color: black;
 }
+.chepOneTitleText {
+  word-break: "break-all";
+  font-size: 74px;
+  font-family: "StardosBold";
+  line-height: 1;
+  animation: waviy 1s 1;
+  animation-delay: calc(0.1s * var(--i));
+  transform-style: preserve-3d;
+  opacity: 1;
+}
+.chepOneSubTitleText {
+  text-align: left;
+  width: 443px;
+  height: 192px;
+  font-size: 20px;
+  font-family: "HelveticaNeue-Bold";
+
+  animation: waviy 1s 1;
+  animation-delay: calc(0.1s * var(--i));
+  transform-style: preserve-3d;
+  opacity: 1;
+}
 .chepOneBannerImage {
   position: relative;
   height: 670px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../public/images/chep1/chepOneBannerImage.png");
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes waviy {
+  0% {
+    transform: translate3d(0px, 300px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+}
+
 .gettyImage {
   position: absolute;
   right: 0;

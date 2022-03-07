@@ -19,7 +19,9 @@ import {
   Carousel,
 } from "react-bootstrap";
 import "./chep1Card.css";
+import { useNavigate } from "react-router-dom";
 const ChepOneCard = () => {
+  const navigate = useNavigate();
   return (
     <div className="main" style={{ position: "relative" }}>
       <div className="container">
@@ -33,7 +35,10 @@ const ChepOneCard = () => {
           >
             <Card.Body>
               <Card.Title>
-                <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
+                <Row
+                  className="animationText"
+                  style={{ paddingLeft: 10, paddingBottom: 15 }}
+                >
                   <Row
                     style={{
                       color: "white",
@@ -73,7 +78,10 @@ const ChepOneCard = () => {
                   >
                     TO HOST A WORLD CUP!
                   </Row>
-                  <Row style={{ width: 332, height: 15, marginLeft: 48 }}>
+                  <Row
+                    style={{ width: 332, height: 15, marginLeft: 48 }}
+                    className="animationImage"
+                  >
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -85,11 +93,12 @@ const ChepOneCard = () => {
               <Row>
                 <Col lg={6} style={{ width: "460px", height: "300px" }}>
                   <Card.Img
+                    className="animationImage"
                     src="./images/chep1/chepOneCardOne.png"
                     style={{ width: "100%", paddingLeft: 0 }}
                   />
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} className="animationText">
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row
                     style={{
@@ -124,7 +133,7 @@ const ChepOneCard = () => {
                 </Col>
               </Row>
               <Card.Text>
-                <Row>
+                <Row className="animationText">
                   <Col lg={5} sm={12} md={8}>
                     <Row
                       style={{
@@ -191,6 +200,7 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -209,6 +219,7 @@ const ChepOneCard = () => {
                   </Row>
 
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -218,6 +229,7 @@ const ChepOneCard = () => {
                     The National
                   </Row>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -228,7 +240,10 @@ const ChepOneCard = () => {
                   >
                     Reorganization Process
                   </Row>
-                  <Row style={{ width: 332, height: 15, marginLeft: 48 }}>
+                  <Row
+                    className="animationImage"
+                    style={{ width: 332, height: 15, marginLeft: 48 }}
+                  >
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -238,13 +253,17 @@ const ChepOneCard = () => {
                 </Row>
               </Card.Title>
               <Row>
-                <Col lg={6} style={{ width: "460px", height: "300px" }}>
+                <Col
+                  lg={6}
+                  style={{ width: "460px", height: "300px" }}
+                  className="animationImage"
+                >
                   <Card.Img
                     src="./images/chep1/chepOneCardTwo.png"
                     style={{ width: "100%", paddingLeft: 0 }}
                   />
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} className="animationText">
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row style={{ width: 29.69, height: 19.1 }}>
                     <Image
@@ -307,7 +326,7 @@ const ChepOneCard = () => {
                 </Col>
               </Row>
               <Card.Text>
-                <Row>
+                <Row className="animationText">
                   <Col lg={5} sm={12} md={8}>
                     <Row
                       style={{
@@ -408,6 +427,7 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -427,6 +447,7 @@ const ChepOneCard = () => {
                   </Row>
 
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "Stardos Stencil",
@@ -436,6 +457,7 @@ const ChepOneCard = () => {
                     THE MILITARY
                   </Row>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -446,7 +468,10 @@ const ChepOneCard = () => {
                   >
                     JUNTA LEADERS
                   </Row>
-                  <Row style={{ width: 332, height: 15 }}>
+                  <Row
+                    style={{ width: 332, height: 15 }}
+                    className="animationImage"
+                  >
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
@@ -463,7 +488,7 @@ const ChepOneCard = () => {
                   pagination={{ clickable: true }}
                 >
                   <SwiperSlide style={{ padding: 10 }}>
-                    <Row>
+                    <Row className="animationImage">
                       <Image
                         fluid
                         src="./images/chep1/cardThreeOne.png"
@@ -472,6 +497,7 @@ const ChepOneCard = () => {
                     </Row>
                     <Row>
                       <Image
+                        className="animationImage"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -483,7 +509,7 @@ const ChepOneCard = () => {
                         }}
                       />
                     </Row>
-                    <Row style={{ width: 435 }}>
+                    <Row style={{ width: 435 }} className="animationText">
                       <p
                         style={{
                           textAlign: "left",
@@ -513,6 +539,7 @@ const ChepOneCard = () => {
                       </p>
                     </Row>
                     <Row
+                      className="animationText"
                       style={{
                         paddingLeft: 0,
                         marginTop: 5,
@@ -556,6 +583,7 @@ const ChepOneCard = () => {
                   <SwiperSlide style={{ padding: 5 }}>
                     <Row>
                       <Image
+                        className="animationImage"
                         fluid
                         src="./images/chep1/cardThreeTwo.png"
                         style={{ width: 460, height: 300 }}
@@ -564,6 +592,7 @@ const ChepOneCard = () => {
                     <Row>
                       {" "}
                       <Image
+                        className="animationText"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -575,7 +604,7 @@ const ChepOneCard = () => {
                         }}
                       />
                     </Row>
-                    <Row style={{ width: 435 }}>
+                    <Row style={{ width: 435 }} className="animationText">
                       {" "}
                       <p
                         style={{
@@ -606,7 +635,7 @@ const ChepOneCard = () => {
                         his coup.
                       </p>
                     </Row>
-                    <Row style={{ marginTop: 10 }}>
+                    <Row style={{ marginTop: 10 }} className="animationText">
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -639,6 +668,7 @@ const ChepOneCard = () => {
                   <SwiperSlide style={{ padding: 5 }}>
                     <Row>
                       <Image
+                        className="animationImage"
                         fluid
                         src="./images/chep1/chapterThreeThree.png"
                         style={{ width: 460, height: 300 }}
@@ -647,6 +677,7 @@ const ChepOneCard = () => {
                     <Row style={{ marginBottom: 10 }}>
                       {" "}
                       <Image
+                        className="animationImage"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -658,7 +689,7 @@ const ChepOneCard = () => {
                         }}
                       />
                     </Row>
-                    <Row>
+                    <Row className="animationText">
                       {" "}
                       <p
                         style={{
@@ -693,7 +724,7 @@ const ChepOneCard = () => {
                       </p>
                     </Row>
 
-                    <Row style={{ marginTop: 4 }}>
+                    <Row style={{ marginTop: 4 }} className="animationText">
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -743,6 +774,7 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -767,10 +799,12 @@ const ChepOneCard = () => {
                       textTransform: "upperCase",
                       fontSize: 40,
                     }}
+                    className="animationText"
                   >
                     Operation Condor,
                   </Row>
                   <Row
+                    className="animationText"
                     style={{
                       color: "white",
                       textTransform: "upperCase",
@@ -784,6 +818,7 @@ const ChepOneCard = () => {
                   </Row>
                   <Row style={{ width: 332, height: 15, marginLeft: 10 }}>
                     <Image
+                      className="animationText"
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
                       fluid
@@ -794,14 +829,16 @@ const ChepOneCard = () => {
               <Row>
                 <Col lg={6} style={{ width: "460px", height: "300px" }}>
                   <Card.Img
+                    className="animationImage"
                     src="./images/chep1/chepOneCardFour.png"
                     style={{ width: "100%", paddingLeft: 0 }}
                   />
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} className="animationText">
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row style={{ width: 29.69, height: 19.1 }}>
                     <Image
+                      className="animationImage"
                       src="./images/imgArrow.svg"
                       style={{
                         width: "100%",
@@ -848,6 +885,7 @@ const ChepOneCard = () => {
                 <Row>
                   <Col lg={5} sm={12} md={8}>
                     <Row
+                      className="animationText"
                       style={{
                         color: "white",
                         float: "left",
@@ -908,10 +946,14 @@ const ChepOneCard = () => {
            */}
         </Container>
       </div>
-      <div className="chepOneAdHeader">
+      <div className="chepOneAdHeader  animationImage">
         <Container>
-          <p style={{ paddingLeft: 10, marginBottom: 3 }}>
+          <p
+            className="animationText"
+            style={{ paddingLeft: 10, marginBottom: 3 }}
+          >
             <Image
+              className="animationImage"
               src="./images/chep1/amazon.png"
               fluid
               style={{ marginRight: 5, paddingTop: 15 }}
@@ -926,10 +968,15 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book2.jpg" fluid />
+                  <Image
+                    className="animationImage"
+                    src="./images/chep1/Book2.jpg"
+                    fluid
+                  />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
+                    className="animationText"
                     style={{
                       color: "White",
                       textAlign: "left",
@@ -942,7 +989,7 @@ const ChepOneCard = () => {
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
-                      <Row>
+                      <Row className="animationText">
                         <Col
                           lg={2}
                           style={{
@@ -983,9 +1030,16 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book1.jpg" fluid />
+                  <Image
+                    className="animationImage"
+                    src="./images/chep1/Book1.jpg"
+                    fluid
+                  />
                 </Col>
-                <Col style={{ padding: "0px", marginTop: 25 }}>
+                <Col
+                  style={{ padding: "0px", marginTop: 25 }}
+                  className="animationText"
+                >
                   <Row
                     style={{
                       color: "White",
@@ -1043,9 +1097,16 @@ const ChepOneCard = () => {
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image src="./images/chep1/Book3.jpg" fluid />
+                  <Image
+                    className="animationImage"
+                    src="./images/chep1/Book3.jpg"
+                    fluid
+                  />
                 </Col>
-                <Col style={{ padding: "0px", marginTop: 25 }}>
+                <Col
+                  style={{ padding: "0px", marginTop: 25 }}
+                  className="animationText"
+                >
                   <Row
                     style={{
                       color: "White",
@@ -1114,7 +1175,7 @@ const ChepOneCard = () => {
         >
           <Card.Body>
             <Card.Title>
-              <Row style={{ paddingLeft: 10 }}>
+              <Row className="animationText" style={{ paddingLeft: 10 }}>
                 <Row
                   style={{
                     color: "white",
@@ -1155,6 +1216,7 @@ const ChepOneCard = () => {
                 </Row>
                 <Row style={{ width: 332, height: 15, marginBottom: 36 }}>
                   <Image
+                    className="animationImage"
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "5px", width: "100%" }}
                     fluid
@@ -1163,16 +1225,21 @@ const ChepOneCard = () => {
               </Row>
             </Card.Title>
             <Row>
-              <Col lg={6} style={{ width: "460px", height: "300px" }}>
+              <Col
+                className="animationImage"
+                lg={6}
+                style={{ width: "460px", height: "300px" }}
+              >
                 <Card.Img
                   src="./images/chep1/chepOneCardFive.png"
                   style={{ width: "100%", paddingLeft: 0 }}
                 />
               </Col>
-              <Col lg={6}>
+              <Col className="animationText" lg={6}>
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
+                    className="animationImage"
                     src="./images/imgArrow.svg"
                     style={{
                       width: "100%",
@@ -1216,7 +1283,7 @@ const ChepOneCard = () => {
             </Row>
             <Card.Text>
               <Row>
-                <Col lg={5} sm={12} md={8}>
+                <Col className="animationText" lg={5} sm={12} md={8}>
                   <Row
                     style={{
                       color: "white",
@@ -1281,7 +1348,10 @@ const ChepOneCard = () => {
       <div className="card6">
         <Container style={{ padding: "35px" }}>
           <div className="cardHeader">
-            <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
+            <Row
+              className="animationText"
+              style={{ paddingLeft: 10, paddingBottom: 15 }}
+            >
               <Row
                 style={{
                   color: "white",
@@ -1306,7 +1376,11 @@ const ChepOneCard = () => {
                 }}
               >
                 <a role="button">
-                  <img src="./images/chep1/youtube.svg" alt="" />
+                  <Image
+                    className="animationImage"
+                    src="./images/chep1/youtube.svg"
+                    alt=""
+                  />
                 </a>
               </Col>
 
@@ -1325,6 +1399,7 @@ const ChepOneCard = () => {
               </Row>
               <Row style={{ width: 332, height: 15 }}>
                 <Image
+                  className="animationImage"
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: "3px", width: "100%" }}
                   fluid
@@ -1335,17 +1410,22 @@ const ChepOneCard = () => {
           <div className="cardBody">
             <Row style={{ padding: 50, textAlign: "center" }}>
               <a role="button">
-                <img src="./images/chep1/YoutubeCard.svg" alt="" />
+                <Image
+                  className="animationImage"
+                  src="./images/chep1/YoutubeCard.svg"
+                  alt=""
+                />
               </a>
             </Row>
           </div>
           <div className="cardFooter">
             <Row style={{ textAlign: "center" }}>
-              <Col lg={4}>
+              <Col lg={4} className="animationText">
                 {" "}
                 <Row>
                   <Image
                     fluid
+                    className="animationImage"
                     src="./images/chep1/upArrow.svg"
                     style={{
                       width: 26.96,
@@ -1389,7 +1469,10 @@ const ChepOneCard = () => {
 
               <Col lg={8}>
                 {" "}
-                <Row style={{ width: 492, padding: 20 }}>
+                <Row
+                  className="animationText"
+                  style={{ width: 492, padding: 20 }}
+                >
                   <p
                     style={{
                       textAlign: "left",
@@ -1474,7 +1557,7 @@ const ChepOneCard = () => {
         </Container>
       </div>
       {/* //------------------------FOOTER OF THE PAGE------------------------- */}
-      <div className="chepFooter">
+      <div className="chepFooter animationImage">
         <Row style={{ marginRight: 0 }}>
           <Col
             lg={10}
@@ -1488,9 +1571,14 @@ const ChepOneCard = () => {
           >
             {" "}
             <h3
+              className="animationText"
               style={{
                 marginBottom: 0,
                 textAlign: "right",
+                cursor: "pointer",
+              }}
+              onClick={() => {
+                navigate("/chepTwo");
               }}
             >
               CHAPTER TWO: MATTERS ON THE PITCH
@@ -1498,7 +1586,14 @@ const ChepOneCard = () => {
           </Col>
           <Col lg={2} style={{ textAlign: "left", padding: "6px 6px 6px 0px" }}>
             <a role="button">
-              <img src="./images/chep1/forwardArrow.svg" alt="" />
+              <Image
+                className="animationImage"
+                src="./images/chep1/forwardArrow.svg"
+                alt=""
+                onClick={() => {
+                  navigate("/chepTwo");
+                }}
+              />
             </a>
           </Col>
         </Row>

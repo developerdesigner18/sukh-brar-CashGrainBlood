@@ -2,15 +2,7 @@ import React from "react";
 
 // Import Swiper styles
 
-import {
-  Button,
-  Card,
-  Col,
-  Container,
-  Row,
-  Image,
-  Carousel,
-} from "react-bootstrap";
+import { Button, Col, Container, Row, Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "./chep4MobView.css";
 const Chep4MobView = () => {
@@ -1225,7 +1217,13 @@ const Chep4MobView = () => {
             className="col-10"
             style={{ padding: 0, margin: 0, textAlign: "right" }}
           >
-            <h1 className="footerTextFour" style={{ width: 180 }}>
+            <h1
+              className="footerTextFour"
+              style={{ width: 180 }}
+              onClick={() => {
+                navigate("/chepFive");
+              }}
+            >
               CHAPTER FIVE: <br /> “WE ARGENTINES ARE RIGHT AND HUMAN”
             </h1>
           </div>
@@ -1242,6 +1240,9 @@ const Chep4MobView = () => {
                 src="./images/chep1/forwardArrow.svg"
                 alt=""
                 style={{ width: 31.21, height: 31.21 }}
+                onClick={() => {
+                  navigate("/chepFive");
+                }}
               />
             </a>
           </div>

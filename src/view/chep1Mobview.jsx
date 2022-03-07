@@ -1846,6 +1846,9 @@ const ChepOneCardMobView = () => {
       </div> */}
       <Image
         src="./images/chep1/01_mattersonpitch.jpg"
+        onClick={() => {
+          navigate("/chepTwo");
+        }}
         style={{ width: "100%" }}
       />
     </div>

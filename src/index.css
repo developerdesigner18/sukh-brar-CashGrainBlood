@@ -45,3 +45,34 @@ code {
   swiper-pagination-horizontal {
   margin-bottom: 8px;
 }
+.animationText {
+  animation: waviy 1s 1;
+  animation-delay: calc(0.1s * var(--i));
+  transform-style: preserve-3d;
+  opacity: 1;
+}
+.animationImage {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes waviy {
+  0% {
+    transform: translate3d(0px, 300px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

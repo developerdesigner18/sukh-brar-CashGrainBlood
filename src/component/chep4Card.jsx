@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Col, Image, Row, Card } from "react-bootstrap";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { useNavigate } from "react-router-dom";
 
-import { Swiper, SwiperSlide } from "swiper/react";
 import "./chep4Card.css";
 
 const ChepFourCard = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="cardHolder">
@@ -586,8 +586,11 @@ const ChepFourCard = () => {
               <h3
                 style={{
                   marginBottom: 0,
-
+                  cursor: "pointer",
                   textAlign: "right",
+                }}
+                onClick={() => {
+                  navigate("/chepFive");
                 }}
               >
                 CHAPTER FIVE: “We Argentines are right…
@@ -598,7 +601,13 @@ const ChepFourCard = () => {
               style={{ textAlign: "left", padding: "8px 6px 6px 6px" }}
             >
               <a role="button">
-                <img src="./images/chep1/forwardArrow.svg" alt="" />
+                <Image
+                  src="./images/chep1/forwardArrow.svg"
+                  alt=""
+                  onClick={() => {
+                    navigate("/chepFive");
+                  }}
+                />
               </a>
             </Col>
           </Row>

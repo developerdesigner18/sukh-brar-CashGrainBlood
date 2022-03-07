@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import { useLocation, useNavigate } from "react-router-dom";
 import ChepOneCard from "./chep1Card";
 import "./dropDownForMobile.css";
-const DropDownForMobile = () => {
+
+const DropDownForMobile = ({
+  selectChepOne,
+  selectMainPage,
+  setSelectChepOne,
+  setSelectMainPage,
+  prevLocation,
+  setSelectChepTwo,
+  selectChepTwo,
+  setSelectChepThree,
+  selectChepThree,
+  setSelectChepFour,
+  selectChepFour,
+  setSelectChepFive,
+  selectChepFive,
+}) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <React.Fragment>
       <div className="dropDownMobContainer">
@@ -14,7 +33,7 @@ const DropDownForMobile = () => {
             style={{ top: "48px", left: "0px", right: 179 }}
           >
             <div
-              className="dropDownDeskHeader"
+              className="dropDownMobHeader"
               style={{
                 marginBottom: 38,
                 display: "flex",
@@ -39,17 +58,39 @@ const DropDownForMobile = () => {
                 <Image
                   src="./images/closeArrowForMob.png "
                   style={{ marginBottom: 2.5 }}
+                  onClick={() => {
+                    prevLocation.pathname === "/dropDown" &&
+                    location.pathname === "/dropDown"
+                      ? navigate("/")
+                      : navigate(prevLocation.pathname);
+                  }}
                 />
               </div>
             </div>
+            {console.log(prevLocation.pathname)}
             <div
-              className="dropDownMobHeader"
+              className={
+                selectMainPage ||
+                (prevLocation.pathname == "/" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader "
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/");
+                setSelectMainPage(true);
+                setSelectChepOne(false);
+                setSelectChepTwo(false);
+                setSelectChepThree(false);
+                setSelectChepFive(false);
+                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -71,14 +112,30 @@ const DropDownForMobile = () => {
                 />
               </div>
             </div>
+
             <div
-              className="dropDownMobHeader"
+              className={
+                selectChepOne ||
+                (prevLocation.pathname == "/chepOne" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader"
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/chepOne");
+                setSelectChepOne(true);
+                setSelectMainPage(false);
+                setSelectChepTwo(false);
+                setSelectChepThree(false);
+                setSelectChepFive(false);
+                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -89,7 +146,7 @@ const DropDownForMobile = () => {
                     fontFamily: "StardosBold",
                   }}
                 >
-                  • FROM HOST TO JUNTA
+                  1. FROM HOST TO JUNTA
                 </p>
               </div>
 
@@ -101,13 +158,28 @@ const DropDownForMobile = () => {
               </div>
             </div>
             <div
-              className="dropDownMobHeader"
+              className={
+                selectChepTwo ||
+                (prevLocation.pathname == "/chepTwo" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader"
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/chepTwo");
+                setSelectChepTwo(true);
+                setSelectChepOne(false);
+                setSelectMainPage(false);
+                setSelectChepThree(false);
+                setSelectChepFive(false);
+                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -118,7 +190,7 @@ const DropDownForMobile = () => {
                     fontFamily: "StardosBold",
                   }}
                 >
-                  • MATTERS ON THE PITCH
+                  2. MATTERS ON THE PITCH
                 </p>
               </div>
 
@@ -130,13 +202,28 @@ const DropDownForMobile = () => {
               </div>
             </div>
             <div
-              className="dropDownMobHeader"
+              className={
+                selectChepThree ||
+                (prevLocation.pathname == "/chepThree" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader"
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/chepThree");
+                setSelectChepTwo(false);
+                setSelectChepOne(false);
+                setSelectMainPage(false);
+                setSelectChepThree(true);
+                setSelectChepFive(false);
+                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -147,7 +234,7 @@ const DropDownForMobile = () => {
                     fontFamily: "StardosBold",
                   }}
                 >
-                  • SCORE FOUR ELSE
+                  3. SCORE FOUR ELSE
                 </p>
               </div>
 
@@ -159,13 +246,28 @@ const DropDownForMobile = () => {
               </div>
             </div>
             <div
-              className="dropDownMobHeader"
+              className={
+                selectChepFour ||
+                (prevLocation.pathname == "/chepFour" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader"
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/chepFour");
+                setSelectChepTwo(false);
+                setSelectChepOne(false);
+                setSelectMainPage(false);
+                setSelectChepThree(false);
+                setSelectChepFive(false);
+                setSelectChepFour(true);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -176,7 +278,7 @@ const DropDownForMobile = () => {
                     fontFamily: "StardosBold",
                   }}
                 >
-                  • IT TAKES TWO TO CONSPIRE
+                  4. IT TAKES TWO TO CONSPIRE
                 </p>
               </div>
 
@@ -188,13 +290,28 @@ const DropDownForMobile = () => {
               </div>
             </div>
             <div
-              className="dropDownMobHeader"
+              className={
+                selectChepFive ||
+                (prevLocation.pathname == "/chepFive" &&
+                  location.pathname == "/dropDown")
+                  ? "dropDownMobHeader1"
+                  : "dropDownMobHeader"
+              }
               style={{
                 marginBottom: 4,
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
+              }}
+              onClick={() => {
+                navigate("/chepFive");
+                setSelectChepTwo(false);
+                setSelectChepOne(false);
+                setSelectMainPage(false);
+                setSelectChepThree(false);
+                setSelectChepFive(true);
+                setSelectChepFour(false);
               }}
             >
               <div style={{ marginLeft: 20 }}>
@@ -205,7 +322,7 @@ const DropDownForMobile = () => {
                     fontFamily: "StardosBold",
                   }}
                 >
-                  • WE ARE ARGENTINES ARE...
+                  5. WE ARE ARGENTINES ARE...
                 </p>
               </div>
 

@@ -4,8 +4,11 @@ import { Container, Image } from "react-bootstrap";
 import MobCard from "./cardMob";
 
 import "./homepageMobile.css";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const HomePageMob = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div>
@@ -46,6 +49,9 @@ const HomePageMob = () => {
                 fontSize: 14,
                 paddingTop: 5,
                 height: 34,
+              }}
+              onClick={() => {
+                navigate("/dropDown");
               }}
             >
               CHAPTERS

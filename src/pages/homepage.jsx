@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
+import { Container, Image, Button } from "react-bootstrap";
 import Card_component from "../component/card";
 import "./homePage.css";
 import chepData from "../chepter";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ScrollToTopOnMount() {
   useEffect(() => {
@@ -12,8 +13,8 @@ function ScrollToTopOnMount() {
 
   return null;
 }
-
 const HomePage = () => {
+  const navigate = useNavigate();
   console.log(chepData);
   return (
     <>
@@ -22,6 +23,32 @@ const HomePage = () => {
         <div className="bannerContainer">
           <div className="homePageBannerImage">
             <Image src="./images/gettyimages.png" className="gettyImage" />
+            <Button
+              style={{
+                background: "#20C5F7",
+                border: "2px solid #20C5F7",
+                borderBottomLeftRadius: 9,
+                borderBottomRightRadius: 9,
+                fontFamily: "StardosBold",
+                paddingLeft: 10,
+                width: 167,
+                paddingTop: 0,
+                fontSize: 16,
+                height: 27,
+                right: 59,
+                top: 0,
+                position: "absolute",
+              }}
+              onClick={() => {
+                navigate("/dropDown");
+              }}
+            >
+              CHAPTERS 1-5
+              <Image
+                src="./images/chep1/arrow.svg"
+                style={{ marginLeft: 8, paddingBottom: 4 }}
+              />
+            </Button>
           </div>
           <div
             className="homePageBannerStripe"

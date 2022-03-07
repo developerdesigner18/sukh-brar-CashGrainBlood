@@ -1,8 +1,10 @@
 import React from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import ChepFiveMobCard from "../component/chep5MobCard";
 import "./chep5MobView.css";
 const Chep5MobView = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="chepFiveHolder">
@@ -19,6 +21,9 @@ const Chep5MobView = () => {
           >
             <button
               className="headingBannerBtn"
+              onClick={() => {
+                navigate("/dropDown");
+              }}
               // style={{ background: "#f78320", border: "2px solid #F78320" }}
             >
               CHAPTERS

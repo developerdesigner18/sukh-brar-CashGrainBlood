@@ -2,7 +2,9 @@ import React from "react";
 import { Row, Image, Col, Container } from "react-bootstrap";
 import "./chep3MobView.css";
 import Chep3MobCard from "../component/chep3Mobcard";
+import { useNavigate } from "react-router-dom";
 const Chep3MobView = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="chepThreeHolder">
@@ -20,6 +22,9 @@ const Chep3MobView = () => {
             <button
               className="headingBannerBtn"
               // style={{ background: "#f78320", border: "2px solid #F78320" }}
+              onClick={() => {
+                navigate("/dropDown");
+              }}
             >
               CHAPTERS
               <Image src="./images/chep1/arrow.svg" style={{ marginLeft: 5 }} />

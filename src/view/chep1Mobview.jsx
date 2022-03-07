@@ -18,7 +18,9 @@ import {
   Carousel,
 } from "react-bootstrap";
 import "./chep1MobView.css";
+import { useNavigate } from "react-router-dom";
 const ChepOneCardMobView = () => {
+  const navigate = useNavigate();
   return (
     <div style={{ position: "relative" }}>
       <div>
@@ -60,6 +62,9 @@ const ChepOneCardMobView = () => {
                 fontSize: 14,
                 paddingTop: 5,
                 height: 34,
+              }}
+              onClick={() => {
+                navigate("/dropDown");
               }}
             >
               CHAPTERS

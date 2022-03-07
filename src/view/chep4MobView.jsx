@@ -11,8 +11,10 @@ import {
   Image,
   Carousel,
 } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import "./chep4MobView.css";
 const Chep4MobView = () => {
+  const navigate = useNavigate();
   return (
     <div style={{ position: "relative" }}>
       <div>
@@ -29,7 +31,7 @@ const Chep4MobView = () => {
               height: 34,
               paddingBottom: 5,
               fontFamily: "StardosBold",
-
+              paddingRight: 0,
               fontSize: 16,
               color: "white",
             }}
@@ -54,6 +56,9 @@ const Chep4MobView = () => {
                 fontSize: 14,
                 paddingTop: 5,
                 height: 34,
+              }}
+              onClick={() => {
+                navigate("/dropDown");
               }}
             >
               CHAPTERS

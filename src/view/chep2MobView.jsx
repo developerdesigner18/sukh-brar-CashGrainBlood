@@ -1,8 +1,11 @@
 import React from "react";
 import { Container, Image, Row, Col, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import ChepTwoMobCard from "../component/chep2MobCard";
 import "./chep2MobView.css";
 const ChepTwo = () => {
+  const navigate = useNavigate();
+
   return (
     <React.Fragment>
       <div className="chepTwoHolder">
@@ -19,6 +22,9 @@ const ChepTwo = () => {
           >
             <button
               className="headingBannerBtn"
+              onClick={() => {
+                navigate("/dropDown");
+              }}
               // style={{ background: "#f78320", border: "2px solid #F78320" }}
             >
               CHAPTERS

@@ -1,8 +1,9 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row, Button } from "react-bootstrap";
 import ChepOneCard from "../component/chep1Card";
 import "./chep1.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ScrollToTopOnMount() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function ScrollToTopOnMount() {
 }
 
 const Chep1 = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <ScrollToTopOnMount />
@@ -20,6 +22,32 @@ const Chep1 = () => {
         <div className="bannerContainer">
           <div className="chepOneBannerImage">
             <Image src="./images/gettyimages.png" className="gettyImage" />
+            <Button
+              style={{
+                background: "#20C5F7",
+                border: "2px solid #20C5F7",
+                borderBottomLeftRadius: 9,
+                borderBottomRightRadius: 9,
+                fontFamily: "StardosBold",
+                paddingLeft: 10,
+                width: 167,
+                paddingTop: 0,
+                fontSize: 16,
+                height: 27,
+                right: 59,
+                top: 0,
+                position: "absolute",
+              }}
+              onClick={() => {
+                navigate("/dropDown");
+              }}
+            >
+              CHAPTERS 1-5
+              <Image
+                src="./images/chep1/arrow.svg"
+                style={{ marginLeft: 8, paddingBottom: 4 }}
+              />
+            </Button>
           </div>
           <div
             className="chepOneBannerStripe"

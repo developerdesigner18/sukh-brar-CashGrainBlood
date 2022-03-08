@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
+import handleViewport from "react-in-viewport";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

@@ -1211,43 +1211,13 @@ const Chep4MobView = () => {
         />
       </div>
       {/* --------------footer----------------------------- */}
-      <div className="chepFourFooter">
-        <div className="row" style={{ padding: 0, margin: 0 }}>
-          <div
-            className="col-10"
-            style={{ padding: 0, margin: 0, textAlign: "right" }}
-          >
-            <h1
-              className="footerTextFour"
-              style={{ width: 180 }}
-              onClick={() => {
-                navigate("/chepFive");
-              }}
-            >
-              CHAPTER FIVE: <br /> “WE ARGENTINES ARE RIGHT AND HUMAN”
-            </h1>
-          </div>
-          <div
-            className="col-2"
-            style={{
-              padding: " 12px 0px 0px 12px",
-              margin: 0,
-              textAlign: "center",
-            }}
-          >
-            <a role="button">
-              <Image
-                src="./images/chep1/forwardArrow.svg"
-                alt=""
-                style={{ width: 31.21, height: 31.21 }}
-                onClick={() => {
-                  navigate("/chepFive");
-                }}
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+      <Image
+        src="./images/chep4/05_righthuman.jpg"
+        onClick={() => {
+          navigate("/chepFive");
+        }}
+        style={{ width: "100%" }}
+      />
     </div>
   );
 };

@@ -74,6 +74,7 @@ const HomePage = () => {
                 <br /> AND <br /> BLOOD <br /> FOR GOALS
               </h1>
               <p
+                className="animationText"
                 style={{
                   textAlign: "left",
                   fontSize: 20,

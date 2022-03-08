@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Card_component = ({ chepData }) => {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 100);
+      // setScroll(window.screenY > 200);
+    });
+  }, []);
   const navigate = useNavigate();
   const cards = chepData.map((data, index) => {
     return (
@@ -19,7 +27,7 @@ const Card_component = ({ chepData }) => {
             <Card.Title>
               <Row
                 style={{ paddingLeft: 10, paddingBottom: 15 }}
-                className="animationText"
+                className={scroll ? "animationText" : ""}
               >
                 <Row
                   style={{
@@ -40,7 +48,7 @@ const Card_component = ({ chepData }) => {
                 </Row>
 
                 <Row
-                  className="animationText"
+                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -50,7 +58,7 @@ const Card_component = ({ chepData }) => {
                   {data.chepTitleFirstHalf}
                 </Row>
                 <Row
-                  className="animationText"
+                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -63,7 +71,7 @@ const Card_component = ({ chepData }) => {
                 </Row>
                 <Row
                   style={{ width: 256, height: 15 }}
-                  className="animationText"
+                  className={scroll ? "animationText" : ""}
                 >
                   <Image
                     src="./images/verticalDivider.png"
@@ -75,13 +83,20 @@ const Card_component = ({ chepData }) => {
             </Card.Title>
             <Row>
               <Col lg={6} style={{ width: "460px", height: "300px" }}>
-                <Card.Img
-                  className="animationImage"
-                  src={data.chepImage}
-                  style={{ width: "100%", paddingLeft: 0 }}
-                />
+                <ScrollAnimation
+                  animateIn="fadeIn"
+                  animateOut="fadeOut"
+                  duration={2.5}
+                  delay={0}
+                >
+                  <Card.Img
+                    className="animationImage"
+                    src={data.chepImage}
+                    style={{ width: "100%", paddingLeft: 0 }}
+                  />
+                </ScrollAnimation>
               </Col>
-              <Col lg={6} className="animationText">
+              <Col lg={6} className={scroll ? "animationText" : ""}>
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
@@ -131,7 +146,7 @@ const Card_component = ({ chepData }) => {
               </Col>
             </Row>
             <Card.Text>
-              <Row className="animationText">
+              <Row className={scroll ? "animationText" : ""}>
                 <Col lg={5} sm={12} md={8}>
                   <Row
                     style={{

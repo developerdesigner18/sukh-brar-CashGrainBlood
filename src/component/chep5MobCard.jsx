@@ -198,8 +198,8 @@ const ChepFiveMobCard = () => {
             style={{
               width: "100%",
               position: "absolute",
-              bottom: 590,
-              height: 25,
+              bottom: 534,
+              height: 14.07,
               margin: 0,
               left: 0,
             }}
@@ -212,7 +212,8 @@ const ChepFiveMobCard = () => {
                 padding: 0,
                 margin: 0,
                 marginTop: 16.2,
-                marginLeft: 36.2,
+                marginLeft: 47,
+                paddingTop: 25,
               }}
             >
               <p className="chepTwoCardOneIndex" style={{ marginTop: 10 }}>
@@ -232,7 +233,7 @@ const ChepFiveMobCard = () => {
           </Container>
           <div className="textLogoHolder">
             <div className="row" style={{ padding: 0, margin: 0 }}>
-              <div className="col" style={{ padding: 0 }}>
+              {/* <div className="col" style={{ padding: 0 }}>
                 <Image
                   className="cardTwoImageo1"
                   src="./images/chep5/cardThreeLogo01.png"
@@ -246,12 +247,12 @@ const ChepFiveMobCard = () => {
                   style={{ padding: 0 }}
                   fluid
                 />
-              </div>
+              </div> */}
             </div>
             <p className="logoName">
               1978 FIFA World Cup FINAL <br /> ARGENTINA v. HOLLAND
             </p>
-            <Image
+            {/* <Image
               className="cardTwoyoutbe"
               src="./images/chep1/YoutubeCard.svg"
               style={{ padding: 0 }}
@@ -262,7 +263,7 @@ const ChepFiveMobCard = () => {
               src="./images/chep1/youtube.svg"
               style={{ padding: 0 }}
               fluid
-            />
+            /> */}
           </div>
         </div>
         <Image
@@ -336,7 +337,7 @@ const ChepFiveMobCard = () => {
               className="gettyImageForCardFour"
               style={{ position: "absolute", right: 0, bottom: 0 }}
             >
-              <Image src="./images/chep5/gettyImage.png" />
+              {/* <Image src="./images/chep5/gettyImage.png" /> */}
             </div>
           </div>
           <div className="chepFiveCardThreeDesc">
@@ -505,7 +506,7 @@ const ChepFiveMobCard = () => {
               className="gettyImageForCardFour"
               style={{ position: "absolute", right: 0, bottom: 0 }}
             >
-              <Image src="./images/chep5/gettyImage.png" />
+              {/* <Image src="./images/chep5/gettyImage.png" /> */}
             </div>
           </div>
           <div className="chepFiveCardFourDesc">
@@ -659,7 +660,7 @@ const ChepFiveMobCard = () => {
               className="gettyImageForCardFive"
               style={{ position: "absolute", right: 0, bottom: 0 }}
             >
-              <Image src="./images/chep5/gettyImage.png" />
+              {/* <Image src="./images/chep5/gettyImage.png" /> */}
             </div>
             {/* ------------------vertical Divider---------------------- */}
             <Image

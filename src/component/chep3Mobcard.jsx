@@ -91,14 +91,19 @@ const ChepThreeMobCard = () => {
                     >
                       IMAGE:
                     </p>{" "}
-                    <p className="chepThreeCardOneImgDesc">
+                    <p
+                      className="chepThreeCardOneImgDesc"
+                      style={{ lineHeight: "12px" }}
+                    >
                       Mario Kempes <br /> Argentine Striker
-                      <br />
-                      <span style={{ color: "white" }}>
-                        {" "}
-                        SOURCE: GETTY IMAGES
-                      </span>
                     </p>{" "}
+                    <p
+                      className="chepThreeCardOneImgDesc"
+                      style={{ color: "white", lineHeight: "20px" }}
+                    >
+                      {" "}
+                      SOURCE: GETTY IMAGES
+                    </p>
                   </Row>
                 </Row>
                 <Row
@@ -106,7 +111,6 @@ const ChepThreeMobCard = () => {
                     marginTop: 15.4,
                     marginLeft: 0,
                     marginRight: 0,
-
                     paddingRight: 0,
                     paddingLeft: 0,
                   }}
@@ -116,6 +120,7 @@ const ChepThreeMobCard = () => {
                       paddingLeft: 0,
                       marginRight: 0,
                       marginTop: 20,
+                      marginBottom: 5,
                     }}
                   >
                     <p className="chepThreeCardOneTitle">
@@ -835,7 +840,7 @@ const ChepThreeMobCard = () => {
               </div>
             </div>
           </div>
-          <div className="chepTwoAdHeader2" style={{ padding: "19px" }}></div>
+          <div className="chepTwoAdHeader2" style={{ padding: "10px" }}></div>
         </div>
         {/* ----------------------------lastCard---------------------------- */}
         <div className="chep3LastCard">
@@ -853,7 +858,7 @@ const ChepThreeMobCard = () => {
                   margin: "40px 34px 0px 34px",
                 }}
               >
-                01/03
+                01/04
               </p>
               <Image
                 src="./images/chep1/divider.png"
@@ -910,11 +915,10 @@ const ChepThreeMobCard = () => {
               fluid
               src="./images/chep1/upArrow.svg"
               style={{
-                width: 26.96,
                 height: 17.41,
                 padding: 0,
                 marginTop: 15,
-                marginLeft: 3,
+                marginLeft: 0,
               }}
             />
 
@@ -978,36 +982,16 @@ const ChepThreeMobCard = () => {
         </div>
         {/* --------------------------Fotter------------------------- */}
         <div className="chepThreeFooter">
-          <div className="row" style={{ padding: 0, margin: 0, width: 214 }}>
-            <div
-              className="col-10"
-              style={{ padding: 0, margin: 0, textAlign: "left" }}
-            >
-              <h1
-                className="chep3footerText"
-                onClick={() => {
-                  navigate("/chepFour");
-                }}
-              >
-                CHAPTER FOUR: <br /> TAKES TWO TO CONSPIRE
-              </h1>
-            </div>
-            <div
-              className="col-2"
-              style={{ padding: 0, margin: 0, textAlign: "center" }}
-            >
-              <a role="button">
-                <Image
-                  src="./images/chep1/forwardArrow.svg"
-                  alt=""
-                  style={{ width: 31.21, height: 31.21 }}
-                  onClick={() => {
-                    navigate("/chepFour");
-                  }}
-                />
-              </a>
-            </div>
-          </div>
+          <a role="button">
+            <Image
+              src="./images/chep3/MobFooter.png"
+              alt=""
+              style={{ width: "100%" }}
+              onClick={() => {
+                navigate("/chepFour");
+              }}
+            />
+          </a>
         </div>
       </div>
     </React.Fragment>

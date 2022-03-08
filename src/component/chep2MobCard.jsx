@@ -934,7 +934,7 @@ const ChepTwoMobCard = () => {
             </div>
           </div>
         </div>
-        <div className="chepTwoAdHeader2" style={{ padding: "19px" }}></div>
+        <div className="chepTwoAdHeader2" style={{ padding: "10px" }}></div>
         {/* ----------------------------lastCard---------------------------- */}
         <div className="chep2LastCard">
           <Container style={{ padding: 0 }}>

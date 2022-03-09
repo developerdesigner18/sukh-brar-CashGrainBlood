@@ -145,7 +145,10 @@ const ChepFiveMobCard = () => {
                     </p>
                   </div>
                   <div className="row" style={{ paddingLeft: 0 }}>
-                    <div className="col-2" style={{ padding: 0 }}>
+                    <div
+                      className="col-1"
+                      style={{ padding: 0, marginRight: 10 }}
+                    >
                       <a role="button">
                         <Image
                           src="./images/btnImage.svg"
@@ -198,7 +201,7 @@ const ChepFiveMobCard = () => {
             style={{
               width: "100%",
               position: "absolute",
-              bottom: 534,
+              bottom: 556,
               height: 14.07,
               margin: 0,
               left: 0,
@@ -869,11 +872,12 @@ const ChepFiveMobCard = () => {
                 }}
               >
                 <div
-                  className="col-2"
+                  className="col-1"
                   style={{
                     paddingLeft: 0,
                     paddingRight: 0,
                     textAlign: "left",
+                    marginRight: 10,
                   }}
                 >
                   <a role="button">

@@ -18,13 +18,12 @@ const Chep4MobView = () => {
             xs={8}
             style={{
               background: "#20C5F7",
-              paddingLeft: 35,
-              paddingTop: 7,
+              padding: "7px 0px 5px 34px",
               height: 34,
-              paddingBottom: 5,
+
               fontFamily: "StardosBold",
-              paddingRight: 0,
-              fontSize: 16,
+
+              fontSize: 17,
               color: "white",
             }}
           >
@@ -45,7 +44,7 @@ const Chep4MobView = () => {
                 fontFamily: "HelveticaNeue-CondensedBold",
                 paddingLeft: 10,
                 width: 124,
-                fontSize: 14,
+                fontSize: 15,
                 paddingTop: 5,
                 height: 34,
               }}
@@ -120,6 +119,13 @@ const Chep4MobView = () => {
                 conspiracy. Leading journalists, politicians came forward to
                 implicate both the Argentine and Peruvian governments.
               </p>
+            </div>
+            <div className="gettyImageFive">
+              <Image
+                src="./images/gettyimages.png"
+                width={"100%"}
+                style={{ width: 104, height: 25 }}
+              />
             </div>
           </Container>
         </div>
@@ -210,8 +216,8 @@ const Chep4MobView = () => {
           </h4>
         </div>
       </Row>
-      <Row
-        className="chepFourCardTwo"
+      <div
+        className="chepFourCardTwo row"
         style={{
           marginRight: 2,
           padding: 5,
@@ -241,7 +247,13 @@ const Chep4MobView = () => {
           {/* <Image src="./images/chep4/mobCardOne.png" /> */}
           <Image
             src="./images/forwardArrowBlack.svg"
-            style={{ width: 28, marginLeft: 20, padding: 0, marginTop: 200 }}
+            style={{
+              width: 20.75,
+              height: 13.4,
+              marginLeft: 20,
+              padding: 0,
+              marginTop: 200,
+            }}
           />{" "}
         </Row>
         <Row>
@@ -250,6 +262,7 @@ const Chep4MobView = () => {
               style={{
                 marginLeft: 20,
                 padding: 0,
+                height: 14,
                 color: "white",
                 marginTop: 4,
                 marginBottom: 0,
@@ -266,11 +279,12 @@ const Chep4MobView = () => {
                 marginLeft: 20,
                 padding: 0,
                 color: "#20C5F7",
-                marginTop: 3,
+                marginTop: 0,
                 marginBottom: 0,
                 fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
                 width: 121,
+                lineHeight: "12px",
               }}
             >
               Peru’s Cubillas runs at the Argentina defence
@@ -282,13 +296,13 @@ const Chep4MobView = () => {
                 marginLeft: 20,
                 padding: 0,
                 color: "White",
-                marginTop: 4,
-                marginBottom: 0,
+                marginTop: 0,
+                marginBottom: 10,
                 fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
               }}
             >
-              SOURCE: GETTY <br /> IMAGES
+              SOURCE: GETTY IMAGES
             </p>
           </Row>
         </Row>
@@ -306,7 +320,7 @@ const Chep4MobView = () => {
               width: "85%",
               fontFamily: "StardosBold",
               fontSize: 20,
-
+              marginBottom: 5,
               paddingLeft: 0,
               lineHeight: 1,
               marginRight: 0,
@@ -319,14 +333,19 @@ const Chep4MobView = () => {
           <Row style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}>
             <Image
               src="./images/verticalDivider.png"
-              style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
+              style={{
+                paddingLeft: 0,
+                width: "165.21px",
+                height: 9.81,
+                paddingRight: 0,
+              }}
               fluid
             />
           </Row>
-          <Row style={{ padding: 0, marginTop: 16 }}>
+          <Row style={{ padding: 0, marginTop: 20 }}>
             <p
               style={{
-                fontFamily: "HelveticaNeue-Bold",
+                fontFamily: "HelveticaNeue  ",
                 fontSize: 12,
 
                 textAlign: "left",
@@ -343,7 +362,7 @@ const Chep4MobView = () => {
           <Row style={{ padding: 0, marginTop: 5 }}>
             <p
               style={{
-                fontFamily: "HelveticaNeue-CondensedBold",
+                fontFamily: "HelveticaNeue",
                 fontSize: 12,
                 textAlign: "left",
                 color: "white",
@@ -358,7 +377,7 @@ const Chep4MobView = () => {
             </p>
           </Row>
           <Row style={{ paddingLeft: 0 }}>
-            <Col sm={2} xs={2} style={{ padding: 0 }}>
+            <Col sm={1} xs={1} style={{ padding: 0 }}>
               <a role="button">
                 <Image
                   src="./images/btnImage.svg"
@@ -376,7 +395,7 @@ const Chep4MobView = () => {
               xs={10}
               sm={10}
               style={{
-                paddingLeft: 0,
+                paddingLeft: 10,
                 marginLeft: 0,
                 color: "white",
                 textAlign: "left",
@@ -391,7 +410,7 @@ const Chep4MobView = () => {
             </Col>
           </Row>
         </Row>
-      </Row>
+      </div>
       <Image
         fluid
         src="./images/chep1/vertical_stripe.svg"
@@ -451,7 +470,7 @@ const Chep4MobView = () => {
                 style={{
                   fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontSize: "18px",
+                  fontSize: "20px",
                   textAlign: "justify",
                   marginBottom: 0,
                   marginLeft: 25,
@@ -462,8 +481,8 @@ const Chep4MobView = () => {
               <Image
                 src="./horizontal_stripe.png"
                 style={{
-                  width: 171,
-                  height: 10.14,
+                  width: 165.21,
+                  height: 9.81,
                   marginLeft: 25,
                   marginTop: -10,
                 }}
@@ -774,7 +793,7 @@ const Chep4MobView = () => {
                   fontFamily: "HelveticaNeue-Bold",
                 }}
               >
-                01/02
+                01/03
               </p>
               <Image
                 src="./images/chep1/divider.png"
@@ -786,13 +805,13 @@ const Chep4MobView = () => {
               style={{
                 fontFamily: "StardosBold",
                 lineHeight: 1.1,
-                fontSize: "18px",
+                fontSize: "20px",
                 textAlign: "justify",
                 marginBottom: 0,
                 marginLeft: 25,
               }}
             >
-              “EL GORDO” <br /> THE BRIBER
+              THE ALLEGED <br /> COST OF THE FIX
             </h6>
             <Image
               src="./horizontal_stripe.png"
@@ -974,7 +993,7 @@ const Chep4MobView = () => {
                   textAlign: "left",
                   marginTop: 20,
                   marginBottom: 0,
-                  fontSize: 12,
+                  fontSize: 14,
                   fontFamily: "HelveticaNeue-CondensedBold",
                 }}
               >
@@ -982,12 +1001,15 @@ const Chep4MobView = () => {
               </p>
               <p className="FourCardText">
                 • 35,000 tons of Argentinian grain shipped to Peru <br /> • The
-                unfreezing of a $50 million credit line to the Peruvian {"   "}
-                <span style={{ marginLeft: 10 }}> government</span> <br /> •
-                Videla’s regime agreed to receive and imprison 13{" "}
+                unfreezing of a $50 million credit line to the{" "}
+                <span style={{ marginLeft: 10 }}>Peruvian government</span>{" "}
+                <br /> • Videla’s regime agreed to receive and imprison 13{" "}
                 <span style={{ marginLeft: 10 }}>
-                  Peruvian political dissidents who were vocally opposed to{" "}
-                  <span style={{ marginLeft: 10 }}>the Peruvian regime.</span>
+                  Peruvian political dissidents who were vocally{" "}
+                  <span style={{ marginLeft: 10 }}>
+                    {" "}
+                    opposed to the Peruvian regime.
+                  </span>
                 </span>
               </p>
             </div>
@@ -1030,7 +1052,7 @@ const Chep4MobView = () => {
 
                   color: "white",
                   textAlign: "left",
-                  paddingTop: 8,
+                  paddingTop: 5,
                   paddingLeft: 0,
                 }}
               >
@@ -1042,7 +1064,7 @@ const Chep4MobView = () => {
       </div>
       {/* -------------------------------------card-Five---------------------------- */}
       <div className="chep4LastCard">
-        <Container style={{ padding: 0 }}>
+        <Container style={{ padding: "13px 0px 0px 0px" }}>
           <Row
             style={{
               width: 56,
@@ -1051,10 +1073,10 @@ const Chep4MobView = () => {
             }}
           >
             <p
-              className="chepTwoCardLastIndex"
+              className="chepFourCardLastIndex"
               style={{ marginTop: 34, marginLeft: 34 }}
             >
-              01/03
+              01/04
             </p>
             <Image
               src="./images/chep1/divider.png"
@@ -1080,7 +1102,7 @@ const Chep4MobView = () => {
               marginTop: 5,
             }}
           >
-            <p className="chepTwoLastTitle">
+            <p className="chepFourLastTitle">
               THE MOST <br /> INSIDIOUS <br /> ALLEGATION
             </p>
           </Row>
@@ -1190,7 +1212,7 @@ const Chep4MobView = () => {
 
                 color: "white",
                 textAlign: "left",
-                paddingTop: 8,
+                paddingTop: 5,
                 paddingLeft: 0,
               }}
             >

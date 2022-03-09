@@ -49,11 +49,12 @@
   padding-right: 0px;
 }
 .cardThreeChepThree {
-  background-image: url("../../public/images/chep2/mobCardThree.png");
-  background-size: cover;
+  background-image: url("../../public/images/chep3/01_03_Arg_Peru.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 0px;
   position: relative !important;
-  height: 590px;
+  height: 554px;
 }
 .cardThreeImageo1 {
   position: absolute;
@@ -69,10 +70,10 @@
   top: 52px;
   left: 79.1px;
 }
-.logoName {
+.logoName1 {
   position: absolute;
-  top: 100px;
-  left: 39px;
+  top: 110px;
+  left: 33px;
   color: white;
   font-family: "StardosBold";
   font-size: 16px;

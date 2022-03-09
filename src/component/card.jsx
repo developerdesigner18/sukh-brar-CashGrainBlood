@@ -2,21 +2,30 @@ import React, { useState, useEffect } from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
-import "./card.css";
 import AOS from "aos";
 const Card_component = ({ chepData }) => {
-  AOS.init({
-    duration: 1000,
-    delay: 200,
-  });
-
-  // const [scroll, setScroll] = useState(false);
+  const [scroll, setScroll] = useState(false);
   // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     setScroll(window.scrollY > 100);
-  //     // setScroll(window.screenY > 200);
+  //   const unsub = window.addEventListener("scroll", () => {
+  //     console.log(window.scrollY);
+  //     setScroll(window.scrollY > 600);
+  //     // window.scrollY > 1300 && setScroll(window.screenY > 1300);
   //   });
+  //   return () => unsub;
   // }, []);
+  AOS.init({
+    offset: 200, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    easing: "ease", // default easing for AOS animations
+    duration: 500, // values from 0 to 3000, with step 50ms
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    once: true, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+    animatedClassName: "aos-animate", // class applied on animation
+    initClassName: "aos-init", // class applied after initialization
+    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  });
   const navigate = useNavigate();
   const cards = chepData.map((data, index) => {
     return (
@@ -34,6 +43,7 @@ const Card_component = ({ chepData }) => {
               <div
                 className="row"
                 style={{ paddingLeft: 10, paddingBottom: 15 }}
+                // className={scroll ? "animationText" : ""}
                 data-aos="fade-up"
               >
                 <Row
@@ -55,7 +65,7 @@ const Card_component = ({ chepData }) => {
                 </Row>
 
                 <Row
-                  // className={scroll ? "animationText" : ""}
+                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -65,7 +75,7 @@ const Card_component = ({ chepData }) => {
                   {data.chepTitleFirstHalf}
                 </Row>
                 <Row
-                  // className={scroll ? "animationText" : ""}
+                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -78,7 +88,7 @@ const Card_component = ({ chepData }) => {
                 </Row>
                 <Row
                   style={{ width: 256, height: 15 }}
-                  // className={scroll ? "animationText" : ""}
+                  className={scroll ? "animationText" : ""}
                 >
                   <Image
                     src="./images/verticalDivider.png"
@@ -91,20 +101,24 @@ const Card_component = ({ chepData }) => {
             <Row>
               <div
                 className="col-6"
-                data-aos="fade-in"
                 style={{ width: "460px", height: "300px" }}
+                data-aos="fade-out"
               >
+                {/* <ScrollAnimation
+                  animateIn="fadeIn"
+                  animateOut="fadeOut"
+                  duration={2.5}
+                  delay={0}
+                > */}
                 <Card.Img
                   className="animationImage"
                   src={data.chepImage}
                   style={{ width: "100%", paddingLeft: 0 }}
                 />
+                {/* </ScrollAnimation> */}
               </div>
-              <div
-                className="col-6"
-                data-aos="fade-up"
-                //  className={scroll ? "animationText" : ""}
-              >
+
+              <div className="col-6" data-aos="fade-up">
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
@@ -153,13 +167,8 @@ const Card_component = ({ chepData }) => {
                 </Row>
               </div>
             </Row>
-            <Card.Text>
-              <div
-                className="row"
-                data-aos="fade-up"
-
-                // className={scroll ? "animationText" : ""}
-              >
+            <div>
+              <div className="row" data-aos="fade-up">
                 <Col lg={5} sm={12} md={8}>
                   <Row
                     style={{
@@ -217,7 +226,7 @@ const Card_component = ({ chepData }) => {
                 </Col>
                 <Col lg={7} sm={12} md={4}></Col>
               </div>
-            </Card.Text>
+            </div>
           </Card.Body>
         </Card>
       </Container>

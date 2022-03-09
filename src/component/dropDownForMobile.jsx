@@ -3,15 +3,11 @@ import { Image } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import "./dropDownForMobile.css";
-import { AOS } from "aos";
 
 const DropDownForMobile = ({ prevLocation }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  AOS.init({
-    duration: 1000,
-    delay: 200,
-  });
+
   return (
     <React.Fragment>
       <div className="dropDownMobContainer">

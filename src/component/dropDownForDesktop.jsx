@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 import ChepOneCard from "../component/chep1Card";
-import { AOS } from "aos";
+
 import "./dropDownForDesktop.css";
 const DropDownForDesktop = ({ prevLocation }) => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const DropDownForDesktop = ({ prevLocation }) => {
               <div
                 className="dropDownDeskText"
                 style={{ top: "0px", left: "0px", right: 179, width: "517px" }}
-                data-aos="fade-up"
+                // data-aos="fade-up"
               >
                 <div
                   className="dropDownDeskHeader"

@@ -615,7 +615,7 @@ const ChepThreeMobCard = () => {
             style={{
               width: "100%",
               position: "absolute",
-              bottom: 590,
+              bottom: 554,
               height: 15,
               margin: 0,
               left: 0,
@@ -628,7 +628,7 @@ const ChepThreeMobCard = () => {
                 padding: 0,
                 margin: 0,
                 marginTop: 16.2,
-                marginLeft: 36.2,
+                marginLeft: 33,
               }}
             >
               <p className="chepThreeCardOneIndex" style={{ marginTop: 10 }}>
@@ -647,7 +647,7 @@ const ChepThreeMobCard = () => {
             </Row>
           </Container>
           <div className="textLogoHolder">
-            <Row style={{ padding: 0, margin: 0 }}>
+            {/* <Row style={{ padding: 0, margin: 0 }}>
               <Col style={{ padding: 0 }}>
                 <Image
                   className="cardThreeImageo1"
@@ -663,8 +663,8 @@ const ChepThreeMobCard = () => {
                   fluid
                 />
               </Col>
-            </Row>
-            <p className="logoName">
+            </Row> */}
+            <p className="logoName1">
               ARGENTINA <br /> v. PERU
             </p>
             <Image
@@ -673,19 +673,19 @@ const ChepThreeMobCard = () => {
               style={{ padding: 0 }}
               fluid
             />
-            <Image
+            {/* <Image
               className="cardThreeyoutbeName"
               src="./images/chep1/youtube.svg"
               style={{ padding: 0 }}
               fluid
-            />
+            /> */}
             <Image
               src="./images/chep3/dividerVertical.png"
               style={{
                 width: "100%",
                 height: 15,
                 position: "absolute",
-                top: 589,
+                top: 554,
                 margin: 0,
                 left: 0,
               }}

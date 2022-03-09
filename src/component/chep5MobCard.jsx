@@ -341,7 +341,7 @@ const ChepFiveMobCard = () => {
             </div>
           </div>
           <div className="chepFiveCardThreeDesc">
-            <div className="row" style={{ marginTop: 8 }}>
+            <div className="row" style={{ marginTop: 8, marginRight: 0 }}>
               <Image
                 fluid
                 src="./images/chep1/upArrow.svg"

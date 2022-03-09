@@ -62,6 +62,7 @@ const ChepOneCard = () => {
                       color: "white",
                       fontFamily: "StardosBold",
                       fontSize: 40,
+                      // className: "animationText",
                     }}
                   >
                     ARGENTINA YOU GET

@@ -51,11 +51,10 @@
 }
 .cardTwoChepFive {
   background-image: url("../../public/images/chep5/mobCardTwo.png");
-  background-size: contain;
+  background-size: cover;
   padding: 0px;
   position: relative !important;
-  height: 534px;
-  background-repeat: no-repeat;
+  height: 556px;
 }
 .cardTwoImageo1 {
   position: absolute;
@@ -96,8 +95,8 @@
 }
 .chep5cardThreeHeaderImage {
   background-image: url("../../public/images/chep5/mobCardThree.png");
-  background-size: contain;
-  height: 246px;
+  background-size: cover;
+  height: 254px;
   background-repeat: no-repeat;
   position: relative !important;
 }
@@ -136,8 +135,8 @@
 /* ---------------------card-4----------------------------- */
 .chep5cardFourHeaderImage {
   background-image: url("../../public/images/chep5/mobCardFour.png");
-  background-size: contain;
-  height: 258px;
+  background-size: cover;
+  height: 267px;
   background-repeat: no-repeat;
   position: relative !important;
 }
@@ -176,8 +175,8 @@
 /* ----------------------card-5------------------ */
 .chep5cardFiveHeaderImage {
   background-image: url("../../public/images/chep5/mobCardFive.png");
-  background-size: contain;
-  height: 245px;
+  background-size: cover;
+  height: 254px;
   background-repeat: no-repeat;
   position: relative !important;
 }

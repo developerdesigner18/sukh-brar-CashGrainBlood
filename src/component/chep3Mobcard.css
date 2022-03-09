@@ -167,8 +167,9 @@
 .chep3lastCardFirst {
   color: #20c5f7;
   font-family: "HelveticaNeue-CondensedBold";
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
+  line-height: 16px;
   width: 240px;
 }
 .chep3lastCardSecond p {

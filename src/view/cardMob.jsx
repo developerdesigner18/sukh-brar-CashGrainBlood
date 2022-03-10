@@ -31,12 +31,12 @@ const CardComponent = () => {
                   fontFamily: "StardosBold",
                   color: "white",
                   fontSize: "12px",
-                  textAlign: "center",
 
                   background: "#20B5F7",
                   width: 76,
-                  paddingTop: 2,
+                  textAlign: "center",
                   height: 17,
+                  padding: 1,
                 }}
               >
                 {data.ChepMob}

@@ -377,15 +377,17 @@ const Chep4MobView = () => {
             </p>
           </Row>
           <Row style={{ paddingLeft: 0 }}>
-            <Col sm={1} xs={1} style={{ padding: 0 }}>
+            <Col
+              sm={1}
+              xs={1}
+              style={{ padding: 0, width: 31.21, height: 31.21 }}
+            >
               <a role="button">
                 <Image
                   src="./images/btnImage.svg"
                   style={{
                     paddingLeft: 0,
                     marginLeft: 0,
-                    width: 31.21,
-                    height: 31.21,
                   }}
                   fluid
                 />
@@ -1057,7 +1059,7 @@ const Chep4MobView = () => {
                   color: "white",
                   textAlign: "left",
                   paddingTop: 6,
-                  paddingLeft: 5,
+                  paddingLeft: 4,
                 }}
               >
                 Read More On The Conspiracy

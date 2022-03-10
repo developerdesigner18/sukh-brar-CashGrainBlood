@@ -100,7 +100,7 @@ const Chep4MobView = () => {
                 style={{
                   fontFamily: "StardosBold",
                   lineHeight: 1.1,
-                  fontSize: "40px",
+                  fontSize: "38px",
                   textAlign: "justify",
                 }}
               >
@@ -132,15 +132,14 @@ const Chep4MobView = () => {
       </div>
       <Row
         className="chepFourCardOne"
-        style={{ paddingLeft: 5, marginRight: 0 }}
+        style={{ paddingLeft: 10, marginRight: 0 }}
       >
         <Row style={{ margin: "0px auto", marginTop: 40 }}>
           <Col xs={5} sm={5} style={{ textAlign: "right" }}>
             <Image
               src="./images/chep4/davidyallop.png"
               fluid
-              width={"100%"}
-              style={{ marginTop: -22 }}
+              style={{ marginTop: -10 }}
             />
           </Col>
           <Col>
@@ -190,7 +189,7 @@ const Chep4MobView = () => {
           </Col>
         </Row>
 
-        <div style={{ paddingLeft: 0, width: 332, margin: "30px auto 0px" }}>
+        <div style={{ width: 332, margin: "30px 24px" }}>
           <h4 className="descTextJournalist4">
             A severe authoritarian with cold staring eyes,
             <span style={{ color: "#20C5F7" }}>
@@ -749,7 +748,7 @@ const Chep4MobView = () => {
             </Col>
           </Row>
         </div>
-        <Image
+        {/* <Image
           src="./images/chep2/vertical_stripe.png"
           fluid
           style={{
@@ -759,7 +758,7 @@ const Chep4MobView = () => {
             height: 602,
             width: 12,
           }}
-        />
+        /> */}
       </div>
       {/* -----------------------------------card-4--------------------------------------- */}
       <div>

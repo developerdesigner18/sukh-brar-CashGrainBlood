@@ -32,13 +32,12 @@ const ChepOneCardMobView = () => {
             xs={8}
             style={{
               background: "#20C5F7",
-              paddingLeft: 35,
-              paddingTop: 7,
+              padding: "7px 0px 5px 34px",
               height: 34,
-              paddingBottom: 5,
+
               fontFamily: "StardosBold",
 
-              fontSize: 16,
+              fontSize: 17,
               color: "white",
             }}
           >
@@ -59,7 +58,7 @@ const ChepOneCardMobView = () => {
                 fontFamily: "HelveticaNeue-CondensedBold",
                 paddingLeft: 10,
                 width: 124,
-                fontSize: 14,
+                fontSize: 15,
                 paddingTop: 5,
                 height: 34,
               }}
@@ -994,7 +993,6 @@ const ChepOneCardMobView = () => {
           </Swiper>
         </Card.Body>
       </Card>
-
       {/* -------------------------------------card-Five---------------------------- */}
       <div className="imgeHolder"></div>
       <div className="chep1part5Container">
@@ -1164,7 +1162,6 @@ const ChepOneCardMobView = () => {
           </Container>
         </div>
       </div>
-
       <Row style={{ marginRight: 0 }}>
         {/* <Col>
               {" "}

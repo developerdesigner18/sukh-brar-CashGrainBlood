@@ -47,8 +47,8 @@ const ChepThreeMobCard = () => {
                 className="chepThreeCardOne"
                 style={{
                   marginRight: 2,
-                  padding: 5,
-                  marginLeft: 3,
+                  padding: "5px 5px 5px 0px",
+                  marginLeft: 0,
                   marginTop: 0,
                 }}
               >
@@ -58,7 +58,7 @@ const ChepThreeMobCard = () => {
                     fontSize: 13,
                     padding: 0,
                     marginTop: 15.9,
-                    marginLeft: 10,
+                    marginLeft: 0,
                     marginBottom: 0,
                     color: "white",
                   }}

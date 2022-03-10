@@ -42,10 +42,11 @@
 }
 .bannerTitleThree {
   font-family: "StardosBold";
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1;
   text-align: left;
   color: white;
+  margin-bottom: 3px;
 }
 .bannerTextThree {
   font-family: "HelveticaNeue-Bold";

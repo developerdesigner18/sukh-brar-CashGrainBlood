@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Image, Col, Container } from "react-bootstrap";
+import { Row, Image, Col, Container, Button } from "react-bootstrap";
 import "./chep3MobView.css";
 import Chep3MobCard from "../component/chep3Mobcard";
 import { useNavigate } from "react-router-dom";
@@ -8,29 +8,58 @@ const Chep3MobView = () => {
   return (
     <React.Fragment>
       <div className="chepThreeHolder">
-        <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
-          <Col lg={8} sm={8} md={8} xs={8}>
-            <p className="headingBannerText">3: SCORE FOUR OR ELSE</p>
-          </Col>
-          <Col
-            lg={4}
-            sm={4}
-            md={4}
-            xs={4}
-            style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
-          >
-            <button
-              className="headingBannerBtn"
-              // style={{ background: "#f78320", border: "2px solid #F78320" }}
-              onClick={() => {
-                navigate("/dropDown");
+        <div>
+          <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
+            <Col
+              lg={8}
+              sm={8}
+              md={8}
+              xs={8}
+              style={{
+                background: "#20C5F7",
+                padding: "7px 0px 5px 34px",
+                height: 34,
+
+                fontFamily: "StardosBold",
+
+                fontSize: 17,
+                color: "white",
               }}
             >
-              CHAPTERS
-              <Image src="./images/chep1/arrow.svg" style={{ marginLeft: 5 }} />
-            </button>
-          </Col>
-        </Row>
+              3: SCORE FOUR OR ELSE
+            </Col>
+            <Col
+              lg={4}
+              sm={4}
+              md={4}
+              xs={4}
+              style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
+            >
+              <Button
+                style={{
+                  background: "#F78320",
+                  border: "2px solid #F78320",
+                  borderBottomLeftRadius: 9,
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  paddingLeft: 10,
+                  width: 124,
+                  fontSize: 15,
+                  paddingTop: 5,
+                  height: 34,
+                }}
+                onClick={() => {
+                  navigate("/dropDown");
+                }}
+              >
+                CHAPTERS
+                <Image
+                  src="./images/chep1/arrow.svg"
+                  style={{ marginLeft: 5 }}
+                />
+              </Button>
+            </Col>
+          </Row>
+        </div>
         <div className="mobBannerThree">
           <Container>
             <div className="textHolderThree">

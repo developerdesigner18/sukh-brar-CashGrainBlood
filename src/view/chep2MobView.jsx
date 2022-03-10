@@ -9,29 +9,58 @@ const ChepTwo = () => {
   return (
     <React.Fragment>
       <div className="chepTwoHolder">
-        <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
-          <Col lg={8} sm={8} md={8} xs={8}>
-            <p className="headingBannerText">2: MATTERS ON THE PITCH</p>
-          </Col>
-          <Col
-            lg={4}
-            sm={4}
-            md={4}
-            xs={4}
-            style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
-          >
-            <button
-              className="headingBannerBtn"
-              onClick={() => {
-                navigate("/dropDown");
+        <div>
+          <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
+            <Col
+              lg={8}
+              sm={8}
+              md={8}
+              xs={8}
+              style={{
+                background: "#20C5F7",
+                padding: "7px 0px 5px 34px",
+                height: 34,
+
+                fontFamily: "StardosBold",
+
+                fontSize: 17,
+                color: "white",
               }}
-              // style={{ background: "#f78320", border: "2px solid #F78320" }}
             >
-              CHAPTERS
-              <Image src="./images/chep1/arrow.svg" style={{ marginLeft: 5 }} />
-            </button>
-          </Col>
-        </Row>
+              2: MATTERS ON THE PITCH
+            </Col>
+            <Col
+              lg={4}
+              sm={4}
+              md={4}
+              xs={4}
+              style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
+            >
+              <Button
+                style={{
+                  background: "#F78320",
+                  border: "2px solid #F78320",
+                  borderBottomLeftRadius: 9,
+                  fontFamily: "HelveticaNeue-CondensedBold",
+                  paddingLeft: 10,
+                  width: 124,
+                  fontSize: 15,
+                  paddingTop: 5,
+                  height: 34,
+                }}
+                onClick={() => {
+                  navigate("/dropDown");
+                }}
+              >
+                CHAPTERS
+                <Image
+                  src="./images/chep1/arrow.svg"
+                  style={{ marginLeft: 5 }}
+                />
+              </Button>
+            </Col>
+          </Row>
+        </div>
         <div className="mobBanner">
           <Container>
             <div className="textHolder">

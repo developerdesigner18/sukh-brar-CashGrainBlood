@@ -13,6 +13,7 @@
   background-image: url("../../public/images/chep3/mobCardOne.png");
   background-size: contain;
   background-repeat: no-repeat;
+  width: 353px;
 }
 .chepThreeCardOne .row {
   margin: 0px;
@@ -73,7 +74,7 @@
 .logoName1 {
   position: absolute;
   top: 110px;
-  left: 33px;
+  left: 36px;
   color: white;
   font-family: "StardosBold";
   font-size: 16px;
@@ -163,7 +164,7 @@
   font-size: 28px;
 }
 .chepThreeLastCardDesc {
-  margin-left: 34px;
+  margin-left: 36px;
   margin-top: 260px;
 }
 .chep3lastCardFirst {

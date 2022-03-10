@@ -28,7 +28,7 @@
   margin-bottom: 0px;
   font-family: "HelveticaNeue-CondensedBold";
   font-size: 12px;
-  line-height: 16px;
+  line-height: 13px;
   width: 121px !important;
 }
 .chepFiveCardOneTitle {
@@ -74,7 +74,7 @@
 .logoName {
   position: absolute;
   top: 125px;
-  left: 45px;
+  left: 36px;
   color: white;
   font-family: "StardosBold";
   font-size: 16px;
@@ -108,7 +108,7 @@
   text-transform: uppercase;
 } */
 .chepFiveCardThreeDesc {
-  margin: 0px 38px;
+  margin: 0px 36px;
   width: max-content;
 }
 .chepFiveCardThreeDescimgDesc {
@@ -119,7 +119,7 @@
   color: #20c5f7;
 }
 .chepFiveDesc {
-  width: 342.37px;
+  width: 332.2px;
   height: 330px;
 }
 .chepFiveDesc p {
@@ -148,18 +148,18 @@
   text-transform: uppercase;
 } */
 .chepFiveCardFourDesc {
-  margin: 0px 38px;
+  margin: 0px 36px;
   width: max-content;
 }
 .chepFiveCardFourDescimgDesc {
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   text-align: left;
   font-family: "HelveticaNeue-CondensedBold";
   color: #20c5f7;
 }
 .chepFiveDescCardFour {
-  width: 337.37px;
+  width: 319.37px;
   height: 341px;
 }
 .chepFiveDescCardFour p {
@@ -184,16 +184,16 @@
 .textHolderChepFive {
   position: absolute;
   top: 130px;
-  left: 46.6px;
+  left: 48px;
   text-transform: uppercase;
 }
 .chepFiveCardFiveDesc {
-  margin: 0px 38px;
+  margin: 0px 36px;
   width: max-content;
 }
 .chepFiveCardFiveDescimgDesc {
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   text-align: left;
   font-family: "HelveticaNeue-CondensedBold";
   color: #20c5f7;
@@ -231,7 +231,7 @@
   font-size: 20px;
 }
 .chepFiveLastCardDesc {
-  margin-left: 38px;
+  margin-left: 36px;
   margin-top: 330.4px;
 }
 .chepFivelastCardFirst {

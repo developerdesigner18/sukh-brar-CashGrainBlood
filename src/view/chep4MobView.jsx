@@ -99,7 +99,7 @@ const Chep4MobView = () => {
               <small
                 style={{
                   fontFamily: "StardosBold",
-                  lineHeight: 1.1,
+                  lineHeight: 1.0,
                   fontSize: "38px",
                   textAlign: "justify",
                 }}
@@ -209,8 +209,7 @@ const Chep4MobView = () => {
                 letterSpacing: 1,
               }}
             >
-              - DAVID YALLOP,
-              <br /> AUTHOR
+              - DAVID YALLOP, AUTHOR
             </span>
           </h4>
         </div>
@@ -233,33 +232,35 @@ const Chep4MobView = () => {
             paddingRight: 0,
             marginBottom: 15,
             marginTop: 0,
+            paddingLeft: 13,
           }}
         >
-          <p style={{ marginBottom: 0, paddingLeft: 20 }}>01/01</p>
+          <p style={{ marginBottom: 0, paddingLeft: 24 }}>01/01</p>
           <Image
             src="./images/chep1/divider.png"
             fluid
-            style={{ height: "5px", padding: 0, marginLeft: 20 }}
+            style={{ height: "5px", padding: 0, marginLeft: 24 }}
           ></Image>
         </Row>
-        <Row>
+
+        <Row style={{ paddingLeft: 13 }}>
           {/* <Image src="./images/chep4/mobCardOne.png" /> */}
           <Image
             src="./images/forwardArrowBlack.svg"
             style={{
               width: 20.75,
               height: 13.4,
-              marginLeft: 20,
+              marginLeft: 24,
               padding: 0,
               marginTop: 200,
             }}
           />{" "}
         </Row>
-        <Row>
+        <Row style={{ paddingLeft: 13, marginTop: -3 }}>
           <Row style={{ width: 121 }}>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 24,
                 padding: 0,
                 height: 14,
                 color: "white",
@@ -275,7 +276,7 @@ const Chep4MobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 24,
                 padding: 0,
                 color: "#20C5F7",
                 marginTop: 0,
@@ -283,7 +284,7 @@ const Chep4MobView = () => {
                 fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 12,
                 width: 121,
-                lineHeight: "12px",
+                lineHeight: "13px",
               }}
             >
               Peru’s Cubillas runs at the Argentina defence
@@ -292,7 +293,7 @@ const Chep4MobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 24,
                 padding: 0,
                 color: "White",
                 marginTop: 0,
@@ -308,7 +309,7 @@ const Chep4MobView = () => {
         <Row
           style={{
             marginTop: 15.4,
-            marginLeft: 20,
+            marginLeft: 25,
             marginRight: 0,
             width: "85%",
           }}
@@ -344,7 +345,7 @@ const Chep4MobView = () => {
           <Row style={{ padding: 0, marginTop: 20 }}>
             <p
               style={{
-                fontFamily: "HelveticaNeue  ",
+                fontFamily: "HelveticaNeue-Bold",
                 fontSize: 12,
 
                 textAlign: "left",
@@ -361,7 +362,7 @@ const Chep4MobView = () => {
           <Row style={{ padding: 0, marginTop: 5 }}>
             <p
               style={{
-                fontFamily: "HelveticaNeue",
+                fontFamily: "HelveticaNeue-Bold",
                 fontSize: 12,
                 textAlign: "left",
                 color: "white",
@@ -394,11 +395,11 @@ const Chep4MobView = () => {
               xs={10}
               sm={10}
               style={{
-                paddingLeft: 10,
+                paddingLeft: 5,
                 marginLeft: 0,
                 color: "white",
                 textAlign: "left",
-                marginTop: 8,
+                marginTop: 6,
                 fontFamily: "HelveticaNeue-Bold",
                 fontSize: 12,
                 marginBottom: 54.8,
@@ -417,9 +418,9 @@ const Chep4MobView = () => {
           height: "413px",
           paddingLeft: "10px",
           position: "absolute",
-          top: 1521,
+          top: 1545,
           right: 0,
-          width: 15,
+          width: 25,
         }}
       />
 
@@ -452,7 +453,7 @@ const Chep4MobView = () => {
                 <p
                   style={{
                     marginBottom: 0,
-                    paddingLeft: 34.8,
+                    paddingLeft: 36,
                     fontSize: 15,
                     fontFamily: "HelveticaNeue-Bold",
                   }}
@@ -462,7 +463,7 @@ const Chep4MobView = () => {
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
+                  style={{ height: "5px", padding: 0, marginLeft: 36 }}
                 ></Image>
               </Row>
               <h6
@@ -710,11 +711,13 @@ const Chep4MobView = () => {
             }}
           >
             <Col
-              sm={3}
-              xs={3}
+              sm={2}
+              xs={2}
               style={{
-                width: 50,
-                // paddingLeft: 0,
+                width: 31.21,
+                height: 31.21,
+                padding: 0,
+                marginLeft: 10,
                 textAlign: "left",
               }}
             >
@@ -722,17 +725,16 @@ const Chep4MobView = () => {
                 <Image
                   src="./images/btnImage.svg"
                   style={{
-                    // paddingLeft: 0,
+                    padding: 0,
                     marginTop: 0,
-                    width: "100%",
                   }}
                   fluid
                 />
               </a>
             </Col>
             <Col
-              sm={9}
-              xs={9}
+              sm={10}
+              xs={10}
               style={{
                 fontFamily: "HelveticaNeue-Bold",
                 fontSize: 12,
@@ -741,7 +743,7 @@ const Chep4MobView = () => {
                 color: "white",
                 textAlign: "left",
                 paddingTop: 8,
-                paddingLeft: 0,
+                paddingLeft: 5,
               }}
             >
               Profile of Captain Carlos Lacoste
@@ -761,7 +763,7 @@ const Chep4MobView = () => {
         /> */}
       </div>
       {/* -----------------------------------card-4--------------------------------------- */}
-      <div>
+      <div style={{ paddingTop: 20 }}>
         <Container>
           <div
             className="chep4part4Text"
@@ -787,7 +789,7 @@ const Chep4MobView = () => {
               <p
                 style={{
                   marginBottom: 0,
-                  paddingLeft: 34.8,
+                  paddingLeft: 36,
                   fontSize: 15,
                   fontFamily: "HelveticaNeue-Bold",
                 }}
@@ -797,7 +799,7 @@ const Chep4MobView = () => {
               <Image
                 src="./images/chep1/divider.png"
                 fluid
-                style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
+                style={{ height: "5px", padding: 0, marginLeft: 36 }}
               ></Image>
             </Row>
             <h6
@@ -947,7 +949,7 @@ const Chep4MobView = () => {
                   className="col"
                   xs={1}
                   sm={1}
-                  style={{ marginTop: 11, padding: 0 }}
+                  style={{ marginTop: 11, padding: 0, marginRight: 25 }}
                 >
                   <span
                     style={{
@@ -1024,7 +1026,10 @@ const Chep4MobView = () => {
                 sm={3}
                 xs={3}
                 style={{
-                  width: 50,
+                  width: 31.21,
+                  height: 31.21,
+                  padding: 0,
+                  marginLeft: 10,
                   // paddingLeft: 0,
                   textAlign: "left",
                 }}
@@ -1051,8 +1056,8 @@ const Chep4MobView = () => {
 
                   color: "white",
                   textAlign: "left",
-                  paddingTop: 5,
-                  paddingLeft: 0,
+                  paddingTop: 6,
+                  paddingLeft: 5,
                 }}
               >
                 Read More On The Conspiracy
@@ -1073,7 +1078,7 @@ const Chep4MobView = () => {
           >
             <p
               className="chepFourCardLastIndex"
-              style={{ marginTop: 34, marginLeft: 34 }}
+              style={{ marginTop: 215, marginLeft: 36 }}
             >
               01/04
             </p>
@@ -1084,7 +1089,7 @@ const Chep4MobView = () => {
                 height: "5px",
                 width: 38,
                 padding: 0,
-                marginLeft: 34,
+                marginLeft: 36,
               }}
             ></Image>
           </Row>
@@ -1092,7 +1097,7 @@ const Chep4MobView = () => {
 
         <div
           className="lastCardTitleHolder"
-          style={{ marginLeft: 34, padding: 1 }}
+          style={{ marginLeft: 36, padding: 1 }}
         >
           <Row
             style={{
@@ -1184,8 +1189,10 @@ const Chep4MobView = () => {
               sm={3}
               xs={3}
               style={{
-                width: 50,
-                // paddingLeft: 0,
+                width: 31.21,
+                height: 31.21,
+                padding: 0,
+                marginLeft: 10,
                 textAlign: "left",
               }}
             >
@@ -1211,8 +1218,8 @@ const Chep4MobView = () => {
 
                 color: "white",
                 textAlign: "left",
-                paddingTop: 5,
-                paddingLeft: 0,
+                paddingTop: 7,
+                paddingLeft: 5,
               }}
             >
               Learn About The Missing

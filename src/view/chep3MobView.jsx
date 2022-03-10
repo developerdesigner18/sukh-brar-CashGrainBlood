@@ -63,7 +63,24 @@ const Chep3MobView = () => {
         <div className="mobBannerThree">
           <Container>
             <div className="textHolderThree">
-              <button className="bannerButtonThree">CHAPTER 3</button>
+              {/* <button className="bannerButtonThree">CHAPTER 3</button> */}
+              <h1
+                style={{
+                  fontFamily: "StardosBold",
+
+                  fontSize: "12px",
+                  textAlign: "center",
+                  border: "1px solid #20B5F7",
+                  background: "#20B5F7",
+
+                  width: 76,
+                  paddingTop: 2,
+                  height: 17,
+                  color: "white",
+                }}
+              >
+                CHAPTER 3
+              </h1>
               <h1 className="bannerTitleThree">
                 SCORE <br /> FOUR <br /> OR ELSE
               </h1>
@@ -94,7 +111,7 @@ const Chep3MobView = () => {
             <Col
               xs={5}
               sm={5}
-              style={{ marginLeft: 30, paddingLeft: 0, paddingRight: 0 }}
+              style={{ marginLeft: 36, paddingLeft: 0, paddingRight: 0 }}
             >
               <Image
                 src="./images/chep3/luque.png"
@@ -143,7 +160,7 @@ const Chep3MobView = () => {
             </Col>
           </Row>
           {/* description Text */}
-          <div style={{ paddingLeft: 0, width: 332, margin: "30px auto 0px" }}>
+          <div style={{ paddingLeft: 0, margin: "30px  36px" }}>
             <h4 className="descTextJournalistThree">
               “With what I know now, I can’t say I am proud of my victory. We
               just played football.{" "}

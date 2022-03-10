@@ -64,7 +64,23 @@ const ChepTwo = () => {
         <div className="mobBanner">
           <Container>
             <div className="textHolder">
-              <button className="bannerButton">CHAPTER 2</button>
+              <h1
+                style={{
+                  fontFamily: "StardosBold",
+
+                  fontSize: "12px",
+                  textAlign: "center",
+                  border: "1px solid #20B5F7",
+                  background: "#20B5F7",
+
+                  width: 76,
+                  paddingTop: 2,
+                  height: 17,
+                  color: "white",
+                }}
+              >
+                CHAPTER 2
+              </h1>
               <h1 className="bannerTitle">
                 MATTERS <br /> ON THE <br /> PITCH
               </h1>
@@ -96,7 +112,7 @@ const ChepTwo = () => {
             <Col
               xs={5}
               sm={5}
-              style={{ marginLeft: 30, paddingLeft: 0, paddingRight: 0 }}
+              style={{ marginLeft: 36, paddingLeft: 0, paddingRight: 0 }}
             >
               <Image
                 src="./images/chep2/emsa.png"
@@ -149,7 +165,7 @@ const ChepTwo = () => {
             </Col>
           </Row>
           {/* description Text */}
-          <div style={{ paddingLeft: 0, width: 332, margin: "30px auto 0px" }}>
+          <div style={{ paddingLeft: 0, margin: "30px 36px" }}>
             <h4 className="descTextJournalist">
               “It was a cold but sunny day, and as the doves flapped up and out
               of the stadium, they could be seen from the infamous Navy Superior

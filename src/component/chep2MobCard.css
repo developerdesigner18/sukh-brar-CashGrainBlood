@@ -58,11 +58,11 @@
 .textHolderChepTwo {
   position: absolute;
   top: 178px;
-  left: 36px;
+  left: 48px;
   text-transform: uppercase;
 }
 .chepTwoCardThreeDesc {
-  margin: 0px 30px 0px 34px;
+  margin: 0px 30px 0px 36px;
   width: auto;
 }
 .chepTwoCardThreeDesc p {
@@ -104,7 +104,7 @@
   background-size: cover;
 }
 .addTitleChepTwo p {
-  margin: 0px 37px !important;
+  margin: 0px 36px !important;
   padding: 10px 0px;
   font-family: "HelveticaNeue-Bold";
   font-size: 12px;
@@ -140,7 +140,7 @@
   font-size: 30px;
 }
 .chepTwoLastCardDesc {
-  margin-left: 34px;
+  margin-left: 36px;
   margin-top: 260px;
 }
 .lastCardFirst {

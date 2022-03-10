@@ -63,7 +63,23 @@ const Chep5MobView = () => {
         <div className="mobBannerFive">
           <Container>
             <div className="textHolderFive">
-              <button className="bannerButtonFive">CHAPTER 5</button>
+              <h1
+                style={{
+                  fontFamily: "StardosBold",
+
+                  fontSize: "12px",
+                  textAlign: "center",
+                  border: "1px solid #20B5F7",
+                  background: "#20B5F7",
+
+                  width: 76,
+                  paddingTop: 2,
+                  height: 17,
+                  color: "white",
+                }}
+              >
+                CHAPTER 5
+              </h1>
               <h1 className="bannerTitleFive">
                 “WE ARGENTINES <br /> ARE RIGHT <br />
                 AND HUMAN”{" "}
@@ -107,7 +123,7 @@ const Chep5MobView = () => {
             <Col
               xs={5}
               sm={5}
-              style={{ marginLeft: 30, paddingLeft: 0, paddingRight: 0 }}
+              style={{ marginLeft: 36, paddingLeft: 0, paddingRight: 0 }}
             >
               <Image
                 src="./images/chep5/will_hersey.png"
@@ -125,7 +141,7 @@ const Chep5MobView = () => {
                   fluid
                 />
               </Row>
-              <Row style={{ width: 164 }}>
+              <Row style={{ width: 184 }}>
                 <p
                   style={{
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -156,7 +172,7 @@ const Chep5MobView = () => {
             </Col>
           </Row>
           {/* description Text */}
-          <div style={{ paddingLeft: 0, width: 332, margin: "30px auto 0px" }}>
+          <div style={{ paddingLeft: 0, padding: "30px  36px" }}>
             <h4 className="descTextJournalistFive">
               It’s estimated that a total of{" "}
               <span style={{ color: "#20C5F7" }}>
@@ -172,10 +188,13 @@ const Chep5MobView = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   fontSize: "16px",
                   textTransform: "uppercase",
-                  letterSpacing: 1,
+                  letterSpacing: 0.5,
                 }}
               >
-                - WILL HERSEY, CONTENT DIRECTOR, ESQUIRE UK
+                - WILL HERSEY, CONTENT DIRECTOR,
+                {/* <span style={{ marginLeft: 10, lineHeight: "14px" }}> */}
+                ESQUIRE UK
+                {/* </span> */}
               </span>
             </h4>
           </div>

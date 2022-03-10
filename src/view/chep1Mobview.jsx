@@ -106,10 +106,12 @@ const ChepOneCardMobView = () => {
                   width: 76,
                   paddingTop: 2,
                   height: 17,
+                  color: "white",
                 }}
               >
                 CHAPTER 1
               </h1>
+
               <small
                 style={{
                   fontFamily: "StardosBold",
@@ -141,12 +143,12 @@ const ChepOneCardMobView = () => {
         style={{ paddingLeft: 5, marginRight: 0 }}
       >
         <Row style={{ margin: "0px auto", marginTop: 40 }}>
-          <Col xs={5} sm={5} style={{ textAlign: "right" }}>
+          <Col xs={5} sm={5} style={{ textAlign: "right", marginRight: 20 }}>
             <Image
               src="./images/chep1/admiral.png"
               fluid
               width={"100%"}
-              style={{ marginTop: -22 }}
+              style={{ marginTop: -22, marginLeft: 20 }}
             />
           </Col>
           <Col>
@@ -195,14 +197,14 @@ const ChepOneCardMobView = () => {
             </Row>
           </Col>
         </Row>
-        <div style={{ paddingLeft: 0, marginRight: 0 }}>
+        <div style={{ marginLeft: 36, marginRight: 0, width: 360 }}>
           <h4
             style={{
               fontSize: 26,
               fontFamily: "StardosBold",
               width: 332,
               textAlign: "left",
-              paddingLeft: 36,
+
               lineHeight: 1.5,
               color: "white",
             }}
@@ -247,24 +249,24 @@ const ChepOneCardMobView = () => {
             marginTop: 19.5,
           }}
         >
-          <p style={{ marginBottom: 0, paddingLeft: 20 }}>01/06</p>
+          <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/06</p>
           <Image
             src="./images/chep1/divider.png"
             fluid
-            style={{ height: "5px", padding: 0, marginLeft: 20 }}
+            style={{ height: "5px", padding: 0, marginLeft: 30 }}
           ></Image>
         </Row>
         <Row>
           <Image
             src="./images/forwardArrowBlack.svg"
-            style={{ width: 28, marginLeft: 20, padding: 0, marginTop: 200 }}
+            style={{ width: 28, marginLeft: 28, padding: 0, marginTop: 200 }}
           />{" "}
         </Row>
         <Row>
           <Row>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 28,
                 padding: 0,
                 color: "white",
                 marginTop: 4,
@@ -279,7 +281,7 @@ const ChepOneCardMobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 28,
                 padding: 0,
                 color: "#20C5F7",
                 marginTop: 3,
@@ -297,7 +299,7 @@ const ChepOneCardMobView = () => {
           <Row>
             <p
               style={{
-                marginLeft: 20,
+                marginLeft: 28,
                 padding: 0,
                 color: "White",
                 marginTop: 4,
@@ -313,7 +315,7 @@ const ChepOneCardMobView = () => {
         <Row
           style={{
             marginTop: 15.4,
-            marginLeft: 20,
+            marginLeft: 28,
             marginRight: 0,
             width: "85%",
           }}
@@ -477,7 +479,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 36,
 
                 paddingTop: 22.8,
                 paddingBottom: 15,
@@ -499,7 +501,7 @@ const ChepOneCardMobView = () => {
             <div
               style={{
                 textAlign: "left",
-                paddingLeft: 30,
+                paddingLeft: 36,
                 paddingBottom: 5,
               }}
             >
@@ -508,7 +510,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 36,
 
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
@@ -526,7 +528,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 36,
 
                 paddingBottom: 30,
                 fontSize: 12,
@@ -549,7 +551,7 @@ const ChepOneCardMobView = () => {
                     src="./images/btnImage.svg"
                     style={{
                       paddingLeft: 0,
-                      marginLeft: 25,
+                      marginLeft: 36,
                     }}
                     fluid
                   />
@@ -560,7 +562,7 @@ const ChepOneCardMobView = () => {
                 xs={8}
                 style={{
                   paddingLeft: 0,
-                  marginLeft: 25,
+                  marginLeft: 36,
                   color: "white",
                   textAlign: "left",
                   marginTop: -5,
@@ -580,7 +582,7 @@ const ChepOneCardMobView = () => {
                     src="./images/btnImage.svg"
                     style={{
                       paddingLeft: 0,
-                      marginLeft: 25,
+                      marginLeft: 36,
                     }}
                     fluid
                   />
@@ -591,7 +593,7 @@ const ChepOneCardMobView = () => {
                 xs={8}
                 style={{
                   paddingLeft: 0,
-                  marginLeft: 25,
+                  marginLeft: 36,
                   marginTop: -5,
                   color: "white",
                   textAlign: "left",
@@ -616,7 +618,7 @@ const ChepOneCardMobView = () => {
           // display: "block",
         }}
       >
-        <Card.Body>
+        <Card.Body style={{ paddingLeft: 15 }}>
           <Card.Title>
             <Row>
               <Row
@@ -1023,7 +1025,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     marginBottom: 0,
-                    paddingLeft: 34.8,
+                    paddingLeft: 36,
                     fontSize: 15,
                     fontFamily: "HelveticaNeue-Bold",
                   }}
@@ -1033,7 +1035,7 @@ const ChepOneCardMobView = () => {
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
+                  style={{ height: "5px", padding: 0, marginLeft: 36 }}
                 ></Image>
               </Row>
               <h6
@@ -1043,7 +1045,7 @@ const ChepOneCardMobView = () => {
                   fontSize: "20px",
                   textAlign: "justify",
                   marginBottom: 0,
-                  marginLeft: 18,
+                  marginLeft: 22,
                 }}
               >
                 OPERATION <br></br>
@@ -1054,14 +1056,14 @@ const ChepOneCardMobView = () => {
                 style={{
                   width: 166,
                   height: 9.47,
-                  marginLeft: 18,
+                  marginLeft: 22,
                   marginTop: -10,
                 }}
               />
               <p
                 style={{
                   color: "white",
-                  paddingLeft: 20,
+                  paddingLeft: 24,
                   paddingTop: 10,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-Bold",
@@ -1076,7 +1078,7 @@ const ChepOneCardMobView = () => {
               <p
                 style={{
                   color: "white",
-                  paddingLeft: 20,
+                  paddingLeft: 24,
                   paddingBottom: 30,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-Bold",
@@ -1092,7 +1094,7 @@ const ChepOneCardMobView = () => {
                 <div
                   style={{
                     textAlign: "left",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                   }}
                 >
                   <Image src="./images/chep1/upArrow.svg" />
@@ -1100,7 +1102,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     color: "white",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                     paddingRight: 31.7,
                     fontSize: 12,
                     marginBottom: 0,
@@ -1115,7 +1117,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     color: "white",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                     fontSize: 12,
                     fontFamily: "HelveticaNeue-CondensedBold",
 
@@ -1138,7 +1140,7 @@ const ChepOneCardMobView = () => {
                       src="./images/btnImage.svg"
                       style={{
                         paddingLeft: 0,
-                        marginLeft: 19,
+                        marginLeft: 23,
                       }}
                       fluid
                     />
@@ -1147,7 +1149,7 @@ const ChepOneCardMobView = () => {
                 <Col
                   style={{
                     paddingLeft: 0,
-                    marginLeft: 19,
+                    marginLeft: 20,
                     color: "white",
                     textAlign: "left",
                     marginTop: 5,
@@ -1198,7 +1200,7 @@ const ChepOneCardMobView = () => {
                 textAlign: "left",
                 lineHeight: 1.5,
                 marginBottom: 26,
-                paddingLeft: 19,
+                paddingLeft: 23,
                 color: "white",
                 fontFamily: "HelveticaNeue-Bold",
                 marginTop: 26,
@@ -1211,7 +1213,7 @@ const ChepOneCardMobView = () => {
           </Row>
           <Row>
             {" "}
-            <Row style={{ marginLeft: 19, marginBottom: 30 }}>
+            <Row style={{ marginLeft: 23, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book2.jpg" fluid />
               </Col>
@@ -1264,7 +1266,7 @@ const ChepOneCardMobView = () => {
           </Row>
           <Row>
             {" "}
-            <Row style={{ marginLeft: 19, marginBottom: 30 }}>
+            <Row style={{ marginLeft: 23, marginBottom: 30 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book1.jpg" fluid />
               </Col>
@@ -1315,7 +1317,7 @@ const ChepOneCardMobView = () => {
             </Row>
           </Row>
           <Row>
-            <Row style={{ marginLeft: 19, marginBottom: 77 }}>
+            <Row style={{ marginLeft: 23, marginBottom: 77 }}>
               <Col style={{ width: "100%", padding: "0px" }}>
                 <Image src="./images/chep1/Book3.jpg" fluid />
               </Col>
@@ -1399,7 +1401,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     marginBottom: 0,
-                    paddingLeft: 34.8,
+                    paddingLeft: 36,
                     fontSize: 15,
                     fontFamily: "HelveticaNeue-Bold",
                   }}
@@ -1409,7 +1411,7 @@ const ChepOneCardMobView = () => {
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
-                  style={{ height: "5px", padding: 0, marginLeft: 34.8 }}
+                  style={{ height: "5px", padding: 0, marginLeft: 36 }}
                 ></Image>
               </Row>
               <h6
@@ -1419,7 +1421,7 @@ const ChepOneCardMobView = () => {
                   fontSize: "18px",
                   textAlign: "justify",
                   marginBottom: 0,
-                  marginLeft: 18,
+                  marginLeft: 22,
                 }}
               >
                 CALLS <br></br>FOR A BOYCOTT
@@ -1429,7 +1431,7 @@ const ChepOneCardMobView = () => {
                 style={{
                   width: 171,
                   height: 10.14,
-                  marginLeft: 18,
+                  marginLeft: 22,
                   marginTop: -10,
                 }}
               />
@@ -1441,7 +1443,7 @@ const ChepOneCardMobView = () => {
             <div
               style={{
                 textAlign: "left",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 paddingBottom: 5,
               }}
             >
@@ -1451,7 +1453,7 @@ const ChepOneCardMobView = () => {
               style={{
                 color: "white",
                 textAlign: "left",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
                 marginBottom: 0,
@@ -1462,7 +1464,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
                 textAlign: "left",
@@ -1476,7 +1478,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-CondensedBold",
                 textAlign: "left",
@@ -1492,7 +1494,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 marginBottom: 10,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-Bold",
@@ -1506,7 +1508,7 @@ const ChepOneCardMobView = () => {
             <p
               style={{
                 color: "white",
-                paddingLeft: 30,
+                paddingLeft: 34,
                 paddingBottom: 20,
                 fontSize: 12,
                 fontFamily: "HelveticaNeue-Bold",
@@ -1527,7 +1529,7 @@ const ChepOneCardMobView = () => {
                   src="./images/btnImage.svg"
                   style={{
                     paddingLeft: 0,
-                    marginLeft: 25,
+                    marginLeft: 23,
                   }}
                   fluid
                 />
@@ -1538,7 +1540,7 @@ const ChepOneCardMobView = () => {
               xs={8}
               style={{
                 paddingLeft: 0,
-                marginLeft: 25,
+                marginLeft: 20,
                 color: "white",
                 textAlign: "left",
                 marginTop: 5,
@@ -1579,7 +1581,7 @@ const ChepOneCardMobView = () => {
               <Row
                 style={{
                   paddingBottom: 15,
-                  marginLeft: 30,
+                  marginLeft: 24,
                   marginRight: 0,
                 }}
               >
@@ -1658,7 +1660,7 @@ const ChepOneCardMobView = () => {
                 <div
                   style={{
                     textAlign: "left",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                   }}
                 >
                   <Image src="./images/chep1/upArrow.svg" />
@@ -1666,7 +1668,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     color: "white",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                     paddingRight: 31.7,
                     fontSize: 12,
                     marginBottom: 0,
@@ -1681,7 +1683,7 @@ const ChepOneCardMobView = () => {
                 <p
                   style={{
                     color: "white",
-                    paddingLeft: 20,
+                    paddingLeft: 24,
                     marginBottom: 0,
                     fontSize: 12,
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -1701,7 +1703,7 @@ const ChepOneCardMobView = () => {
               <p
                 style={{
                   color: "white",
-                  paddingLeft: 20,
+                  paddingLeft: 24,
                   fontSize: 12,
                   width: 342,
                   fontFamily: "HelveticaNeue-Bold",
@@ -1717,7 +1719,7 @@ const ChepOneCardMobView = () => {
               <p
                 style={{
                   color: "white",
-                  paddingLeft: 20,
+                  paddingLeft: 24,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-Bold",
 
@@ -1732,7 +1734,7 @@ const ChepOneCardMobView = () => {
               <p
                 style={{
                   color: "white",
-                  paddingLeft: 20,
+                  paddingLeft: 24,
                   paddingBottom: 10,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-Bold",
@@ -1753,7 +1755,7 @@ const ChepOneCardMobView = () => {
                       src="./images/btnImage.svg"
                       style={{
                         paddingLeft: 0,
-                        marginLeft: 8,
+                        marginLeft: 12,
                       }}
                       fluid
                     />
@@ -1767,7 +1769,7 @@ const ChepOneCardMobView = () => {
                     marginLeft: 8,
                     color: "white",
                     textAlign: "left",
-                    marginTop: 0,
+                    marginTop: 2,
                     fontFamily: "HelveticaNeue-Bold",
                     fontSize: 11,
                     paddingBottom: 15,

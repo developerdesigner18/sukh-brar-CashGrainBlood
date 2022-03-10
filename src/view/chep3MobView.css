@@ -30,7 +30,7 @@
 .textHolderThree {
   position: absolute;
   top: 451px;
-  left: 35px;
+  left: 36px;
 }
 .bannerButtonThree {
   background-color: #20b5f7;
@@ -43,7 +43,7 @@
 .bannerTitleThree {
   font-family: "StardosBold";
   font-size: 38px;
-  line-height: 1;
+  line-height: 0.95;
   text-align: left;
   color: white;
   margin-bottom: 3px;

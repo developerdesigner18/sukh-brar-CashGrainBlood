@@ -43,10 +43,10 @@ const HomePageMob = () => {
                 background: "#F78320",
                 border: "2px solid #F78320",
                 borderBottomLeftRadius: 9,
-                fontFamily: "Helvetica Neue",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 paddingLeft: 10,
                 width: 124,
-                fontSize: 14,
+                fontSize: 15,
                 paddingTop: 5,
                 height: 34,
               }}
@@ -55,7 +55,7 @@ const HomePageMob = () => {
               }}
             >
               CHAPTERS
-              <img src="./images/chep1/arrow.svg" />
+              <Image src="./images/chep1/arrow.svg" style={{ marginLeft: 5 }} />
             </Button>
           </Col>
         </Row>

@@ -84,10 +84,10 @@ function App() {
                 <Route path="chepThree" element={<Chep3MobView />} />
                 <Route path="chepFour" element={<Chep4MobView />} />
                 <Route path="chepFive" element={<Chep5MobView />} />
-                <Route
+                {/* <Route
                   path="dropDown"
                   element={<DropDownForMobile prevLocation={prevLocation} />}
-                />
+                /> */}
               </Routes>
             </ScrollToTop>
           </div>

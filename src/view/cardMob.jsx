@@ -2,8 +2,11 @@ import React from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
 import chepData from "../chepter.json";
 import { useNavigate } from "react-router-dom";
-
-const CardComponent = () => {
+import { AOS } from "aos";
+const CardComponent = ({ opcity }) => {
+  // AOS.startEvent;
+  // AOS.refresh();
+  // AOS.init();
   const navigate = useNavigate();
   console.log(chepData);
 
@@ -11,6 +14,7 @@ const CardComponent = () => {
     return (
       <div
         className="cardBannerContainer1"
+        data-aos="fade-in"
         key={index}
         style={{ marginTop: 15 }}
         onClick={() => {
@@ -26,37 +30,43 @@ const CardComponent = () => {
               className="cardBannerText1"
               style={{ top: "134px", left: "35px", textAlign: "left" }}
             >
-              <h1
+              <p
                 style={{
                   fontFamily: "StardosBold",
                   color: "white",
                   fontSize: "12px",
 
+                  paddingTop: 1,
                   background: "#20B5F7",
                   width: 76,
                   textAlign: "center",
                   height: 17,
-                  padding: 1,
+                  marginBottom: 8,
                 }}
+                data-aos="fade-up"
               >
                 {data.ChepMob}
-              </h1>
-              <small
+              </p>
+
+              <p
                 style={{
                   fontFamily: "StardosBold",
                   lineHeight: 1,
 
                   fontSize: "28px",
                   textAlign: "justify",
+                  marginBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 {data.chepTitleFirstHalf} <br /> {data.chepTitleSecondHalf}{" "}
                 <br></br>
-              </small>
+              </p>
 
               <Image
                 src="./images/verticalDivider.png"
                 style={{ paddingBottom: 18, width: 171 }}
+                data-aos="fade-up"
               />
             </div>
           </Container>

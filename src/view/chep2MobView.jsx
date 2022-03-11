@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Image, Row, Col, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import ChepTwoMobCard from "../component/chep2MobCard";
 import "./chep2MobView.css";
 const ChepTwo = () => {
   const navigate = useNavigate();
+  const [opcity, setOpcity] = useState(false);
+  const location = useLocation();
 
   return (
     <React.Fragment>
@@ -35,33 +37,267 @@ const ChepTwo = () => {
               md={4}
               xs={4}
               style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
+              onClickCapture={() => {
+                setOpcity((prev) => !prev);
+                console.log(opcity);
+              }}
             >
-              <Button
-                style={{
-                  background: "#F78320",
-                  border: "2px solid #F78320",
-                  borderBottomLeftRadius: 9,
-                  fontFamily: "HelveticaNeue-CondensedBold",
-                  paddingLeft: 10,
-                  width: 124,
-                  fontSize: 15,
-                  paddingTop: 5,
-                  height: 34,
-                }}
-                onClick={() => {
-                  navigate("/dropDown");
-                }}
-              >
-                CHAPTERS
-                <Image
-                  src="./images/chep1/arrow.svg"
-                  style={{ marginLeft: 5 }}
-                />
-              </Button>
+              <div class={`btn-group`}>
+                <button
+                  class="btn btn-secondary"
+                  data-toggle="dropdown"
+                  aria-haspopup="false"
+                  aria-expanded="true"
+                  style={{
+                    background: "#F78320",
+                    border: "2px solid #F78320",
+                    borderBottomLeftRadius: 9,
+                    fontFamily: "HelveticaNeue-CondensedBold",
+                    paddingLeft: 10,
+                    width: 124,
+                    fontSize: 15,
+                    paddingTop: 5,
+                    height: 34,
+                    boxShadow: "none",
+                  }}
+                >
+                  CHAPTER 1-5
+                  <Image
+                    src="./images/chep1/arrow.svg"
+                    style={{ marginLeft: 5 }}
+                  />
+                </button>
+                <div
+                  class="dropdown-menu dropdown-menu-right right-0 dropDown"
+                  style={{
+                    paddingTop: 2,
+                    paddingBottom: 0,
+                    width: "98vw",
+                  }}
+                >
+                  <div
+                    className={
+                      location.pathname == "/"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader "
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepOne");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        • MAIN PAGE
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    className={
+                      location.pathname == "/chepOne"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader"
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepOne");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        1. FROM HOST TO JUNTA
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className={
+                      location.pathname == "/chepTwo"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader"
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepTwo");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        2. MATTERS ON THE PITCH
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className={
+                      location.pathname == "/chepThree"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader"
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepThree");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        3. SCORE FOUR ELSE
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className={
+                      location.pathname == "/chepFour"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader"
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepFour");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        4. IT TAKES TWO TO CONSPIRE
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className={
+                      location.pathname == "/chepFive"
+                        ? "dropDownMobHeader1"
+                        : "dropDownMobHeader"
+                    }
+                    style={{
+                      marginBottom: 4,
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onClick={() => {
+                      navigate("/chepFive");
+                    }}
+                  >
+                    <div style={{ marginLeft: 20 }}>
+                      <p
+                        style={{
+                          marginBottom: 0,
+                          fontSize: 18,
+                          fontFamily: "StardosBold",
+                        }}
+                      >
+                        5. WE ARE ARGENTINES ARE...
+                      </p>
+                    </div>
+
+                    <div style={{ marginRight: 26 }}>
+                      <Image
+                        src="./images/forwardArrowBlack.svg "
+                        style={{ marginBottom: 5 }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </Col>
           </Row>
         </div>
-        <div className="mobBanner">
+        <div className={`mobBanner ${opcity && `opcity`}`}>
           <Container>
             <div className="textHolder">
               <h1
@@ -106,7 +342,7 @@ const ChepTwo = () => {
             />
           </div>
         </div>
-        <div className="journalistBanner">
+        <div className={`journalistBanner ${opcity && `opcity`}`}>
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col
@@ -191,7 +427,7 @@ const ChepTwo = () => {
         </div>
 
         {/* -----------------------cards Chapter Two------------------------ */}
-        <ChepTwoMobCard />
+        <ChepTwoMobCard opcity={opcity} />
       </div>
     </React.Fragment>
   );

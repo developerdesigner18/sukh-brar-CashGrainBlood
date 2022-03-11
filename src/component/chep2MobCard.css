@@ -1,5 +1,9 @@
 .chepTwoMobcardHolder {
   background-color: black !important;
+  background-image: url("../../public/images/chep2/mobCardOne.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .chepTwoCardOneIndex {
@@ -10,10 +14,6 @@
   font-size: 15px;
 }
 .chepTwoCardOne {
-  background-image: url("../../public/images/chep2/mobCardOne.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 338px;
 }
 .chepTwoCardOne .row {
   margin: 0px;

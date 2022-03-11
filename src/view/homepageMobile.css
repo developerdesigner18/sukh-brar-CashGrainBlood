@@ -11,6 +11,38 @@
   background-size: cover;
   background-image: url("../../public/images/homePageBanner.png");
 }
+.opcity {
+  opacity: 0.1;
+}
+/* .dropDown {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/images/dropDown.png");
+} */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: transparent !important; /* here */
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* border: 1px solid #ccc; */
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  /* transform: translate3d(-247px, 34px, 0px) !important; */
+}
 .homePageBannerStripe1 {
   position: absolute;
   top: "96px";

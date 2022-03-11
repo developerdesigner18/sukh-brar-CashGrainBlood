@@ -400,11 +400,11 @@ const ChepOneCardMobView = () => {
                 src="./images/chep1/admiral.png"
                 fluid
                 width={"100%"}
-                style={{ marginTop: -22, marginLeft: 20 }}
+                style={{ marginTop: -8, marginLeft: 20 }}
               />
             </Col>
-            <Col>
-              <Row xs={6} sm={6}>
+            <Col xs={5} sm={5}>
+              <Row>
                 <Image
                   src="./images/imgArrow.svg"
                   style={{

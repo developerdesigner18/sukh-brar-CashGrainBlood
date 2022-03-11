@@ -23,7 +23,7 @@ const ChepTwoMobCard = ({ opcity }) => {
               marginLeft: 36,
               paddingLeft: 0,
               marginRight: 0,
-              width: 354,
+              width: 338,
             }}
           >
             {/* --------------------------------cardOne-------------------------------- */}

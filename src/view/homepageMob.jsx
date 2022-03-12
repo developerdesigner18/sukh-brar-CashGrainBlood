@@ -106,7 +106,7 @@ const HomePageMob = ({ prevLocation }) => {
                     alignItems: "center",
                   }}
                   onClick={() => {
-                    navigate("/chepOne");
+                    navigate("/");
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>

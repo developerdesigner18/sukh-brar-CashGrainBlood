@@ -18,6 +18,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                     margin: 0,
                     marginTop: 10,
                   }}
+                  data-aos="fade-up"
                 >
                   <p className="chepFiveCardOneIndex">01/01</p>
 
@@ -43,6 +44,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 0,
                   paddingLeft: 0,
                 }}
+                data-aos="fade-in"
               >
                 <div className="row" style={{ padding: 0 }}>
                   <Image
@@ -53,6 +55,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                       padding: 0,
                       marginTop: 180,
                     }}
+                    data-aos="fade-up"
                   />{" "}
                 </div>
                 <div className="row">
@@ -68,10 +71,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                         fontSize: 12,
                         fontFamily: "HelveticaNeue-CondensedBold",
                       }}
+                      data-aos="fade-up"
                     >
                       IMAGE:
                     </p>{" "}
-                    <p className="chepFiveCardOneImgDesc">
+                    <p className="chepFiveCardOneImgDesc" data-aos="fade-up">
                       Argentina goalkeeper Ubaldo Fillol (r) <br /> celebrates
                       3-1 victory with teammate.
                       <br />
@@ -100,6 +104,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                       marginRight: 0,
                       marginTop: 20,
                     }}
+                    data-aos="fade-up"
                   >
                     <p className="chepFiveCardOneTitle">
                       EXTRA TIME <br /> CHAMPIONS
@@ -114,6 +119,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
                       fluid
+                      data-aos="fade-up"
                     />
                   </div>
                   <div
@@ -125,12 +131,13 @@ const ChepFiveMobCard = ({ opcity }) => {
                       height: 212,
                     }}
                   >
-                    <p className="chepFiveCardOneDescText">
+                    <p className="chepFiveCardOneDescText" data-aos="fade-up">
                       1–1 after 90 minutes; Argentina won in extra time 3–1.
                     </p>{" "}
                     <p
                       className="chepFiveCardOneDescText"
                       style={{ marginTop: 10 }}
+                      data-aos="fade-up"
                     >
                       The start of the final was mired in some controversy. The
                       Dutch accused the Argentines of using stalling tactics to
@@ -140,12 +147,17 @@ const ChepFiveMobCard = ({ opcity }) => {
                     <p
                       className="chepFiveCardOneDescText"
                       style={{ marginTop: 10 }}
+                      data-aos="fade-up"
                     >
                       The Netherlands refused to attend the post-match
                       ceremonies.
                     </p>
                   </div>
-                  <div className="row" style={{ paddingLeft: 0 }}>
+                  <div
+                    className="row"
+                    style={{ paddingLeft: 0 }}
+                    data-aos="fade-up"
+                  >
                     <div
                       className="col-1"
                       style={{ padding: 0, marginRight: 5 }}
@@ -159,6 +171,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                             width: 31.21,
                             height: 31.21,
                           }}
+                          data-aos="fade-up"
                           fluid
                         />
                       </a>
@@ -191,12 +204,13 @@ const ChepFiveMobCard = ({ opcity }) => {
                   top: 1556,
                   right: 0,
                 }}
+                data-aos="fade-up"
               />
             </div>
           </Container>
         </div>
         {/* -----------------------cardTwo------------------------------------------------ */}
-        <div className="cardTwoChepFive">
+        <div className="cardTwoChepFive" data-aos="fade-in">
           <Image
             src="./images/chep5/dividerVertical.png"
             style={{
@@ -216,6 +230,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 padding: "25px 0px 0px 0px",
                 margin: "16.2px 0px 0px 36px",
               }}
+              data-aos="fade-up"
             >
               <p className="chepTwoCardOneIndex" style={{ marginTop: 10 }}>
                 01/02
@@ -250,7 +265,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 />
               </div> */}
             </div>
-            <p className="logoName">
+            <p className="logoName" data-aos="fade-up">
               1978 FIFA WORLD CUP FINAL <br /> ARGENTINA v. HOLLAND
             </p>
             {/* <Image
@@ -278,10 +293,11 @@ const ChepFiveMobCard = ({ opcity }) => {
             margin: 0,
             left: 0,
           }}
+          data-aos="fade-up"
         />
         {/* ------------------------cardThree--------------------------- */}
         <div className="chepFiveCardThree">
-          <div className="chep5cardThreeHeaderImage">
+          <div className="chep5cardThreeHeaderImage" data-aos="fade-in">
             {/* <Container style={{ padding: 0 }}>
               <div
                 className="row"
@@ -301,6 +317,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   marginRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <p className="chepFiveCardOneIndex">01/03</p>
                 <Image
@@ -312,8 +329,9 @@ const ChepFiveMobCard = ({ opcity }) => {
                     padding: 0,
                     marginBottom: 5,
                   }}
+                  data-aos="fade-up"
                 ></Image>
-                <p className="chepFiveCardOneTitle">
+                <p className="chepFiveCardOneTitle" data-aos="fade-up">
                   “TOTAL FOOTBALL” <br /> GENERATION COMES <br /> TO AN END
                 </p>
               </div>
@@ -331,6 +349,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
                   fluid
+                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -353,6 +372,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
+                data-aos="fade-up"
               />
             </div>
 
@@ -367,32 +387,33 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginBottom: 0,
                   paddingBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="chepFiveCardThreeDescimgDesc">
+              <p className="chepFiveCardThreeDescimgDesc" data-aos="fade-up">
                 With three lost finals (including World Cup 2010), the Dutch are
                 World Cup history’s greatest nearly-men.
               </p>
             </div>
             <div className="chepFiveDesc">
-              <p>
+              <p data-aos="fade-up">
                 Total Football – a style of play where any outfield player can
                 take over the role of any other player in a team – was a Dutch
                 invention that captured the imagination of the football world.
                 It requires players to be comfortable in multiple positions;
                 hence, it requires intelligent and technically diverse players.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 This was manifested beautifully by the great Johan Cruyff and
                 the Dutch team at the 1974 World Cup in West Germany.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 The same style of football was played by the Dutch team in
                 Argentina. Again they reached the final, and again they lost to
                 the host nation.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 It truly was the end of a romantic era in European football.
               </p>
             </div>
@@ -408,6 +429,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 marginTop: 0,
                 marginBottom: 45.2,
               }}
+              data-aos="fade-up"
             >
               <div
                 className="col-1"
@@ -454,7 +476,7 @@ const ChepFiveMobCard = ({ opcity }) => {
         </div>
         {/* ---------------------cardFour---------------------------------- */}
         <div className="chepFiveCardFour">
-          <div className="chep5cardFourHeaderImage">
+          <div className="chep5cardFourHeaderImage" data-aos="fade-in">
             {/* <Container style={{ padding: 0 }}>
               <div
                 className="row"
@@ -474,6 +496,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   marginRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <p className="chepFiveCardOneIndex">01/04</p>
                 <Image
@@ -485,8 +508,9 @@ const ChepFiveMobCard = ({ opcity }) => {
                     padding: 0,
                     marginBottom: 5,
                   }}
+                  data-aos="fade-up"
                 ></Image>
-                <p className="chepFiveCardOneTitle">
+                <p className="chepFiveCardOneTitle" data-aos="fade-up">
                   THE MALVINAS: <br /> THE BEGINNING <br /> OF THE END
                 </p>
               </div>
@@ -503,6 +527,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 <Image
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
+                  data-aos="fade-up"
                   fluid
                 />
               </div>
@@ -515,7 +540,7 @@ const ChepFiveMobCard = ({ opcity }) => {
             </div>
           </div>
           <div className="chepFiveCardFourDesc">
-            <div className="row" style={{ marginTop: 8 }}>
+            <div className="row" style={{ marginTop: 8, marginRight: 0 }}>
               <Image
                 fluid
                 src="./images/chep1/upArrow.svg"
@@ -526,6 +551,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
+                data-aos="fade-up"
               />
             </div>
 
@@ -540,10 +566,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginBottom: 0,
                   paddingBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="chepFiveCardFourDescimgDesc">
+              <p className="chepFiveCardFourDescimgDesc" data-aos="fade-up">
                 Milva Lezcano, sister of soldier Angel Gonzalez, whose remains
                 were recently identified by the Red Cross and rest at Darwin
                 Cemetery in the Falkland Islands, attends a ceremony honoring
@@ -553,17 +580,17 @@ const ChepFiveMobCard = ({ opcity }) => {
               </p>
             </div>
             <div className="chepFiveDescCardFour">
-              <p>
+              <p data-aos="fade-up">
                 On April 2, 1982 Argentine forces mounted amphibious landings,
                 known as Operation Rosario, on the Falkland (Malvinas) Islands.
                 This was disputed territory between Argentina and Great Britain.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 The British government dispatched a naval task force to engage
                 the Argentine Navy and Air Force before making an amphibious
                 assault on the islands.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 The conflict lasted 74 days and ended with an Argentine
                 surrender on June 14, when the islands were returned to British
                 control. The occupation was popular with the people of
@@ -575,7 +602,9 @@ const ChepFiveMobCard = ({ opcity }) => {
                 style={{
                   paddingLeft: 0,
                   marginTop: 10,
+                  marginRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <div
                   className="col-1"
@@ -622,7 +651,7 @@ const ChepFiveMobCard = ({ opcity }) => {
         </div>
         {/* ------------------cardFive------------------------------- */}
         <div className="chepFiveCardFive">
-          <div className="chep5cardFiveHeaderImage">
+          <div className="chep5cardFiveHeaderImage" data-aos="fade-in">
             <div className="textHolderChepFive">
               <div
                 className="row"
@@ -630,6 +659,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   marginRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <p className="chepFiveCardOneIndex">01/05</p>
                 <Image
@@ -641,8 +671,9 @@ const ChepFiveMobCard = ({ opcity }) => {
                     padding: 0,
                     marginBottom: 5,
                   }}
+                  data-aos="fade-up"
                 ></Image>
-                <p className="chepFiveCardOneTitle">
+                <p className="chepFiveCardOneTitle" data-aos="fade-up">
                   AND JUSTICE <br />
                   FOR ALL
                 </p>
@@ -661,6 +692,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
                   fluid
+                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -679,6 +711,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 width: "100%",
                 height: 16,
               }}
+              data-aos="fade-up"
             />
           </div>
           <div className="chepFiveCardFiveDesc">
@@ -693,6 +726,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
+                data-aos="fade-up"
               />
             </div>
 
@@ -707,10 +741,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginBottom: 0,
                   paddingBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="chepFiveCardFiveDescimgDesc">
+              <p className="chepFiveCardFiveDescimgDesc" data-aos="fade-up">
                 Former Argentine dictator Jorge Videla (center) is escorted by
                 police into the San Isidro court building in Buenos Aires, June
                 11. On May 17, 2013, Videla was reported as having died of
@@ -719,12 +754,12 @@ const ChepFiveMobCard = ({ opcity }) => {
               </p>
             </div>
             <div className="chepFiveDescCardFive">
-              <p>
+              <p data-aos="fade-up">
                 Former Argentine dictator Jorge Videla (center) is escorted by
                 police into the San Isidro court building in Buenos Aires, June
                 11.
               </p>
-              <p>
+              <p data-aos="fade-up">
                 Videla was convicted of numerous homicides, kidnapping, torture,
                 and many other crimes. He was sentenced to life imprisonment and
                 was discharged from the military in 1985.
@@ -734,12 +769,13 @@ const ChepFiveMobCard = ({ opcity }) => {
           <Image
             src="./images/chep5/dividerVertical.png"
             style={{ width: "100%", height: 16 }}
+            data-aos="fade-up"
           />
         </div>
 
         {/* ----------------------last-card------------------- */}
 
-        <div className="chepFiveLastCard">
+        <div className="chepFiveLastCard" data-aos="fade-in">
           <Container style={{ padding: 0 }}>
             <div
               className="row"
@@ -748,6 +784,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 padding: 0,
                 margin: 0,
               }}
+              data-aos="fade-up"
             >
               <p
                 className="chepFiveCardLastIndex"
@@ -785,6 +822,7 @@ const ChepFiveMobCard = ({ opcity }) => {
               <p
                 className="chepFiveLastTitle"
                 style={{ paddingLeft: 11, textTransform: "uppercase" }}
+                data-aos="fade-up"
               >
                 The Victims IN <br /> THEIR OWN WORDS
               </p>
@@ -807,6 +845,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   height: 14,
                   paddingRight: 0,
                 }}
+                data-aos="fade-up"
                 fluid
               />
             </div>
@@ -819,6 +858,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 textAlign: "left",
                 lineHeight: "23px",
               }}
+              data-aos="fade-up"
             >
               “
               <span style={{ color: "#20c5f7" }}>
@@ -849,6 +889,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                 padding: 0,
                 marginTop: 15,
               }}
+              data-aos="fade-up"
             />
 
             <div className="chepFiveLastCardText" style={{ width: "auto" }}>
@@ -862,10 +903,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-CondensedBold",
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="chepFivelastCardFirst">
+              <p className="chepFivelastCardFirst" data-aos="fade-up">
                 Taty Almeida said her son, Alejandro, had left on a Tuesday to
                 take an exam and he never come home. Every Thursday, she went
                 downtown to the Plaza de Mayo, which sits outside the
@@ -878,6 +920,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                   // paddingLeft: 0,
                   margin: 0,
                 }}
+                data-aos="fade-up"
               >
                 <div
                   className="col-1"

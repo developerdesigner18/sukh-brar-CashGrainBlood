@@ -17,7 +17,7 @@ const ChepTwoMobCard = ({ opcity }) => {
   return (
     <React.Fragment>
       <div className={`${opcity && `opcity`}`}>
-        <div className={`chepTwoMobcardHolder`}>
+        <div className={`chepTwoMobcardHolder`} data-aos="fade-in">
           <Container
             style={{
               marginLeft: 36,
@@ -35,6 +35,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   margin: 0,
                   marginTop: 10,
                 }}
+                data-aos="fade-up"
               >
                 <p className="chepTwoCardOneIndex">01/01</p>
                 <Image
@@ -67,6 +68,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                       padding: 0,
                       marginTop: 171,
                     }}
+                    data-aos="fade-up"
                   />{" "}
                 </Row>
                 <Row>
@@ -81,10 +83,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                         fontSize: 12,
                         fontFamily: "HelveticaNeue-CondensedBold",
                       }}
+                      data-aos="fade-up"
                     >
                       IMAGE:
                     </p>{" "}
-                    <p className="chepTwoCardOneImgDesc">
+                    <p className="chepTwoCardOneImgDesc" data-aos="fade-up">
                       Cesar Menotti (Coach) <br /> with Daniel Passarella
                       (Captain) <br />
                       <span style={{ color: "white" }}>
@@ -110,20 +113,27 @@ const ChepTwoMobCard = ({ opcity }) => {
                       marginRight: 0,
                       marginTop: 20,
                     }}
+                    data-aos="fade-up"
                   >
                     <p className="chepTwoCardOneTitle">
                       THE MANAGER <br /> “EL FLACO”
                     </p>
                   </Row>
 
-                  <Row style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}>
+                  <Row
+                    style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}
+                    data-aos="fade-up"
+                  >
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
                       fluid
                     />
                   </Row>
-                  <Row style={{ padding: 0, marginTop: 10, width: 295.33 }}>
+                  <Row
+                    style={{ padding: 0, marginTop: 10, width: 295.33 }}
+                    data-aos="fade-up"
+                  >
                     <p className="chepTwoCardOneDescText">
                       The Argentinian manager was a tall, skinny, chain-smoking
                       39-year-old, Cesar Luis Menotti. In the tense political
@@ -132,13 +142,17 @@ const ChepTwoMobCard = ({ opcity }) => {
                       manage the national team.
                     </p>
                   </Row>
-                  <Row style={{ padding: 0, marginTop: 10, width: 219.43 }}>
+                  <Row
+                    style={{ padding: 0, marginTop: 10, width: 219.43 }}
+                    data-aos="fade-up"
+                  >
                     <p
                       className="chepTwoCardOneDescText"
                       style={{
                         fontFamily: "HelveticaNeue-CondensedBold",
                         color: "#20C5F7",
                       }}
+                      data-aos="fade-up"
                     >
                       “Humanity changes, but people still fall in love the same
                       way. In football, as in love, the essence never changes”
@@ -152,11 +166,12 @@ const ChepTwoMobCard = ({ opcity }) => {
                         marginBottom: 15,
                         paddingLeft: 0,
                       }}
+                      data-aos="fade-up"
                     >
                       - CESAR MENOTTI
                     </p>
                   </Row>
-                  <Row style={{ paddingLeft: 0 }}>
+                  <Row style={{ paddingLeft: 0 }} data-aos="fade-up">
                     <Col sm={1} xs={1} style={{ padding: 0 }}>
                       <a role="button">
                         <Image
@@ -201,6 +216,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   top: 1556,
                   right: 0,
                 }}
+                data-aos="fade-up"
               />
             </div>
           </Container>
@@ -228,6 +244,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                       marginTop: 19.5,
                       textAlign: "left",
                     }}
+                    data-aos="fade-up"
                   >
                     <p
                       style={{
@@ -263,6 +280,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                       marginBottom: 0,
                       paddingLeft: 48,
                     }}
+                    data-aos="fade-up"
                   >
                     KEY ARGENTINE PLAYERS
                   </h6>
@@ -288,6 +306,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                             paddingRight: 0,
                             paddingLeft: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -302,9 +321,10 @@ const ChepTwoMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
+                          data-aos="fade-up"
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -345,6 +365,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -402,6 +423,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -416,9 +438,10 @@ const ChepTwoMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
+                          data-aos="fade-up"
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -459,6 +482,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 3,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -515,6 +539,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -531,7 +556,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                           }}
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -573,6 +598,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -626,7 +652,7 @@ const ChepTwoMobCard = ({ opcity }) => {
         </div>
         {/* -----------------------------card-3=----------------------------------------- */}
         <div className="chepTwoCardTHree">
-          <div className="cardThreeHeaderImage">
+          <div className="cardThreeHeaderImage" data-aos="fade-in">
             <Container style={{ padding: 0 }}>
               <Row
                 style={{
@@ -635,6 +661,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   margin: 0,
                   marginTop: 10,
                 }}
+                data-aos="fade-up"
               >
                 <p
                   className="chepTwoCardOneIndex"
@@ -660,6 +687,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   marginRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <p className="chepTwoCardOneTitle">
                   La Albiceleste <br /> AND THE REST <br /> OF GROUP A
@@ -673,6 +701,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   paddingRight: 0,
                 }}
+                data-aos="fade-up"
               >
                 <Image
                   src="./images/verticalDivider.png"
@@ -683,11 +712,11 @@ const ChepTwoMobCard = ({ opcity }) => {
             </div>
           </div>
           <div className="chepTwoCardThreeDesc">
-            <p>
+            <p data-aos="fade-up">
               In the first group stage (Group A), Argentina was placed with
               Italy, France and Hungary.
             </p>
-            <p>
+            <p data-aos="fade-up">
               La Albiceleste, the host nation, got off to a sluggish start with
               a close 2–1 victory over Hungary in their opening game. Argentines
               had a more attacking (2–1) victory over the French, but with a
@@ -695,7 +724,7 @@ const ChepTwoMobCard = ({ opcity }) => {
               solid Italian team and lost that game convincingly 1–0 to the
               Azurri.
             </p>
-            <p>
+            <p data-aos="fade-up">
               Italy won the group comprehensively. Argentina, with the tension
               in the country, came in a lackluster second. Both teams
               automatically qualified for the second group stage.
@@ -716,6 +745,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   marginTop: 15,
                   marginLeft: 3,
                 }}
+                data-aos="fade-up"
               />
             </Row>
             <Row style={{ marginTop: 5, width: 254 }}>
@@ -729,6 +759,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   marginBottom: 0,
                   paddingBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 NOTE:
               </p>
@@ -741,6 +772,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   width: "auto",
                   marginBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 La Albiceleste is the nickname of the Argentina national team.
                 It refers to the colors of the team’s home jersey, the White and
@@ -758,6 +790,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   marginBottom: 0,
                   paddingBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
@@ -770,6 +803,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   width: "auto",
                   marginBottom: 0,
                 }}
+                data-aos="fade-up"
               >
                 Oscar Ortiz of Argentina during the World Cup 1978 match between
                 Argentina and Italy at Monumental Stadium, Buenos Aires,
@@ -782,6 +816,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 marginTop: 5,
                 marginRight: 0,
               }}
+              data-aos="fade-up"
             >
               <Col
                 sm={1}
@@ -838,7 +873,7 @@ const ChepTwoMobCard = ({ opcity }) => {
               width: "auto",
             }}
           >
-            <p>
+            <p data-aos="fade-up">
               <Image
                 src="./images/chep2/adidasLogo.png"
                 style={{ padding: 0, width: 36.49 }}
@@ -847,8 +882,8 @@ const ChepTwoMobCard = ({ opcity }) => {
             </p>
           </Container>
         </div>
-        <div className="chepTwoAdContainer">
-          <div className="addTitleChepTwo">
+        <div className="chepTwoAdContainer" data-aos="fade-in">
+          <div className="addTitleChepTwo" data-aos="fade-up">
             <p>Official collection of the current Argentine national kit.</p>
           </div>
           {/* ------------------tshirt-One----------------------- */}
@@ -858,16 +893,21 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
+              data-aos="fade-in"
             >
               <Image src="./images/chep2/tshirtOne.png" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepTwoadDesc">
                   MEN’S ARGENTINA <br /> HOME JERSEY <br /> White / Clear Blue
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -896,17 +936,22 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
+              data-aos="fade-in"
             >
               <Image src="./images/chep2/tshirtTwo.png" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepTwoadDesc">
                   MEN’S ARGENTINA <br /> AWAY JERSEY
                   <br /> Midnight
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -935,16 +980,21 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
+              data-aos="fade-in"
             >
               <Image src="./images/chep2/tshirtThree.png" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepTwoadDesc">
                   MEN’S ARGENTINA <br /> WARM-UP JERSEY <br /> Marble Blue
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -969,7 +1019,7 @@ const ChepTwoMobCard = ({ opcity }) => {
         </div>
         <div className="chepTwoAdHeader2" style={{ padding: "10px" }}></div>
         {/* ----------------------------lastCard---------------------------- */}
-        <div className="chep2LastCard">
+        <div className="chep2LastCard" data-aos="fade-in">
           <Container style={{ padding: 0 }}>
             <Row
               style={{
@@ -977,6 +1027,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 padding: 0,
                 margin: 0,
               }}
+              data-aos="fade-up"
             >
               <p
                 className="chepTwoCardLastIndex"
@@ -1007,6 +1058,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 marginBottom: 3,
                 width: "auto",
               }}
+              data-aos="fade-up"
             >
               SIDE STORY
             </p>
@@ -1021,7 +1073,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 marginRight: 0,
               }}
             >
-              <p className="chepTwoLastTitle">
+              <p className="chepTwoLastTitle" data-aos="fade-up">
                 WHEN LES <br /> BLEUS HAD TO <br /> WEAR GREEN <br /> AND WHITE
               </p>
             </Row>
@@ -1042,6 +1094,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   height: 14,
                   paddingRight: 0,
                 }}
+                data-aos="fade-up"
                 fluid
               />
             </Row>
@@ -1055,6 +1108,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 padding: 0,
                 marginTop: 15,
               }}
+              data-aos="fade-up"
             />
 
             <div className="chepTwoLastCardText">
@@ -1068,21 +1122,22 @@ const ChepTwoMobCard = ({ opcity }) => {
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-CondensedBold",
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="lastCardFirst">
+              <p className="lastCardFirst" data-aos="fade-up">
                 French midfielder Michel Platini wearing an Atletico Kimberley
                 club jersey at the 1978 World Cup football match between France
                 and Hungary, on June 10, 1978, in Mar del Plata.
               </p>
-              <div className="lastCardSecond">
+              <div className="lastCardSecond" data-aos="fade-up">
                 <p style={{ marginBottom: 15 }}>
                   TV broadcasts were still mainly black and white, so FIFA tried
                   to ensure viewing audiences weren’t baffled by getting France
                   to wear white and Hungary to wear red. <br />
                 </p>
-                <p style={{ marginBottom: 15 }}>
+                <p style={{ marginBottom: 15 }} data-aos="fade-up">
                   Then FIFA changed their mind, with France instructed to wear
                   blue and Hungary white, but the reasoning was still the same.
                   However, someone forgot to pass on the memo, and France wore
@@ -1091,7 +1146,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   audiences.
                   <br />
                 </p>
-                <p>
+                <p data-aos="fade-up">
                   France ended up winning the game 3–1. Atletico Kimberley went
                   “global” for 90 minutes.
                 </p>
@@ -1108,10 +1163,11 @@ const ChepTwoMobCard = ({ opcity }) => {
               height: 602,
               width: 12,
             }}
+            data-aos="fade-up"
           />
         </div>
         {/* --------------------------Fotter------------------------- */}
-        <div className="chepTwoFooter">
+        <div className="chepTwoFooter" data-aos="fade-up">
           <div className="row" style={{ padding: 0, margin: 0, width: 214 }}>
             <div
               className="col-10"

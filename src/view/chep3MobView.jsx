@@ -88,7 +88,7 @@ const Chep3MobView = () => {
                       alignItems: "center",
                     }}
                     onClick={() => {
-                      navigate("/chepOne");
+                      navigate("/");
                     }}
                   >
                     <div style={{ marginLeft: 20 }}>
@@ -296,7 +296,10 @@ const Chep3MobView = () => {
             </Col>
           </Row>
         </div>
-        <div className={`mobBannerThree ${opcity && `opcity`}`}>
+        <div
+          className={`mobBannerThree ${opcity && `opcity`}`}
+          data-aos="fade-in"
+        >
           <Container>
             <div className="textHolderThree">
               {/* <button className="bannerButtonThree">CHAPTER 3</button> */}
@@ -314,13 +317,14 @@ const Chep3MobView = () => {
                   height: 17,
                   color: "white",
                 }}
+                data-aos="fade-up"
               >
                 CHAPTER 3
               </h1>
-              <h1 className="bannerTitleThree">
+              <h1 className="bannerTitleThree" data-aos="fade-up">
                 SCORE <br /> FOUR <br /> OR ELSE
               </h1>
-              <p className="bannerTextThree">
+              <p className="bannerTextThree" data-aos="fade-up">
                 There were countless rumors of match fixing by the Argentine
                 Junta. However, it takes more than one player to make a
                 conspiracy.
@@ -338,10 +342,14 @@ const Chep3MobView = () => {
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
+              data-aos="fade-up"
             />
           </div>
         </div>
-        <div className={`journalistBannerThree ${opcity && `opcity`}`}>
+        <div
+          className={`journalistBannerThree ${opcity && `opcity`}`}
+          data-aos="fade-in"
+        >
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col
@@ -353,6 +361,7 @@ const Chep3MobView = () => {
                 src="./images/chep3/luque.png"
                 fluid
                 style={{ width: 120, height: 120 }}
+                data-aos="fade-up"
                 // style={{ marginTop: 40 }}
               />
             </Col>
@@ -363,6 +372,7 @@ const Chep3MobView = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
+                  data-aos="fade-up"
                 />
               </Row>
               <Row style={{ width: 164 }}>
@@ -376,6 +386,7 @@ const Chep3MobView = () => {
                     color: "white",
                     marginBottom: 0,
                   }}
+                  data-aos="fade-up"
                 >
                   Leopoldo Jacinto Luque
                 </p>
@@ -388,6 +399,7 @@ const Chep3MobView = () => {
                     padding: 0,
                     letterSpacing: 0,
                   }}
+                  data-aos="fade-up"
                 >
                   (3 May 1949 – 15 February 2021 With Argentina he was 1978
                   World Champion, scoring four goals in the tournament.
@@ -397,7 +409,7 @@ const Chep3MobView = () => {
           </Row>
           {/* description Text */}
           <div style={{ paddingLeft: 0, margin: "30px  36px" }}>
-            <h4 className="descTextJournalistThree">
+            <h4 className="descTextJournalistThree" data-aos="fade-up">
               “With what I know now, I can’t say I am proud of my victory. We
               just played football.{" "}
               <span style={{ color: "#20C5F7" }}>
@@ -414,6 +426,7 @@ const Chep3MobView = () => {
                   textTransform: "uppercase",
                   letterSpacing: 1,
                 }}
+                data-aos="fade-up"
               >
                 - Leopoldo Luque, Argentine striker
               </span>

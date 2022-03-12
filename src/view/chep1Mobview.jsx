@@ -56,9 +56,9 @@ const ChepOneCardMobView = () => {
               console.log(opcity);
             }}
           >
-            <div class={`btn-group`}>
+            <div className={`btn-group`}>
               <button
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-toggle="dropdown"
                 aria-haspopup="false"
                 aria-expanded="true"
@@ -82,7 +82,7 @@ const ChepOneCardMobView = () => {
                 />
               </button>
               <div
-                class="dropdown-menu dropdown-menu-right right-0 dropDown"
+                className="dropdown-menu dropdown-menu-right right-0 dropDown"
                 style={{
                   paddingTop: 2,
                   paddingBottom: 0,
@@ -103,7 +103,7 @@ const ChepOneCardMobView = () => {
                     alignItems: "center",
                   }}
                   onClick={() => {
-                    navigate("/chepOne");
+                    navigate("/");
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>
@@ -390,9 +390,8 @@ const ChepOneCardMobView = () => {
           style={{ paddingLeft: 5, marginRight: 0 }}
         >
           <Row style={{ margin: "0px auto", marginTop: 40 }}>
-            <Col
-              xs={5}
-              sm={5}
+            <div
+              className="col-5"
               style={{ textAlign: "right", marginRight: 20 }}
               data-aos="fade-up"
             >
@@ -402,9 +401,9 @@ const ChepOneCardMobView = () => {
                 width={"100%"}
                 style={{ marginTop: -8, marginLeft: 20 }}
               />
-            </Col>
+            </div>
             <Col xs={5} sm={5}>
-              <Row>
+              <div className="row" data-aos="fade-up">
                 <Image
                   src="./images/imgArrow.svg"
                   style={{
@@ -412,11 +411,10 @@ const ChepOneCardMobView = () => {
                     height: 13.14,
                     padding: 0,
                   }}
-                  data-aos="fade-up"
                   fluid
                 />
-              </Row>
-              <Row>
+              </div>
+              <div className="row" data-aos="fade-up">
                 <p
                   style={{
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -427,12 +425,11 @@ const ChepOneCardMobView = () => {
                     color: "white",
                     marginBottom: 0,
                   }}
-                  data-aos="fade-up"
                 >
                   Emilio Eduardo Massera
                 </p>
-              </Row>
-              <Row>
+              </div>
+              <div className="row" data-aos="fade-up">
                 <p
                   style={{
                     fontFamily: "HelveticaNeue-CondensedBold",
@@ -443,16 +440,18 @@ const ChepOneCardMobView = () => {
                     letterSpacing: 0,
                     width: 197,
                   }}
-                  data-aos="fade-up"
                 >
                   (19 October 1925 – 8 November 2010) Argentine Naval military
                   officer, and <br />a leading participant in the Argentine coup
                   d’état of 1976.
                 </p>
-              </Row>
+              </div>
             </Col>
           </Row>
-          <div style={{ marginLeft: 36, marginRight: 0, width: 360 }}>
+          <div
+            style={{ marginLeft: 42, width: 340, padding: 0 }}
+            data-aos="fade-up"
+          >
             <h4
               style={{
                 fontSize: 26,
@@ -463,7 +462,6 @@ const ChepOneCardMobView = () => {
                 lineHeight: 1.5,
                 color: "white",
               }}
-              data-aos="fade-up"
             >
               “Holding the tournament will show the world that{" "}
               <span style={{ color: "#20C5F7" }}>

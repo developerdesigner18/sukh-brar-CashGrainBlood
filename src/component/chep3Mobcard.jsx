@@ -18,7 +18,7 @@ const ChepThreeMobCard = ({ opcity }) => {
         <div className="chepThreeMobcardHolder">
           <Container style={{ marginLeft: 36, paddingLeft: 0, width: 300 }}>
             {/* --------------------------------cardOne-------------------------------- */}
-            <div className="cardOneChepThree">
+            <div className="cardOneChepThree" data-aos="fade-in">
               <Container style={{ padding: 0 }}>
                 <Row
                   style={{
@@ -27,6 +27,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                     margin: 0,
                     marginTop: 10,
                   }}
+                  data-aos="fade-up"
                 >
                   <p className="chepThreeCardOneIndex">01/01</p>
 
@@ -62,6 +63,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                     marginBottom: 0,
                     color: "white",
                   }}
+                  data-aos="fade-up"
                 >
                   GROUP B TEAMS
                 </p>
@@ -74,6 +76,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                       padding: 0,
                       marginTop: 180,
                     }}
+                    data-aos="fade-up"
                   />{" "}
                 </Row>
                 <Row>
@@ -88,18 +91,21 @@ const ChepThreeMobCard = ({ opcity }) => {
                         fontSize: 12,
                         fontFamily: "HelveticaNeue-CondensedBold",
                       }}
+                      data-aos="fade-up"
                     >
                       IMAGE:
                     </p>{" "}
                     <p
                       className="chepThreeCardOneImgDesc"
                       style={{ lineHeight: "12px" }}
+                      data-aos="fade-up"
                     >
                       Mario Kempes <br /> Argentine Striker
                     </p>{" "}
                     <p
                       className="chepThreeCardOneImgDesc"
                       style={{ color: "white", lineHeight: "20px" }}
+                      data-aos="fade-up"
                     >
                       {" "}
                       SOURCE: GETTY IMAGES
@@ -122,6 +128,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                       marginTop: 20,
                       marginBottom: 5,
                     }}
+                    data-aos="fade-up"
                   >
                     <p className="chepThreeCardOneTitle">
                       GROUP B STAGE <br />
@@ -129,7 +136,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                     </p>
                   </Row>
 
-                  <Row style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}>
+                  <Row
+                    style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}
+                    data-aos="fade-up"
+                  >
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
@@ -144,7 +154,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                       height: 228,
                     }}
                   >
-                    <p className="chepThreeCardOneDescText">
+                    <p className="chepThreeCardOneDescText" data-aos="fade-up">
                       In the ʼ78 World Cup, there was a second group stage where
                       the winner of the group would go on to the World Cup
                       Final. Argentina staggered into the group and their main
@@ -154,6 +164,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                     <p
                       className="chepThreeCardOneDescText"
                       style={{ marginTop: 10 }}
+                      data-aos="fade-up"
                     >
                       The two teams had already played out a goalless draw. Was
                       it just a happy accident that the hosts knew exactly what
@@ -162,7 +173,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                       final.
                     </p>
                   </Row>
-                  <Row style={{ paddingLeft: 0 }}>
+                  <Row style={{ paddingLeft: 0 }} data-aos="fade-up">
                     <Col sm={1} xs={1} style={{ padding: 0, marginRight: 5 }}>
                       <a role="button">
                         <Image
@@ -206,6 +217,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                   top: 1556,
                   right: 0,
                 }}
+                data-aos="fade-up"
               />
             </div>
           </Container>
@@ -233,6 +245,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                       marginTop: 19.5,
                       textAlign: "left",
                     }}
+                    data-aos="fade-up"
                   >
                     <p
                       style={{
@@ -268,12 +281,14 @@ const ChepThreeMobCard = ({ opcity }) => {
                       marginBottom: 0,
                       paddingLeft: 48,
                     }}
+                    data-aos="fade-up"
                   >
                     KEY ARGENTINE PLAYERS
                   </h6>
                 </Row>
               </Card.Title>
               <Swiper
+                data-aos="fade-up"
                 className="mobile"
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={0}
@@ -292,6 +307,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                             paddingRight: 0,
                             paddingLeft: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -306,9 +322,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
+                          data-aos="fade-up"
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -348,6 +365,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -402,6 +420,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -416,9 +435,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
+                          data-aos="fade-up"
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -457,6 +477,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 3,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -511,6 +532,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
+                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -525,9 +547,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
+                          data-aos="fade-up"
                         />
                       </Row>
-                      <Row style={{ width: 211 }}>
+                      <Row style={{ width: 211 }} data-aos="fade-up">
                         {" "}
                         <p
                           style={{
@@ -567,6 +590,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -616,7 +640,7 @@ const ChepThreeMobCard = ({ opcity }) => {
           </Card>
         </div>
         {/* -----------------------------card-3=----------------------------------------- */}
-        <div className="cardThreeChepThree">
+        <div className="cardThreeChepThree" data-aos="fade-in">
           <Image
             src="./images/chep3/dividerVertical.png"
             style={{
@@ -627,6 +651,7 @@ const ChepThreeMobCard = ({ opcity }) => {
               margin: 0,
               left: 0,
             }}
+            data-aos="fade-up"
           />
           <Container style={{ padding: 0 }}>
             <Row
@@ -637,6 +662,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 marginTop: 16.2,
                 marginLeft: 36,
               }}
+              data-aos="fade-up"
             >
               <p className="chepThreeCardOneIndex" style={{ marginTop: 10 }}>
                 01/03
@@ -671,7 +697,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 />
               </Col>
             </Row> */}
-            <p className="logoName1">
+            <p className="logoName1" data-aos="fade-up">
               ARGENTINA <br /> v. PERU
             </p>
             {/* <Image
@@ -696,12 +722,17 @@ const ChepThreeMobCard = ({ opcity }) => {
                 margin: 0,
                 left: 0,
               }}
+              data-aos="fade-up"
             />
           </div>
         </div>
 
         {/* ------------------------------------ad------------------------------- */}
-        <div className="chepThreeAdHeader1" style={{ marginTop: 13 }}>
+        <div
+          className="chepThreeAdHeader1"
+          style={{ marginTop: 13 }}
+          data-aos="fade-up"
+        >
           <Container
             style={{
               marginLeft: 26,
@@ -713,7 +744,7 @@ const ChepThreeMobCard = ({ opcity }) => {
             <p>78 WC: GROUP B NATIONAL KITS</p>
           </Container>
         </div>
-        <div className="chepThreeAdContainer">
+        <div className="chepThreeAdContainer" data-aos="fade-in">
           {/* ------------------tshirt-One----------------------- */}
           <div className="row" style={{ margin: 0, padding: 36 }}>
             <div
@@ -722,15 +753,19 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/tshirtOne.png" />
+              <Image src="./images/chep3/tshirtOne.png" data-aos="fade-in" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepThreeadDesc">
                   MEN’S ARGENTINA <br /> HOME JERSEY <br /> White / Clear Blue
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -760,15 +795,22 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/brazil_home_jersey.png" />
+              <Image
+                src="./images/chep3/brazil_home_jersey.png"
+                data-aos="fade-in"
+              />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepThreeadDesc">
                   MEN’S Brazil <br /> Home JERSEY <br /> Canary Yellow
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -798,15 +840,19 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/tshirtThree.png" />
+              <Image src="./images/chep3/tshirtThree.png" data-aos="fade-in" />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepThreeadDesc">
                   Peru National <br /> Home JERSEY <br /> White/Red Stripe
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -836,16 +882,23 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/poland_jersey.png" />
+              <Image
+                src="./images/chep3/poland_jersey.png"
+                data-aos="fade-in"
+              />
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
-              <div className="row" style={{ marginLeft: 0 }}>
+              <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
                 <p className="chepThreeadDesc">
                   Poland National
                   <br /> Home JERSEY <br /> Ruby Red
                 </p>
               </div>
-              <div className="row" style={{ marginTop: 16.6 }}>
+              <div
+                className="row"
+                style={{ marginTop: 16.6 }}
+                data-aos="fade-up"
+              >
                 <a>
                   {" "}
                   <Image
@@ -867,10 +920,14 @@ const ChepThreeMobCard = ({ opcity }) => {
               </div>
             </div>
           </div>
-          <div className="chepTwoAdHeader2" style={{ padding: "10px" }}></div>
+          <div
+            className="chepTwoAdHeader2"
+            style={{ padding: "10px" }}
+            data-aos="fade-up"
+          ></div>
         </div>
         {/* ----------------------------lastCard---------------------------- */}
-        <div className="chep3LastCard">
+        <div className="chep3LastCard" data-aos="fade-in">
           <Container style={{ padding: 0 }}>
             <Row
               style={{
@@ -878,6 +935,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 padding: 0,
                 margin: 0,
               }}
+              data-aos="fade-up"
             >
               <p
                 className="chepThreeCardLastIndex"
@@ -911,7 +969,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 marginRight: 0,
               }}
             >
-              <p className="chepThreeLastTitle">
+              <p className="chepThreeLastTitle" data-aos="fade-up">
                 THE HOSTS <br /> REACH THE <br /> FINAL AND THE <br /> RUMORS
                 BEGIN
               </p>
@@ -933,6 +991,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                   height: 14,
                   paddingRight: 0,
                 }}
+                data-aos="fade-up"
                 fluid
               />
             </Row>
@@ -947,6 +1006,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 marginTop: 15,
                 marginLeft: 0,
               }}
+              data-aos="fade-up"
             />
 
             <div className="chepThreeLastCardText" style={{ width: "auto" }}>
@@ -960,22 +1020,23 @@ const ChepThreeMobCard = ({ opcity }) => {
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-CondensedBold",
                 }}
+                data-aos="fade-up"
               >
                 IMAGE:
               </p>
-              <p className="chep3lastCardFirst">
+              <p className="chep3lastCardFirst" data-aos="fade-up">
                 The Argentina national team at the Estadio Monumental stadium on
                 June 25, 1978. The Argentines kept the Dutch waiting for over 20
                 minutes before coming onto the pitch.
               </p>
-              <div className="chep3lastCardSecond">
+              <div className="chep3lastCardSecond" data-aos="fade-up">
                 <p style={{ marginBottom: 15 }}>
                   The Argentines meet the Dutch, runners up of the 1974 World
                   Cup. Rumors had already swirled about the legitimacy of the
                   Argentine qualification game with Peru.
                   <br />
                 </p>
-                <p style={{ marginBottom: 15 }}>
+                <p style={{ marginBottom: 15 }} data-aos="fade-up">
                   The rumors were so rampant that many Dutch players felt that
                   they should boycott the final. Cooler heads prevailed, and the
                   final went ahead.
@@ -994,6 +1055,7 @@ const ChepThreeMobCard = ({ opcity }) => {
               height: 602,
               width: 12,
             }}
+            data-aos="fade-up"
           />
           <Image
             src="./images/chep3/vertical_stripe.png"
@@ -1005,10 +1067,11 @@ const ChepThreeMobCard = ({ opcity }) => {
               height: 403,
               width: 11.5,
             }}
+            data-aos="fade-up"
           />
         </div>
         {/* --------------------------Fotter------------------------- */}
-        <div className="chepThreeFooter">
+        <div className="chepThreeFooter" data-aos="fade-up">
           <a role="button">
             <Image
               src="./images/chep3/MobFooter.png"

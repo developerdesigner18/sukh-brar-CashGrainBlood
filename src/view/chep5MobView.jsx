@@ -88,7 +88,7 @@ const Chep5MobView = () => {
                       alignItems: "center",
                     }}
                     onClick={() => {
-                      navigate("/chepOne");
+                      navigate("/");
                     }}
                   >
                     <div style={{ marginLeft: 20 }}>
@@ -296,7 +296,10 @@ const Chep5MobView = () => {
             </Col>
           </Row>
         </div>
-        <div className={`mobBannerFive ${opcity && `opcity`}`}>
+        <div
+          className={`mobBannerFive ${opcity && `opcity`}`}
+          data-aos="fade-in"
+        >
           <Container>
             <div className="textHolderFive">
               <h1
@@ -313,10 +316,11 @@ const Chep5MobView = () => {
                   height: 17,
                   color: "white",
                 }}
+                data-aos="fade-up"
               >
                 CHAPTER 5
               </h1>
-              <h1 className="bannerTitleFive">
+              <h1 className="bannerTitleFive" data-aos="fade-up">
                 “WE ARGENTINES <br /> ARE RIGHT <br />
                 AND HUMAN”{" "}
                 <span
@@ -331,7 +335,7 @@ const Chep5MobView = () => {
                   - OSVALDO {"    "}ARDILES
                 </span>
               </h1>
-              <p className="bannerTextFive">
+              <p className="bannerTextFive" data-aos="fade-up">
                 A quote from Osvaldo Ardiles when questioned about his knowledge
                 of the Argentine Junta’s atrocities against the people of
                 Argentina. Some were more “human” than others as time and the
@@ -350,10 +354,14 @@ const Chep5MobView = () => {
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
+              data-aos="fade-up"
             />
           </div>
         </div>
-        <div className={`journalistBannerFive  ${opcity && `opcity`}`}>
+        <div
+          className={`journalistBannerFive  ${opcity && `opcity`}`}
+          data-aos="fade-in"
+        >
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col
@@ -364,6 +372,7 @@ const Chep5MobView = () => {
               <Image
                 src="./images/chep5/will_hersey.png"
                 fluid
+                data-aos="fade-up"
                 style={{ width: 120, height: 120 }}
                 // style={{ marginTop: 40 }}
               />
@@ -375,6 +384,7 @@ const Chep5MobView = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
+                  data-aos="fade-up"
                 />
               </Row>
               <Row style={{ width: 184 }}>
@@ -388,6 +398,7 @@ const Chep5MobView = () => {
                     color: "white",
                     marginBottom: 0,
                   }}
+                  data-aos="fade-up"
                 >
                   WILL HERSEY
                 </p>
@@ -400,6 +411,7 @@ const Chep5MobView = () => {
                     padding: 0,
                     letterSpacing: 0,
                   }}
+                  data-aos="fade-up"
                 >
                   @willhersey <br /> Content Director — Esquire (UK) Esquire
                   (UK), MSN South Africa, MSN UK, Yahoo News Malaysia, Esquire.
@@ -408,8 +420,11 @@ const Chep5MobView = () => {
             </Col>
           </Row>
           {/* description Text */}
-          <div style={{ paddingLeft: 0, padding: "30px  36px" }}>
-            <h4 className="descTextJournalistFive">
+          <div
+            style={{ paddingLeft: 0, padding: "30px  36px" }}
+            data-aos="fade-up"
+          >
+            <h4 className="descTextJournalistFive" data-aos="fade-up">
               It’s estimated that a total of{" "}
               <span style={{ color: "#20C5F7" }}>
                 30,000 people were killed in its seven-year reign,
@@ -426,6 +441,7 @@ const Chep5MobView = () => {
                   textTransform: "uppercase",
                   letterSpacing: 0.5,
                 }}
+                data-aos="fade-up"
               >
                 - WILL HERSEY, CONTENT DIRECTOR,
                 {/* <span style={{ marginLeft: 10, lineHeight: "14px" }}> */}

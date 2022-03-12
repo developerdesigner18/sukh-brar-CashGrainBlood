@@ -89,7 +89,7 @@ const ChepTwo = () => {
                       alignItems: "center",
                     }}
                     onClick={() => {
-                      navigate("/chepOne");
+                      navigate("/");
                     }}
                   >
                     <div style={{ marginLeft: 20 }}>
@@ -314,13 +314,14 @@ const ChepTwo = () => {
                   height: 17,
                   color: "white",
                 }}
+                data-aos="fade-up"
               >
                 CHAPTER 2
               </h1>
-              <h1 className="bannerTitle">
+              <h1 className="bannerTitle" data-aos="fade-up">
                 MATTERS <br /> ON THE <br /> PITCH
               </h1>
-              <p className="bannerText">
+              <p className="bannerText" data-aos="fade-up">
                 When the tournament kicked off in June 1978, Argentina was in
                 the thick of its bloody military dictatorship. However, there
                 were players and coaches who just wanted to play the game and
@@ -333,12 +334,14 @@ const ChepTwo = () => {
               src="./images/gettyimages.png"
               width={"100%"}
               style={{ width: 104, height: 25 }}
+              data-aos="fade-up"
             />
           </div>
           <div className="stripBannermain">
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
+              data-aos="fade-up"
             />
           </div>
         </div>
@@ -354,6 +357,7 @@ const ChepTwo = () => {
                 src="./images/chep2/emsa.png"
                 fluid
                 style={{ width: 120, height: 120 }}
+                data-aos="fade-up"
                 // style={{ marginTop: 40 }}
               />
             </Col>
@@ -364,6 +368,7 @@ const ChepTwo = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
+                  data-aos="fade-up"
                 />
               </Row>
               <Row>
@@ -377,6 +382,7 @@ const ChepTwo = () => {
                     color: "white",
                     marginBottom: 0,
                   }}
+                  data-aos="fade-up"
                 >
                   ESMA OF THE NAVY
                 </p>
@@ -392,6 +398,7 @@ const ChepTwo = () => {
                     letterSpacing: 0,
                     width: 197,
                   }}
+                  data-aos="fade-up"
                 >
                   The Higher School of Mechanics of the Navy. It was used as an
                   illegal, secret detention center during the Dirty War of
@@ -401,7 +408,10 @@ const ChepTwo = () => {
             </Col>
           </Row>
           {/* description Text */}
-          <div style={{ paddingLeft: 0, margin: "30px 36px" }}>
+          <div
+            style={{ paddingLeft: 0, margin: "30px 36px" }}
+            data-aos="fade-up"
+          >
             <h4 className="descTextJournalist">
               “It was a cold but sunny day, and as the doves flapped up and out
               of the stadium, they could be seen from the infamous Navy Superior

@@ -556,6 +556,7 @@ const Chep4MobView = () => {
                   fontFamily: "HelveticaNeue-CondensedBold",
                   fontSize: 12,
                 }}
+                data-aos="fade-up"
               >
                 SOURCE: GETTY IMAGES
               </p>

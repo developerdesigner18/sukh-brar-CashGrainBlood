@@ -44,6 +44,7 @@ const CardComponent = ({ opcity }) => {
                   marginBottom: 8,
                 }}
                 data-aos="fade-up"
+                aos-distance="2000px !important"
               >
                 {data.ChepMob}
               </p>

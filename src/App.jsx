@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import HomePage from "./pages/homepage";
 import Navbar_title from "./component/navbar";
 import Navbartwo from "./view/navbartwo";

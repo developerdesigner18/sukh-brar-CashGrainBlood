@@ -2,7 +2,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import React, { useState } from "react";
 import { Container, Image } from "react-bootstrap";
 import MobCard from "./cardMob";
-
+// import "./_animation.scss";
 import "./homepageMobile.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import DropDownForMobile from "../component/dropDownForMobile";
@@ -12,20 +12,8 @@ const HomePageMob = ({ prevLocation }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const [opcity, setOpcity] = useState(false);
-  // AOS.init({
-  //   offset: 200, // offset (in px) from the original trigger point
-  //   delay: 0, // values from 0 to 3000, with step 50ms
-  //   easing: "ease", // default easing for AOS animations
-  //   duration: 500, // values from 0 to 3000, with step 50ms
-  //   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  //   once: true, // whether animation should happen only once - while scrolling down
-  //   mirror: false, // whether elements should animate out while scrolling past them
-  //   startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-  //   animatedClassName: "aos-animate", // class applied on animation
-  //   initClassName: "aos-init", // class applied after initialization
-  //   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  // });
-  // AOS.init();
+  const [checkOp, setCheckOp] = useState(false);
+
   return (
     <div>
       <div>
@@ -55,8 +43,19 @@ const HomePageMob = ({ prevLocation }) => {
             xs={4}
             style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
             onClickCapture={() => {
-              setOpcity((prev) => !prev);
+              if (opcity) {
+                setTimeout(() => {
+                  setOpcity((prev) => !prev);
+                  document.getElementsByClassName(
+                    "dropdown-menu"
+                  )[0].style.display = "none";
+                }, 1000);
+              } else setOpcity((prev) => !prev);
               console.log(opcity);
+              setCheckOp(!checkOp);
+              document.getElementsByClassName(
+                "dropdown-menu"
+              )[0].style.display = "block";
             }}
           >
             <div class={`btn-group`}>
@@ -85,7 +84,7 @@ const HomePageMob = ({ prevLocation }) => {
                 />
               </button>
               <div
-                class="dropdown-menu dropdown-menu-right right-0 dropDown"
+                class="dropdown-menu dropdown-menu-right dropDown "
                 style={{
                   paddingTop: 2,
                   paddingBottom: 0,
@@ -93,11 +92,38 @@ const HomePageMob = ({ prevLocation }) => {
                 }}
               >
                 <div
+                  className={"dropDownMobHeader"}
+                  style={{
+                    marginBottom: 4,
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    animationDuration: "2s",
+                  }}
+                >
+                  <div style={{ marginLeft: 20 }}>
+                    <p
+                      style={{
+                        marginBottom: 0,
+                        fontSize: 18,
+                        fontFamily: "StardosBold",
+                      }}
+                    >
+                      MENU
+                    </p>
+                  </div>
+
+                  <div style={{ marginRight: 26 }}>X</div>
+                </div>
+                {console.log("=-=-=-=-=-opcity", opcity)}
+                <div
                   className={
                     location.pathname == "/"
                       ? "dropDownMobHeader1"
-                      : "dropDownMobHeader "
+                      : "dropDownMobHeader"
                   }
+                  id={checkOp ? "fadesample" : "fade5"}
                   style={{
                     marginBottom: 4,
                     display: "flex",
@@ -145,6 +171,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepOne");
                   }}
+                  id={checkOp ? "fadesample1" : "fade4"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -181,6 +208,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepTwo");
                   }}
+                  id={checkOp ? "fadesample2" : "fade3"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -217,6 +245,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepThree");
                   }}
+                  id={checkOp ? "fadesample3" : "fade2"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -253,6 +282,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFour");
                   }}
+                  id={checkOp ? "fadesample4" : "fade1"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -289,6 +319,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFive");
                   }}
+                  id={checkOp ? "fadesample5" : "fade"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -338,6 +369,7 @@ const HomePageMob = ({ prevLocation }) => {
                   textAlign: "justify",
                 }}
                 data-aos="fade-up"
+                $aos-distance="40px"
               >
                 CASH, GRAIN,
                 <br /> AND BLOOD <br /> FOR GOALS

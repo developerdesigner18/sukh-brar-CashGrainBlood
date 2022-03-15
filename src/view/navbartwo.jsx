@@ -10,6 +10,7 @@ const Navbar_title = () => {
         style={{
           height: "48px",
         }}
+        sticky="top"
       >
         <Navbar.Brand href="/">
           {" "}

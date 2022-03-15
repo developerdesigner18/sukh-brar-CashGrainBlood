@@ -265,7 +265,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                 />
               </div> */}
             </div>
-            <p className="logoName" data-aos="fade-up">
+            <p
+              className="logoName"
+              data-aos="fade-up"
+              style={{ lineHeight: "21px" }}
+            >
               1978 FIFA WORLD CUP FINAL <br /> ARGENTINA v. HOLLAND
             </p>
             {/* <Image

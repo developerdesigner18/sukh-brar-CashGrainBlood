@@ -16,7 +16,7 @@ const HomePageMob = ({ prevLocation }) => {
 
   return (
     <div>
-      <div>
+      <div style={{ position: "fixed", top: 48, zIndex: 1000, width: "100%" }}>
         <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
           <Col
             lg={8}
@@ -99,7 +99,6 @@ const HomePageMob = ({ prevLocation }) => {
                     flexDirection: "row",
                     justifyContent: "space-between",
                     alignItems: "center",
-                    animationDuration: "2s",
                   }}
                 >
                   <div style={{ marginLeft: 20 }}>
@@ -123,7 +122,7 @@ const HomePageMob = ({ prevLocation }) => {
                       ? "dropDownMobHeader1"
                       : "dropDownMobHeader"
                   }
-                  id={checkOp ? "fadesample" : "fade5"}
+                  id={checkOp ? "fadesample" : "fade"}
                   style={{
                     marginBottom: 4,
                     display: "flex",
@@ -171,7 +170,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepOne");
                   }}
-                  id={checkOp ? "fadesample1" : "fade4"}
+                  id={checkOp ? "fadesample1" : "fade1"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -208,7 +207,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepTwo");
                   }}
-                  id={checkOp ? "fadesample2" : "fade3"}
+                  id={checkOp ? "fadesample2" : "fade2"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -245,7 +244,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepThree");
                   }}
-                  id={checkOp ? "fadesample3" : "fade2"}
+                  id={checkOp ? "fadesample3" : "fade3"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -282,7 +281,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFour");
                   }}
-                  id={checkOp ? "fadesample4" : "fade1"}
+                  id={checkOp ? "fadesample4" : "fade4"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -319,7 +318,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFive");
                   }}
-                  id={checkOp ? "fadesample5" : "fade"}
+                  id={checkOp ? "fadesample5" : "fade5"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p

@@ -15,6 +15,7 @@ const CardComponent = ({ opcity }) => {
       <div
         className="cardBannerContainer1"
         data-aos="fade-in"
+        
         key={index}
         style={{ marginTop: 15 }}
         onClick={() => {

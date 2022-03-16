@@ -100,6 +100,7 @@ const HomePageMob = ({ prevLocation }) => {
                     justifyContent: "space-between",
                     alignItems: "center",
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -170,7 +171,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepOne");
                   }}
-                  id={checkOp ? "fade1" : "fadesample"}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -207,7 +208,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepTwo");
                   }}
-                  id={checkOp ? "fade2" : "fadesample"}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -244,7 +245,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepThree");
                   }}
-                  id={checkOp ? "fade3" : "fadesample"}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -281,7 +282,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFour");
                   }}
-                  id={checkOp ? "fade4" : "fadesample"}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -318,7 +319,7 @@ const HomePageMob = ({ prevLocation }) => {
                   onClick={() => {
                     navigate("/chepFive");
                   }}
-                  id={checkOp ? "fade5" : "fadesample"}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p

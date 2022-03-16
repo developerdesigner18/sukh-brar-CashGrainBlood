@@ -67,7 +67,7 @@
   /* animation-name: fadeIn;
   animation-duration: 0.3s; */
   position: relative;
-  animation: fadeUp 0.2s ease-in forwards;
+  animation: fadeUp 0.4s ease-in forwards;
   animation-iteration-count: 1;
 }
 
@@ -80,11 +80,11 @@
 }
 @keyframes fadeUp {
   from {
-    top: 0px;
+    top: 34px;
     opacity: 1;
   }
   to {
-    top: 200px;
+    top: -100px;
     opacity: 0;
   }
 }
@@ -114,13 +114,13 @@
 #fade {
   position: relative;
 
-  animation: fadeIn 0.2s ease-out forwards;
+  animation: fadeIn 0.4s ease-out forwards;
   animation-iteration-count: 1;
 }
 
 @keyframes fadeIn {
   from {
-    top: -200px;
+    top: -80px;
     opacity: 0;
   }
   to {

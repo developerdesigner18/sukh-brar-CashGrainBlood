@@ -207,6 +207,13 @@
   background-color: #20c5f7;
   color: white;
 }
+.arrowDisplay {
+  display: block !important;
+  /* background-color: aliceblue !important; */
+}
+.arrowNotDisplay {
+  display: none !important;
+}
 @media screen and (max-width: 768px) {
   .homePageBannerImage1 {
     background-image: url("../../public/mobileviewHomepage.png");

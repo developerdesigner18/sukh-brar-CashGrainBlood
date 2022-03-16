@@ -31,3 +31,7 @@
   color: white;
   height: 32px;
 }
+
+.arrowDisplay {
+  display: none;
+}

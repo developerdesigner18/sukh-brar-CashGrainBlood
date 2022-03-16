@@ -13,6 +13,7 @@ const HomePageMob = ({ prevLocation }) => {
   const location = useLocation();
   const [opcity, setOpcity] = useState(false);
   const [checkOp, setCheckOp] = useState(false);
+  const [arrow, setArrow] = useState(true);
 
   return (
     <div>
@@ -120,7 +121,7 @@ const HomePageMob = ({ prevLocation }) => {
                 <div
                   className={
                     location.pathname == "/"
-                      ? "dropDownMobHeader1"
+                      ? `dropDownMobHeader1`
                       : "dropDownMobHeader"
                   }
                   id={checkOp ? "fade" : "fadesample"}
@@ -147,7 +148,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -185,7 +193,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepOne"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -222,7 +237,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepTwo"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -259,7 +281,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepThree"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -296,7 +325,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepFour"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -333,7 +369,14 @@ const HomePageMob = ({ prevLocation }) => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepFive"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}

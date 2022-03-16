@@ -22,10 +22,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 const ChepOneCardMobView = () => {
   const navigate = useNavigate();
   const [opcity, setOpcity] = useState(false);
+  const [checkOp, setCheckOp] = useState(false);
   const location = useLocation();
   return (
     <div style={{ position: "relative" }}>
-      <div>
+      <div style={{ position: "fixed", top: 48, zIndex: 1000, width: "100%" }}>
         <Row style={{ backgroundColor: "#20C5F7", marginRight: 0 }}>
           <Col
             lg={8}
@@ -52,13 +53,24 @@ const ChepOneCardMobView = () => {
             xs={4}
             style={{ paddingRight: 0, paddingLeft: 0, textAlign: "right" }}
             onClickCapture={() => {
-              setOpcity((prev) => !prev);
+              if (opcity) {
+                setTimeout(() => {
+                  setOpcity((prev) => !prev);
+                  document.getElementsByClassName(
+                    "dropdown-menu"
+                  )[0].style.display = "none";
+                }, 300);
+              } else setOpcity((prev) => !prev);
               console.log(opcity);
+              setCheckOp(!checkOp);
+              document.getElementsByClassName(
+                "dropdown-menu"
+              )[0].style.display = "block";
             }}
           >
-            <div className={`btn-group`}>
+            <div class={`btn-group`}>
               <button
-                className="btn btn-secondary"
+                class="btn btn-secondary"
                 data-toggle="dropdown"
                 aria-haspopup="false"
                 aria-expanded="true"
@@ -82,7 +94,7 @@ const ChepOneCardMobView = () => {
                 />
               </button>
               <div
-                className="dropdown-menu dropdown-menu-right right-0 dropDown"
+                class="dropdown-menu dropdown-menu-right dropDown "
                 style={{
                   paddingTop: 2,
                   paddingBottom: 0,
@@ -90,11 +102,38 @@ const ChepOneCardMobView = () => {
                 }}
               >
                 <div
+                  className={"dropDownMobHeader"}
+                  style={{
+                    marginBottom: 4,
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                  id={checkOp ? "fade" : "fadesample"}
+                >
+                  <div style={{ marginLeft: 20 }}>
+                    <p
+                      style={{
+                        marginBottom: 0,
+                        fontSize: 18,
+                        fontFamily: "StardosBold",
+                      }}
+                    >
+                      MENU
+                    </p>
+                  </div>
+
+                  <div style={{ marginRight: 26 }}>X</div>
+                </div>
+                {console.log("=-=-=-=-=-opcity", opcity)}
+                <div
                   className={
                     location.pathname == "/"
-                      ? "dropDownMobHeader1"
-                      : "dropDownMobHeader "
+                      ? `dropDownMobHeader1`
+                      : "dropDownMobHeader"
                   }
+                  id={checkOp ? "fade" : "fadesample"}
                   style={{
                     marginBottom: 4,
                     display: "flex",
@@ -118,7 +157,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -142,6 +188,7 @@ const ChepOneCardMobView = () => {
                   onClick={() => {
                     navigate("/chepOne");
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -155,7 +202,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepOne"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -178,6 +232,7 @@ const ChepOneCardMobView = () => {
                   onClick={() => {
                     navigate("/chepTwo");
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -191,7 +246,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepTwo"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -214,6 +276,7 @@ const ChepOneCardMobView = () => {
                   onClick={() => {
                     navigate("/chepThree");
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -227,7 +290,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepThree"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -250,6 +320,7 @@ const ChepOneCardMobView = () => {
                   onClick={() => {
                     navigate("/chepFour");
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -263,7 +334,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepFour"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}
@@ -286,6 +364,7 @@ const ChepOneCardMobView = () => {
                   onClick={() => {
                     navigate("/chepFive");
                   }}
+                  id={checkOp ? "fade" : "fadesample"}
                 >
                   <div style={{ marginLeft: 20 }}>
                     <p
@@ -299,7 +378,14 @@ const ChepOneCardMobView = () => {
                     </p>
                   </div>
 
-                  <div style={{ marginRight: 26 }}>
+                  <div
+                    style={{ marginRight: 26 }}
+                    className={
+                      location.pathname == "/chepFive"
+                        ? "arrowNotDisplay"
+                        : "arrowDisplay"
+                    }
+                  >
                     <Image
                       src="./images/forwardArrowBlack.svg "
                       style={{ marginBottom: 5 }}

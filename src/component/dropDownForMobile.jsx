@@ -57,7 +57,7 @@ const DropDownForMobile = ({ prevLocation }) => {
             <div
               className={
                 prevLocation.pathname == "/"
-                  ? "dropDownMobHeader1"
+                  ? "dropDownMobHeader1 arrowDisplay"
                   : "dropDownMobHeader "
               }
               style={{
@@ -83,7 +83,7 @@ const DropDownForMobile = ({ prevLocation }) => {
                 </p>
               </div>
 
-              <div style={{ marginRight: 26 }}>
+              <div style={{ marginRight: 26 }} className="arrowDisplay">
                 <Image
                   src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}

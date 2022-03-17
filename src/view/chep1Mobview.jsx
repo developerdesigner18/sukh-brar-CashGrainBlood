@@ -18,12 +18,14 @@ import {
   Carousel,
 } from "react-bootstrap";
 import "./chep1MobView.css";
+import FsLightbox from "fslightbox-react";
 import { useNavigate, useLocation } from "react-router-dom";
 const ChepOneCardMobView = () => {
   const navigate = useNavigate();
   const [opcity, setOpcity] = useState(false);
   const [checkOp, setCheckOp] = useState(false);
   const location = useLocation();
+  const [toggler, setToggler] = useState(false);
   return (
     <div style={{ position: "relative" }}>
       <div style={{ position: "fixed", top: 48, zIndex: 1000, width: "100%" }}>
@@ -591,7 +593,7 @@ const ChepOneCardMobView = () => {
             }}
             data-aos="fade-up"
           >
-            <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/06</p>
+            <p style={{ marginBottom: 0, paddingLeft: 30 }}>01/01</p>
             <Image
               src="./images/chep1/divider.png"
               fluid
@@ -757,7 +759,7 @@ const ChepOneCardMobView = () => {
         {/* ----------------------------------------card-3----------------------------------------------- */}
         <div className="chep1part3Container">
           <div
-            className="forPosition"
+            className="forPosition0 "
             style={{ position: "relative" }}
             data-aos="fade-in"
           >
@@ -793,7 +795,7 @@ const ChepOneCardMobView = () => {
                       fontFamily: "HelveticaNeue-Bold",
                     }}
                   >
-                    02/06
+                    01/02
                   </p>
                   <Image
                     src="./images/chep1/divider.png"
@@ -908,7 +910,11 @@ const ChepOneCardMobView = () => {
             <Row style={{ marginRight: 0 }}>
               <Row data-aos="fade-up">
                 <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                  <a role="button">
+                  <a
+                    role="button"
+                    href="https://en.wikipedia.org/wiki/1976_Argentine_coup_d%27%C3%A9tat"
+                    target="_blank"
+                  >
                     <Image
                       src="./images/btnImage.svg"
                       style={{
@@ -939,7 +945,11 @@ const ChepOneCardMobView = () => {
               </Row>
               <Row data-aos="fade-up">
                 <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                  <a role="button">
+                  <a
+                    role="button"
+                    href="https://en.wikipedia.org/wiki/National_Reorganization_Process"
+                    target="_blank"
+                  >
                     <Image
                       src="./images/btnImage.svg"
                       style={{
@@ -1006,7 +1016,7 @@ const ChepOneCardMobView = () => {
                       width: 100,
                     }}
                   >
-                    03/06
+                    01/03
                   </p>
                   <Image
                     src="./images/chep1/divider.png"
@@ -1120,7 +1130,11 @@ const ChepOneCardMobView = () => {
                           textAlign: "left",
                         }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Jorge_Rafael_Videla"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.svg"
                             style={{
@@ -1232,7 +1246,11 @@ const ChepOneCardMobView = () => {
                           textAlign: "left",
                         }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Emilio_Eduardo_Massera"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.svg"
                             style={{
@@ -1343,7 +1361,11 @@ const ChepOneCardMobView = () => {
                           textAlign: "left",
                         }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Orlando_Ram%C3%B3n_Agosti"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.svg"
                             style={{
@@ -1419,7 +1441,7 @@ const ChepOneCardMobView = () => {
                       fontFamily: "HelveticaNeue-Bold",
                     }}
                   >
-                    04/06
+                    01/04
                   </p>
                   <Image
                     src="./images/chep1/divider.png"
@@ -1533,7 +1555,11 @@ const ChepOneCardMobView = () => {
                 </div>
                 <Row data-aos="fade-up">
                   <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                    <a role="button">
+                    <a
+                      role="button"
+                      href="https://www.history.com/news/mothers-plaza-de-mayo-disappeared-children-dirty-war-argentina"
+                      target="_blank"
+                    >
                       <Image
                         src="./images/btnImage.svg"
                         style={{
@@ -1645,7 +1671,11 @@ const ChepOneCardMobView = () => {
                           xs={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://www.amazon.com/s?k=The+Ideological+Origins+Of+The+Dirty+War+By+Federico+Finchelstein&ref=nb_sb_noss"
+                            target="_blank"
+                          >
                             <Image src="./images/btnImage.svg" fluid />
                           </a>
                         </Col>
@@ -1702,7 +1732,11 @@ const ChepOneCardMobView = () => {
                           xs={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://www.amazon.com/s?k=Argentina+Betrayed+Memory%2C+Mourning%2C+and+Accountability+Antonius+C.+G.+M.+Robben&ref=nb_sb_noss"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.svg"
                               style={{}}
@@ -1764,7 +1798,11 @@ const ChepOneCardMobView = () => {
                           xs={3}
                           style={{ textAlign: "left", paddingLeft: 0 }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://www.amazon.com/s?k=Dirty+Secrets%2CDirty+War+By+David+Cox&ref=nb_sb_noss"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.svg"
                               style={{}}
@@ -1839,7 +1877,7 @@ const ChepOneCardMobView = () => {
                       fontFamily: "HelveticaNeue-Bold",
                     }}
                   >
-                    05/06
+                    01/05
                   </p>
                   <Image
                     src="./images/chep1/divider.png"
@@ -2010,8 +2048,13 @@ const ChepOneCardMobView = () => {
             className="forPosition4"
             style={{ position: "relative" }}
             data-aos="fade-in"
+            onClick={() => setToggler(!toggler)}
           >
             <div className="chep1part7Image"></div>
+            <FsLightbox
+              toggler={toggler}
+              sources={["https://www.youtube.com/watch?v=UMTzJXrmwmA"]}
+            />
             <Container>
               <div
                 className="chep1part7Text"
@@ -2040,7 +2083,7 @@ const ChepOneCardMobView = () => {
                       marginBottom: 15,
                     }}
                   >
-                    06/06
+                    01/06
                     <Image
                       src="./images/chep1/divider.png"
                       fluid

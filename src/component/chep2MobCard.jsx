@@ -173,7 +173,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                   </Row>
                   <Row style={{ paddingLeft: 0 }} data-aos="fade-up">
                     <Col sm={1} xs={1} style={{ padding: 0 }}>
-                      <a role="button">
+                      <a
+                        role="button"
+                        href="https://www.coachesvoice.com/angel-cappa-cesar-luis-menotti-maradona-ronaldo-messi/"
+                        target="_blank"
+                      >
                         <Image
                           src="./images/btnImage.svg"
                           style={{
@@ -201,8 +205,8 @@ const ChepTwoMobCard = ({ opcity }) => {
                         paddingRight: 0,
                       }}
                     >
-                      Learn More About <br />
-                      The Madres de Plaza de Mayo
+                      Learn More <br />
+                      About Cesar Menotti
                     </Col>
                   </Row>
                 </Row>
@@ -375,7 +379,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                             textAlign: "center",
                           }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://en.wikipedia.org/wiki/Osvaldo_Ardiles"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.svg"
                               style={{
@@ -492,7 +500,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                             textAlign: "center",
                           }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://en.wikipedia.org/wiki/Mario_Kempes"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.svg"
                               style={{
@@ -608,7 +620,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                             textAlign: "center",
                           }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://en.wikipedia.org/wiki/Daniel_Passarella"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.svg"
                               style={{
@@ -827,7 +843,11 @@ const ChepTwoMobCard = ({ opcity }) => {
                   textAlign: "left",
                 }}
               >
-                <a role="button">
+                <a
+                  role="button"
+                  href="https://en.wikipedia.org/wiki/1978_FIFA_World_Cup"
+                  target="_blank"
+                >
                   <Image
                     src="./images/btnImage.svg"
                     style={{
@@ -908,7 +928,10 @@ const ChepTwoMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a
+                  href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                  target="_blank"
+                >
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -952,7 +975,10 @@ const ChepTwoMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a
+                  href="https://www.adidas.com/us/argentina-away-jersey/GE5477.html"
+                  target="_blank"
+                >
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -995,7 +1021,10 @@ const ChepTwoMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a
+                  href="https://www.buyarrive.com/product/argentina-2021-pre-match-training-jersey-by-adidas/"
+                  target="_blank"
+                >
                   {" "}
                   <Image
                     src="./images/btnImage.svg"

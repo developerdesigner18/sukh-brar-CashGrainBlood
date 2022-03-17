@@ -384,10 +384,8 @@ const Chep3MobView = () => {
             </Col>
           </Row>
         </div>
-        <div
-          className={`mobBannerThree ${opcity && `opcity`}`}
-          data-aos="fade-in"
-        >
+        <div className={` ${opcity && `opcity`}`}>
+          <div className="mobBannerThree" data-aos="fade-in"></div>
           <Container>
             <div className="textHolderThree">
               {/* <button className="bannerButtonThree">CHAPTER 3</button> */}
@@ -434,10 +432,7 @@ const Chep3MobView = () => {
             />
           </div>
         </div>
-        <div
-          className={`journalistBannerThree ${opcity && `opcity`}`}
-          data-aos="fade-in"
-        >
+        <div className={`journalistBannerThree ${opcity && `opcity`}`}>
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col

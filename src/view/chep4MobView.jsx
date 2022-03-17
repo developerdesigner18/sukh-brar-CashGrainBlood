@@ -1081,7 +1081,11 @@ const Chep4MobView = () => {
                   textAlign: "left",
                 }}
               >
-                <a role="button">
+                <a
+                  role="button"
+                  href="https://papelitos.com.ar/nota/carlos-alberto-lacoste-en-el-mundial-78?z_language=en"
+                  target="_blank"
+                >
                   <Image
                     src="./images/btnImage.svg"
                     style={{
@@ -1414,7 +1418,11 @@ const Chep4MobView = () => {
                     textAlign: "left",
                   }}
                 >
-                  <a role="button">
+                  <a
+                    role="button"
+                    href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X "
+                    target="_blank"
+                  >
                     <Image
                       src="./images/btnImage.svg"
                       style={{
@@ -1582,7 +1590,11 @@ const Chep4MobView = () => {
                   textAlign: "left",
                 }}
               >
-                <a role="button">
+                <a
+                  role="button"
+                  href="https://en.wikipedia.org/wiki/Navy_Petty-Officers_School"
+                  target="_blank"
+                >
                   <Image
                     src="./images/btnImage.svg"
                     style={{

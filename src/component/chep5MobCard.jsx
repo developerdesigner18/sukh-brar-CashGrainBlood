@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Image } from "react-bootstrap";
+
 import "./chep5MobCard.css";
+import FsLightbox from "fslightbox-react";
 const ChepFiveMobCard = ({ opcity }) => {
+  const [toggler, setToggler] = useState(false);
   return (
     <React.Fragment>
       <div className={` ${opcity && `opcity`}`}>
@@ -210,7 +213,15 @@ const ChepFiveMobCard = ({ opcity }) => {
           </Container>
         </div>
         {/* -----------------------cardTwo------------------------------------------------ */}
-        <div className="cardTwoChepFive" data-aos="fade-in">
+        <div
+          className="cardTwoChepFive"
+          data-aos="fade-in"
+          onClick={() => setToggler(!toggler)}
+        >
+          <FsLightbox
+            toggler={toggler}
+            sources={["https://www.youtube.com/watch?v=Pe1se2P6sxI"]}
+          />
           <Image
             src="./images/chep5/dividerVertical.png"
             style={{
@@ -286,6 +297,7 @@ const ChepFiveMobCard = ({ opcity }) => {
             /> */}
           </div>
         </div>
+
         <Image
           src="./images/chep5/dividerVertical.png"
           style={{
@@ -446,7 +458,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                   textAlign: "left",
                 }}
               >
-                <a role="button">
+                <a
+                  role="button"
+                  href="https://en.wikipedia.org/wiki/Total_Football"
+                  target="_blank"
+                >
                   <Image
                     src="./images/btnImage.svg"
                     style={{
@@ -620,7 +636,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                     textAlign: "left",
                   }}
                 >
-                  <a role="button">
+                  <a
+                    role="button"
+                    href="https://en.wikipedia.org/wiki/Falklands_War"
+                    target="_blank"
+                  >
                     <Image
                       src="./images/btnImage.svg"
                       style={{
@@ -935,7 +955,11 @@ const ChepFiveMobCard = ({ opcity }) => {
                     marginRight: 5,
                   }}
                 >
-                  <a role="button">
+                  <a
+                    role="button"
+                    href="http://www.espn.com/espn/feature/story/_/id/11036214/while-world-watched-world-cup-brings-back-memories-argentina-dirty-war"
+                    target="_blank"
+                  >
                     <Image
                       src="./images/btnImage.svg"
                       style={{

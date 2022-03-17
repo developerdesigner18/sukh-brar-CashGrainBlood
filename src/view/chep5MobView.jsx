@@ -384,10 +384,8 @@ const Chep5MobView = () => {
             </Col>
           </Row>
         </div>
-        <div
-          className={`mobBannerFive ${opcity && `opcity`}`}
-          data-aos="fade-in"
-        >
+        <div className={` ${opcity && `opcity`}`}>
+          <div className="mobBannerFive" data-aos="fade-in"></div>
           <Container>
             <div className="textHolderFive">
               <h1
@@ -446,10 +444,7 @@ const Chep5MobView = () => {
             />
           </div>
         </div>
-        <div
-          className={`journalistBannerFive  ${opcity && `opcity`}`}
-          data-aos="fade-in"
-        >
+        <div className={`journalistBannerFive  ${opcity && `opcity`}`}>
           <Row style={{ margin: "0px auto" }}>
             {/* image column */}
             <Col

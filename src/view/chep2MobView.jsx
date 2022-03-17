@@ -385,7 +385,8 @@ const ChepTwo = () => {
             </Col>
           </Row>
         </div>
-        <div className={`mobBanner ${opcity && `opcity`}`}>
+        <div className={` ${opcity && `opcity`}`}>
+          <div className="mobBanner" data-aos="fade-in"></div>
           <Container>
             <div className="textHolder">
               <h1

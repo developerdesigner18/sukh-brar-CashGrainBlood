@@ -766,7 +766,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a
+                  href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                  target="_blank"
+                >
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -811,7 +814,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a href="www.google.com" target="_blank">
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -853,7 +856,10 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a
+                  href="https://www.soccer.com/shop/details/men-s-replica-marathon-peru-home-jersey-2021_A1058458"
+                  target="_blank"
+                >
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -899,7 +905,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a>
+                <a href="www.google.com" target="_blank">
                   {" "}
                   <Image
                     src="./images/btnImage.svg"

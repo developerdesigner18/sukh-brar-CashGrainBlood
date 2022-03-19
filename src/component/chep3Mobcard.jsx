@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col, Image, Button, Container, Card } from "react-bootstrap";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
@@ -9,9 +9,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import FsLightbox from "fslightbox-react";
 import { useNavigate } from "react-router-dom";
 const ChepThreeMobCard = ({ opcity }) => {
   const navigate = useNavigate();
+  const [toggler, setToggler] = useState(false);
+
   return (
     <React.Fragment>
       <div className={`${opcity && `opcity`}`}>
@@ -640,7 +643,15 @@ const ChepThreeMobCard = ({ opcity }) => {
           </Card>
         </div>
         {/* -----------------------------card-3=----------------------------------------- */}
-        <div className="cardThreeChepThree" data-aos="fade-in">
+        <div
+          className="cardThreeChepThree"
+          data-aos="fade-in"
+          onClick={() => setToggler(!toggler)}
+        >
+          <FsLightbox
+            toggler={toggler}
+            sources={["https://www.youtube.com/watch?v=qIoGqzFQ5-E"]}
+          />
           <Image
             src="./images/chep3/dividerVertical.png"
             style={{
@@ -728,11 +739,7 @@ const ChepThreeMobCard = ({ opcity }) => {
         </div>
 
         {/* ------------------------------------ad------------------------------- */}
-        <div
-          className="chepThreeAdHeader1"
-          style={{ marginTop: 13 }}
-          data-aos="fade-up"
-        >
+        <div className="chepThreeAdHeader1" style={{ marginTop: 13 }}>
           <Container
             style={{
               marginLeft: 26,

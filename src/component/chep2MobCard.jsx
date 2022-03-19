@@ -893,7 +893,7 @@ const ChepTwoMobCard = ({ opcity }) => {
               width: "auto",
             }}
           >
-            <p data-aos="fade-up">
+            <p>
               <Image
                 src="./images/chep2/adidasLogo.png"
                 style={{ padding: 0, width: 36.49 }}

@@ -385,7 +385,19 @@ const Chep3MobView = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBannerThree" data-aos="fade-in"></div>
+          <div className="mobBannerThree" data-aos="fade-in">
+            <Image
+              src="./images/gettyimages.png"
+              width={"100%"}
+              style={{
+                width: 104,
+                height: 25,
+                position: "absolute",
+                right: 0,
+                bottom: 0,
+              }}
+            />
+          </div>
           <Container>
             <div className="textHolderThree">
               {/* <button className="bannerButtonThree">CHAPTER 3</button> */}
@@ -417,13 +429,7 @@ const Chep3MobView = () => {
               </p>
             </div>
           </Container>
-          <div className="gettyImageThree">
-            <Image
-              src="./images/gettyimages.png"
-              width={"100%"}
-              style={{ width: 104, height: 25 }}
-            />
-          </div>
+
           <div className="stripBannermainThree">
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"

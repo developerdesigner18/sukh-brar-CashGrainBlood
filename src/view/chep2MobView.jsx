@@ -386,7 +386,20 @@ const ChepTwo = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBanner" data-aos="fade-in"></div>
+          <div className="mobBanner" data-aos="fade-in">
+            <Image
+              src="./images/gettyimages.png"
+              width={"100%"}
+              style={{
+                width: 104,
+                height: 25,
+                position: "absolute",
+                bottom: 0,
+                right: 0,
+              }}
+              data-aos="fade-up"
+            />
+          </div>
           <Container>
             <div className="textHolder">
               <h1
@@ -418,14 +431,6 @@ const ChepTwo = () => {
               </p>
             </div>
           </Container>
-          <div className="gettyImage">
-            <Image
-              src="./images/gettyimages.png"
-              width={"100%"}
-              style={{ width: 104, height: 25 }}
-              data-aos="fade-up"
-            />
-          </div>
           <div className="stripBannermain">
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"

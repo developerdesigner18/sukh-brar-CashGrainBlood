@@ -876,11 +876,11 @@ const ChepFiveMobCard = ({ opcity }) => {
             <p
               style={{
                 color: "white",
-                fontFamily: "StardosBold",
+                fontFamily: "HelveticaNeue-CondensedBold",
                 fontSize: 14,
                 width: 301,
                 textAlign: "left",
-                lineHeight: "23px",
+                lineHeight: "22px",
               }}
               data-aos="fade-up"
             >

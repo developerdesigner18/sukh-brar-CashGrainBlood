@@ -385,7 +385,19 @@ const Chep5MobView = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBannerFive" data-aos="fade-in"></div>
+          <div className="mobBannerFive" data-aos="fade-in">
+            <Image
+              src="./images/gettyimages.png"
+              width={"100%"}
+              style={{
+                width: 104,
+                height: 25,
+                position: "absolute",
+                right: 0,
+                bottom: 0,
+              }}
+            />
+          </div>
           <Container>
             <div className="textHolderFive">
               <h1
@@ -429,13 +441,7 @@ const Chep5MobView = () => {
               </p>
             </div>
           </Container>
-          <div className="gettyImageFive">
-            <Image
-              src="./images/gettyimages.png"
-              width={"100%"}
-              style={{ width: 104, height: 25 }}
-            />
-          </div>
+
           <div className="stripBannermainFive">
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"

@@ -760,7 +760,12 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/tshirtOne.png" data-aos="fade-in" />
+              <a
+                href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                target="_blank"
+              >
+                <Image src="./images/chep3/tshirtOne.png" data-aos="fade-in" />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -805,10 +810,12 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image
-                src="./images/chep3/brazil_home_jersey.png"
-                data-aos="fade-in"
-              />
+              <a href="https://www.google.com/" target="_blank">
+                <Image
+                  src="./images/chep3/brazil_home_jersey.png"
+                  data-aos="fade-in"
+                />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -821,7 +828,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a href="www.google.com" target="_blank">
+                <a href="https://www.google.com/" target="_blank">
                   {" "}
                   <Image
                     src="./images/btnImage.svg"
@@ -850,7 +857,15 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image src="./images/chep3/tshirtThree.png" data-aos="fade-in" />
+              <a
+                href="https://www.soccer.com/shop/details/men-s-replica-marathon-peru-home-jersey-2021_A1058458"
+                target="_blank"
+              >
+                <Image
+                  src="./images/chep3/tshirtThree.png"
+                  data-aos="fade-in"
+                />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -895,10 +910,12 @@ const ChepThreeMobCard = ({ opcity }) => {
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
             >
-              <Image
-                src="./images/chep3/poland_jersey.png"
-                data-aos="fade-in"
-              />
+              <a href="https://www.google.com/" target="_blank">
+                <Image
+                  src="./images/chep3/poland_jersey.png"
+                  data-aos="fade-in"
+                />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -912,7 +929,7 @@ const ChepThreeMobCard = ({ opcity }) => {
                 style={{ marginTop: 16.6 }}
                 data-aos="fade-up"
               >
-                <a href="www.google.com" target="_blank">
+                <a href="https://www.google.com/" target="_blank">
                   {" "}
                   <Image
                     src="./images/btnImage.svg"

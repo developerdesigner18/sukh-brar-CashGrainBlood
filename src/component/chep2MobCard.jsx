@@ -915,7 +915,12 @@ const ChepTwoMobCard = ({ opcity }) => {
               style={{ textAlign: "center", paddingLeft: 0 }}
               data-aos="fade-in"
             >
-              <Image src="./images/chep2/tshirtOne.png" />
+              <a
+                href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                target="_blank"
+              >
+                <Image src="./images/chep2/tshirtOne.png" />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -961,7 +966,12 @@ const ChepTwoMobCard = ({ opcity }) => {
               style={{ textAlign: "center", paddingLeft: 0 }}
               data-aos="fade-in"
             >
-              <Image src="./images/chep2/tshirtTwo.png" />
+              <a
+                href="https://www.adidas.com/us/argentina-away-jersey/GE5477.html"
+                target="_blank"
+              >
+                <Image src="./images/chep2/tshirtTwo.png" />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">
@@ -1008,7 +1018,12 @@ const ChepTwoMobCard = ({ opcity }) => {
               style={{ textAlign: "center", paddingLeft: 0 }}
               data-aos="fade-in"
             >
-              <Image src="./images/chep2/tshirtThree.png" />
+              <a
+                href="https://www.buyarrive.com/product/argentina-2021-pre-match-training-jersey-by-adidas/"
+                target="_blank"
+              >
+                <Image src="./images/chep2/tshirtThree.png" />
+              </a>
             </div>
             <div sm={8} xs={8} className="col" style={{ textAlign: "left" }}>
               <div className="row" style={{ marginLeft: 0 }} data-aos="fade-up">

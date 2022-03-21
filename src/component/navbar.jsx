@@ -15,7 +15,7 @@ const Navbar_title = () => {
           {" "}
           <Image
             alt=""
-            src="./images/navbarLogo.png"
+            src="./images/navLogo.png"
             style={{ width: 110, height: 35, marginLeft: 140 }}
             className="d-inline-block align-top"
             //   style={{ paddingTop: 9.9 }}

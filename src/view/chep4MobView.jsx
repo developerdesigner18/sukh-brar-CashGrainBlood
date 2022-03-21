@@ -21,12 +21,12 @@ const Chep4MobView = () => {
             xs={8}
             style={{
               background: "#20C5F7",
-              padding: "7px 0px 5px 31px",
+              padding: "7px 0px 5px 29px",
               height: 34,
 
               fontFamily: "StardosBold",
 
-              fontSize: 17,
+              fontSize: 16,
               color: "white",
             }}
           >

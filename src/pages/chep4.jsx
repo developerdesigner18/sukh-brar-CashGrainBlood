@@ -9,7 +9,11 @@ const ChapterFour = () => {
   return (
     <React.Fragment>
       <div className="holderFour">
-        <div className="chepFourBanner">
+        <div
+          className="chepFourBanner"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Button
             style={{
               background: "#20C5F7",
@@ -37,10 +41,18 @@ const ChapterFour = () => {
             />
           </Button>
           <Container>
-            <h1 className="bannerHeaderFour">
+            <h1
+              className="bannerHeaderFour"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               IT TAKES <br /> TWO TO <br /> CONSPIRE
             </h1>
-            <p className="bannerDescFour">
+            <p
+              className="bannerDescFour"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               There were countless rumors of match fixing by the Argentine
               Junta. However, it takes more than one player to make a
               conspiracy. Leading journalists and politicians came forward to
@@ -50,9 +62,15 @@ const ChapterFour = () => {
           <Image
             className="bannerStripeFour"
             src="./images/chep2/vertical_stripe.png"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
-        <div className="tableHeaderFour">
+        <div
+          className="tableHeaderFour"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Container>
             <p
               className="tableHeaderTextFour"
@@ -67,7 +85,11 @@ const ChapterFour = () => {
             </p>
           </Container>
         </div>
-        <div className="chepDescFour">
+        <div
+          className="chepDescFour"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Row
             style={{
               padding: "30px 0px",
@@ -77,7 +99,11 @@ const ChapterFour = () => {
             }}
           >
             <Col>
-              <p className="descTextFour">
+              <p
+                className="descTextFour"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
                 “A severe authoritarian with cold staring eyes, Videla was not a
                 fan of soccer, which he found dull and pedestrian and
                 interesting only as a “symbol of popular transcendence.” But he

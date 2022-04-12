@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Card, Col, Container, Row, Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import ScrollAnimation from "react-animate-on-scroll";
 import AOS from "aos";
 const Card_component = ({ chepData }) => {
   const [scroll, setScroll] = useState(false);
@@ -32,7 +31,6 @@ const Card_component = ({ chepData }) => {
                 className="row"
                 style={{ paddingLeft: 10, paddingBottom: 15 }}
                 // className={scroll ? "animationText" : ""}
-                data-aos="fade-up"
               >
                 <Row
                   style={{
@@ -43,6 +41,8 @@ const Card_component = ({ chepData }) => {
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   {data.chepName}
                   <Image
@@ -53,17 +53,17 @@ const Card_component = ({ chepData }) => {
                 </Row>
 
                 <Row
-                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
                     fontSize: 40,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   {data.chepTitleFirstHalf}
                 </Row>
                 <Row
-                  className={scroll ? "animationText" : ""}
                   style={{
                     color: "white",
                     fontFamily: "StardosBold",
@@ -71,12 +71,15 @@ const Card_component = ({ chepData }) => {
                     lineHeight: 0.5,
                     paddingBottom: 15,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   {data.chepTitleSecondHalf}
                 </Row>
                 <Row
                   style={{ width: 256, height: 15 }}
-                  className={scroll ? "animationText" : ""}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   <Image
                     src="./images/verticalDivider.png"
@@ -90,16 +93,10 @@ const Card_component = ({ chepData }) => {
               <div
                 className="col-6"
                 style={{ width: "460px", height: "300px" }}
-                data-aos="fade-out"
               >
-                {/* <ScrollAnimation
-                  animateIn="fadeIn"
-                  animateOut="fadeOut"
-                  duration={2.5}
-                  delay={0}
-                > */}
                 <Card.Img
-                  className="animationImage"
+                  data-aos="fade-out"
+                  data-aos-anchor-placement="center-bottom"
                   src={data.chepImage}
                   style={{ width: "100%", paddingLeft: 0, cursor: "pointer" }}
                   onClick={() => {
@@ -109,13 +106,15 @@ const Card_component = ({ chepData }) => {
                 {/* </ScrollAnimation> */}
               </div>
 
-              <div className="col-6" data-aos="fade-up">
+              <div className="col-6">
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
                     src="./images/imgArrow.svg"
                     style={{ width: "100%", paddingLeft: 10, paddingRight: 0 }}
                     alt="Arrow"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   />
                 </Row>
                 <Row
@@ -127,6 +126,8 @@ const Card_component = ({ chepData }) => {
                     fontSize: 12,
                     letterSpacing: "1px",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   IMAGE:
                 </Row>
@@ -139,6 +140,8 @@ const Card_component = ({ chepData }) => {
                     letterSpacing: "1px",
                     fontFamily: "HelveticaNeue-CondensedBold",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   {data.chepImageTitle}
                 </Row>
@@ -153,6 +156,8 @@ const Card_component = ({ chepData }) => {
                     width: "274px",
                     fontFamily: "HelveticaNeue-CondensedBold",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   {data.chepImageDescription}
                 </Row>
@@ -173,11 +178,19 @@ const Card_component = ({ chepData }) => {
                       paddingLeft: 10,
                     }}
                   >
-                    <Row style={{ letterSpacing: 1 }}>
+                    <Row
+                      style={{ letterSpacing: 1 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       {data.chepDescription}
                     </Row>
 
-                    <Row style={{ paddingLeft: 0, marginTop: 16 }}>
+                    <Row
+                      style={{ paddingLeft: 0, marginTop: 16 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a
                           role="button"
@@ -202,7 +215,6 @@ const Card_component = ({ chepData }) => {
                           fontSize: 15,
                           float: "left",
                           paddingLeft: 5,
-
                           paddingTop: 5,
                           cursor: "pointer",
                         }}
@@ -236,6 +248,8 @@ const Card_component = ({ chepData }) => {
           top: 46,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
       <Image
         fluid
@@ -246,6 +260,8 @@ const Card_component = ({ chepData }) => {
           top: 1213,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
       <Image
         fluid
@@ -256,6 +272,8 @@ const Card_component = ({ chepData }) => {
           top: 2331,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
     </div>
   );

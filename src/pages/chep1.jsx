@@ -20,8 +20,17 @@ const Chep1 = () => {
       <ScrollToTopOnMount />
       <div className="chepOnePageBannerContainer">
         <div className="bannerContainer">
-          <div className="chepOneBannerImage">
-            <Image src="./images/gettyimages.png" className="gettyImage" />
+          <div
+            className="chepOneBannerImage"
+            data-aos="fade-out"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <Image
+              src="./images/gettyimages.png"
+              className="gettyImage"
+              data-aos="fade-out"
+              data-aos-anchor-placement="center-bottom"
+            />
             <Button
               style={{
                 background: "#20C5F7",
@@ -53,18 +62,32 @@ const Chep1 = () => {
             className="chepOneBannerStripe"
             style={{ top: "96px", bottom: "65px" }}
           >
-            <Image src="vertical_stripe.png" fluid />
+            <Image
+              src="vertical_stripe.png"
+              fluid
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            />
           </div>
           <Container>
             <div
               className="chepOneBannerText"
               style={{ top: "237px", left: "140px", right: 179 }}
             >
-              <h1 className="chepOneTitleText" style={{}}>
+              <h1
+                className="chepOneTitleText"
+                style={{}}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
                 FROM HOST
                 <br /> TO JUNTA
               </h1>
-              <p className="chepOneSubTitleText">
+              <p
+                className="chepOneSubTitleText"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
                 Before a ball was kicked, domestic politics, the repression of
                 civilians and the military junta’s ambitions cast a long shadow
                 over the 1978 World Cup
@@ -72,10 +95,13 @@ const Chep1 = () => {
             </div>
           </Container>
         </div>
-        <div className="chepOnetableHeader">
+        <div
+          className="chepOnetableHeader"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Container>
             <p
-              className="animationText"
               style={{
                 paddingLeft: 10,
                 marginBottom: 0,
@@ -87,7 +113,11 @@ const Chep1 = () => {
             </p>
           </Container>
         </div>
-        <div className="chepOneBodyBackImage animationImage">
+        <div
+          className="chepOneBodyBackImage "
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Row
             style={{
               color: "white",
@@ -106,6 +136,8 @@ const Chep1 = () => {
                   lineHeight: 1.5,
                   marginBottom: 0,
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
               >
                 “Holding the tournament will show the world that Argentina is a
                 trustworthy country, capable of carrying out huge projects; and
@@ -118,6 +150,8 @@ const Chep1 = () => {
                     textTransform: "uppercase",
                     color: "#20C5F7",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   -Admiral Emilio Massera, MEMBER OF THE MILITARY JUNTA
                 </span>

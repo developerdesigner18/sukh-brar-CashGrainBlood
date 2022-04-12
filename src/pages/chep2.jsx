@@ -8,7 +8,11 @@ const ChapterTwo = () => {
   return (
     <React.Fragment>
       <div className="holder">
-        <div className="chepTwoBanner">
+        <div
+          className="chepTwoBanner"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Button
             style={{
               background: "#20C5F7",
@@ -36,10 +40,18 @@ const ChapterTwo = () => {
             />
           </Button>
           <Container>
-            <h1 className="bannerHeader">
+            <h1
+              className="bannerHeader"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               MATTERS <br /> ON THE PITCH
             </h1>
-            <p className="bannerDesc">
+            <p
+              className="bannerDesc"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               When the tournament kicked off in June 1978, Argentina was in the
               thick of its bloody military dictatorship. However, there were
               players and coaches who just wanted to play the game and represent
@@ -49,9 +61,15 @@ const ChapterTwo = () => {
           <Image
             className="bannerStripe"
             src="./images/chep2/vertical_stripe.png"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
-        <div className="tableHeader">
+        <div
+          className="tableHeader"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Container>
             <p
               className="tableHeaderText"
@@ -66,7 +84,11 @@ const ChapterTwo = () => {
             </p>
           </Container>
         </div>
-        <div className="chepDesc">
+        <div
+          className="chepDesc"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Row
             style={{
               padding: "30px 0px",
@@ -76,7 +98,11 @@ const ChapterTwo = () => {
             }}
           >
             <Col>
-              <p className="descText">
+              <p
+                className="descText"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
                 “It was a cold but sunny day, and as the doves flapped up and
                 out of the stadium, they could be seen from the infamous Navy
                 Superior Mechanics School, or ESMA, a cluster of buildings less
@@ -89,6 +115,8 @@ const ChapterTwo = () => {
                     textTransform: "uppercase",
                     color: "#20C5F7",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   -Admiral Emilio Massera, MEMBER OF THE MILITARY JUNTA
                 </span>

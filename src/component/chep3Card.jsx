@@ -31,15 +31,26 @@ const ChepThreeCard = () => {
                         marginBottom: 15,
                       }}
                     >
-                      <p className="cardIndexTextThree">01/04</p>
+                      <p
+                        className="cardIndexTextThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        01/04
+                      </p>
                       <Image
                         src="./images/chep1/divider.png"
                         fluid
                         style={{ height: "5px", padding: 0 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextThree">
                         GROUP B STAGE <br /> “SEMI-FINALS”
                       </p>
@@ -50,6 +61,8 @@ const ChepThreeCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "5px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -59,6 +72,8 @@ const ChepThreeCard = () => {
                     <Card.Img
                       src="./images/chep3/chepThreeOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -71,16 +86,23 @@ const ChepThreeCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 288,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDescThree">
                         Oscar of Brazil and Mario Kempes of Argentina during the
@@ -101,7 +123,11 @@ const ChepThreeCard = () => {
                         }}
                       >
                         <Row className="cardDescThree" style={{}}>
-                          <p style={{ paddingBottom: 3 }}>
+                          <p
+                            style={{ paddingBottom: 3 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             In the ʼ78 World Cup, there was a second group stage
                             where the winner of the group would go on to the
                             World Cup Final. Argentina staggered into the group
@@ -109,7 +135,10 @@ const ChepThreeCard = () => {
                             Poland being the other teams.
                           </p>
                           <br />
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The two teams had already played out a goalless
                             draw. Was it just a happy accident that the hosts
                             knew exactly what they needed to do following
@@ -143,15 +172,26 @@ const ChepThreeCard = () => {
                         marginBottom: 15,
                       }}
                     >
-                      <p className="cardIndexTextThree">02/04</p>
+                      <p
+                        className="cardIndexTextThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        02/04
+                      </p>
                       <Image
                         src="./images/chep1/divider.png"
                         fluid
                         style={{ height: "5px", padding: 0 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextThree">
                         GROUP B
                         <br /> MATCH SUMMARIES
@@ -165,6 +205,8 @@ const ChepThreeCard = () => {
                         marginLeft: 27,
                         paddingLeft: 0,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Image
                         src="./images/verticalDivider.png"
@@ -188,6 +230,8 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper01.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -201,13 +245,23 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
-                      <p className="swiperImageTextTitleThree">
+                      <p
+                        className="swiperImageTextTitleThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         ARGENTINA 2 - POLAND 0
                       </p>
-                      <p className="swiperImageTextThree">
+                      <p
+                        className="swiperImageTextThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Argentina dominated the game through ball possession.
                         Mario Kempes scored early, in the sixteenth minute.
                         Argentina gained confidence and went on to seek a second
@@ -221,6 +275,8 @@ const ChepThreeCard = () => {
                         paddingLeft: 0,
                         marginTop: 6,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col
                         lg={4}
@@ -264,10 +320,11 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper02.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
-                      {" "}
                       <Image
                         fluid
                         src="./images/chep1/upArrow.svg"
@@ -278,14 +335,24 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
                       {" "}
-                      <p className="swiperImageTextTitleThree">
+                      <p
+                        className="swiperImageTextTitleThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         ARGENTINA 0 - BRAZIL 0
                       </p>
-                      <p className="swiperImageTextThree">
+                      <p
+                        className="swiperImageTextThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         In a tight but ultimately lackluster game, the two South
                         American giants had few opportunities on goal but had
                         plenty of fouls and (five) yellow cards. Both teams knew
@@ -293,8 +360,11 @@ const ChepThreeCard = () => {
                         would be decided by their next games.
                       </p>
                     </Row>
-                    <Row style={{ marginTop: 10 }}>
-                      {" "}
+                    <Row
+                      style={{ marginTop: 10 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <Col
                         lg={4}
                         style={{ width: 60, textAlign: "right", marginLeft: 0 }}
@@ -332,6 +402,8 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper03.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row style={{ marginBottom: 10 }}>
@@ -346,21 +418,35 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row>
                       {" "}
-                      <p className="swiperImageTextTitleThree">
+                      <p
+                        className="swiperImageTextTitleThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         ARGENTINA - Peru
                       </p>
-                      <p className="swiperImageTextThree">
+                      <p
+                        className="swiperImageTextThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Brazil beat Peru by three goal to nil. Argentina knew
                         they had to beat the Peruvians by four goals to go
                         through to the final. Argentina’s form up to that point
                         had been lackluster and defensive; they would have to
                         change the very nature of their style of football.
                       </p>
-                      <p style={{ color: "#F78320" }}>
+                      <p
+                        style={{ color: "#F78320" }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         We’ve left the result blank as we would like you to
                         watch the video below. <br /> Please scroll down and
                         view the YouTube highlights and goals of the match.
@@ -377,7 +463,11 @@ const ChepThreeCard = () => {
 
         {/* ----------------------------------card three -----------------------------------*/}
 
-        <div className="cardThree">
+        <div
+          className="cardThree"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Container style={{ padding: "35px" }}>
             <div className="cardHeader">
               <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
@@ -391,12 +481,16 @@ const ChepThreeCard = () => {
                     marginBottom: 15,
                     marginTop: 59.3,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   03/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
                     style={{ height: "5px", padding: 0 }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   ></Image>
                 </Row>
                 <Col
@@ -414,6 +508,8 @@ const ChepThreeCard = () => {
                     lineHeight: 0.9,
                     paddingBottom: 2,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   ARGENTINA <br />
                   V. PERU
@@ -428,6 +524,8 @@ const ChepThreeCard = () => {
                       paddingRight: 0,
                       fontFamily: "HelveticaNeue-Bold",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Argentina knew they had to beat the Peruvians by four goals
                     to go through to the final.
@@ -442,6 +540,8 @@ const ChepThreeCard = () => {
                         height: 83,
                         paddingRight: 0,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                     <Image
@@ -454,6 +554,8 @@ const ChepThreeCard = () => {
                         marginLeft: 14,
                         marginTop: 17,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                   </Row>
@@ -475,6 +577,8 @@ const ChepThreeCard = () => {
                       width: 106,
                       height: 74,
                     }}
+                    data-aos="fade-out"
+                    data-aos-anchor-placement="center-bottom"
                     alt=""
                   />
                 </a>
@@ -495,22 +599,38 @@ const ChepThreeCard = () => {
               <p>{"  "}GROUP B NATIONAL KITS</p>
             </Container>
           </div>
-          <div className="tshirtContainerThree">
+          <div
+            className="tshirtContainerThree"
+            data-aos="fade-out"
+            data-aos-anchor-placement="center-bottom"
+          >
             <div style={{ textAlign: "center" }}>
               <Row style={{ margin: "auto 0px" }}>
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep3/tshirtOne.png" fluid />
+                      <Image
+                        src="./images/chep3/tshirtOne.png"
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                        fluid
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
-                      <Row style={{ marginTop: 20 }}>
+                      <Row
+                        style={{ marginTop: 20 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <p className="adText1Three">
                           MEN’S ARGENTINA <br /> HOME JERSEY <br /> White /
                           Clear Blue
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row style={{ marginTop: 30 }}>
                             <Col
@@ -553,15 +673,27 @@ const ChepThreeCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep3/tshirtTwo.png" fluid />
+                      <Image
+                        src="./images/chep3/tshirtTwo.png"
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                        fluid
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
-                      <Row style={{ marginTop: 20 }}>
+                      <Row
+                        style={{ marginTop: 20 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <p className="adText1Three">
                           MEN’S Brazil <br /> Home JERSEY <br /> Canary Yellow
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row style={{ marginTop: 30 }}>
                             <Col
@@ -603,15 +735,27 @@ const ChepThreeCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep3/tshirtThree.png" fluid />
+                      <Image
+                        src="./images/chep3/tshirtThree.png"
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                        fluid
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
-                      <Row style={{ marginTop: 20 }}>
+                      <Row
+                        style={{ marginTop: 20 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <p className="adText1Three" style={{ width: "auto" }}>
                           MEN’S Peru <br /> Home JERSEY <br /> White And Red
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row style={{ marginTop: 30 }}>
                             <Col
@@ -673,6 +817,8 @@ const ChepThreeCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextThree">04/04</p>
                       <Image
@@ -686,6 +832,8 @@ const ChepThreeCard = () => {
                       <p
                         className="cardTitleTextThree"
                         style={{ lineHeight: 1 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         THE HOSTS REACH THE <br />
                         FINAL AND THE RUMORS BEGIN{" "}
@@ -700,6 +848,8 @@ const ChepThreeCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -710,6 +860,8 @@ const ChepThreeCard = () => {
                     <Card.Img
                       src="./images/chep3/chepThreeFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -722,11 +874,19 @@ const ChepThreeCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
                     <Row>
-                      <p className="image-noteThree">IMAGE:</p>
+                      <p
+                        className="image-noteThree"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        IMAGE:
+                      </p>
                     </Row>
                     <Row
                       style={{
@@ -736,6 +896,8 @@ const ChepThreeCard = () => {
                       <p
                         className="imgDescThree"
                         style={{ letterSpacing: 1.5 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         The Argentina national team at the Estadio Monumental
                         stadium on June 25, 1978. The Argentines kept the Dutch
@@ -754,7 +916,11 @@ const ChepThreeCard = () => {
                         }}
                       >
                         <Row style={{ width: 450, paddingRight: 0 }}>
-                          <p className="cardDescThree">
+                          <p
+                            className="cardDescThree"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The Argentines meet the Dutch, runners up of the
                             1974 World Cup. Rumors had already swirled about the
                             legitimacy of the Argentine qualification game with
@@ -764,7 +930,11 @@ const ChepThreeCard = () => {
                         <Row
                           style={{ width: 450, paddingRight: 0, marginTop: 25 }}
                         >
-                          <p className="cardDescThree">
+                          <p
+                            className="cardDescThree"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The rumors were so rampant that many Dutch players
                             felt that they should boycott the final. Cooler
                             heads prevailed, and the final went ahead.
@@ -863,6 +1033,8 @@ const ChepThreeCard = () => {
               top: 1165,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -875,6 +1047,8 @@ const ChepThreeCard = () => {
               top: 2670,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -887,6 +1061,8 @@ const ChepThreeCard = () => {
               top: 3826,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

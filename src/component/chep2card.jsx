@@ -30,6 +30,8 @@ const ChepTwoCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexText">01/04</p>
                       <Image
@@ -38,8 +40,10 @@ const ChepTwoCard = () => {
                         style={{ height: "5px", padding: 0 }}
                       ></Image>
                     </Row>
-
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleText">THE MANAGER “EL FLACO”</p>
                     </Row>
 
@@ -48,6 +52,8 @@ const ChepTwoCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "5px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -57,6 +63,8 @@ const ChepTwoCard = () => {
                     <Card.Img
                       src="./images/chep2/chapTwoOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -66,19 +74,25 @@ const ChepTwoCard = () => {
                         style={{
                           width: "100%",
                           paddingLeft: 0,
-
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">NOTE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 204,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDesc">
                         “Humanity changes, but people still fall in love the
@@ -97,7 +111,10 @@ const ChepTwoCard = () => {
                           paddingLeft: 10,
                         }}
                       >
-                        <Row style={{}}>
+                        <Row
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
+                        >
                           <p className="cardDesc">
                             The Argentinian manager was a tall, skinny,
                             chain-smoking 39-year-old, Cesar Luis Menotti. In
@@ -106,13 +123,14 @@ const ChepTwoCard = () => {
                             would be selected to manage the national team.
                           </p>
                         </Row>
-
                         <Row
                           style={{
                             paddingLeft: 0,
                             paddingTop: 10,
                             marginTop: 5,
                           }}
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                             <a href="#" role="button">
@@ -163,20 +181,27 @@ const ChepTwoCard = () => {
                         marginBottom: 15,
                       }}
                     >
-                      <p className="cardIndexText">02/04</p>
+                      <p
+                        className="cardIndexText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        02/04
+                      </p>
                       <Image
                         src="./images/chep1/divider.png"
                         fluid
                         style={{ height: "5px", padding: 0 }}
                       ></Image>
                     </Row>
-
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleText">
                         KEY ARGENTINE <br /> PLAYERS{" "}
                       </p>
                     </Row>
-
                     <Row
                       style={{
                         width: 332,
@@ -184,6 +209,8 @@ const ChepTwoCard = () => {
                         marginLeft: 0,
                         paddingLeft: 0,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Image
                         src="./images/verticalDivider.png"
@@ -207,6 +234,8 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper01.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -220,13 +249,23 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
-                      <p className="swiperImageTextTitle">
+                      <p
+                        className="swiperImageTextTitle"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Osvaldo, “Ossie” Ardiles: Midfield
                       </p>
-                      <p className="swiperImageText">
+                      <p
+                        className="swiperImageText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Osvaldo, “Ossie” Ardiles – Midfield: Going into the
                         tournament, Ardiles was hardly a popular choice. The
                         press wasn’t too keen on Ardiles’ selection; there were
@@ -241,6 +280,8 @@ const ChepTwoCard = () => {
                         paddingLeft: 0,
                         marginTop: 6,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col
                         lg={4}
@@ -284,10 +325,11 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper02.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
-                      {" "}
                       <Image
                         fluid
                         src="./images/chep1/upArrow.svg"
@@ -298,14 +340,23 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
-                      {" "}
-                      <p className="swiperImageTextTitle">
+                      <p
+                        className="swiperImageTextTitle"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         MARIO KEMPES: CENTER FORWARD
                       </p>
-                      <p className="swiperImageText">
+                      <p
+                        className="swiperImageText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Kempes was a rare Argentine in the fact that he played
                         for the Spanish team Valencia. He was prolific goal
                         scorer in La Liga, with 28 goals in 34 matches. The
@@ -314,8 +365,11 @@ const ChepTwoCard = () => {
                         players for the home-soil tournament.
                       </p>
                     </Row>
-                    <Row style={{ marginTop: 10 }}>
-                      {" "}
+                    <Row
+                      style={{ marginTop: 10 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <Col
                         lg={4}
                         style={{ width: 60, textAlign: "right", marginLeft: 0 }}
@@ -353,10 +407,11 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper03.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row style={{ marginBottom: 10 }}>
-                      {" "}
                       <Image
                         fluid
                         src="./images/chep1/upArrow.svg"
@@ -367,14 +422,23 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row>
-                      {" "}
-                      <p className="swiperImageTextTitle">
+                      <p
+                        className="swiperImageTextTitle"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Daniel Alberto Passarella - Center Back
                       </p>
-                      <p className="swiperImageText">
+                      <p
+                        className="swiperImageText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Is an Argentine former professional footballer who
                         played as a centre back, and former manager of the
                         Argentina and Uruguay national football teams. <br />
@@ -384,8 +448,11 @@ const ChepTwoCard = () => {
                         very close margin in December 2009.
                       </p>
                     </Row>
-
-                    <Row style={{ marginTop: 1 }}>
+                    <Row
+                      style={{ marginTop: 1 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -439,20 +506,29 @@ const ChepTwoCard = () => {
                         marginBottom: 15,
                       }}
                     >
-                      <p className="cardIndexText">03/04</p>
+                      <p
+                        className="cardIndexText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        03/04
+                      </p>
                       <Image
                         src="./images/chep1/divider.png"
                         fluid
                         style={{ height: "5px", padding: 0 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       ></Image>
                     </Row>
-
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleText" style={{ lineHeight: 1 }}>
                         La Albiceleste AND <br /> THE REST OF GROUP A
                       </p>
                     </Row>
-
                     <Row style={{ width: 332, height: 15, marginLeft: 20 }}>
                       <Image
                         src="./images/verticalDivider.png"
@@ -461,6 +537,8 @@ const ChepTwoCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -471,6 +549,8 @@ const ChepTwoCard = () => {
                     <Card.Img
                       src="./images/chep2/chepTwoThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -480,19 +560,25 @@ const ChepTwoCard = () => {
                         style={{
                           width: "100%",
                           paddingLeft: 0,
-
                           paddingRight: 0,
                         }}
                         alt="Arrow"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">NOTE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 204,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDesc" style={{ letterSpacing: 1.5 }}>
                         La Albiceleste is the nickname of the Argentina national
@@ -505,6 +591,8 @@ const ChepTwoCard = () => {
                         width: 204,
                         marginTop: 20,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDesc" style={{ letterSpacing: 1.5 }}>
                         Oscar Ortiz of Argentina during the World Cup 1978 match
@@ -523,7 +611,11 @@ const ChepTwoCard = () => {
                         }}
                       >
                         <Row style={{ width: 450, paddingRight: 0 }}>
-                          <p className="cardDesc">
+                          <p
+                            className="cardDesc"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             In the first group stage (Group A), Argentina was
                             placed with Italy, France and Hungary. La
                             Albiceleste, the host nation, got off to a sluggish
@@ -532,11 +624,13 @@ const ChepTwoCard = () => {
                             victory over the French, but with a dubious awarded
                             penalty for hand ball. They were up against the
                             solid Italian team and lost that game convincingly
-                            1–0 to the Azurri.{" "}
+                            1–0 to the Azurri.
                           </p>
                         </Row>
                         <Row
                           style={{ width: 450, paddingRight: 0, marginTop: 25 }}
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <p className="cardDesc">
                             Italy won the group comprehensively. Argentina, with
@@ -545,7 +639,6 @@ const ChepTwoCard = () => {
                             second group stage.
                           </p>
                         </Row>
-
                         <Row
                           style={{
                             paddingLeft: 0,
@@ -553,6 +646,8 @@ const ChepTwoCard = () => {
                             marginTop: 5,
                             marginBottom: 92,
                           }}
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={2} style={{ width: 60, textAlign: "right" }}>
                             <a href="#" role="button">
@@ -605,16 +700,28 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep2/tshirtOne.png" fluid />
+                      <Image
+                        src="./images/chep2/tshirtOne.png"
+                        fluid
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row style={{ marginTop: 20 }}>
-                        <p className="adText1">
+                        <p
+                          className="adText1"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
+                        >
                           MEN’S ARGENTINA <br /> HOME JERSEY <br /> White /
                           Clear Blue
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row>
                             <Col
@@ -657,15 +764,27 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep2/tshirtTwo.png" fluid />
+                      <Image
+                        src="./images/chep2/tshirtTwo.png"
+                        fluid
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
-                      <Row style={{ marginTop: 20 }}>
+                      <Row
+                        style={{ marginTop: 20 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <p className="adText1">
                           MEN’S ARGENTINA <br /> AWAY JERSEY <br /> Midnight
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row>
                             <Col
@@ -707,15 +826,27 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image src="./images/chep2/tshirtThree.png" fluid />
+                      <Image
+                        src="./images/chep2/tshirtThree.png"
+                        fluid
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
+                      />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
-                      <Row style={{ marginTop: 20 }}>
+                      <Row
+                        style={{ marginTop: 20 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <p className="adText1" style={{ width: "auto" }}>
                           MEN’S ARGENTINA <br /> WARM-UP JERSEY <br /> Marble
                         </p>
                       </Row>
-                      <Row>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row>
                             <Col
@@ -779,16 +910,29 @@ const ChepTwoCard = () => {
                         marginBottom: 15,
                       }}
                     >
-                      <p className="cardIndexText">04/04</p>
+                      <p
+                        className="cardIndexText"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        04/04
+                      </p>
                       <Image
                         src="./images/chep1/divider.png"
                         fluid
                         style={{ height: "5px", padding: 0 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       ></Image>
                     </Row>
 
                     <Row style={{}}>
-                      <p className="cardTitleText" style={{ lineHeight: 1 }}>
+                      <p
+                        className="cardTitleText"
+                        style={{ lineHeight: 1 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         WHEN LES BLEUSHAD TO <br /> WEAR GREEN AND WHITE{" "}
                       </p>
                     </Row>
@@ -801,6 +945,8 @@ const ChepTwoCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -811,6 +957,8 @@ const ChepTwoCard = () => {
                     <Card.Img
                       src="./images/chep2/chepTwoFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -823,16 +971,23 @@ const ChepTwoCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 204,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDesc" style={{ letterSpacing: 1.5 }}>
                         French midfielder Michel Platini wearing an Atletico
@@ -851,7 +1006,11 @@ const ChepTwoCard = () => {
                           paddingLeft: 10,
                         }}
                       >
-                        <Row style={{ width: 450, paddingRight: 0 }}>
+                        <Row
+                          style={{ width: 450, paddingRight: 0 }}
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
+                        >
                           <p className="cardDesc">
                             In the first group stage (Group A), Argentina was
                             placed with Italy, France and Hungary. La
@@ -867,7 +1026,11 @@ const ChepTwoCard = () => {
                         <Row
                           style={{ width: 450, paddingRight: 0, marginTop: 25 }}
                         >
-                          <p className="cardDesc">
+                          <p
+                            className="cardDesc"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Italy won the group comprehensively. Argentina, with
                             the tension in the country, came in a lackluster
                             second. Both teams automatically qualified for the
@@ -881,6 +1044,8 @@ const ChepTwoCard = () => {
                             paddingTop: 10,
                             marginTop: 5,
                           }}
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                             <a href="#" role="button">
@@ -967,6 +1132,8 @@ const ChepTwoCard = () => {
               top: 1074,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -979,6 +1146,8 @@ const ChepTwoCard = () => {
               top: 2570,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -991,6 +1160,8 @@ const ChepTwoCard = () => {
               top: 3870,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

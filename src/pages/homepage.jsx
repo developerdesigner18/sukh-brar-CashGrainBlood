@@ -21,7 +21,11 @@ const HomePage = () => {
       <ScrollToTopOnMount />
       <div className="homePageBannerContainer">
         <div className="bannerContainer">
-          <div className="homePageBannerImage animationImage">
+          <div
+            className="homePageBannerImage"
+            data-aos="fade-out"
+            data-aos-anchor-placement="center-bottom"
+          >
             <Image src="./images/gettyimages.png" className="gettyImage" />
             <Button
               style={{
@@ -54,7 +58,12 @@ const HomePage = () => {
             className="homePageBannerStripe"
             style={{ top: "96px", bottom: "65px" }}
           >
-            <Image src="vertical_stripe.svg" fluid />
+            <Image
+              src="vertical_stripe.svg"
+              fluid
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            />
           </div>
           <Container>
             <div
@@ -62,19 +71,21 @@ const HomePage = () => {
               style={{ top: "196px", left: "140px", right: 179 }}
             >
               <h1
-                className="animationText"
                 style={{
                   wordBreak: "break-all",
                   fontSize: "74px",
                   fontFamily: "StardosBold",
                   lineHeight: 1,
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
               >
                 CASH <br /> GRAIN,
                 <br /> AND <br /> BLOOD <br /> FOR GOALS
               </h1>
               <p
-                className="animationText"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
                 style={{
                   textAlign: "left",
                   fontSize: 20,
@@ -90,7 +101,11 @@ const HomePage = () => {
             </div>
           </Container>
         </div>
-        <div className="tableHeader">
+        <div
+          className="tableHeader"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Container>
             <b style={{ paddingLeft: 10 }}>TABLE CONTENTS</b>
           </Container>

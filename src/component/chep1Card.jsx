@@ -35,10 +35,7 @@ const ChepOneCard = () => {
           >
             <Card.Body>
               <Card.Title>
-                <Row
-                  className="animationText"
-                  style={{ paddingLeft: 10, paddingBottom: 15 }}
-                >
+                <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
                     style={{
                       color: "white",
@@ -48,6 +45,8 @@ const ChepOneCard = () => {
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     01/06
                     <Image
@@ -64,6 +63,8 @@ const ChepOneCard = () => {
                       fontSize: 40,
                       // className: "animationText",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     ARGENTINA YOU GET
                   </Row>
@@ -76,12 +77,15 @@ const ChepOneCard = () => {
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     TO HOST A WORLD CUP!
                   </Row>
                   <Row
                     style={{ width: 332, height: 15, marginLeft: 48 }}
-                    className="animationImage"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     <Image
                       src="./images/verticalDivider.png"
@@ -94,12 +98,17 @@ const ChepOneCard = () => {
               <Row>
                 <Col lg={6} style={{ width: "460px", height: "300px" }}>
                   <Card.Img
-                    className="animationImage"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                     src="./images/chep1/chepOneCardOne.png"
                     style={{ width: "100%", paddingLeft: 0 }}
                   />
                 </Col>
-                <Col lg={6} className="animationText">
+                <Col
+                  lg={6}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row
                     style={{
@@ -134,7 +143,7 @@ const ChepOneCard = () => {
                 </Col>
               </Row>
               <Card.Text>
-                <Row className="animationText">
+                <Row>
                   <Col lg={5} sm={12} md={8}>
                     <Row
                       style={{
@@ -147,7 +156,10 @@ const ChepOneCard = () => {
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{}}>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         In 1964, at FIFA’s Tokyo congress, Argentina was awarded
                         the hosting rights to the 1978 World Cup. To host the
                         football tournament was the highest honor in all of
@@ -156,6 +168,8 @@ const ChepOneCard = () => {
 
                       <Row
                         style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -201,7 +215,6 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -210,27 +223,30 @@ const ChepOneCard = () => {
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     02/06
                     <Image
                       src="./images/chep1/divider.png"
                       fluid
                       style={{ height: "5px", padding: 0 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     ></Image>
                   </Row>
-
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
                       fontSize: 40,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The National
                   </Row>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -238,33 +254,32 @@ const ChepOneCard = () => {
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Reorganization Process
                   </Row>
-                  <Row
-                    className="animationImage"
-                    style={{ width: 332, height: 15, marginLeft: 48 }}
-                  >
+                  <Row style={{ width: 332, height: 15, marginLeft: 48 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
                       fluid
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     />
                   </Row>
                 </Row>
               </Card.Title>
               <Row>
-                <Col
-                  lg={6}
-                  style={{ width: "460px", height: "300px" }}
-                  className="animationImage"
-                >
+                <Col lg={6} style={{ width: "460px", height: "300px" }}>
                   <Card.Img
                     src="./images/chep1/chepOneCardTwo.png"
                     style={{ width: "100%", paddingLeft: 0 }}
+                    data-aos="fade-out"
+                    data-aos-anchor-placement="center-bottom"
                   />
                 </Col>
-                <Col lg={6} className="animationText">
+                <Col lg={6}>
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row style={{ width: 29.69, height: 19.1 }}>
                     <Image
@@ -274,6 +289,8 @@ const ChepOneCard = () => {
                         paddingLeft: 10,
                         paddingRight: 0,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                       alt="Arrow"
                     />
                   </Row>
@@ -286,6 +303,8 @@ const ChepOneCard = () => {
                       fontSize: 12,
                       letterSpacing: "1px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     IMAGE:
                   </Row>
@@ -302,6 +321,8 @@ const ChepOneCard = () => {
                       marginBottom: "20px",
                       fontFamily: "HelveticaNeue-CondensedBold",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Men and women seen as hostile to the regime were
                     “disappearing”. Citizens were taken from their place of work
@@ -320,6 +341,8 @@ const ChepOneCard = () => {
                       marginBottom: "20px",
                       fontFamily: "HelveticaNeue-CondensedBold",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Some were placed in large venues such as sports stadiums,
                     where they were held until the Junta decided their fate
@@ -327,7 +350,7 @@ const ChepOneCard = () => {
                 </Col>
               </Row>
               <Card.Text>
-                <Row className="animationText">
+                <Row>
                   <Col lg={5} sm={12} md={8}>
                     <Row
                       style={{
@@ -340,7 +363,10 @@ const ChepOneCard = () => {
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{}}>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Controversy followed the 1978 World Cup when, in March
                         1976, a military junta overthrew the government of
                         Isabel Peron. The Junta established a “National
@@ -349,7 +375,11 @@ const ChepOneCard = () => {
                         Argentine people.
                       </Row>
 
-                      <Row style={{ paddingLeft: 0, marginTop: 15 }}>
+                      <Row
+                        style={{ paddingLeft: 0, marginTop: 15 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
                             <Image
@@ -379,6 +409,8 @@ const ChepOneCard = () => {
                       </Row>
                       <Row
                         style={{ paddingLeft: 0, marginTop: 15, width: 550 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
@@ -428,7 +460,6 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -438,27 +469,31 @@ const ChepOneCard = () => {
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     03/06
                     <Image
                       src="./images/chep1/divider.png"
                       fluid
                       style={{ height: "5px", padding: 0 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     ></Image>
                   </Row>
 
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "Stardos Stencil",
                       fontSize: 40,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     THE MILITARY
                   </Row>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -466,17 +501,18 @@ const ChepOneCard = () => {
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     JUNTA LEADERS
                   </Row>
-                  <Row
-                    style={{ width: 332, height: 15 }}
-                    className="animationImage"
-                  >
+                  <Row style={{ width: 332, height: 15 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
                       fluid
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     />
                   </Row>
                 </Row>
@@ -489,16 +525,17 @@ const ChepOneCard = () => {
                   pagination={{ clickable: true }}
                 >
                   <SwiperSlide style={{ padding: 10 }}>
-                    <Row className="animationImage">
+                    <Row>
                       <Image
                         fluid
                         src="./images/chep1/cardThreeOne.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
                       <Image
-                        className="animationImage"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -508,9 +545,11 @@ const ChepOneCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row style={{ width: 435 }} className="animationText">
+                    <Row style={{ width: 435 }}>
                       <p
                         style={{
                           textAlign: "left",
@@ -520,6 +559,8 @@ const ChepOneCard = () => {
                           fontSize: "14px",
                           marginBottom: "5px",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         Jorge Rafael Videla
                       </p>
@@ -531,6 +572,8 @@ const ChepOneCard = () => {
                           fontSize: "14px",
                           lineHeight: 1.3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         (August 2, 1925–May 17, 2013) was a General Commander of
                         the Army, member of the military junta, and dictator of
@@ -540,11 +583,12 @@ const ChepOneCard = () => {
                       </p>
                     </Row>
                     <Row
-                      className="animationText"
                       style={{
                         paddingLeft: 0,
                         marginTop: 5,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col
                         lg={4}
@@ -584,16 +628,16 @@ const ChepOneCard = () => {
                   <SwiperSlide style={{ padding: 5 }}>
                     <Row>
                       <Image
-                        className="animationImage"
                         fluid
                         src="./images/chep1/cardThreeTwo.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row>
                       {" "}
                       <Image
-                        className="animationText"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -603,9 +647,11 @@ const ChepOneCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row style={{ width: 435 }} className="animationText">
+                    <Row style={{ width: 435 }}>
                       {" "}
                       <p
                         style={{
@@ -616,6 +662,8 @@ const ChepOneCard = () => {
                           fontSize: "14px",
                           marginBottom: "5px",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         Emilio Eduardo Massera.
                       </p>
@@ -627,6 +675,8 @@ const ChepOneCard = () => {
                           fontSize: "14px",
                           lineHeight: 1.3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         (October 19, 1925–November 8, 2010) was a General
                         Commander of the Army, member of the military junta, and
@@ -636,7 +686,11 @@ const ChepOneCard = () => {
                         his coup.
                       </p>
                     </Row>
-                    <Row style={{ marginTop: 10 }} className="animationText">
+                    <Row
+                      style={{ marginTop: 10 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -669,16 +723,16 @@ const ChepOneCard = () => {
                   <SwiperSlide style={{ padding: 5 }}>
                     <Row>
                       <Image
-                        className="animationImage"
                         fluid
                         src="./images/chep1/chapterThreeThree.png"
                         style={{ width: 460, height: 300 }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row style={{ marginBottom: 10 }}>
                       {" "}
                       <Image
-                        className="animationImage"
                         fluid
                         src="./images/chep1/upArrow.svg"
                         style={{
@@ -688,9 +742,11 @@ const ChepOneCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row className="animationText">
+                    <Row>
                       {" "}
                       <p
                         style={{
@@ -702,6 +758,8 @@ const ChepOneCard = () => {
                           marginBottom: "5px",
                           textTransform: "uppercase",
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         Orlando Ramón Agosti
                       </p>
@@ -716,6 +774,8 @@ const ChepOneCard = () => {
                           width: 435,
                           height: 108,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         (August 22, 1924–October 6, 1997) was an Argentine
                         general, and Commander-in-Chief of the Argentine Air
@@ -725,7 +785,11 @@ const ChepOneCard = () => {
                       </p>
                     </Row>
 
-                    <Row style={{ marginTop: 4 }} className="animationText">
+                    <Row
+                      style={{ marginTop: 4 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -775,7 +839,6 @@ const ChepOneCard = () => {
               <Card.Title>
                 <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       fontFamily: "StardosBold",
@@ -784,12 +847,16 @@ const ChepOneCard = () => {
                       paddingRight: 0,
                       marginBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     04/06
                     <Image
                       src="./images/chep1/divider.png"
                       fluid
                       style={{ height: "5px", padding: 0 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     ></Image>
                   </Row>
 
@@ -800,12 +867,12 @@ const ChepOneCard = () => {
                       textTransform: "upperCase",
                       fontSize: 40,
                     }}
-                    className="animationText"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Operation Condor,
                   </Row>
                   <Row
-                    className="animationText"
                     style={{
                       color: "white",
                       textTransform: "upperCase",
@@ -814,15 +881,18 @@ const ChepOneCard = () => {
                       lineHeight: 0.8,
                       paddingBottom: 15,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The Dirty War
                   </Row>
                   <Row style={{ width: 332, height: 15, marginLeft: 10 }}>
                     <Image
-                      className="animationText"
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "5px", width: "100%" }}
                       fluid
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     />
                   </Row>
                 </Row>
@@ -830,22 +900,24 @@ const ChepOneCard = () => {
               <Row>
                 <Col lg={6} style={{ width: "460px", height: "300px" }}>
                   <Card.Img
-                    className="animationImage"
                     src="./images/chep1/chepOneCardFour.png"
                     style={{ width: "100%", paddingLeft: 0 }}
+                    data-aos="fade-out"
+                    data-aos-anchor-placement="center-bottom"
                   />
                 </Col>
-                <Col lg={6} className="animationText">
+                <Col lg={6}>
                   <Row style={{ paddingBottom: 15 }}></Row>
                   <Row style={{ width: 29.69, height: 19.1 }}>
                     <Image
-                      className="animationImage"
                       src="./images/imgArrow.svg"
                       style={{
                         width: "100%",
                         paddingLeft: 10,
                         paddingRight: 0,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                       alt="Arrow"
                     />
                   </Row>
@@ -858,6 +930,8 @@ const ChepOneCard = () => {
                       fontSize: 12,
                       letterSpacing: "1px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     IMAGE:
                   </Row>
@@ -875,6 +949,8 @@ const ChepOneCard = () => {
                       width: "203px",
                       fontFamily: "HelveticaNeue-CondensedBold",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Collections of photos from families whose children and
                     grandchildren had disappeared. Human rights organizations
@@ -886,7 +962,6 @@ const ChepOneCard = () => {
                 <Row>
                   <Col lg={5} sm={12} md={8}>
                     <Row
-                      className="animationText"
                       style={{
                         color: "white",
                         float: "left",
@@ -897,12 +972,19 @@ const ChepOneCard = () => {
                         paddingLeft: 10,
                       }}
                     >
-                      <Row style={{}}>
+                      <Row
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         The Junta declared a so-called “Dirty War” against this
                         enemy from within. The full extent of the atrocities
                         committed between 1976 and 1983 is not certain.
                       </Row>
-                      <Row style={{ paddingTop: 15 }}>
+                      <Row
+                        style={{ paddingTop: 15 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         The figure generally quoted, however, is that an
                         estimated 30,000 people were “disappeared,” with many
                         others illegally imprisoned or going into exile.
@@ -910,6 +992,8 @@ const ChepOneCard = () => {
 
                       <Row
                         style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a role="button">
@@ -949,12 +1033,8 @@ const ChepOneCard = () => {
       </div>
       <div className="chepOneAdHeader  animationImage">
         <Container>
-          <p
-            className="animationText"
-            style={{ paddingLeft: 10, marginBottom: 3 }}
-          >
+          <p style={{ paddingLeft: 10, marginBottom: 3 }}>
             <Image
-              className="animationImage"
               src="./images/chep1/amazon.png"
               fluid
               style={{ marginRight: 5, paddingTop: 15 }}
@@ -963,34 +1043,42 @@ const ChepOneCard = () => {
           </p>
         </Container>
       </div>
-      <div className="bookContainer">
+      <div
+        className="bookContainer"
+        data-aos="fade-out"
+        data-aos-anchor-placement="center-bottom"
+      >
         <div style={{ textAlign: "center" }}>
           <Row style={{ margin: "auto 0px" }}>
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
-                <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    className="animationImage"
-                    src="./images/chep1/Book2.jpg"
-                    fluid
-                  />
+                <Col
+                  style={{ width: "100%", padding: "0px" }}
+                  data-aos="fade-out"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Image src="./images/chep1/Book2.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
-                    className="animationText"
                     style={{
                       color: "White",
                       textAlign: "left",
                       fontFamily: "HelveticaNeue-Bold",
                       fontSize: 16,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Argentina Betrayed <br /> Memory, Mourning, <br /> and
                     Accountability <br /> ANTONIUS C. G. M. ROBBEN
                   </Row>
-                  <Row>
+                  <Row
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                  >
                     <a role={"button"} style={{ marginTop: 10 }}>
-                      <Row className="animationText">
+                      <Row>
                         <Col
                           lg={2}
                           style={{
@@ -1030,17 +1118,14 @@ const ChepOneCard = () => {
             </Col>
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
-                <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    className="animationImage"
-                    src="./images/chep1/Book1.jpg"
-                    fluid
-                  />
-                </Col>
                 <Col
-                  style={{ padding: "0px", marginTop: 25 }}
-                  className="animationText"
+                  style={{ width: "100%", padding: "0px" }}
+                  data-aos="fade-out"
+                  data-aos-anchor-placement="center-bottom"
                 >
+                  <Image src="./images/chep1/Book1.jpg" fluid />
+                </Col>
+                <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
                     style={{
                       color: "White",
@@ -1050,13 +1135,18 @@ const ChepOneCard = () => {
                       paddingTop: "20px",
                       width: 231,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The Ideological Origins
                     <br /> Of The Dirty War
                     <br />
                     By FEDERICO FINCHELSTEIN
                   </Row>
-                  <Row>
+                  <Row
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                  >
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
@@ -1097,17 +1187,14 @@ const ChepOneCard = () => {
             </Col>
             <Col lg={4} style={{ padding: 35 }}>
               <Row>
-                <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    className="animationImage"
-                    src="./images/chep1/Book3.jpg"
-                    fluid
-                  />
-                </Col>
                 <Col
-                  style={{ padding: "0px", marginTop: 25 }}
-                  className="animationText"
+                  style={{ width: "100%", padding: "0px" }}
+                  data-aos="fade-out"
+                  data-aos-anchor-placement="center-bottom"
                 >
+                  <Image src="./images/chep1/Book3.jpg" fluid />
+                </Col>
+                <Col style={{ padding: "0px", marginTop: 25 }}>
                   <Row
                     style={{
                       color: "White",
@@ -1116,13 +1203,18 @@ const ChepOneCard = () => {
                       fontSize: 16,
                       paddingTop: "20px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The Ideological Origins
                     <br />
                     Of The Dirty War
                     <br /> BY DAVID COX
                   </Row>
-                  <Row>
+                  <Row
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                  >
                     <a role={"button"} style={{ marginTop: 10 }}>
                       <Row>
                         <Col
@@ -1176,7 +1268,7 @@ const ChepOneCard = () => {
         >
           <Card.Body>
             <Card.Title>
-              <Row className="animationText" style={{ paddingLeft: 10 }}>
+              <Row style={{ paddingLeft: 10 }}>
                 <Row
                   style={{
                     color: "white",
@@ -1186,12 +1278,16 @@ const ChepOneCard = () => {
                     paddingRight: 0,
                     marginBottom: 15,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   05/06
                   <Image
                     src="./images/chep1/divider.png"
                     fluid
                     style={{ height: "5px", padding: 0 }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   ></Image>
                 </Row>
 
@@ -1201,6 +1297,8 @@ const ChepOneCard = () => {
                     fontFamily: "StardosBold",
                     fontSize: 40,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   CALLS FOR
                 </Row>
@@ -1212,41 +1310,43 @@ const ChepOneCard = () => {
                     lineHeight: 0.8,
                     paddingBottom: 15,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   A BOYCOTT
                 </Row>
                 <Row style={{ width: 332, height: 15, marginBottom: 36 }}>
                   <Image
-                    className="animationImage"
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "5px", width: "100%" }}
                     fluid
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   />
                 </Row>
               </Row>
             </Card.Title>
             <Row>
-              <Col
-                className="animationImage"
-                lg={6}
-                style={{ width: "460px", height: "300px" }}
-              >
+              <Col lg={6} style={{ width: "460px", height: "300px" }}>
                 <Card.Img
                   src="./images/chep1/chepOneCardFive.png"
                   style={{ width: "100%", paddingLeft: 0 }}
+                  data-aos="fade-out"
+                  data-aos-anchor-placement="center-bottom"
                 />
               </Col>
-              <Col className="animationText" lg={6}>
+              <Col lg={6}>
                 <Row style={{ paddingBottom: 15 }}></Row>
                 <Row style={{ width: 29.69, height: 19.1 }}>
                   <Image
-                    className="animationImage"
                     src="./images/imgArrow.svg"
                     style={{
                       width: "100%",
                       paddingLeft: 10,
                       paddingRight: 0,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                     alt="Arrow"
                   />
                 </Row>
@@ -1259,10 +1359,11 @@ const ChepOneCard = () => {
                     fontSize: 12,
                     letterSpacing: "1px",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   IMAGE:
                 </Row>
-
                 <Row
                   style={{
                     // textAlign: "left",
@@ -1275,6 +1376,8 @@ const ChepOneCard = () => {
                     marginBottom: "20px",
                     fontFamily: "HelveticaNeue-CondensedBold",
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   Flyers papered on walls around Paris took the official logo of
                   the World Cup, a pair of stylized upraised arms framing a
@@ -1284,7 +1387,7 @@ const ChepOneCard = () => {
             </Row>
             <Card.Text>
               <Row>
-                <Col className="animationText" lg={5} sm={12} md={8}>
+                <Col lg={5} sm={12} md={8}>
                   <Row
                     style={{
                       color: "white",
@@ -1296,13 +1399,20 @@ const ChepOneCard = () => {
                       paddingLeft: 10,
                     }}
                   >
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       In late 1977, a group of French journalists and
                       intellectuals formed the Organizing Committee for the
                       Boycott of the Argentina World Cup, known for its French
                       acronym, COBA.
                     </Row>
-                    <Row style={{ paddingTop: 15 }}>
+                    <Row
+                      style={{ paddingTop: 15 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       They planned an organized campaign designed to persuade
                       the French national team, led by the curly-haired goal
                       scorer Michel Platini, to skip the tournament altogether.
@@ -1310,6 +1420,8 @@ const ChepOneCard = () => {
 
                     <Row
                       style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a role="button">
@@ -1346,13 +1458,14 @@ const ChepOneCard = () => {
       </Container>
 
       {/* -----------------------------------card-6------------------------------------- */}
-      <div className="card6">
+      <div
+        className="card6"
+        data-aos="fade-out"
+        data-aos-anchor-placement="center-bottom"
+      >
         <Container style={{ padding: "35px" }}>
           <div className="cardHeader">
-            <Row
-              className="animationText"
-              style={{ paddingLeft: 10, paddingBottom: 15 }}
-            >
+            <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
               <Row
                 style={{
                   color: "white",
@@ -1362,12 +1475,16 @@ const ChepOneCard = () => {
                   paddingRight: 0,
                   marginBottom: 15,
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
               >
                 06/06
                 <Image
                   src="./images/chep1/divider.png"
                   fluid
                   style={{ height: "5px", padding: 0 }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 ></Image>
               </Row>
               <Col
@@ -1375,13 +1492,11 @@ const ChepOneCard = () => {
                   textAlign: "right",
                   paddingRight: 0,
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
               >
                 <a role="button">
-                  <Image
-                    className="animationImage"
-                    src="./images/chep1/youtube.svg"
-                    alt=""
-                  />
+                  <Image src="./images/chep1/youtube.svg" alt="" />
                 </a>
               </Col>
 
@@ -1393,6 +1508,8 @@ const ChepOneCard = () => {
                   lineHeight: 0.9,
                   paddingBottom: 5,
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
               >
                 MOTHERS <br />
                 OF THE <br />
@@ -1400,33 +1517,33 @@ const ChepOneCard = () => {
               </Row>
               <Row style={{ width: 332, height: 15 }}>
                 <Image
-                  className="animationImage"
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: "3px", width: "100%" }}
                   fluid
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 />
               </Row>
             </Row>
           </div>
           <div className="cardBody">
-            <Row style={{ padding: 50, textAlign: "center" }}>
+            <Row
+              style={{ padding: 50, textAlign: "center" }}
+              data-aos="fade-out"
+              data-aos-anchor-placement="center-bottom"
+            >
               <a role="button">
-                <Image
-                  className="animationImage"
-                  src="./images/chep1/YoutubeCard.svg"
-                  alt=""
-                />
+                <Image src="./images/chep1/YoutubeCard.svg" alt="" />
               </a>
             </Row>
           </div>
           <div className="cardFooter">
             <Row style={{ textAlign: "center" }}>
-              <Col lg={4} className="animationText">
+              <Col lg={4}>
                 {" "}
                 <Row>
                   <Image
                     fluid
-                    className="animationImage"
                     src="./images/chep1/upArrow.svg"
                     style={{
                       width: 26.96,
@@ -1435,6 +1552,8 @@ const ChepOneCard = () => {
                       marginTop: 15,
                       marginLeft: 3,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   />
                 </Row>
                 <Row>
@@ -1447,6 +1566,8 @@ const ChepOneCard = () => {
                       fontSize: "12px",
                       marginBottom: "5px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     IMAGE:
                   </p>
@@ -1459,6 +1580,8 @@ const ChepOneCard = () => {
                       width: 188,
                       height: 289,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     Buenos Aires, Argentina: “Madres de Plaza de Mayo” remain
                     upright on the flooding square in front of the Presidential
@@ -1470,10 +1593,7 @@ const ChepOneCard = () => {
 
               <Col lg={8}>
                 {" "}
-                <Row
-                  className="animationText"
-                  style={{ width: 492, padding: 20 }}
-                >
+                <Row style={{ width: 492, padding: 20 }}>
                   <p
                     style={{
                       textAlign: "left",
@@ -1484,6 +1604,8 @@ const ChepOneCard = () => {
                       fontSize: 12,
                       marginBottom: "10px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     On April 30, 1977, Azucena Villaflor de De Vincenti and a
                     dozen other mothers walked to the Plaza de Mayo in
@@ -1500,6 +1622,8 @@ const ChepOneCard = () => {
                       fontSize: "12px",
                       marginBottom: "10px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     At great risk to themselves, the mothers made the simple
                     protest of walking to the Plaza De Mayo with pictures of
@@ -1514,12 +1638,18 @@ const ChepOneCard = () => {
                       fontSize: "12px",
                       marginBottom: "10px",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The mothers created a simple visual sign of their solidarity
                     by each wearing a headscarf with the name of their
                     “disappeared” loved one.
                   </p>
-                  <Row style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}>
+                  <Row
+                    style={{ paddingLeft: 0, paddingTop: 10, marginTop: 5 }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                  >
                     <Col
                       lg={3}
                       style={{ width: 60, textAlign: "right", marginLeft: 10 }}
@@ -1572,7 +1702,6 @@ const ChepOneCard = () => {
           >
             {" "}
             <h3
-              className="animationText"
               style={{
                 marginBottom: 0,
                 textAlign: "right",
@@ -1588,7 +1717,6 @@ const ChepOneCard = () => {
           <Col lg={2} style={{ textAlign: "left", padding: "6px 6px 6px 0px" }}>
             <a role="button">
               <Image
-                className="animationImage"
                 src="./images/chep1/forwardArrow.svg"
                 alt=""
                 onClick={() => {
@@ -1609,6 +1737,8 @@ const ChepOneCard = () => {
           top: 347,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
       <Image
         fluid
@@ -1619,6 +1749,8 @@ const ChepOneCard = () => {
           top: 2145,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
       <Image
         fluid
@@ -1629,6 +1761,8 @@ const ChepOneCard = () => {
           top: 3342,
           right: 0,
         }}
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       />
     </div>
   );

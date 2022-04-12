@@ -11,7 +11,11 @@ const ChepFiveCard = () => {
       <div className="cardHolder">
         <div>
           {/* -------------------------------card 1 ------------------------------------------ */}
-          <div className="cardFive">
+          <div
+            className="cardFive"
+            data-aos="fade-out"
+            data-aos-anchor-placement="center-bottom"
+          >
             <Container>
               <div className="cardHeader">
                 <Row style={{ paddingLeft: 20, paddingBottom: 15 }}>
@@ -25,6 +29,8 @@ const ChepFiveCard = () => {
                       marginBottom: 15,
                       marginTop: 59.3,
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     03/06
                     <Image
@@ -49,6 +55,8 @@ const ChepFiveCard = () => {
                         height: 83,
                         paddingRight: 0,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                     <Image
@@ -61,6 +69,8 @@ const ChepFiveCard = () => {
                         marginLeft: 14,
                         marginTop: 17,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                   </Row>
@@ -74,6 +84,8 @@ const ChepFiveCard = () => {
                         paddingRight: 0,
                         fontFamily: "StardosBold",
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       1978 FIFA World Cup FINAL ARGENTINA v. HOLLAND
                       <br />
@@ -96,6 +108,8 @@ const ChepFiveCard = () => {
                         width: 106,
                         height: 74,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                       alt=""
                     />
                   </a>
@@ -103,7 +117,12 @@ const ChepFiveCard = () => {
               </div>
               <div style={{ position: "absolute", right: 151, bottom: 45.5 }}>
                 <a role="button">
-                  <img src="./images/chep1/youtube.svg" alt="" />
+                  <img
+                    src="./images/chep1/youtube.svg"
+                    alt=""
+                    data-aos="fade-out"
+                    data-aos-anchor-placement="center-bottom"
+                  />
                 </a>
               </div>
             </Container>
@@ -128,12 +147,18 @@ const ChepFiveCard = () => {
                           }}
                         >
                           <Row className="cardDescFive" style={{ width: 528 }}>
-                            <p style={{ paddingBottom: 3 }}>
+                            <p
+                              style={{ paddingBottom: 3 }}
+                              data-aos="fade-up"
+                              data-aos-anchor-placement="bottom-bottom"
+                            >
                               <span
                                 style={{
                                   fontSize: 24,
                                   fantFamily: "StardosBold",
                                 }}
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="bottom-bottom"
                               >
                                 EXTRA TIME CHAMPIONS
                               </span>
@@ -146,7 +171,10 @@ const ChepFiveCard = () => {
                               Buenos Aires crowd.
                             </p>
 
-                            <p>
+                            <p
+                              data-aos="fade-up"
+                              data-aos-anchor-placement="bottom-bottom"
+                            >
                               The Netherlands refused to attend the post-match
                               ceremonies.
                             </p>
@@ -167,16 +195,23 @@ const ChepFiveCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 271,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     >
                       <p className="imgDescFive">
                         Argentinian players during the FIFA World Cup final
@@ -208,6 +243,8 @@ const ChepFiveCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     >
                       <p className="cardIndexTextFive">02/04</p>
                       <Image
@@ -217,7 +254,10 @@ const ChepFiveCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
+                    >
                       <p className="cardTitleTextFive">
                         “TOTAL FOOTBALL”
                         <br /> GENERATION COMES <br /> TO AN END
@@ -229,6 +269,8 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-out"
+                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                   </Row>
@@ -238,6 +280,8 @@ const ChepFiveCard = () => {
                     <Card.Img
                       src="./images/chep5/chepFiveTwo.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -250,16 +294,26 @@ const ChepFiveCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
                     <Row>
-                      <p className="image-note">IMAGE:</p>
+                      <p
+                        className="image-note"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        IMAGE:
+                      </p>
                     </Row>
                     <Row
                       style={{
                         width: 246,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDescFive">
                         <span style={{ color: "white" }}>
@@ -286,7 +340,11 @@ const ChepFiveCard = () => {
                         }}
                       >
                         <Row className="cardDescFive">
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Total Football – a style of play where any outfield
                             player can take over the role of any other player in
                             a team – was a Dutch invention that captured the
@@ -296,17 +354,28 @@ const ChepFiveCard = () => {
                             diverse players.
                           </p>
 
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             This was manifested beautifully by the great Johan
                             Cruyff and the Dutch team at the 1974 World Cup in
                             West Germany.
                           </p>
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The same style of football was played by the Dutch
                             team in Argentina. Again they reached the final, and
                             again they lost to the host nation.
                           </p>
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             It truly was the end of a romantic era in European
                             football
                           </p>
@@ -318,6 +387,8 @@ const ChepFiveCard = () => {
                           paddingTop: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -367,6 +438,8 @@ const ChepFiveCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFive">03/04</p>
                       <Image
@@ -376,7 +449,10 @@ const ChepFiveCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFive">
                         THE MALVINAS:
                         <br /> THE BEGINNING <br /> OF THE END
@@ -388,6 +464,8 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -397,6 +475,8 @@ const ChepFiveCard = () => {
                     <Card.Img
                       src="./images/chep5/chepFiveThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -410,15 +490,22 @@ const ChepFiveCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 291,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDescFive">
                         <span style={{ color: "white" }}>
@@ -444,20 +531,31 @@ const ChepFiveCard = () => {
                         }}
                       >
                         <Row className="cardDescFive">
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             On April 2, 1982 Argentine forces mounted amphibious
                             landings, known as Operation Rosario, on the
                             Falkland (Malvinas) Islands. This was disputed
                             territory between Argentina and Great Britain.
                           </p>
 
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The British government dispatched a naval task force
                             to engage the Argentine Navy and Air Force before
                             making an amphibious assault on the islands.
                           </p>
 
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The conflict lasted 74 days and ended with an
                             Argentine surrender on June 14, when the islands
                             were returned to British control. The occupation was
@@ -473,6 +571,8 @@ const ChepFiveCard = () => {
                           paddingTop: 0,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -503,7 +603,6 @@ const ChepFiveCard = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-
             {/* -----------------------------------------card 4----------------------------------------------- */}
             <Card
               style={{
@@ -522,6 +621,8 @@ const ChepFiveCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFive">04/04</p>
                       <Image
@@ -531,7 +632,10 @@ const ChepFiveCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFive">
                         AND JUSTICE <br /> FOR ALL
                       </p>
@@ -542,6 +646,8 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -549,8 +655,10 @@ const ChepFiveCard = () => {
                 <Row>
                   <Col lg={6} style={{ width: "460px", height: "300px" }}>
                     <Card.Img
-                      src="./images/chep5/chepFiveFour.png"
+                      src="./images/chep5/mobCardFive.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -564,9 +672,14 @@ const ChepFiveCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
@@ -575,7 +688,11 @@ const ChepFiveCard = () => {
                         height: 170,
                       }}
                     >
-                      <p className="imgDescFive">
+                      <p
+                        className="imgDescFive"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <span style={{ color: "white" }}>
                           DICTATOR LED TO PRISON
                         </span>{" "}
@@ -584,7 +701,11 @@ const ChepFiveCard = () => {
                         police into the San Isidro court building in Buenos
                         Aires 11 June.
                       </p>
-                      <p className="imgDescFive">
+                      <p
+                        className="imgDescFive"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         On 17 May 2013, Videla was reported as having died of
                         natural causes in his sleep while serving his sentence
                         at a Marcos Paz prison.
@@ -601,14 +722,22 @@ const ChepFiveCard = () => {
                         }}
                       >
                         <Row className="cardDescFive">
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Videla relinquished power to Roberto Viola on 29
                             March 1981; the military regime continued until it
                             collapsed after losing the Falklands war in 1982.
                             Democracy was restored in 1983.
                           </p>
 
-                          <p style={{ paddingBottom: 10 }}>
+                          <p
+                            style={{ paddingBottom: 10 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The new government began prosecution of top-ranking
                             officers for crimes committed during the
                             dictatorship in what was called the Trial of the
@@ -618,7 +747,10 @@ const ChepFiveCard = () => {
                             was discharged from the military in 1985.
                           </p>
 
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             On 17 May 2013, Videla was reported as having died
                             of natural causes in his sleep while serving his
                             sentence at a Marcos Paz prison.
@@ -633,7 +765,11 @@ const ChepFiveCard = () => {
             </Card>
           </Container>
           {/* ------------------------------------------card5----------------------------------------------------------- */}
-          <div className="cardFiveBottom">
+          <div
+            className="cardFiveBottom"
+            data-aos="fade-out"
+            data-aos-anchor-placement="center-bottom"
+          >
             <div className="cardHeader">
               <Row
                 style={{
@@ -653,6 +789,8 @@ const ChepFiveCard = () => {
                       paddingRight: 0,
                       fontFamily: "StardosBold",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     The Victims IN THEIR OWN WORDS
                     <br />
@@ -667,6 +805,8 @@ const ChepFiveCard = () => {
                       fontFamily: "StardosBold",
                       textAlign: "center",
                     }}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                   >
                     “When You Hear The Words ‘World Cup’, It Reminds You Of What
                     Happened.
@@ -685,6 +825,8 @@ const ChepFiveCard = () => {
                     paddingTop: 0,
                     marginTop: 5,
                   }}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   <Col
                     style={{
@@ -721,6 +863,8 @@ const ChepFiveCard = () => {
               top: 2250,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -733,6 +877,8 @@ const ChepFiveCard = () => {
               top: 3480,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

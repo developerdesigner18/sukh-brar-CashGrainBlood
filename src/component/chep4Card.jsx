@@ -29,6 +29,8 @@ const ChepFourCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFour">01/04</p>
                       <Image
@@ -38,13 +40,20 @@ const ChepFourCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFour">
                         A MATCH <br /> TO “REMEBER”
                       </p>
                     </Row>
 
-                    <Row style={{ width: 332, height: 15 }}>
+                    <Row
+                      style={{ width: 332, height: 15 }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <Image
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
@@ -58,6 +67,8 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -70,18 +81,30 @@ const ChepFourCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
                     <Row>
-                      <p className="image-note">IMAGE:</p>
+                      <p
+                        className="image-note"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
+                        IMAGE:
+                      </p>
                     </Row>
                     <Row
                       style={{
                         width: 274,
                       }}
                     >
-                      <p className="imgDescFour">
+                      <p
+                        className="imgDescFour"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <span style={{ color: "white" }}>Leopoldo Luque</span>{" "}
                         cheers the 6:0 goal with raised arms. Behind him Mario
                         Kempes and on the ground the Peruvian keeper Ramon
@@ -101,7 +124,11 @@ const ChepFourCard = () => {
                           paddingLeft: 0,
                         }}
                       >
-                        <Row className="cardDescFour">
+                        <Row
+                          className="cardDescFour"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom"
+                        >
                           <p style={{ paddingBottom: 3 }}>
                             The match between Argentina and Peru is one of the
                             most commented on, analyzed, scrutinized and
@@ -138,6 +165,8 @@ const ChepFourCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFour">02/04</p>
                       <Image
@@ -147,7 +176,10 @@ const ChepFourCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFour">
                         “EL GORDO”
                         <br /> THE BRIBER
@@ -159,6 +191,8 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -168,6 +202,8 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourTwo.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -181,15 +217,22 @@ const ChepFourCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 246,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDescFour">
                         <span style={{ color: "white" }}>
@@ -216,14 +259,21 @@ const ChepFourCard = () => {
                         }}
                       >
                         <Row className="cardDescFour">
-                          <p style={{ paddingBottom: 3 }}>
+                          <p
+                            style={{ paddingBottom: 3 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The order to fix the result came directly from the
                             man then heading the military junta, General Jorge
                             Videla. The man he gave the orders to was Captain
                             Carlos Lacoste.
                           </p>
 
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Who better to turn to than the chairman of the
                             organizing committee for the World Cup? Captain
                             Carlos Lacoste was president of the nation for 11
@@ -240,6 +290,8 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -289,6 +341,8 @@ const ChepFourCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFour">03/04</p>
                       <Image
@@ -298,7 +352,10 @@ const ChepFourCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFour">
                         THE ALLEGED
                         <br /> COST OF THE FIX
@@ -310,6 +367,8 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -319,6 +378,8 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -331,21 +392,28 @@ const ChepFourCard = () => {
 
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
                       style={{
                         width: 291,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="imgDescFour">
                         <span style={{ color: "white" }}>
                           Jorge Rafael Videla (Center)
-                        </span>{" "}
+                        </span>
                         <br />
                         Argentine dictator Jorge Rafael Videla attending the
                         World Cup match between Argentina and Peru, 1978.
@@ -362,13 +430,20 @@ const ChepFourCard = () => {
                         }}
                       >
                         <Row className="cardDescFour">
-                          <p style={{ paddingBottom: 3 }}>
+                          <p
+                            style={{ paddingBottom: 3 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Lacoste allegedly carried out a series of detailed
                             negotiations with the Peruvian officials; the bribes
                             took a series of forms.
                           </p>
-
-                          <p style={{ color: "#20c5f7" }}>
+                          <p
+                            style={{ color: "#20c5f7" }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             • 35,000 tons of Argentinian grain shipped to Peru{" "}
                             <br />
                             • The unfreezing of a $50 million credit line to the
@@ -388,6 +463,8 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -436,6 +513,8 @@ const ChepFourCard = () => {
                         paddingRight: 0,
                         marginBottom: 15,
                       }}
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p className="cardIndexTextFour">04/04</p>
                       <Image
@@ -444,8 +523,10 @@ const ChepFourCard = () => {
                         style={{ height: "5px", padding: 0 }}
                       ></Image>
                     </Row>
-
-                    <Row style={{}}>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="cardTitleTextFour">
                         THE MOST
                         <br /> INSIDIOUS <br /> ALLEGATION
@@ -457,6 +538,8 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -466,6 +549,8 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
+                      data-aos="fade-out"
+                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -475,13 +560,17 @@ const ChepFourCard = () => {
                         style={{
                           width: "100%",
                           paddingLeft: 0,
-
                           paddingRight: 0,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
-                    <Row>
+                    <Row
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                    >
                       <p className="image-note">IMAGE:</p>
                     </Row>
                     <Row
@@ -490,7 +579,12 @@ const ChepFourCard = () => {
                         height: 160,
                       }}
                     >
-                      <p className="imgDescFour" style={{ paddingBottom: 10 }}>
+                      <p
+                        className="imgDescFour"
+                        style={{ paddingBottom: 10 }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         <span style={{ color: "white" }}>
                           VICTIMS OF THE JUNTA
                         </span>{" "}
@@ -498,7 +592,11 @@ const ChepFourCard = () => {
                         Victims of the Navy Petty-Officers School Of Mechanics
                         crossed all ages and backgrounds.
                       </p>
-                      <p className="imgDescFour">
+                      <p
+                        className="imgDescFour"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
+                      >
                         Graciela Alberti (top), Alberto Donadio, (center) and
                         Ida Idad (below) were detained – just some of the
                         thousands of the disappeared.
@@ -515,14 +613,21 @@ const ChepFourCard = () => {
                         }}
                       >
                         <Row className="cardDescFour">
-                          <p style={{ paddingBottom: 3 }}>
+                          <p
+                            style={{ paddingBottom: 3 }}
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             Prisoners who were released after the regime had
                             ended would say that the only time there was respite
                             from physical harm was when Argentina played its
                             matches.
                           </p>
 
-                          <p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                          >
                             The most insidious match-fixing allegation was the
                             Peruvian junta demanding the Argentine dictatorship
                             arrest and detain several Peruvian dissidents in
@@ -537,6 +642,8 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a href="#" role="button">
@@ -582,7 +689,6 @@ const ChepFourCard = () => {
                 fontSize: "24px",
               }}
             >
-              {" "}
               <h3
                 style={{
                   marginBottom: 0,
@@ -622,6 +728,8 @@ const ChepFourCard = () => {
               top: 1110,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -634,6 +742,8 @@ const ChepFourCard = () => {
               top: 2250,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -646,6 +756,8 @@ const ChepFourCard = () => {
               top: 3420,
               right: 0,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

@@ -9,7 +9,11 @@ const ChapterThree = () => {
   return (
     <React.Fragment>
       <div className="holderThree">
-        <div className="chepThreeBanner">
+        <div
+          className="chepThreeBanner"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Button
             style={{
               background: "#20C5F7",
@@ -37,10 +41,18 @@ const ChapterThree = () => {
             />
           </Button>
           <Container>
-            <h1 className="bannerHeaderThree">
+            <h1
+              className="bannerHeaderThree"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               SCOPE <br /> FOUR <br /> OR ELSE
             </h1>
-            <p className="bannerDescThree">
+            <p
+              className="bannerDescThree"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               With a lackluster performance in the second group stage, Argentina
               needed a massive result against the in-form Peru.
             </p>
@@ -48,9 +60,15 @@ const ChapterThree = () => {
           <Image
             className="bannerStripeThree"
             src="./images/chep2/vertical_stripe.png"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
-        <div className="tableHeaderThree">
+        <div
+          className="tableHeaderThree"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Container>
             <p
               className="tableHeaderTextThree"
@@ -65,7 +83,11 @@ const ChapterThree = () => {
             </p>
           </Container>
         </div>
-        <div className="chepDescThree">
+        <div
+          className="chepDescThree"
+          data-aos="fade-out"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Row
             style={{
               padding: "30px 0px",
@@ -73,6 +95,8 @@ const ChapterThree = () => {
               marginRight: 0,
               marginLeft: 118,
             }}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           >
             <Col>
               <p className="descTextThree">

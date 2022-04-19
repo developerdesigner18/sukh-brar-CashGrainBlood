@@ -294,7 +294,11 @@ const ChepFourCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://papelitos.com.ar/nota/carlos-alberto-lacoste-en-el-mundial-78?z_language=en"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}
@@ -467,7 +471,11 @@ const ChepFourCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}
@@ -646,7 +654,11 @@ const ChepFourCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://en.wikipedia.org/wiki/Navy_Petty-Officers_School"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}

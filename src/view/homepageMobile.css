@@ -88,29 +88,7 @@
     opacity: 0;
   }
 }
-#fadesample2 {
-  position: relative;
-  animation: fadeUp 0.6s ease-in forwards;
-  animation-iteration-count: 1;
-}
 
-#fadesample3 {
-  position: relative;
-  animation: fadeUp 0.8s ease-in forwards;
-  animation-iteration-count: 1;
-}
-
-#fadesample4 {
-  position: relative;
-  animation: fadeUp 1s ease-in forwards;
-  animation-iteration-count: 1;
-}
-
-#fadesample5 {
-  position: relative;
-  animation: fadeUp 1.2s ease-in forwards;
-  animation-iteration-count: 1;
-}
 #fade {
   position: relative;
 
@@ -135,34 +113,7 @@
   animation-iteration-count: 1;
   animation-delay: 0.2s;
 }
-#fade2 {
-  position: relative;
 
-  animation: fadeIn 0.1s ease-out forwards;
-  animation-iteration-count: 1;
-  animation-delay: 0.4s;
-}
-#fade3 {
-  position: relative;
-
-  animation: fadeIn 0.1s ease-out forwards;
-  animation-iteration-count: 1;
-  animation-delay: 0.6s;
-}
-#fade4 {
-  position: relative;
-
-  animation: fadeIn 0.1s ease-out forwards;
-  animation-iteration-count: 1;
-  animation-delay: 0.8s;
-}
-#fade5 {
-  position: relative;
-
-  animation: fadeIn 0.1s ease-out forwards;
-  animation-iteration-count: 1;
-  animation-delay: 1s;
-}
 .homePageBannerStripe1 {
   position: absolute;
   top: "96px";

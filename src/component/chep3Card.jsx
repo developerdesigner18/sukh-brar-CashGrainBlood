@@ -631,7 +631,12 @@ const ChepThreeCard = () => {
                         data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom"
                       >
-                        <a role={"button"} style={{ marginTop: 10 }}>
+                        <a
+                          role={"button"}
+                          href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                          target="_blank"
+                          style={{ marginTop: 10 }}
+                        >
                           <Row style={{ marginTop: 30 }}>
                             <Col
                               lg={2}
@@ -694,7 +699,12 @@ const ChepThreeCard = () => {
                         data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom"
                       >
-                        <a role={"button"} style={{ marginTop: 10 }}>
+                        <a
+                          role={"button"}
+                          href="https://www.nike.com/t/brasil-2020-stadium-home-big-kids-soccer-jersey-j69WKH/CD1024-749"
+                          target="_blank"
+                          style={{ marginTop: 10 }}
+                        >
                           <Row style={{ marginTop: 30 }}>
                             <Col
                               lg={2}
@@ -756,7 +766,12 @@ const ChepThreeCard = () => {
                         data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom"
                       >
-                        <a role={"button"} style={{ marginTop: 10 }}>
+                        <a
+                          role={"button"}
+                          href="https://www.soccer.com/shop/details/men-s-replica-marathon-peru-home-jersey-2021_A1058458"
+                          target="_blank"
+                          style={{ marginTop: 10 }}
+                        >
                           <Row style={{ marginTop: 30 }}>
                             <Col
                               lg={2}

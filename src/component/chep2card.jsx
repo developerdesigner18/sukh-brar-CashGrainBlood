@@ -133,7 +133,11 @@ const ChepTwoCard = () => {
                           data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                            <a href="#" role="button">
+                            <a
+                              href="https://www.coachesvoice.com/angel-cappa-cesar-luis-menotti-maradona-ronaldo-messi/"
+                              target="_blank"
+                              role="button"
+                            >
                               <Image
                                 src="./images/btnImage.png"
                                 style={{ paddingLeft: 0, width: "100%" }}
@@ -292,7 +296,11 @@ const ChepTwoCard = () => {
                           textAlign: "right",
                         }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Osvaldo_Ardiles"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -374,7 +382,11 @@ const ChepTwoCard = () => {
                         lg={4}
                         style={{ width: 60, textAlign: "right", marginLeft: 0 }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Mario_Kempes"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -455,7 +467,11 @@ const ChepTwoCard = () => {
                     >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Daniel_Passarella "
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -650,7 +666,11 @@ const ChepTwoCard = () => {
                           data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={2} style={{ width: 60, textAlign: "right" }}>
-                            <a href="#" role="button">
+                            <a
+                              href="https://en.wikipedia.org/wiki/1978_FIFA_World_Cup"
+                              target="_blank"
+                              role="button"
+                            >
                               <Image
                                 src="./images/btnImage.png"
                                 style={{ paddingLeft: 0, width: "100%" }}
@@ -722,7 +742,12 @@ const ChepTwoCard = () => {
                         data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom"
                       >
-                        <a role={"button"} style={{ marginTop: 10 }}>
+                        <a
+                          role={"button"}
+                          href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
+                          target="_blank"
+                          style={{ marginTop: 10 }}
+                        >
                           <Row>
                             <Col
                               lg={2}
@@ -795,7 +820,11 @@ const ChepTwoCard = () => {
                                 paddingRight: 0,
                               }}
                             >
-                              <a role="button">
+                              <a
+                                role="button"
+                                href="https://www.adidas.com/us/argentina-away-jersey/GE5477.html"
+                                target="_blank"
+                              >
                                 <Image
                                   src="./images/btnImage.png"
                                   style={{ width: 30 }}
@@ -857,7 +886,11 @@ const ChepTwoCard = () => {
                                 paddingRight: 0,
                               }}
                             >
-                              <a role="button">
+                              <a
+                                role="button"
+                                href="https://www.buyarrive.com/product/argentina-2021-pre-match-training-jersey-by-adidas/"
+                                target="_blank"
+                              >
                                 <Image
                                   src="./images/btnImage.png"
                                   style={{ width: 30 }}

@@ -391,7 +391,11 @@ const ChepFiveCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://en.wikipedia.org/wiki/Total_Football"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}
@@ -575,7 +579,11 @@ const ChepFiveCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://en.wikipedia.org/wiki/Falklands_War"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ paddingLeft: 0, width: "100%" }}
@@ -839,7 +847,11 @@ const ChepFiveCard = () => {
                     }}
                   >
                     Listen To The Victims In Their Own Words
-                    <a href="#" role="button">
+                    <a
+                      href="http://www.espn.com/espn/feature/story/_/id/11036214/while-world-watched-world-cup-brings-back-memories-argentina-dirty-war"
+                      target="_blank"
+                      role="button"
+                    >
                       <Image
                         src="./images/btnImage.png"
                         style={{ marginLeft: 10, width: 34.98 }}

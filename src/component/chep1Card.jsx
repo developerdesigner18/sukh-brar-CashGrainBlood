@@ -381,7 +381,11 @@ const ChepOneCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a href="#" role="button">
+                          <a
+                            href="https://en.wikipedia.org/wiki/1976_Argentine_coup_d%27%C3%A9tat"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{
@@ -413,7 +417,11 @@ const ChepOneCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a role="button">
+                          <a
+                            href="https://en.wikipedia.org/wiki/National_Reorganization_Process"
+                            target="_blank"
+                            role="button"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{
@@ -598,7 +606,11 @@ const ChepOneCard = () => {
                           textAlign: "right",
                         }}
                       >
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Jorge_Rafael_Videla"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -693,7 +705,11 @@ const ChepOneCard = () => {
                     >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Emilio_Eduardo_Massera"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -792,7 +808,11 @@ const ChepOneCard = () => {
                     >
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                        <a role="button">
+                        <a
+                          role="button"
+                          href="https://en.wikipedia.org/wiki/Orlando_Ram%C3%B3n_Agosti"
+                          target="_blank"
+                        >
                           <Image
                             src="./images/btnImage.png"
                             style={{
@@ -996,7 +1016,11 @@ const ChepOneCard = () => {
                         data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://www.history.com/news/mothers-plaza-de-mayo-disappeared-children-dirty-war-argentina"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{
@@ -1087,7 +1111,11 @@ const ChepOneCard = () => {
                             paddingRight: 0,
                           }}
                         >
-                          <a role="button">
+                          <a
+                            role="button"
+                            href="https://www.amazon.com/s?k=Argentina+Betrayed+Memory%2C+Mourning%2C+and+Accountability+Antonius+C.+G.+M.+Robben&ref=nb_sb_noss"
+                            target="_blank"
+                          >
                             <Image
                               src="./images/btnImage.png"
                               style={{ width: 30, height: 30 }}
@@ -1215,7 +1243,12 @@ const ChepOneCard = () => {
                     data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom"
                   >
-                    <a role={"button"} style={{ marginTop: 10 }}>
+                    <a
+                      role={"button"}
+                      href="https://www.amazon.com/s?k=Dirty+Secrets%2CDirty+War+By+David+Cox&ref=nb_sb_noss"
+                      target="_blank"
+                      style={{ marginTop: 10 }}
+                    >
                       <Row>
                         <Col
                           lg={2}
@@ -1654,7 +1687,11 @@ const ChepOneCard = () => {
                       lg={3}
                       style={{ width: 60, textAlign: "right", marginLeft: 10 }}
                     >
-                      <a href="#" role="button">
+                      <a
+                        href="https://www.youtube.com/watch?v=UMTzJXrmwmA"
+                        target="_blank"
+                        role="button"
+                      >
                         <Image
                           src="./images/btnImage.png"
                           style={{

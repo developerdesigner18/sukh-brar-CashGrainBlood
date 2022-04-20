@@ -386,7 +386,7 @@ const ChepTwo = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBanner" data-aos="fade-in">
+          <div className="mobBanner">
             <Image
               src="./images/gettyimages.png"
               width={"100%"}
@@ -397,7 +397,6 @@ const ChepTwo = () => {
                 bottom: 0,
                 right: 0,
               }}
-              data-aos="fade-up"
             />
           </div>
           <Container>
@@ -435,7 +434,6 @@ const ChepTwo = () => {
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
-              data-aos="fade-up"
             />
           </div>
         </div>
@@ -451,7 +449,7 @@ const ChepTwo = () => {
                 src="./images/chep2/emsa.png"
                 fluid
                 style={{ width: 120, height: 120 }}
-                data-aos="fade-up"
+
                 // style={{ marginTop: 40 }}
               />
             </Col>
@@ -462,7 +460,6 @@ const ChepTwo = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
-                  data-aos="fade-up"
                 />
               </Row>
               <Row>

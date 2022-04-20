@@ -401,11 +401,10 @@ const ChepOneCardMobView = () => {
       </div>
       <div className={`chep1BannerContainer ${opcity && `opcity`}`}>
         <div className="bannerContainer">
-          <div className="chep1BannerImage" data-aos="fade-in"></div>
+          <div className="chep1BannerImage"></div>
           <div
             className="chep1BannerStripe"
             style={{ top: "278px", left: "0px" }}
-            data-aos="fade-up"
           >
             <Image
               src="vertical_stripe.png"
@@ -473,7 +472,6 @@ const ChepOneCardMobView = () => {
       <div className={`${opcity && `opcity`}`}>
         <Row
           className="chepOneCardOne"
-          data-aos="fade-in"
           // data-aos="fade-up"
           style={{ paddingLeft: 5, marginRight: 0 }}
         >
@@ -481,7 +479,6 @@ const ChepOneCardMobView = () => {
             <div
               className="col-5"
               style={{ textAlign: "right", marginRight: 20 }}
-              data-aos="fade-up"
             >
               <Image
                 src="./images/chep1/admiral.png"
@@ -491,7 +488,7 @@ const ChepOneCardMobView = () => {
               />
             </div>
             <Col xs={5} sm={5}>
-              <div className="row" data-aos="fade-up">
+              <div className="row">
                 <Image
                   src="./images/imgArrow.svg"
                   style={{
@@ -579,7 +576,6 @@ const ChepOneCardMobView = () => {
             marginLeft: 3,
             marginTop: 17,
           }}
-          data-aos="fade-in"
         >
           <Row
             style={{
@@ -604,7 +600,6 @@ const ChepOneCardMobView = () => {
             <Image
               src="./images/forwardArrowBlack.svg"
               style={{ width: 28, marginLeft: 28, padding: 0, marginTop: 200 }}
-              data-aos="fade-up"
             />{" "}
           </Row>
           <Row>
@@ -689,7 +684,6 @@ const ChepOneCardMobView = () => {
                 src="./images/verticalDivider.png"
                 style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
                 fluid
-                data-aos="fade-up"
               />
             </Row>
             <Row style={{ padding: 0, marginTop: 16 }}>
@@ -754,15 +748,10 @@ const ChepOneCardMobView = () => {
             top: 1684,
             right: 0,
           }}
-          data-aos="fade-up"
         />
         {/* ----------------------------------------card-3----------------------------------------------- */}
         <div className="chep1part3Container">
-          <div
-            className="forPosition0 "
-            style={{ position: "relative" }}
-            data-aos="fade-in"
-          >
+          <div className="forPosition0 " style={{ position: "relative" }}>
             <div className="chep1part3Image"></div>
             <Container>
               <div
@@ -778,7 +767,6 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "white",
                     fontFamily: "HelveticaNeue-Bold",
-
                     fontSize: 18,
                     width: 43,
                     paddingRight: 0,
@@ -824,30 +812,21 @@ const ChepOneCardMobView = () => {
                     marginLeft: 25,
                     marginTop: -10,
                   }}
-                  data-aos="fade-up"
                 />
               </div>
             </Container>
           </div>
-          {/* <div
-            className="chep1part3Stripe"
-            style={{ top: "55px", left: "-23px" }}
-          >
-          <Image src="vertical_stripe.png" style={{ height: "400px" }} />
-          </div> */}
           <Container style={{ paddingLeft: 0, paddingRight: 0 }}>
             <div>
               <p
                 style={{
                   color: "white",
                   paddingLeft: 36,
-
                   paddingTop: 22.8,
                   paddingBottom: 15,
                   marginBottom: 0,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-Bold",
-
                   textAlign: "left",
                 }}
                 data-aos="fade-up"
@@ -867,20 +846,17 @@ const ChepOneCardMobView = () => {
                   paddingBottom: 5,
                 }}
               >
-                <Image src="./images/chep1/upArrow.svg" data-aos="fade-up" />
+                <Image src="./images/chep1/upArrow.svg" />
               </div>
               <p
                 style={{
                   color: "white",
                   paddingLeft: 36,
-
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-CondensedBold",
-
                   textAlign: "left",
                   color: "#20C5F7",
                 }}
-                data-aos="fade-up"
               >
                 Men and women seen as hostile to the <br />
                 regime were “disappearing”. Citizens were <br /> taken from
@@ -892,11 +868,9 @@ const ChepOneCardMobView = () => {
                 style={{
                   color: "white",
                   paddingLeft: 36,
-
                   paddingBottom: 30,
                   fontSize: 12,
                   fontFamily: "HelveticaNeue-CondensedBold",
-
                   textAlign: "left",
                   color: "#20C5F7",
                 }}
@@ -908,7 +882,7 @@ const ChepOneCardMobView = () => {
               </p>
             </div>
             <Row style={{ marginRight: 0 }}>
-              <Row data-aos="fade-up">
+              <Row>
                 <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
                   <a
                     role="button"
@@ -939,11 +913,18 @@ const ChepOneCardMobView = () => {
                     paddingBottom: 15,
                   }}
                 >
-                  Learn More About <br />
-                  1976 Argentine coup d’état
+                  <a
+                    href="https://en.wikipedia.org/wiki/1976_Argentine_coup_d%27%C3%A9tat"
+                    target="_blank"
+                    role="button"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Learn More About <br />
+                    1976 Argentine coup d’état
+                  </a>
                 </Col>
               </Row>
-              <Row data-aos="fade-up">
+              <Row>
                 <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
                   <a
                     role="button"
@@ -974,8 +955,15 @@ const ChepOneCardMobView = () => {
                     paddingBottom: 76,
                   }}
                 >
-                  Learn More About <br />
-                  The National Reorganization Process
+                  <a
+                    href="https://en.wikipedia.org/wiki/National_Reorganization_Process"
+                    target="_blank"
+                    role="button"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Learn More About <br />
+                    The National Reorganization Process
+                  </a>
                 </Col>
               </Row>
             </Row>
@@ -1068,10 +1056,9 @@ const ChepOneCardMobView = () => {
                           height: 150.48,
                           paddingRight: 0,
                         }}
-                        data-aos="fade-in"
                       />
                     </Row>
-                    <Row style={{ marginTop: 8 }} data-aos="fade-up">
+                    <Row style={{ marginTop: 8 }}>
                       <Image
                         fluid
                         src="./images/chep1/upArrow.svg"
@@ -1119,7 +1106,6 @@ const ChepOneCardMobView = () => {
                         paddingLeft: 0,
                         marginTop: 5,
                       }}
-                      data-aos="fade-up"
                     >
                       <Col
                         sm={2}
@@ -1162,7 +1148,14 @@ const ChepOneCardMobView = () => {
                           width: 113,
                         }}
                       >
-                        Profile Of <br /> Jorge Rafael Videla
+                        <a
+                          href="https://en.wikipedia.org/wiki/Jorge_Rafael_Videla"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Profile Of <br /> Jorge Rafael Videla
+                        </a>
                       </Col>
                     </Row>
                   </Col>
@@ -1180,7 +1173,6 @@ const ChepOneCardMobView = () => {
                           height: 150.48,
                           paddingRight: 0,
                         }}
-                        data-aos="fade-in"
                       />
                     </Row>
                     <Row style={{ marginTop: 8 }}>
@@ -1195,7 +1187,6 @@ const ChepOneCardMobView = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
                       />
                     </Row>
                     <Row data-aos="fade-up">
@@ -1235,7 +1226,6 @@ const ChepOneCardMobView = () => {
                         marginTop: 7,
                         paddingLeft: 0,
                       }}
-                      data-aos="fade-up"
                     >
                       <Col
                         sm={2}
@@ -1277,7 +1267,14 @@ const ChepOneCardMobView = () => {
                           width: 160,
                         }}
                       >
-                        Profile Of <br /> Emilio Eduardo Massera
+                        <a
+                          href="https://en.wikipedia.org/wiki/Emilio_Eduardo_Massera"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Profile Of <br /> Emilio Eduardo Massera
+                        </a>
                       </Col>
                     </Row>
                   </Col>
@@ -1295,7 +1292,6 @@ const ChepOneCardMobView = () => {
                           height: 150.48,
                           paddingRight: 0,
                         }}
-                        data-aos="fade-in"
                       />
                     </Row>
                     <Row style={{ marginTop: 8 }}>
@@ -1310,7 +1306,6 @@ const ChepOneCardMobView = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
                       />
                     </Row>
                     <Row data-aos="fade-up">
@@ -1350,7 +1345,6 @@ const ChepOneCardMobView = () => {
                         paddingLeft: 0,
                         marginTop: 7,
                       }}
-                      data-aos="fade-up"
                     >
                       <Col
                         sm={2}
@@ -1392,7 +1386,14 @@ const ChepOneCardMobView = () => {
                           width: 160,
                         }}
                       >
-                        Profile Of <br /> Orlando Ramón Agosti
+                        <a
+                          href="https://en.wikipedia.org/wiki/Orlando_Ram%C3%B3n_Agosti"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Profile Of <br /> Orlando Ramón Agosti
+                        </a>
                       </Col>
                     </Row>
                   </Col>
@@ -1404,11 +1405,7 @@ const ChepOneCardMobView = () => {
         {/* -------------------------------------card-Five---------------------------- */}
         <div className="imgeHolder"></div>
         <div className="chep1part5Container">
-          <div
-            className="forPosition2"
-            style={{ position: "relative" }}
-            data-aos="fade-in"
-          >
+          <div className="forPosition2" style={{ position: "relative" }}>
             <div className="chep1part5Image"></div>
             <Container>
               <div
@@ -1423,7 +1420,6 @@ const ChepOneCardMobView = () => {
                   style={{
                     color: "white",
                     fontFamily: "HelveticaNeue-Bold",
-
                     fontSize: 18,
                     width: 43,
                     paddingRight: 0,
@@ -1471,7 +1467,6 @@ const ChepOneCardMobView = () => {
                     marginLeft: 22,
                     marginTop: -10,
                   }}
-                  data-aos="fade-up"
                 />
                 <p
                   style={{
@@ -1512,10 +1507,7 @@ const ChepOneCardMobView = () => {
                       paddingLeft: 24,
                     }}
                   >
-                    <Image
-                      src="./images/chep1/upArrow.svg"
-                      data-aos="fade-up"
-                    />
+                    <Image src="./images/chep1/upArrow.svg" />
                   </div>
                   <p
                     style={{
@@ -1553,7 +1545,7 @@ const ChepOneCardMobView = () => {
                     disappeared.
                   </p>
                 </div>
-                <Row data-aos="fade-up">
+                <Row>
                   <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
                     <a
                       role="button"
@@ -1581,7 +1573,14 @@ const ChepOneCardMobView = () => {
                       fontSize: 12,
                     }}
                   >
-                    The History Of The Dirty War
+                    <a
+                      href="https://www.history.com/news/mothers-plaza-de-mayo-disappeared-children-dirty-war-argentina"
+                      target="_blank"
+                      role="button"
+                      style={{ textDecoration: "none", color: "white" }}
+                    >
+                      The History Of The Dirty War
+                    </a>
                   </Col>
                 </Row>
               </div>
@@ -1609,13 +1608,11 @@ const ChepOneCardMobView = () => {
             src="./images/chep1/amazon.jpg"
             fluid
             style={{ paddingRight: 0 }}
-            data-aos="fade-up"
           />
 
           <Row
             style={{ marginRight: 0, marginLeft: 0 }}
             className="productContainer"
-            data-aos="fade-in"
           >
             <Row style={{ maxWidth: "100%", margin: "0px auto" }}>
               <p
@@ -1642,11 +1639,7 @@ const ChepOneCardMobView = () => {
               {" "}
               <Row style={{ marginLeft: 23, marginBottom: 30 }}>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    src="./images/chep1/Book2.jpg"
-                    fluid
-                    data-aos="fade-in"
-                  />
+                  <Image src="./images/chep1/Book2.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 60, marginLeft: -45 }}>
                   <Row
@@ -1659,13 +1652,13 @@ const ChepOneCardMobView = () => {
                     }}
                     data-aos="fade-up"
                   >
-                    The Ideological Origins
+                    1 The Ideological Origins
                     <br /> Of The Dirty War
                     <br /> By Federico Finchelstein
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
-                      <Row data-aos="fade-up">
+                      <Row>
                         <Col
                           sm={3}
                           xs={3}
@@ -1692,7 +1685,14 @@ const ChepOneCardMobView = () => {
                             paddingLeft: 0,
                           }}
                         >
-                          Learn More
+                          <a
+                            href="https://www.amazon.com/s?k=The+Ideological+Origins+Of+The+Dirty+War+By+Federico+Finchelstein&ref=nb_sb_noss"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More
+                          </a>
                         </Col>
                       </Row>
                     </a>
@@ -1704,11 +1704,7 @@ const ChepOneCardMobView = () => {
               {" "}
               <Row style={{ marginLeft: 23, marginBottom: 30 }}>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    src="./images/chep1/Book1.jpg"
-                    fluid
-                    data-aos="fade-in"
-                  />
+                  <Image src="./images/chep1/Book1.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 45, marginLeft: -45 }}>
                   <Row
@@ -1726,7 +1722,7 @@ const ChepOneCardMobView = () => {
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
-                      <Row data-aos="fade-up">
+                      <Row>
                         <Col
                           sm={3}
                           xs={3}
@@ -1737,11 +1733,7 @@ const ChepOneCardMobView = () => {
                             href="https://www.amazon.com/s?k=Argentina+Betrayed+Memory%2C+Mourning%2C+and+Accountability+Antonius+C.+G.+M.+Robben&ref=nb_sb_noss"
                             target="_blank"
                           >
-                            <Image
-                              src="./images/btnImage.svg"
-                              style={{}}
-                              fluid
-                            />
+                            <Image src="./images/btnImage.svg" fluid />
                           </a>
                         </Col>
                         <Col
@@ -1757,7 +1749,14 @@ const ChepOneCardMobView = () => {
                             paddingLeft: 0,
                           }}
                         >
-                          Learn More
+                          <a
+                            href="https://www.amazon.com/s?k=Argentina+Betrayed+Memory%2C+Mourning%2C+and+Accountability+Antonius+C.+G.+M.+Robben&ref=nb_sb_noss"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More
+                          </a>
                         </Col>
                       </Row>
                     </a>
@@ -1768,11 +1767,7 @@ const ChepOneCardMobView = () => {
             <Row>
               <Row style={{ marginLeft: 23, marginBottom: 77 }}>
                 <Col style={{ width: "100%", padding: "0px" }}>
-                  <Image
-                    src="./images/chep1/Book3.jpg"
-                    fluid
-                    data-aos="fade-in"
-                  />
+                  <Image src="./images/chep1/Book3.jpg" fluid />
                 </Col>
                 <Col style={{ padding: "0px", marginTop: 45, marginLeft: -45 }}>
                   <Row
@@ -1792,7 +1787,7 @@ const ChepOneCardMobView = () => {
                   </Row>
                   <Row>
                     <a role={"button"} style={{ marginTop: 10 }}>
-                      <Row data-aos="fade-up">
+                      <Row>
                         <Col
                           sm={3}
                           xs={3}
@@ -1824,7 +1819,14 @@ const ChepOneCardMobView = () => {
                             paddingLeft: 0,
                           }}
                         >
-                          Learn More
+                          <a
+                            href="https://www.amazon.com/s?k=Dirty+Secrets%2CDirty+War+By+David+Cox&ref=nb_sb_noss"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More
+                          </a>
                         </Col>
                       </Row>
                     </a>
@@ -1833,18 +1835,10 @@ const ChepOneCardMobView = () => {
               </Row>
             </Row>
           </Row>
-          <div
-            className="chepOneAdHeader2"
-            style={{ padding: "15px" }}
-            data-aos="fade-up"
-          ></div>
+          <div className="chepOneAdHeader2" style={{ padding: "15px" }}></div>
         </Row>
         <div className="chep1part6Container">
-          <div
-            className="forPosition3"
-            style={{ position: "relative" }}
-            data-aos="fade-in"
-          >
+          <div className="forPosition3" style={{ position: "relative" }}>
             <div className="chep1part6Image"></div>
             <Container>
               <div
@@ -1906,7 +1900,6 @@ const ChepOneCardMobView = () => {
                     marginLeft: 22,
                     marginTop: -10,
                   }}
-                  data-aos="fade-up"
                 />
               </div>
             </Container>
@@ -1920,7 +1913,7 @@ const ChepOneCardMobView = () => {
                   paddingBottom: 5,
                 }}
               >
-                <Image src="./images/chep1/upArrow.svg" data-aos="fade-up" />
+                <Image src="./images/chep1/upArrow.svg" />
               </div>
               <h5
                 style={{
@@ -1998,36 +1991,6 @@ const ChepOneCardMobView = () => {
                 <br /> many others illegally imprisoned or going into exile.
               </p>
             </div>
-            <Row style={{ margin: 0 }} data-aos="fade-up">
-              <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                <a role="button">
-                  <Image
-                    src="./images/btnImage.svg"
-                    style={{
-                      paddingLeft: 0,
-                      marginLeft: 23,
-                    }}
-                    fluid
-                  />
-                </a>
-              </Col>
-              <Col
-                sm={8}
-                xs={8}
-                style={{
-                  paddingLeft: 0,
-                  marginLeft: 20,
-                  color: "white",
-                  textAlign: "left",
-                  marginTop: 5,
-                  fontFamily: "HelveticaNeue-Bold",
-                  fontSize: 12,
-                  paddingBottom: 15,
-                }}
-              >
-                Learn More About
-              </Col>
-            </Row>
           </Container>
         </div>
         <Image
@@ -2040,14 +2003,12 @@ const ChepOneCardMobView = () => {
             top: 5215,
             left: -6,
           }}
-          data-aos="fade-up"
         />
         {/* ----------------------dfjfkjgncl;vnl;vbn;lkvbmgn */}
         <div className="chep1part7Container">
           <div
             className="forPosition4"
             style={{ position: "relative" }}
-            data-aos="fade-in"
             onClick={() => setToggler(!toggler)}
           >
             <div className="chep1part7Image"></div>
@@ -2124,7 +2085,6 @@ const ChepOneCardMobView = () => {
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: "3px", width: "100%" }}
                       fluid
-                      data-aos="fade-up"
                     />
                   </Row>
                 </Row>
@@ -2141,7 +2101,6 @@ const ChepOneCardMobView = () => {
                         src="./images/chep1/YoutubeCard.svg"
                         alt=""
                         style={{ width: "22%" }}
-                        data-aos="fade-up"
                       />
                     </a>
                   </Row>
@@ -2153,10 +2112,7 @@ const ChepOneCardMobView = () => {
                       paddingLeft: 24,
                     }}
                   >
-                    <Image
-                      src="./images/chep1/upArrow.svg"
-                      data-aos="fade-up"
-                    />
+                    <Image src="./images/chep1/upArrow.svg" />
                   </div>
                   <p
                     style={{
@@ -2247,7 +2203,7 @@ const ChepOneCardMobView = () => {
                   by each wearing a headscarf with the name of their
                   “disappeared” loved one.
                 </p>
-                <Row style={{ margin: "auto" }} data-aos="fade-up">
+                <Row style={{ margin: "auto" }}>
                   <Col sm={4} xs={4} style={{ width: 60, textAlign: "right" }}>
                     <a role="button">
                       <Image
@@ -2292,7 +2248,6 @@ const ChepOneCardMobView = () => {
               top: 6000,
               right: 0,
             }}
-            data-aos="fade-up"
           />
         </div>
         {/* ----------------Footer------------------------------ */}

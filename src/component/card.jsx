@@ -76,11 +76,7 @@ const Card_component = ({ chepData }) => {
                 >
                   {data.chepTitleSecondHalf}
                 </Row>
-                <Row
-                  style={{ width: 256, height: 15 }}
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                >
+                <Row style={{ width: 256, height: 15 }}>
                   <Image
                     src="./images/verticalDivider.png"
                     style={{ paddingLeft: "5px", width: "100%" }}
@@ -95,8 +91,6 @@ const Card_component = ({ chepData }) => {
                 style={{ width: "460px", height: "300px" }}
               >
                 <Card.Img
-                  data-aos="fade-out"
-                  data-aos-anchor-placement="center-bottom"
                   src={data.chepImage}
                   style={{ width: "100%", paddingLeft: 0, cursor: "pointer" }}
                   onClick={() => {
@@ -113,8 +107,6 @@ const Card_component = ({ chepData }) => {
                     src="./images/imgArrow.svg"
                     style={{ width: "100%", paddingLeft: 10, paddingRight: 0 }}
                     alt="Arrow"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom"
                   />
                 </Row>
                 <Row
@@ -164,7 +156,7 @@ const Card_component = ({ chepData }) => {
               </div>
             </Row>
             <div>
-              <div className="row" data-aos="fade-up">
+              <div className="row">
                 <Col lg={5} sm={12} md={8}>
                   <Row
                     style={{
@@ -185,12 +177,7 @@ const Card_component = ({ chepData }) => {
                     >
                       {data.chepDescription}
                     </Row>
-
-                    <Row
-                      style={{ paddingLeft: 0, marginTop: 16 }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
-                    >
+                    <Row style={{ paddingLeft: 0, marginTop: 16 }}>
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a
                           role="button"

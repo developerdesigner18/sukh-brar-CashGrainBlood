@@ -385,7 +385,7 @@ const Chep3MobView = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBannerThree" data-aos="fade-in">
+          <div className="mobBannerThree">
             <Image
               src="./images/gettyimages.png"
               width={"100%"}
@@ -434,7 +434,6 @@ const Chep3MobView = () => {
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
-              data-aos="fade-up"
             />
           </div>
         </div>
@@ -450,7 +449,6 @@ const Chep3MobView = () => {
                 src="./images/chep3/luque.png"
                 fluid
                 style={{ width: 120, height: 120 }}
-                data-aos="fade-up"
                 // style={{ marginTop: 40 }}
               />
             </Col>
@@ -461,7 +459,6 @@ const Chep3MobView = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
-                  data-aos="fade-up"
                 />
               </Row>
               <Row style={{ width: 164 }}>
@@ -515,7 +512,6 @@ const Chep3MobView = () => {
                   textTransform: "uppercase",
                   letterSpacing: 1,
                 }}
-                data-aos="fade-up"
               >
                 - Leopoldo Luque, Argentine striker
               </span>

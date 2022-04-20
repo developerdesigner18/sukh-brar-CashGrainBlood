@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Col, Image, Row, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import FsLightbox from "fslightbox-react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./chep3Card.css";
 const ChepThreeCard = () => {
   const navigate = useNavigate();
+  const [toggler, setToggler] = useState(false);
   return (
     <React.Fragment>
       <div className="cardHolder">
@@ -61,8 +63,6 @@ const ChepThreeCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "5px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -72,8 +72,6 @@ const ChepThreeCard = () => {
                     <Card.Img
                       src="./images/chep3/chepThreeOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -86,8 +84,6 @@ const ChepThreeCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -205,8 +201,6 @@ const ChepThreeCard = () => {
                         marginLeft: 27,
                         paddingLeft: 0,
                       }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Image
                         src="./images/verticalDivider.png"
@@ -230,8 +224,6 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper01.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -245,8 +237,6 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
@@ -275,8 +265,6 @@ const ChepThreeCard = () => {
                         paddingLeft: 0,
                         marginTop: 6,
                       }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col
                         lg={4}
@@ -320,8 +308,6 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper02.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -335,8 +321,6 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
@@ -360,11 +344,7 @@ const ChepThreeCard = () => {
                         would be decided by their next games.
                       </p>
                     </Row>
-                    <Row
-                      style={{ marginTop: 10 }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
-                    >
+                    <Row style={{ marginTop: 10 }}>
                       <Col
                         lg={4}
                         style={{ width: 60, textAlign: "right", marginLeft: 0 }}
@@ -402,8 +382,6 @@ const ChepThreeCard = () => {
                         fluid
                         src="./images/chep3/swiper03.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row style={{ marginBottom: 10 }}>
@@ -418,8 +396,6 @@ const ChepThreeCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row>
@@ -463,11 +439,11 @@ const ChepThreeCard = () => {
 
         {/* ----------------------------------card three -----------------------------------*/}
 
-        <div
-          className="cardThree"
-          data-aos="fade-out"
-          data-aos-anchor-placement="center-bottom"
-        >
+        <div className="cardThree" onClick={() => setToggler(!toggler)}>
+          <FsLightbox
+            toggler={toggler}
+            sources={["https://www.youtube.com/watch?v=qIoGqzFQ5-E"]}
+          />
           <Container style={{ padding: "35px" }}>
             <div className="cardHeader">
               <Row style={{ paddingLeft: 10, paddingBottom: 15 }}>
@@ -540,8 +516,6 @@ const ChepThreeCard = () => {
                         height: 83,
                         paddingRight: 0,
                       }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                     <Image
@@ -554,8 +528,6 @@ const ChepThreeCard = () => {
                         marginLeft: 14,
                         marginTop: 17,
                       }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                   </Row>
@@ -577,8 +549,6 @@ const ChepThreeCard = () => {
                       width: 106,
                       height: 74,
                     }}
-                    data-aos="fade-out"
-                    data-aos-anchor-placement="center-bottom"
                     alt=""
                   />
                 </a>
@@ -599,22 +569,13 @@ const ChepThreeCard = () => {
               <p>{"  "}GROUP B NATIONAL KITS</p>
             </Container>
           </div>
-          <div
-            className="tshirtContainerThree"
-            data-aos="fade-out"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <div className="tshirtContainerThree">
             <div style={{ textAlign: "center" }}>
               <Row style={{ margin: "auto 0px" }}>
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep3/tshirtOne.png"
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                        fluid
-                      />
+                      <Image src="./images/chep3/tshirtOne.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row
@@ -627,10 +588,7 @@ const ChepThreeCard = () => {
                           Clear Blue
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a
                           role={"button"}
                           href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
@@ -678,12 +636,7 @@ const ChepThreeCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep3/tshirtTwo.png"
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                        fluid
-                      />
+                      <Image src="./images/chep3/tshirtTwo.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row
@@ -695,10 +648,7 @@ const ChepThreeCard = () => {
                           MEN’S Brazil <br /> Home JERSEY <br /> Canary Yellow
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a
                           role={"button"}
                           href="https://www.nike.com/t/brasil-2020-stadium-home-big-kids-soccer-jersey-j69WKH/CD1024-749"
@@ -745,12 +695,7 @@ const ChepThreeCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep3/tshirtThree.png"
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                        fluid
-                      />
+                      <Image src="./images/chep3/tshirtThree.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row
@@ -762,10 +707,7 @@ const ChepThreeCard = () => {
                           MEN’S Peru <br /> Home JERSEY <br /> White And Red
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a
                           role={"button"}
                           href="https://www.soccer.com/shop/details/men-s-replica-marathon-peru-home-jersey-2021_A1058458"
@@ -863,8 +805,6 @@ const ChepThreeCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -875,8 +815,6 @@ const ChepThreeCard = () => {
                     <Card.Img
                       src="./images/chep3/chepThreeFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -889,8 +827,6 @@ const ChepThreeCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -955,37 +891,6 @@ const ChepThreeCard = () => {
                             heads prevailed, and the final went ahead.
                           </p>
                         </Row>
-
-                        {/* <Row
-                          style={{
-                            paddingLeft: 0,
-                            paddingTop: 10,
-                            marginTop: 5,
-                          }}
-                        >
-                          <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                            <a href="#" role="button">
-                              <Image
-                                src="./images/btnImage.png"
-                                style={{ paddingLeft: 0, width: "100%" }}
-                                fluid
-                              />
-                            </a>
-                          </Col>
-                          <Col
-                            lg={8}
-                            style={{
-                              fontFamily: "HelveticaNeue-Bold",
-                              fontSize: 12,
-                              float: "left",
-                              paddingLeft: 5,
-                              paddingTop: 10,
-                              color: "white",
-                            }}
-                          >
-                            Learn More About
-                          </Col>
-                        </Row> */}
                       </Row>
                     </Col>
                     <Col lg={7} sm={12} md={4}></Col>
@@ -1048,8 +953,6 @@ const ChepThreeCard = () => {
               top: 1165,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -1062,8 +965,6 @@ const ChepThreeCard = () => {
               top: 2670,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -1076,8 +977,6 @@ const ChepThreeCard = () => {
               top: 3826,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

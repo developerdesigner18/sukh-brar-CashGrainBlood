@@ -385,11 +385,10 @@ const Chep4MobView = () => {
       </div>
       <div className={`chep4BannerContainer ${opcity && `opcity`}`}>
         <div className="bannerContainer">
-          <div className="chep4BannerImage" data-aos="fade-in"></div>
+          <div className="chep4BannerImage"></div>
           <div
             className="chep4BannerStripe"
             style={{ top: "278px", left: "0px" }}
-            data-aos="fade-up"
           >
             <Image
               src="vertical_stripe.png"
@@ -463,7 +462,6 @@ const Chep4MobView = () => {
         <Row
           className="chepFourCardOne"
           style={{ paddingLeft: 10, marginRight: 0 }}
-          data-aos="fade-in"
         >
           <Row style={{ margin: "0px auto", marginTop: 40 }}>
             <Col xs={5} sm={5} style={{ textAlign: "right" }}>
@@ -471,7 +469,6 @@ const Chep4MobView = () => {
                 src="./images/chep4/davidyallop.png"
                 fluid
                 style={{ marginTop: -10 }}
-                data-aos="fade-up"
               />
             </Col>
             <Col>
@@ -483,7 +480,6 @@ const Chep4MobView = () => {
                     height: 13.14,
                     padding: 0,
                   }}
-                  data-aos="fade-up"
                   fluid
                 />
               </Row>
@@ -543,7 +539,6 @@ const Chep4MobView = () => {
                   textTransform: "uppercase",
                   letterSpacing: 1,
                 }}
-                data-aos="fade-up"
               >
                 - DAVID YALLOP, AUTHOR
               </span>
@@ -558,7 +553,6 @@ const Chep4MobView = () => {
             marginLeft: 3,
             marginTop: 17,
           }}
-          data-aos="fade-in"
         >
           <Row
             className=""
@@ -593,7 +587,6 @@ const Chep4MobView = () => {
                 padding: 0,
                 marginTop: 200,
               }}
-              data-aos="fade-up"
             />{" "}
           </Row>
           <Row style={{ paddingLeft: 13, marginTop: -3 }}>
@@ -682,7 +675,6 @@ const Chep4MobView = () => {
                   height: 9.81,
                   paddingRight: 0,
                 }}
-                data-aos="fade-up"
                 fluid
               />
             </Row>
@@ -723,7 +715,7 @@ const Chep4MobView = () => {
                 between governments.
               </p>
             </Row>
-            <Row style={{ paddingLeft: 0 }} data-aos="fade-up">
+            <Row style={{ paddingLeft: 0 }}>
               <Col
                 sm={1}
                 xs={1}
@@ -771,16 +763,11 @@ const Chep4MobView = () => {
             right: 0,
             width: 25,
           }}
-          data-aos="fade-up"
         />
 
         {/* ----------------------------------------card-3----------------------------------------------- */}
         <div className="chep4part3Container">
-          <div
-            className="forPosition"
-            style={{ position: "relative" }}
-            data-aos="fade-in"
-          >
+          <div className="forPosition" style={{ position: "relative" }}>
             <div className="chep4part3Image"></div>
             <Container>
               <div
@@ -842,169 +829,10 @@ const Chep4MobView = () => {
                     marginLeft: 25,
                     marginTop: -10,
                   }}
-                  data-aos="fade-up"
                 />
               </div>
             </Container>
           </div>
-
-          {/* <div
-            className="chep1part3Stripe"
-            style={{ top: "55px", left: "-23px" }}
-          >
-          <Image src="vertical_stripe.png" style={{ height: "400px" }} />
-          </div> */}
-          {/* <Container style={{ paddingLeft: 0, paddingRight: 0 }}>
-          <div>
-            <div
-              style={{
-                textAlign: "left",
-                paddingLeft: 25,
-                paddingBottom: 5,
-              }}
-            >
-              <Image
-                src="./images/chep1/upArrow.svg"
-                style={{ width: 20.75, height: 13.4 }}
-              />
-            </div>
-            <p
-              style={{
-                color: "white",
-                paddingLeft: 30,
-
-                fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBold",
-
-                textAlign: "left",
-                color: "#20C5F7",
-              }}
-            >
-              IMAGE:
-            </p>
-            <p
-              style={{
-                color: "white",
-                paddingLeft: 30,
-
-                fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBold",
-
-                textAlign: "left",
-                color: "#20C5F7",
-              }}
-            >
-              Men and women seen as hostile to the <br />
-              regime were “disappearing”. Citizens were <br /> taken from their
-              place of work and homes,
-              <br /> in broad daylight, in front of colleagues and <br />
-              loved ones.{" "}
-            </p>{" "}
-            <p
-              style={{
-                color: "white",
-                paddingLeft: 30,
-
-                paddingBottom: 30,
-                fontSize: 12,
-                fontFamily: "HelveticaNeue-CondensedBold",
-
-                textAlign: "left",
-                color: "#20C5F7",
-              }}
-            >
-              Some were placed in large venues such as
-              <br /> sports stadiums, where they were held until <br /> the
-              Junta decided their fate.
-            </p>
-            <div>
-              <p
-                style={{
-                  color: "white",
-                  paddingLeft: 30,
-
-                  paddingTop: 22.8,
-                  paddingBottom: 15,
-                  marginBottom: 0,
-                  fontSize: 12,
-                  fontFamily: "HelveticaNeue-Bold",
-
-                  textAlign: "left",
-                }}
-              >
-                Controversy followed the 1978 World Cup when in March <br /> of
-                1976 a military Junta overthrew the government of Isabel <br />{" "}
-                Peron. The Junta established a “National Re-organization <br />
-                Process”. A rule of eliminating the “decadence” of <br />{" "}
-                Peronism and supported by many of the Argentine people.
-              </p>
-            </div>
-          </div>
-          <Row style={{ marginRight: 0 }}>
-            <Row>
-              <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                <a role="button">
-                  <Image
-                    src="./images/btnImage.svg"
-                    style={{
-                      paddingLeft: 0,
-                      marginLeft: 25,
-                    }}
-                    fluid
-                  />
-                </a>
-              </Col>
-              <Col
-                sm={8}
-                xs={8}
-                style={{
-                  paddingLeft: 0,
-                  marginLeft: 25,
-                  color: "white",
-                  textAlign: "left",
-                  marginTop: -5,
-                  fontFamily: "HelveticaNeue-Bold",
-                  fontSize: 12,
-                  paddingBottom: 15,
-                }}
-              >
-                Learn More About <br />
-                1976 Argentine coup d’état
-              </Col>
-            </Row>
-            <Row>
-              <Col sm={4} xs={4} style={{ width: 50, textAlign: "right" }}>
-                <a role="button">
-                  <Image
-                    src="./images/btnImage.svg"
-                    style={{
-                      paddingLeft: 0,
-                      marginLeft: 25,
-                    }}
-                    fluid
-                  />
-                </a>
-              </Col>
-              <Col
-                sm={8}
-                xs={8}
-                style={{
-                  paddingLeft: 0,
-                  marginLeft: 25,
-                  marginTop: -5,
-                  color: "white",
-                  textAlign: "left",
-                  fontFamily: "HelveticaNeue-Bold",
-                  fontSize: 12,
-                  paddingBottom: 76,
-                }}
-              >
-                Learn More About <br />
-                The National Reorganization Process
-              </Col>
-            </Row>
-          </Row>
-        </Container> */}
           <div className="chepFourThreeCardDesc">
             <Image
               fluid
@@ -1016,7 +844,6 @@ const Chep4MobView = () => {
                 marginLeft: 0,
                 display: "flex",
               }}
-              data-aos="fade-up"
             />
 
             <div className="chepFourLastCardText">
@@ -1068,7 +895,6 @@ const Chep4MobView = () => {
                 marginRight: 0,
                 marginBottom: 47.5,
               }}
-              data-aos="fade-up"
             >
               <Col
                 sm={2}
@@ -1110,21 +936,17 @@ const Chep4MobView = () => {
                   paddingLeft: 5,
                 }}
               >
-                Profile of Captain Carlos Lacoste
+                <a
+                  href="https://papelitos.com.ar/nota/carlos-alberto-lacoste-en-el-mundial-78?z_language=en"
+                  target="_blank"
+                  role="button"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Profile of Captain Carlos Lacoste
+                </a>
               </Col>
             </Row>
           </div>
-          {/* <Image
-          src="./images/chep2/vertical_stripe.png"
-          fluid
-          style={{
-            position: "absolute",
-            top: 72.5,
-            right: 0,
-            height: 602,
-            width: 12,
-          }}
-        /> */}
         </div>
         {/* -----------------------------------card-4--------------------------------------- */}
         <div style={{ paddingTop: 20 }}>
@@ -1188,7 +1010,6 @@ const Chep4MobView = () => {
                   marginLeft: 25,
                   marginTop: -12,
                 }}
-                data-aos="fade-up"
               />
               <div style={{ marginLeft: 28 }}>
                 <div
@@ -1222,7 +1043,6 @@ const Chep4MobView = () => {
               <Image
                 src="./images/chep4/mobCardFour.png"
                 style={{ height: 395.66, width: 180 }}
-                data-aos="fade-in"
               />
             </div>
             <div
@@ -1235,7 +1055,6 @@ const Chep4MobView = () => {
                 <Image
                   src="./images/chep4/mobFourComp1.png"
                   style={{ width: 50.1 }}
-                  data-aos="fade-up"
                 />
               </div>
 
@@ -1263,7 +1082,6 @@ const Chep4MobView = () => {
                   marginLeft: 0,
                   height: 8.33,
                 }}
-                data-aos="fade-up"
               />
               <div
                 sm={6}
@@ -1275,7 +1093,6 @@ const Chep4MobView = () => {
                   <Image
                     src="./images/chep4/mobFourComp2.png"
                     style={{ width: 22.64 }}
-                    data-aos="fade-up"
                   />
                 </div>
 
@@ -1308,7 +1125,6 @@ const Chep4MobView = () => {
                     height: 8.33,
                     // marginTop: -15,
                   }}
-                  data-aos="fade-up"
                 />
               </div>
               <div
@@ -1322,7 +1138,6 @@ const Chep4MobView = () => {
                     <Image
                       src="./images/chep4/mobFourComp3.png"
                       style={{ width: 45.2, height: 45.2 }}
-                      data-aos="fade-up"
                     />
                   </div>
                   <div
@@ -1359,7 +1174,6 @@ const Chep4MobView = () => {
                     height: 8.33,
                     // marginTop: -15,
                   }}
-                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -1404,7 +1218,6 @@ const Chep4MobView = () => {
                   marginRight: 0,
                   marginBottom: 47.5,
                 }}
-                data-aos="fade-up"
               >
                 <Col
                   sm={3}
@@ -1420,7 +1233,7 @@ const Chep4MobView = () => {
                 >
                   <a
                     role="button"
-                    href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X "
+                    href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X"
                     target="_blank"
                   >
                     <Image
@@ -1448,6 +1261,12 @@ const Chep4MobView = () => {
                     paddingLeft: 4,
                   }}
                 >
+                  <a
+                    href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X"
+                    target="_blank"
+                    role="button"
+                    style={{ textDecoration: "none", color: "white" }}
+                  ></a>
                   Read More On The Conspiracy
                 </Col>
               </Row>
@@ -1455,7 +1274,7 @@ const Chep4MobView = () => {
           </div>
         </div>
         {/* -------------------------------------card-Five---------------------------- */}
-        <div className="chep4LastCard" data-aos="fade-in">
+        <div className="chep4LastCard">
           <Container style={{ padding: "13px 0px 0px 0px" }}>
             <Row
               style={{
@@ -1516,7 +1335,6 @@ const Chep4MobView = () => {
                   width: 231,
                   height: 14,
                 }}
-                data-aos="fade-up"
                 fluid
               />
             </Row>
@@ -1531,7 +1349,6 @@ const Chep4MobView = () => {
                 padding: 0,
                 marginTop: 15,
               }}
-              data-aos="fade-up"
             />
 
             <div className="chepTwoLastCardText">
@@ -1577,7 +1394,6 @@ const Chep4MobView = () => {
                 marginTop: 80,
                 marginRight: 0,
               }}
-              data-aos="fade-up"
             >
               <Col
                 sm={3}
@@ -1620,7 +1436,14 @@ const Chep4MobView = () => {
                   paddingLeft: 5,
                 }}
               >
-                Learn About The Missing
+                <a
+                  href="https://en.wikipedia.org/wiki/Navy_Petty-Officers_School"
+                  target="_blank"
+                  role="button"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Learn About The Missing
+                </a>
               </Col>
             </Row>
           </div>
@@ -1634,7 +1457,6 @@ const Chep4MobView = () => {
               height: 606.36,
               width: 18,
             }}
-            data-aos="fade-up"
           />
         </div>
         {/* --------------footer----------------------------- */}

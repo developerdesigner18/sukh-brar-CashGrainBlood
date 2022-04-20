@@ -12,9 +12,7 @@ const ChapterFour = () => {
   return (
     <React.Fragment>
       <div className="holderFour">
-        <div
-          className={`chepFourBanner  ${opcity && `opcity`} w3-animate-opacity`}
-        ></div>
+        <div className={`chepFourBanner  ${opcity && `opcity`}`}></div>
         <Button
           style={{
             background: "#20c5f7",
@@ -148,7 +146,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -192,7 +190,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -235,7 +233,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -279,7 +277,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -323,7 +321,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -367,7 +365,7 @@ const ChapterFour = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -396,15 +394,9 @@ const ChapterFour = () => {
           <Image
             className="bannerStripeFour"
             src="./images/chep2/vertical_stripe.png"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
 
-          <div
-            className="tableHeaderFour"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-          >
+          <div className="tableHeaderFour">
             <Container>
               <p
                 className="tableHeaderTextFour"

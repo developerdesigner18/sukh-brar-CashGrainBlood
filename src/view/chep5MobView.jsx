@@ -385,7 +385,7 @@ const Chep5MobView = () => {
           </Row>
         </div>
         <div className={` ${opcity && `opcity`}`}>
-          <div className="mobBannerFive" data-aos="fade-in">
+          <div className="mobBannerFive">
             <Image
               src="./images/gettyimages.png"
               width={"100%"}
@@ -446,7 +446,6 @@ const Chep5MobView = () => {
             <Image
               src="./images/chep2/vertical_stripeForBanner.png"
               style={{ width: 16, height: 413 }}
-              data-aos="fade-up"
             />
           </div>
         </div>
@@ -461,7 +460,6 @@ const Chep5MobView = () => {
               <Image
                 src="./images/chep5/will_hersey.png"
                 fluid
-                data-aos="fade-up"
                 style={{ width: 120, height: 120 }}
                 // style={{ marginTop: 40 }}
               />
@@ -473,7 +471,6 @@ const Chep5MobView = () => {
                   src="./images/imgArrow.svg"
                   style={{ width: 20.75, height: 13.14, padding: 0 }}
                   fluid
-                  data-aos="fade-up"
                 />
               </Row>
               <Row style={{ width: 184 }}>
@@ -530,7 +527,6 @@ const Chep5MobView = () => {
                   textTransform: "uppercase",
                   letterSpacing: 0.5,
                 }}
-                data-aos="fade-up"
               >
                 - WILL HERSEY, CONTENT DIRECTOR,
                 {/* <span style={{ marginLeft: 10, lineHeight: "14px" }}> */}

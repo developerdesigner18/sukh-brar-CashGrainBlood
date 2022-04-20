@@ -49,11 +49,7 @@ const ChepFourCard = () => {
                       </p>
                     </Row>
 
-                    <Row
-                      style={{ width: 332, height: 15 }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
-                    >
+                    <Row style={{ width: 332, height: 15 }}>
                       <Image
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
@@ -67,8 +63,6 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -81,8 +75,6 @@ const ChepFourCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -191,8 +183,6 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -202,8 +192,6 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourTwo.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -217,8 +205,6 @@ const ChepFourCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row
@@ -290,8 +276,6 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a
@@ -317,8 +301,16 @@ const ChepFourCard = () => {
                             color: "white",
                           }}
                         >
-                          Learn More About <br />
-                          Carlos Alberto Lacoste
+                          {" "}
+                          <a
+                            href="https://papelitos.com.ar/nota/carlos-alberto-lacoste-en-el-mundial-78?z_language=en"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More About <br />
+                            Carlos Alberto Lacoste
+                          </a>
                         </Col>
                       </Row>
                     </Col>
@@ -371,8 +363,6 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -382,8 +372,6 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -396,8 +384,6 @@ const ChepFourCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -467,8 +453,6 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a
@@ -494,6 +478,12 @@ const ChepFourCard = () => {
                             color: "white",
                           }}
                         >
+                          <a
+                            href="https://www.amazon.com/They-Stole-Game-David-Yallop/dp/178033401X"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          ></a>
                           Learn More “How They Stole The Game”
                         </Col>
                       </Row>
@@ -546,8 +536,6 @@ const ChepFourCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -557,8 +545,6 @@ const ChepFourCard = () => {
                     <Card.Img
                       src="./images/chep4/chepFourFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -570,8 +556,6 @@ const ChepFourCard = () => {
                           paddingLeft: 0,
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -650,8 +634,6 @@ const ChepFourCard = () => {
                           paddingTop: 10,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a
@@ -677,8 +659,15 @@ const ChepFourCard = () => {
                             color: "white",
                           }}
                         >
-                          Learn More <br />
-                          The Navy Petty-Officers School of Mechanics
+                          <a
+                            href="https://en.wikipedia.org/wiki/Navy_Petty-Officers_School"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More <br />
+                            The Navy Petty-Officers School of Mechanics
+                          </a>
                         </Col>
                       </Row>
                     </Col>
@@ -740,8 +729,6 @@ const ChepFourCard = () => {
               top: 1110,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -754,8 +741,6 @@ const ChepFourCard = () => {
               top: 2250,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -768,8 +753,6 @@ const ChepFourCard = () => {
               top: 3420,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

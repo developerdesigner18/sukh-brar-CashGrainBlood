@@ -23,11 +23,7 @@ const Chep1 = () => {
       <ScrollToTopOnMount />
       <div className="chepOnePageBannerContainer">
         <div className={`bannerContainer `}>
-          <div
-            className={`chepOneBannerImage w3-animate-opacity  ${
-              opcity && `opcity`
-            }`}
-          ></div>
+          <div className={`chepOneBannerImage  ${opcity && `opcity`}`}></div>
 
           <Button
             style={{
@@ -163,7 +159,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -207,7 +203,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -250,7 +246,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -294,7 +290,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -338,7 +334,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -382,7 +378,7 @@ const Chep1 = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -393,12 +389,7 @@ const Chep1 = () => {
               className="chepOneBannerStripe"
               style={{ top: "96px", bottom: "65px" }}
             >
-              <Image
-                src="vertical_stripe.png"
-                fluid
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
-              />
+              <Image src="vertical_stripe.png" fluid />
             </div>
             <Container>
               <div
@@ -425,11 +416,7 @@ const Chep1 = () => {
                 </p>
               </div>
             </Container>
-            <div
-              className="chepOnetableHeader"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-            >
+            <div className="chepOnetableHeader">
               <Container>
                 <p
                   style={{
@@ -443,11 +430,7 @@ const Chep1 = () => {
                 </p>
               </Container>
             </div>
-            <div
-              className="chepOneBodyBackImage "
-              data-aos="fade-out"
-              data-aos-anchor-placement="center-bottom"
-            >
+            <div className="chepOneBodyBackImage ">
               <Row
                 style={{
                   color: "white",
@@ -458,7 +441,6 @@ const Chep1 = () => {
               >
                 <Col>
                   <p
-                    className="animationText"
                     style={{
                       fontSize: 24,
                       fontFamily: "StardosBold",

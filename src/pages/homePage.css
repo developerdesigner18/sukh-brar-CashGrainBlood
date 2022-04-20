@@ -41,12 +41,12 @@
 .image[wobble="1"] {
   animation: wobble 1s 1;
 }
-.dropDownMobHeader {
+.dropDownDeskHeader {
   background-color: #12a0d7;
   color: white;
   height: 32px;
 }
-.dropDownMobHeader1 {
+.dropDownDeskHeader1 {
   background-color: #f78320;
   color: white;
   height: 32px;
@@ -86,7 +86,7 @@
 #fadesample2 {
   /* animation-name: fadeIn;
   animation-duration: 0.3s; */
-  position: relative;
+
   animation: fadeUp1 0.4s ease-in forwards;
   animation-iteration-count: 1;
 }
@@ -109,8 +109,6 @@
 }
 
 #fade2 {
-  position: relative;
-
   animation: fadeIn1 0.4s ease-out forwards;
   animation-iteration-count: 1;
 }

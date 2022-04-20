@@ -11,9 +11,7 @@ const ChapterFive = () => {
   return (
     <React.Fragment>
       <div className="holderFive">
-        <div
-          className={`chepFiveBanner  ${opcity && `opcity`} w3-animate-opacity`}
-        ></div>
+        <div className={`chepFiveBanner  ${opcity && `opcity`} `}></div>
         <Button
           style={{
             background: "#20c5f7",
@@ -147,7 +145,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -191,7 +189,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -234,7 +232,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -278,7 +276,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -322,7 +320,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -366,7 +364,7 @@ const ChapterFive = () => {
               }
             >
               <Image
-                src="./Images/forwardArrowBlack.svg "
+                src="./images/forwardArrowBlack.svg "
                 style={{ marginBottom: 5 }}
               />
             </div>
@@ -397,15 +395,9 @@ const ChapterFive = () => {
           <Image
             className="bannerStripeFive"
             src="./images/chep2/vertical_stripe.png"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
 
-          <div
-            className="tableHeaderFive"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-          >
+          <div className="tableHeaderFive">
             <Container>
               <p
                 className="tableHeaderTextFive"
@@ -420,11 +412,7 @@ const ChapterFive = () => {
               </p>
             </Container>
           </div>
-          <div
-            className="chepDescFive"
-            data-aos="fade-out"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <div className="chepDescFive">
             <Row
               style={{
                 padding: "30px 0px",
@@ -458,7 +446,7 @@ const ChapterFive = () => {
             </Row>
           </div>
         </div>
-        {/*---------------------------------- cards-- -------------------------------------*/}
+        {/*----0------------------------------ cards-- -------------------------------------*/}
         <div className={` ${opcity && `opcity`}`}>
           <ChepFiveCard />
         </div>

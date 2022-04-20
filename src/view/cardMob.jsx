@@ -14,8 +14,6 @@ const CardComponent = ({ opcity }) => {
     return (
       <div
         className="cardBannerContainer1"
-        data-aos="fade-in"
-        
         key={index}
         style={{ marginTop: 15 }}
         onClick={() => {
@@ -68,7 +66,6 @@ const CardComponent = ({ opcity }) => {
               <Image
                 src="./images/verticalDivider.png"
                 style={{ paddingBottom: 18, width: 171 }}
-                data-aos="fade-up"
               />
             </div>
           </Container>

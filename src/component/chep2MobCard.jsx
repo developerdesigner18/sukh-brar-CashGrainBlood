@@ -17,7 +17,7 @@ const ChepTwoMobCard = ({ opcity }) => {
   return (
     <React.Fragment>
       <div className={`${opcity && `opcity`}`}>
-        <div className={`chepTwoMobcardHolder`} data-aos="fade-in">
+        <div className={`chepTwoMobcardHolder`}>
           <Container
             style={{
               marginLeft: 36,
@@ -68,7 +68,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                       padding: 0,
                       marginTop: 171,
                     }}
-                    data-aos="fade-up"
                   />{" "}
                 </Row>
                 <Row>
@@ -120,10 +119,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                     </p>
                   </Row>
 
-                  <Row
-                    style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}
-                    data-aos="fade-up"
-                  >
+                  <Row style={{ width: 165.21, height: 9.21, paddingLeft: 0 }}>
                     <Image
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
@@ -171,7 +167,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                       - CESAR MENOTTI
                     </p>
                   </Row>
-                  <Row style={{ paddingLeft: 0 }} data-aos="fade-up">
+                  <Row style={{ paddingLeft: 0 }}>
                     <Col sm={1} xs={1} style={{ padding: 0 }}>
                       <a
                         role="button"
@@ -205,8 +201,15 @@ const ChepTwoMobCard = ({ opcity }) => {
                         paddingRight: 0,
                       }}
                     >
-                      Learn More <br />
-                      About Cesar Menotti
+                      <a
+                        href="https://www.coachesvoice.com/angel-cappa-cesar-luis-menotti-maradona-ronaldo-messi/"
+                        target="_blank"
+                        role="button"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        Learn More <br />
+                        About Cesar Menotti
+                      </a>
                     </Col>
                   </Row>
                 </Row>
@@ -220,7 +223,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                   top: 1556,
                   right: 0,
                 }}
-                data-aos="fade-up"
               />
             </div>
           </Container>
@@ -310,7 +312,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             paddingRight: 0,
                             paddingLeft: 0,
                           }}
-                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -325,7 +326,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
-                          data-aos="fade-up"
                         />
                       </Row>
                       <Row style={{ width: 211 }} data-aos="fade-up">
@@ -369,7 +369,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -414,7 +413,14 @@ const ChepTwoMobCard = ({ opcity }) => {
                             width: 113,
                           }}
                         >
-                          Profile Of <br /> Osvaldo Ardiles
+                          <a
+                            href="https://en.wikipedia.org/wiki/Osvaldo_Ardiles"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Profile Of <br /> Osvaldo Ardiles
+                          </a>
                         </Col>
                       </Row>
                     </Col>
@@ -431,7 +437,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
-                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -446,7 +451,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             marginTop: 15,
                             marginLeft: 15,
                           }}
-                          data-aos="fade-up"
                         />
                       </Row>
                       <Row style={{ width: 211 }} data-aos="fade-up">
@@ -471,7 +475,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             color: "#20C5F7",
                             fontSize: "12px",
                             marginBottom: 0,
-
                             paddingRight: 0,
                             marginLeft: 12,
                           }}
@@ -490,7 +493,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 3,
                         }}
-                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -534,6 +536,12 @@ const ChepTwoMobCard = ({ opcity }) => {
                             width: 113,
                           }}
                         >
+                          <a
+                            href="https://en.wikipedia.org/wiki/Mario_Kempes"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          ></a>
                           Profile Of <br /> Mario Kempes
                         </Col>
                       </Row>
@@ -551,7 +559,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                             height: 150.48,
                             paddingRight: 0,
                           }}
-                          data-aos="fade-in"
                         />
                       </Row>
                       <Row style={{ marginTop: 8 }}>
@@ -610,7 +617,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                           paddingLeft: 0,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
                       >
                         <Col
                           sm={3}
@@ -655,6 +661,12 @@ const ChepTwoMobCard = ({ opcity }) => {
                             marginRight: 10,
                           }}
                         >
+                          <a
+                            href="https://en.wikipedia.org/wiki/Daniel_Passarella"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          ></a>
                           Profile Of <br />
                           Daniel Passarella
                         </Col>
@@ -668,7 +680,7 @@ const ChepTwoMobCard = ({ opcity }) => {
         </div>
         {/* -----------------------------card-3=----------------------------------------- */}
         <div className="chepTwoCardTHree">
-          <div className="cardThreeHeaderImage" data-aos="fade-in">
+          <div className="cardThreeHeaderImage">
             <Container style={{ padding: 0 }}>
               <Row
                 style={{
@@ -717,7 +729,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                   paddingLeft: 0,
                   paddingRight: 0,
                 }}
-                data-aos="fade-up"
               >
                 <Image
                   src="./images/verticalDivider.png"
@@ -761,7 +772,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                   marginTop: 15,
                   marginLeft: 3,
                 }}
-                data-aos="fade-up"
               />
             </Row>
             <Row style={{ marginTop: 5, width: 254 }}>
@@ -832,7 +842,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                 marginTop: 5,
                 marginRight: 0,
               }}
-              data-aos="fade-up"
             >
               <Col
                 sm={1}
@@ -853,7 +862,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                     style={{
                       // paddingLeft: 0,
                       marginTop: 13,
-
                       width: "100%",
                     }}
                     fluid
@@ -876,6 +884,12 @@ const ChepTwoMobCard = ({ opcity }) => {
                   marginLeft: -5,
                 }}
               >
+                <a
+                  href="https://en.wikipedia.org/wiki/1978_FIFA_World_Cup"
+                  target="_blank"
+                  role="button"
+                  style={{ textDecoration: "none", color: "white" }}
+                ></a>
                 Learn More <br /> Group 1 Results And Statistics
               </Col>
             </Row>
@@ -902,7 +916,7 @@ const ChepTwoMobCard = ({ opcity }) => {
             </p>
           </Container>
         </div>
-        <div className="chepTwoAdContainer" data-aos="fade-in">
+        <div className="chepTwoAdContainer">
           <div className="addTitleChepTwo" data-aos="fade-up">
             <p>Official collection of the current Argentine national kit.</p>
           </div>
@@ -913,7 +927,6 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
-              data-aos="fade-in"
             >
               <a
                 href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
@@ -928,11 +941,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   MEN’S ARGENTINA <br /> HOME JERSEY <br /> White / Clear Blue
                 </p>
               </div>
-              <div
-                className="row"
-                style={{ marginTop: 16.6 }}
-                data-aos="fade-up"
-              >
+              <div className="row" style={{ marginTop: 16.6 }}>
                 <a
                   href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
                   target="_blank"
@@ -964,7 +973,6 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
-              data-aos="fade-in"
             >
               <a
                 href="https://www.adidas.com/us/argentina-away-jersey/GE5477.html"
@@ -980,11 +988,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   <br /> Midnight
                 </p>
               </div>
-              <div
-                className="row"
-                style={{ marginTop: 16.6 }}
-                data-aos="fade-up"
-              >
+              <div className="row" style={{ marginTop: 16.6 }}>
                 <a
                   href="https://www.adidas.com/us/argentina-away-jersey/GE5477.html"
                   target="_blank"
@@ -1016,7 +1020,6 @@ const ChepTwoMobCard = ({ opcity }) => {
               xs={4}
               className="col"
               style={{ textAlign: "center", paddingLeft: 0 }}
-              data-aos="fade-in"
             >
               <a
                 href="https://www.buyarrive.com/product/argentina-2021-pre-match-training-jersey-by-adidas/"
@@ -1031,11 +1034,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                   MEN’S ARGENTINA <br /> WARM-UP JERSEY <br /> Marble Blue
                 </p>
               </div>
-              <div
-                className="row"
-                style={{ marginTop: 16.6 }}
-                data-aos="fade-up"
-              >
+              <div className="row" style={{ marginTop: 16.6 }}>
                 <a
                   href="https://www.buyarrive.com/product/argentina-2021-pre-match-training-jersey-by-adidas/"
                   target="_blank"
@@ -1121,7 +1120,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                 WHEN LES <br /> BLEUS HAD TO <br /> WEAR GREEN <br /> AND WHITE
               </p>
             </Row>
-
             <Row
               style={{
                 paddingLeft: 0,
@@ -1138,7 +1136,6 @@ const ChepTwoMobCard = ({ opcity }) => {
                   height: 14,
                   paddingRight: 0,
                 }}
-                data-aos="fade-up"
                 fluid
               />
             </Row>
@@ -1152,9 +1149,7 @@ const ChepTwoMobCard = ({ opcity }) => {
                 padding: 0,
                 marginTop: 15,
               }}
-              data-aos="fade-up"
             />
-
             <div className="chepTwoLastCardText">
               <p
                 style={{
@@ -1207,11 +1202,10 @@ const ChepTwoMobCard = ({ opcity }) => {
               height: 602,
               width: 12,
             }}
-            data-aos="fade-up"
           />
         </div>
         {/* --------------------------Fotter------------------------- */}
-        <div className="chepTwoFooter" data-aos="fade-up">
+        <div className="chepTwoFooter">
           <div className="row" style={{ padding: 0, margin: 0, width: 214 }}>
             <div
               className="col-10"

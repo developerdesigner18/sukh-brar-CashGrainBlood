@@ -47,7 +47,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 0,
                   paddingLeft: 0,
                 }}
-                data-aos="fade-in"
               >
                 <div className="row" style={{ padding: 0 }}>
                   <Image
@@ -58,7 +57,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                       padding: 0,
                       marginTop: 180,
                     }}
-                    data-aos="fade-up"
                   />{" "}
                 </div>
                 <div className="row">
@@ -122,7 +120,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                       src="./images/verticalDivider.png"
                       style={{ paddingLeft: 0, width: "100%", paddingRight: 0 }}
                       fluid
-                      data-aos="fade-up"
                     />
                   </div>
                   <div
@@ -156,11 +153,7 @@ const ChepFiveMobCard = ({ opcity }) => {
                       ceremonies.
                     </p>
                   </div>
-                  <div
-                    className="row"
-                    style={{ paddingLeft: 0 }}
-                    data-aos="fade-up"
-                  >
+                  <div className="row" style={{ paddingLeft: 0 }}>
                     <div
                       className="col-1"
                       style={{ padding: 0, marginRight: 5 }}
@@ -174,7 +167,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                             width: 31.21,
                             height: 31.21,
                           }}
-                          data-aos="fade-up"
                           fluid
                         />
                       </a>
@@ -207,17 +199,12 @@ const ChepFiveMobCard = ({ opcity }) => {
                   top: 1556,
                   right: 0,
                 }}
-                data-aos="fade-up"
               />
             </div>
           </Container>
         </div>
         {/* -----------------------cardTwo------------------------------------------------ */}
-        <div
-          className="cardTwoChepFive"
-          data-aos="fade-in"
-          onClick={() => setToggler(!toggler)}
-        >
+        <div className="cardTwoChepFive" onClick={() => setToggler(!toggler)}>
           <FsLightbox
             toggler={toggler}
             sources={["https://www.youtube.com/watch?v=Pe1se2P6sxI"]}
@@ -309,11 +296,10 @@ const ChepFiveMobCard = ({ opcity }) => {
             margin: 0,
             left: 0,
           }}
-          data-aos="fade-up"
         />
         {/* ------------------------cardThree--------------------------- */}
         <div className="chepFiveCardThree">
-          <div className="chep5cardThreeHeaderImage" data-aos="fade-in">
+          <div className="chep5cardThreeHeaderImage">
             {/* <Container style={{ padding: 0 }}>
               <div
                 className="row"
@@ -365,7 +351,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
                   fluid
-                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -388,7 +373,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
-                data-aos="fade-up"
               />
             </div>
 
@@ -445,7 +429,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                 marginTop: 0,
                 marginBottom: 45.2,
               }}
-              data-aos="fade-up"
             >
               <div
                 className="col-1"
@@ -489,14 +472,21 @@ const ChepFiveMobCard = ({ opcity }) => {
                   paddingRight: 0,
                 }}
               >
-                Learn More About Total Football
+                <a
+                  href="https://en.wikipedia.org/wiki/Total_Football"
+                  target="_blank"
+                  role="button"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Learn More About Total Football
+                </a>
               </div>
             </div>
           </div>
         </div>
         {/* ---------------------cardFour---------------------------------- */}
         <div className="chepFiveCardFour">
-          <div className="chep5cardFourHeaderImage" data-aos="fade-in">
+          <div className="chep5cardFourHeaderImage">
             {/* <Container style={{ padding: 0 }}>
               <div
                 className="row"
@@ -547,7 +537,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                 <Image
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
-                  data-aos="fade-up"
                   fluid
                 />
               </div>
@@ -571,7 +560,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
-                data-aos="fade-up"
               />
             </div>
 
@@ -624,7 +612,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 10,
                   marginRight: 0,
                 }}
-                data-aos="fade-up"
               >
                 <div
                   className="col-1"
@@ -667,7 +654,14 @@ const ChepFiveMobCard = ({ opcity }) => {
                     paddingRight: 0,
                   }}
                 >
-                  Learn More About The Falklands War
+                  <a
+                    href="https://en.wikipedia.org/wiki/Falklands_War"
+                    target="_blank"
+                    role="button"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Learn More About The Falklands War
+                  </a>
                 </div>
               </div>
             </div>
@@ -675,7 +669,7 @@ const ChepFiveMobCard = ({ opcity }) => {
         </div>
         {/* ------------------cardFive------------------------------- */}
         <div className="chepFiveCardFive">
-          <div className="chep5cardFiveHeaderImage" data-aos="fade-in">
+          <div className="chep5cardFiveHeaderImage">
             <div className="textHolderChepFive">
               <div
                 className="row"
@@ -716,7 +710,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   src="./images/verticalDivider.png"
                   style={{ paddingLeft: 0, paddingRight: 0 }}
                   fluid
-                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -735,7 +728,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                 width: "100%",
                 height: 16,
               }}
-              data-aos="fade-up"
             />
           </div>
           <div className="chepFiveCardFiveDesc">
@@ -750,7 +742,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   marginTop: 11.2,
                   marginLeft: 3,
                 }}
-                data-aos="fade-up"
               />
             </div>
 
@@ -793,13 +784,12 @@ const ChepFiveMobCard = ({ opcity }) => {
           <Image
             src="./images/chep5/dividerVertical.png"
             style={{ width: "100%", height: 16 }}
-            data-aos="fade-up"
           />
         </div>
 
         {/* ----------------------last-card------------------- */}
 
-        <div className="chepFiveLastCard" data-aos="fade-in">
+        <div className="chepFiveLastCard">
           <Container style={{ padding: 0 }}>
             <div
               className="row"
@@ -869,7 +859,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   height: 14,
                   paddingRight: 0,
                 }}
-                data-aos="fade-up"
                 fluid
               />
             </div>
@@ -913,7 +902,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                 padding: 0,
                 marginTop: 15,
               }}
-              data-aos="fade-up"
             />
 
             <div className="chepFiveLastCardText" style={{ width: "auto" }}>
@@ -944,7 +932,6 @@ const ChepFiveMobCard = ({ opcity }) => {
                   // paddingLeft: 0,
                   margin: 0,
                 }}
-                data-aos="fade-up"
               >
                 <div
                   className="col-1"
@@ -985,7 +972,14 @@ const ChepFiveMobCard = ({ opcity }) => {
                     paddingRight: 0,
                   }}
                 >
-                  Hear The Victims In Their Own Words
+                  <a
+                    href="http://www.espn.com/espn/feature/story/_/id/11036214/while-world-watched-world-cup-brings-back-memories-argentina-dirty-war"
+                    target="_blank"
+                    role="button"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Hear The Victims In Their Own Words
+                  </a>
                 </div>
               </div>
             </div>

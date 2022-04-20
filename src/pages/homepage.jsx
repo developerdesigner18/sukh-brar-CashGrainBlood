@@ -23,13 +23,7 @@ const HomePage = () => {
     <>
       <div className="homePageBannerContainer">
         <div className="bannerContainer">
-          <div
-            className={`homePageBannerImage  ${
-              opcity && `opcity`
-            } w3-animate-opacity`}
-          ></div>
-
-          {/* <Image src="./images/gettyimages.png" className="gettyImage" /> */}
+          <div className={`homePageBannerImage  ${opcity && `opcity`}`}></div>
           <Button
             style={{
               background: "#20c5f7",
@@ -74,7 +68,7 @@ const HomePage = () => {
             />
           </Button>
           <div
-            class="dropdown-menu dropdown-menu-right dropDown "
+            class="dropdown-menu"
             style={{
               paddingTop: 2,
               paddingBottom: 0,
@@ -156,7 +150,6 @@ const HomePage = () => {
                   • MAIN PAGE
                 </p>
               </div>
-
               <div
                 style={{ marginRight: 26 }}
                 className={
@@ -164,7 +157,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -198,7 +191,6 @@ const HomePage = () => {
                   • FROM HOST TO JUNTA
                 </p>
               </div>
-
               <div
                 style={{ marginRight: 26 }}
                 className={
@@ -208,7 +200,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -251,7 +243,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -295,7 +287,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -339,7 +331,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -383,7 +375,7 @@ const HomePage = () => {
                 }
               >
                 <Image
-                  src="./Images/forwardArrowBlack.svg "
+                  src="./images/forwardArrowBlack.svg "
                   style={{ marginBottom: 5 }}
                 />
               </div>
@@ -394,12 +386,7 @@ const HomePage = () => {
               className="homePageBannerStripe"
               style={{ top: "96px", bottom: "65px" }}
             >
-              <Image
-                src="vertical_stripe.svg"
-                fluid
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
-              />
+              <Image src="vertical_stripe.svg" fluid />
             </div>
             <Container>
               <div
@@ -437,11 +424,7 @@ const HomePage = () => {
               </div>
             </Container>
           </div>
-          <div
-            className={`tableHeader`}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-          >
+          <div className={`tableHeader`}>
             <Container>
               <b style={{ paddingLeft: 10 }}>TABLE CONTENTS</b>
             </Container>

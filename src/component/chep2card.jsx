@@ -52,8 +52,6 @@ const ChepTwoCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "5px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -63,8 +61,6 @@ const ChepTwoCard = () => {
                     <Card.Img
                       src="./images/chep2/chapTwoOne.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -76,8 +72,6 @@ const ChepTwoCard = () => {
                           paddingLeft: 0,
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -129,8 +123,6 @@ const ChepTwoCard = () => {
                             paddingTop: 10,
                             marginTop: 5,
                           }}
-                          data-aos="fade-up"
-                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                             <a
@@ -156,7 +148,14 @@ const ChepTwoCard = () => {
                               color: "white",
                             }}
                           >
-                            Learn More About Cesar Luis Menotti
+                            <a
+                              href="https://www.coachesvoice.com/angel-cappa-cesar-luis-menotti-maradona-ronaldo-messi/"
+                              target="_blank"
+                              role="button"
+                              style={{ textDecoration: "none", color: "white" }}
+                            >
+                              Learn More About Cesar Luis Menotti
+                            </a>
                           </Col>
                         </Row>
                       </Row>
@@ -213,8 +212,6 @@ const ChepTwoCard = () => {
                         marginLeft: 0,
                         paddingLeft: 0,
                       }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Image
                         src="./images/verticalDivider.png"
@@ -238,8 +235,6 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper01.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -253,8 +248,6 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
@@ -284,8 +277,6 @@ const ChepTwoCard = () => {
                         paddingLeft: 0,
                         marginTop: 6,
                       }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <Col
                         lg={4}
@@ -323,7 +314,14 @@ const ChepTwoCard = () => {
                           paddingLeft: 0,
                         }}
                       >
-                        Learn More About Osvaldo Ardiles
+                        <a
+                          href="https://en.wikipedia.org/wiki/Osvaldo_Ardiles"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Learn More About Osvaldo Ardiles
+                        </a>
                       </Col>
                     </Row>
                   </SwiperSlide>
@@ -333,8 +331,6 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper02.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row>
@@ -348,8 +344,6 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row style={{ width: 435 }}>
@@ -373,11 +367,7 @@ const ChepTwoCard = () => {
                         players for the home-soil tournament.
                       </p>
                     </Row>
-                    <Row
-                      style={{ marginTop: 10 }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
-                    >
+                    <Row style={{ marginTop: 10 }}>
                       <Col
                         lg={4}
                         style={{ width: 60, textAlign: "right", marginLeft: 0 }}
@@ -409,7 +399,14 @@ const ChepTwoCard = () => {
                           paddingLeft: 0,
                         }}
                       >
-                        Learn More About EMario Kempes{" "}
+                        <a
+                          href="https://en.wikipedia.org/wiki/Mario_Kempes"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Learn More About EMario Kempes{" "}
+                        </a>
                       </Col>
                     </Row>
                   </SwiperSlide>
@@ -419,8 +416,6 @@ const ChepTwoCard = () => {
                         fluid
                         src="./images/chep2/swiper03.png"
                         style={{ width: 460, height: 300 }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                     <Row style={{ marginBottom: 10 }}>
@@ -434,8 +429,6 @@ const ChepTwoCard = () => {
                           marginTop: 15,
                           marginLeft: 3,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row>
@@ -460,11 +453,7 @@ const ChepTwoCard = () => {
                         very close margin in December 2009.
                       </p>
                     </Row>
-                    <Row
-                      style={{ marginTop: 1 }}
-                      data-aos="fade-up"
-                      data-aos-anchor-placement="bottom-bottom"
-                    >
+                    <Row style={{ marginTop: 1 }}>
                       {" "}
                       <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                         <a
@@ -494,7 +483,14 @@ const ChepTwoCard = () => {
                           paddingLeft: 0,
                         }}
                       >
-                        Learn More About Daniel Alberto Passarella{" "}
+                        <a
+                          href="https://en.wikipedia.org/wiki/Daniel_Passarella"
+                          target="_blank"
+                          role="button"
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Learn More About Daniel Alberto Passarella{" "}
+                        </a>
                       </Col>
                     </Row>
                   </SwiperSlide>
@@ -553,8 +549,6 @@ const ChepTwoCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -565,8 +559,6 @@ const ChepTwoCard = () => {
                     <Card.Img
                       src="./images/chep2/chepTwoThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -579,8 +571,6 @@ const ChepTwoCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row
@@ -662,8 +652,6 @@ const ChepTwoCard = () => {
                             marginTop: 5,
                             marginBottom: 92,
                           }}
-                          data-aos="fade-up"
-                          data-aos-anchor-placement="bottom-bottom"
                         >
                           <Col lg={2} style={{ width: 60, textAlign: "right" }}>
                             <a
@@ -689,7 +677,15 @@ const ChepTwoCard = () => {
                               color: "white",
                             }}
                           >
-                            Learn More About The Group 1 Results And Statistics
+                            <a
+                              href="https://en.wikipedia.org/wiki/1978_FIFA_World_Cup"
+                              target="_blank"
+                              role="button"
+                              style={{ textDecoration: "none", color: "white" }}
+                            >
+                              Learn More About The Group 1 Results And
+                              Statistics
+                            </a>
                           </Col>
                         </Row>
                       </Row>
@@ -720,12 +716,7 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep2/tshirtOne.png"
-                        fluid
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                      />
+                      <Image src="./images/chep2/tshirtOne.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row style={{ marginTop: 20 }}>
@@ -738,10 +729,7 @@ const ChepTwoCard = () => {
                           Clear Blue
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a
                           role={"button"}
                           href="https://www.adidas.com/us/argentina-home-jersey/GE5478.html"
@@ -789,12 +777,7 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep2/tshirtTwo.png"
-                        fluid
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                      />
+                      <Image src="./images/chep2/tshirtTwo.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row
@@ -806,10 +789,7 @@ const ChepTwoCard = () => {
                           MEN’S ARGENTINA <br /> AWAY JERSEY <br /> Midnight
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row>
                             <Col
@@ -855,12 +835,7 @@ const ChepTwoCard = () => {
                 <Col lg={4} style={{ padding: 35 }}>
                   <Row>
                     <Col style={{ width: "100%", padding: "0px" }}>
-                      <Image
-                        src="./images/chep2/tshirtThree.png"
-                        fluid
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
-                      />
+                      <Image src="./images/chep2/tshirtThree.png" fluid />
                     </Col>
                     <Col style={{ padding: "0px", marginTop: 25 }}>
                       <Row
@@ -872,10 +847,7 @@ const ChepTwoCard = () => {
                           MEN’S ARGENTINA <br /> WARM-UP JERSEY <br /> Marble
                         </p>
                       </Row>
-                      <Row
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
-                      >
+                      <Row>
                         <a role={"button"} style={{ marginTop: 10 }}>
                           <Row>
                             <Col
@@ -959,7 +931,7 @@ const ChepTwoCard = () => {
                       ></Image>
                     </Row>
 
-                    <Row style={{}}>
+                    <Row>
                       <p
                         className="cardTitleText"
                         style={{ lineHeight: 1 }}
@@ -978,8 +950,6 @@ const ChepTwoCard = () => {
                           paddingRight: 0,
                           width: "100%",
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         fluid
                       />
                     </Row>
@@ -988,10 +958,8 @@ const ChepTwoCard = () => {
                 <Row>
                   <Col lg={6} style={{ width: "460px", height: "300px" }}>
                     <Card.Img
-                      src="./images/chep2/chepTwoFour.png"
+                      src="./images/chep2/ChepTwoFour.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -1001,11 +969,8 @@ const ChepTwoCard = () => {
                         style={{
                           width: "100%",
                           paddingLeft: 0,
-
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -1070,39 +1035,6 @@ const ChepTwoCard = () => {
                             second group stage.
                           </p>
                         </Row>
-
-                        <Row
-                          style={{
-                            paddingLeft: 0,
-                            paddingTop: 10,
-                            marginTop: 5,
-                          }}
-                          data-aos="fade-up"
-                          data-aos-anchor-placement="bottom-bottom"
-                        >
-                          <Col lg={4} style={{ width: 60, textAlign: "right" }}>
-                            <a href="#" role="button">
-                              <Image
-                                src="./images/btnImage.png"
-                                style={{ paddingLeft: 0, width: "100%" }}
-                                fluid
-                              />
-                            </a>
-                          </Col>
-                          <Col
-                            lg={8}
-                            style={{
-                              fontFamily: "HelveticaNeue-Bold",
-                              fontSize: 12,
-                              float: "left",
-                              paddingLeft: 5,
-                              paddingTop: 10,
-                              color: "white",
-                            }}
-                          >
-                            Learn More About
-                          </Col>
-                        </Row>
                       </Row>
                     </Col>
                     <Col lg={7} sm={12} md={4}></Col>
@@ -1165,8 +1097,6 @@ const ChepTwoCard = () => {
               top: 1074,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -1179,8 +1109,6 @@ const ChepTwoCard = () => {
               top: 2570,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -1193,8 +1121,6 @@ const ChepTwoCard = () => {
               top: 3870,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>

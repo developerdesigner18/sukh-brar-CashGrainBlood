@@ -18,8 +18,7 @@ import ChepTwo from "./view/chep2MobView";
 import Chep3MobView from "./view/chep3MobView";
 import Chep4MobView from "./view/chep4MobView";
 import Chep5MobView from "./view/chep5MobView";
-import DropDownForDesktop from "./component/dropDownForDesktop";
-import DropDownForMobile from "./component/dropDownForMobile";
+import ChepOneCardMobView from "./view/chep1Mobview";
 function App() {
   const usePrevLocation = (location) => {
     const prevLocRef = useRef(location);
@@ -60,10 +59,6 @@ function App() {
                 <Route path="chepThree" element={<ChapterThree />} />
                 <Route path="chepFour" element={<ChapterFour />} />
                 <Route path="chepFive" element={<ChapterFive />} />
-                <Route
-                  path="dropDown"
-                  element={<DropDownForDesktop prevLocation={prevLocation} />}
-                />
               </Routes>
             </ScrollToTop>
           </div>
@@ -79,15 +74,11 @@ function App() {
             <ScrollToTop>
               <Routes>
                 <Route path="/" element={<HomePageMob />} />
-                <Route path="chepOne" element={<Chep1MobView />} />
+                <Route path="chepOne" element={<ChepOneCardMobView />} />
                 <Route path="chepTwo" element={<ChepTwo />} />
                 <Route path="chepThree" element={<Chep3MobView />} />
                 <Route path="chepFour" element={<Chep4MobView />} />
                 <Route path="chepFive" element={<Chep5MobView />} />
-                {/* <Route
-                  path="dropDown"
-                  element={<DropDownForMobile prevLocation={prevLocation} />}
-                /> */}
               </Routes>
             </ScrollToTop>
           </div>

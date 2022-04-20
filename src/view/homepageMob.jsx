@@ -390,7 +390,7 @@ const HomePageMob = ({ prevLocation }) => {
       </div>
       <div className={`homePageBannerContainer1 ${opcity && `opcity`}`}>
         <div className="bannerContainer1">
-          <div className="homePageBannerImage1" data-aos="fade-in"></div>
+          <div className="homePageBannerImage1"></div>
           <div
             className="homePageBannerStripe1"
             style={{ top: "235px", left: "-23px" }}
@@ -401,7 +401,6 @@ const HomePageMob = ({ prevLocation }) => {
             <div
               className="homePageBannerText1"
               style={{ top: "357px", left: "35px" }}
-              data-aos={`${!opcity} && fade-up`}
             >
               <h1
                 style={{
@@ -412,7 +411,6 @@ const HomePageMob = ({ prevLocation }) => {
                   textAlign: "justify",
                 }}
                 data-aos="fade-up"
-                $aos-distance="40px"
               >
                 CASH, GRAIN,
                 <br /> AND BLOOD <br /> FOR GOALS
@@ -432,7 +430,7 @@ const HomePageMob = ({ prevLocation }) => {
               </p>
 
               <a href="#" style={{ textAlign: "left", marginRight: 195 }}>
-                <Image src="./images/Group 514.svg" data-aos="fade-up"></Image>
+                <Image src="./images/Group 514.svg"></Image>
               </a>
             </div>
           </Container>

@@ -1,21 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Col, Image, Row, Card } from "react-bootstrap";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
-import { Swiper, SwiperSlide } from "swiper/react";
 import "./chep5Card.css";
+import { useNavigate } from "react-router-dom";
+import FsLightbox from "fslightbox-react";
 
 const ChepFiveCard = () => {
+  const navigate = useNavigate();
+  const [toggler, setToggler] = useState(false);
   return (
     <React.Fragment>
       <div className="cardHolder">
         <div>
           {/* -------------------------------card 1 ------------------------------------------ */}
-          <div
-            className="cardFive"
-            data-aos="fade-out"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <div className="cardFive" onClick={() => setToggler(!toggler)}>
+            <FsLightbox
+              toggler={toggler}
+              sources={["https://www.youtube.com/watch?v=Pe1se2P6sxI"]}
+            />
             <Container>
               <div className="cardHeader">
                 <Row style={{ paddingLeft: 20, paddingBottom: 15 }}>
@@ -55,8 +56,6 @@ const ChepFiveCard = () => {
                         height: 83,
                         paddingRight: 0,
                       }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                     <Image
@@ -69,8 +68,6 @@ const ChepFiveCard = () => {
                         marginLeft: 14,
                         marginTop: 17,
                       }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                       fluid
                     />
                   </Row>
@@ -108,8 +105,6 @@ const ChepFiveCard = () => {
                         width: 106,
                         height: 74,
                       }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                       alt=""
                     />
                   </a>
@@ -117,12 +112,7 @@ const ChepFiveCard = () => {
               </div>
               <div style={{ position: "absolute", right: 151, bottom: 45.5 }}>
                 <a role="button">
-                  <img
-                    src="./images/chep1/youtube.svg"
-                    alt=""
-                    data-aos="fade-out"
-                    data-aos-anchor-placement="center-bottom"
-                  />
+                  <img src="./images/chep1/youtube.svg" alt="" />
                 </a>
               </div>
             </Container>
@@ -195,8 +185,6 @@ const ChepFiveCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -269,8 +257,6 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-out"
-                        data-aos-anchor-placement="center-bottom"
                       />
                     </Row>
                   </Row>
@@ -280,8 +266,6 @@ const ChepFiveCard = () => {
                     <Card.Img
                       src="./images/chep5/chepFiveTwo.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -294,8 +278,6 @@ const ChepFiveCard = () => {
 
                           paddingRight: 0,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                         alt="Arrow"
                       />
                     </Row>
@@ -387,8 +369,6 @@ const ChepFiveCard = () => {
                           paddingTop: 0,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a
@@ -414,7 +394,14 @@ const ChepFiveCard = () => {
                             color: "white",
                           }}
                         >
-                          Learn More About Total Football
+                          <a
+                            href="https://en.wikipedia.org/wiki/Total_Football"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More About Total Football
+                          </a>
                         </Col>
                       </Row>
                     </Col>
@@ -468,8 +455,6 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -479,8 +464,6 @@ const ChepFiveCard = () => {
                     <Card.Img
                       src="./images/chep5/chepFiveThree.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -494,8 +477,6 @@ const ChepFiveCard = () => {
                           paddingRight: 0,
                         }}
                         alt="Arrow"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row
@@ -575,8 +556,6 @@ const ChepFiveCard = () => {
                           paddingTop: 0,
                           marginTop: 5,
                         }}
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       >
                         <Col lg={4} style={{ width: 60, textAlign: "right" }}>
                           <a
@@ -602,7 +581,14 @@ const ChepFiveCard = () => {
                             color: "white",
                           }}
                         >
-                          Learn More About The Falklands War
+                          <a
+                            href="https://en.wikipedia.org/wiki/Falklands_War"
+                            target="_blank"
+                            role="button"
+                            style={{ textDecoration: "none", color: "white" }}
+                          >
+                            Learn More About The Falklands War
+                          </a>
                         </Col>
                       </Row>
                     </Col>
@@ -654,8 +640,6 @@ const ChepFiveCard = () => {
                         src="./images/verticalDivider.png"
                         style={{ paddingLeft: "0px", width: "100%" }}
                         fluid
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                   </Row>
@@ -665,8 +649,6 @@ const ChepFiveCard = () => {
                     <Card.Img
                       src="./images/chep5/mobCardFive.png"
                       style={{ width: "100%", paddingLeft: 0 }}
-                      data-aos="fade-out"
-                      data-aos-anchor-placement="center-bottom"
                     />
                   </Col>
                   <Col lg={6}>
@@ -676,12 +658,9 @@ const ChepFiveCard = () => {
                         style={{
                           width: "100%",
                           paddingLeft: 0,
-
                           paddingRight: 0,
                         }}
                         alt="Arrow"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
                       />
                     </Row>
                     <Row
@@ -773,11 +752,7 @@ const ChepFiveCard = () => {
             </Card>
           </Container>
           {/* ------------------------------------------card5----------------------------------------------------------- */}
-          <div
-            className="cardFiveBottom"
-            data-aos="fade-out"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <div className="cardFiveBottom">
             <div className="cardHeader">
               <Row
                 style={{
@@ -833,8 +808,6 @@ const ChepFiveCard = () => {
                     paddingTop: 0,
                     marginTop: 5,
                   }}
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
                 >
                   <Col
                     style={{
@@ -846,12 +819,13 @@ const ChepFiveCard = () => {
                       color: "white",
                     }}
                   >
-                    Listen To The Victims In Their Own Words
                     <a
                       href="http://www.espn.com/espn/feature/story/_/id/11036214/while-world-watched-world-cup-brings-back-memories-argentina-dirty-war"
                       target="_blank"
                       role="button"
+                      style={{ textDecoration: "none", color: "white" }}
                     >
+                      Listen To The Victims In Their Own Words
                       <Image
                         src="./images/btnImage.png"
                         style={{ marginLeft: 10, width: 34.98 }}
@@ -875,8 +849,6 @@ const ChepFiveCard = () => {
               top: 2250,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
         <div className="stripeOne">
@@ -889,8 +861,6 @@ const ChepFiveCard = () => {
               top: 3480,
               right: 0,
             }}
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </div>
